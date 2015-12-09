@@ -6,13 +6,15 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- build:css({app,.tmp}) /css/main.css -->
+        <!-- build:css({app,.tmp}) /css/styles.css -->
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/styles.css">
         <!-- endbuild -->
 
     </head>
     <body>
+
+        {% include menu.html %}
 
         {{ content }}
 

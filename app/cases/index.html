@@ -2,19 +2,26 @@
 layout: page
 ---
 
-<div class="home">
+<div class="wrapper">
 
   <h1 class="page-heading">Cases</h1>
 
-  <ul class="case-list">
-    {% for case in site.cases %}
-      <li>
-        <span class="case-meta">{{ case.date | date: "%b %-d, %Y" }}</span>
+  <h1 class="page-heading">Geen standaars oplossingen. Streven naarhet beste rendement, voor de korte en lange termijn</h1>
 
-        <h2>
-          <a class="case-link" href="{{ case.url | prepend: site.baseurl }}">{{ case.title }}</a>
-        </h2>
-      </li>
+  <div class="case-list">
+    {% for case in site.cases %}
+      <div class="case">
+        {% if case.header-img %}
+          <img src="{{ case.header-img }}">
+        {% endif %}
+        <h2><a class="case-link" href="{{ case.url | prepend: site.baseurl }}">{{ case.title }}</a></h2>
+        <ul>
+          {% for category in case.categories %}
+              <li class="{{ category }}">{{ category }}</li>
+          {% endfor %}
+        </ul>
+
+      </div>
     {% endfor %}
   </ul>
 

@@ -2,17 +2,16 @@
 layout: page
 ---
 
-<div class="home">
+<div class="wrapper">
 
-  <h1 class="page-heading">Home</h1>
+  <h1 class="page-heading">{{ site.slogan }}</h1>
 
-  <ul class="document-list">
+  <div class="document-list">
     {% assign sorted_documents = site.documents | sort, 'rank' %}
     {% for document in sorted_documents %}
-      {% include teaser.html %}
-      {% inspect %}
+      {% include {{ document.collection }}-teaser.html %}
     {% endfor %}
-  </ul>
+  </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

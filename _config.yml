@@ -5,6 +5,7 @@
 
 name: studiofonkel-jekyll
 description: Studio Fonkel
+slogan: Gewone jongens (en stiekem een paar meiden) die mooie dingen maken.
 author:
   name: Theo Bouwman
   email: theo@studiofonkel.nl
@@ -23,22 +24,33 @@ show_drafts: true
 markdown: redcarpet
 #   extensions: ['fenced_code_blocks', 'smart']
 
-pygments: false
+highlighter: pygments
 
 collections:
   cases:
     output: true
-  blog:
+  blogs:
     output: true
+  pages:
+    output: true
+    permalink: /:path/index.html
 
 defaults:
   - scope:
       path: ""
       type: cases
     values:
-      layout: page
+      layout: case
   - scope:
       path: ""
-      type: blog
+      type: blogs
+    values:
+      layout: blog
+  - scope:
+      path: ""
+      type: pages
     values:
       layout: page
+
+sass:
+ sass_dir: _sass

@@ -1,0 +1,27 @@
+---
+layout: html
+---
+<div class="site">
+
+  {% if page.date %}
+    <span> {{ page.date }} </span>
+  {% endif %}  
+
+  {% if page.subtitle %}
+    <h4> {{ page.subtitle }} </h4>
+  {% endif %}
+
+  {% if page.title %}
+    <h3> {{ page.title }} </h3>
+  {% endif %}
+
+  {% if page.header-img %}
+    <img alt="{{ page.header-img-alt }}" src="{{ page.header-img }}">
+  {% endif %}
+
+  {{ content }}
+
+  <div class="footer">
+    footer
+  </div>
+</div>
