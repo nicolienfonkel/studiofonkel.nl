@@ -1,0 +1,23 @@
+---
+layout: html
+---
+<div class="site">
+  <div class="header">
+    <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+    <a class="extra" href="/cases">Cases</a>
+    <a class="extra" href="/aanpak">Aanpak</a>
+    <a class="extra" href="/blog">Blog</a>
+  </div>
+
+  <h4> {{ page.subtitle }} </h4>
+
+  <h3> {{ page.title }} </h3>
+
+  <img alt="{{ page.header-img-alt }}" src="{{ page.header-img }}">
+
+  {{ content }}
+
+  <div class="footer">
+    footer
+  </div>
+</div>

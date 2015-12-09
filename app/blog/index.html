@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Blog</h1>
+
+  <ul class="blog-list">
+    {% for blog in site.blog %}
+      <li>
+        <span class="blog-meta">{{ blog.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="blog-link" href="{{ blog.url | prepend: site.baseurl }}">{{ blog.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

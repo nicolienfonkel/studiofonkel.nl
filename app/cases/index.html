@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Cases</h1>
+
+  <ul class="case-list">
+    {% for case in site.cases %}
+      <li>
+        <span class="case-meta">{{ case.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="case-link" href="{{ case.url | prepend: site.baseurl }}">{{ case.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
