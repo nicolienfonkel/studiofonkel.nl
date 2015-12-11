@@ -29,9 +29,15 @@ module.exports = function (grunt) {
         files: ['<%= yeoman.app %>/css/**/*.css'],
         tasks: ['copy:stageCss', 'autoprefixer:dist']
       },
+      reloadBrowser: {
+        files: ['<%= yeoman.app %>/**/*.{js,png,jpg,gif}'],
+        options: {
+          reload: true
+        }
+      },
       jekyll: {
         files: [
-          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}',
+          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown,json}',
           '!<%= yeoman.app %>/_bower_components/**/*'
         ],
         tasks: ['jekyll:server']

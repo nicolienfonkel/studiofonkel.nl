@@ -6,14 +6,20 @@ layout: page
 
   <h1 class="page-heading">{{ site.slogan }}</h1>
 
-  <div class="document-list">
-    {% assign sorted_documents = site.documents | sort, 'rank' %}
-    {% for document in sorted_documents %}
-      {% include {{ document.collection }}-teaser.html %}
-    {% endfor %}
-  </div>
+	<div class="front-grid" data-height="9">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	    {% for item in site.data.front %}
+	        <div class="block" data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
+
+	            {% for document in site.documents %}
+	                {% if document.url == item.url %}
+	                    {% include {{ document.collection }}-teaser.html %}
+	                {% endif %}
+	            {% endfor %}
+	        </div>
+	    {% endfor %}
+	   
+	</div>
 
 </div>
 

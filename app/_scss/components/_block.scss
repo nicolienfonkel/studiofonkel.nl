@@ -1,0 +1,34 @@
+.front-grid {
+	margin-left: -50%;
+    margin-top: -45%;
+    position: relative;
+    width: 100%;
+}
+
+.block {
+	position: absolute;
+
+	@for $sx from 1 through 2 {
+		&[data-sizex='#{$sx}'] {
+			 width: $sx * 50%;
+		}
+	}
+
+	@for $sy from 1 through 2 {
+		&[data-sizey='#{$sy}'] {
+			 height: $sy * 350px;
+		}
+	}
+
+	@for $col from 1 through 2 {
+		&[data-col='#{$col}'] {
+			 margin-left: $col * 50%;
+		}
+	}
+
+	@for $row from 1 through 19 {
+		&[data-row='#{$row}'] {
+			 margin-top: $row * 50%;
+		}
+	}
+}

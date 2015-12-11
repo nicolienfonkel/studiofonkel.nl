@@ -1,4 +1,5 @@
 ---
+title: widget
 ---
     <p>Use <code>serialize</code> method to get widget positions. It returns a Array of objects that can be used as a JSON object.</p>
 
@@ -10,27 +11,32 @@
 
     <div class="gridster">
         <ul>
-            <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">0</li>
-            <li data-row="1" data-col="3" data-sizex="1" data-sizey="2">1</li>
-            <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">2</li>
-            <li data-row="3" data-col="2" data-sizex="3" data-sizey="1">3</li>
 
-            <li data-row="4" data-col="1" data-sizex="1" data-sizey="1">4</li>
-            <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">5</li>
-            <li data-row="4" data-col="2" data-sizex="1" data-sizey="1">6</li>
-            <li data-row="5" data-col="2" data-sizex="1" data-sizey="1">7</li>
-            <li data-row="4" data-col="4" data-sizex="1" data-sizey="1">8</li>
+            {% for item in site.data.front %}
+                <li data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
 
-            <li data-row="1" data-col="5" data-sizex="1" data-sizey="3">9</li>
+                    {% for document in site.documents %}
+                        {% if document.url == item.url %}
+                            {% include {{ document.collection }}-teaser.html %}
+                        {% endif %}
+                    {% endfor %}
+                </li>
+            {% endfor %}
+            
+            {% for document in site.documents %}
+                {% assign current_document_is_already_on_front = false %}
 
-            <li data-row="5" data-col="1" data-sizex="1" data-sizey="2">10</li>
-            <li data-row="4" data-col="3" data-sizex="1" data-sizey="2">11</li>
-            <li data-row="5" data-col="4" data-sizex="1" data-sizey="1">12</li>
-            <li data-row="6" data-col="2" data-sizex="3" data-sizey="1">13</li>
-
-            <li data-row="4" data-col="5" data-sizex="1" data-sizey="2">14</li>
-            <li data-row="6" data-col="5" data-sizex="1" data-sizey="1">15</li>
-
-            <li data-row="7" data-col="3" data-sizex="1" data-sizey="1">16</li>
+                {% for item in site.data.front %}
+                    {% if document.url == item.url %}
+                        {% assign current_document_is_already_on_front = true %}
+                    {% endif %}
+                {% endfor %}
+            
+                {% unless current_document_is_already_on_front %}
+                <li data-row="1" data-col="1" data-sizex="1" data-sizey="1" data-url="{{ document.url }}">
+                    {% include {{ document.collection }}-teaser.html %}
+                </li>
+                {% endunless%}
+            {% endfor %}
         </ul>
     </div>
