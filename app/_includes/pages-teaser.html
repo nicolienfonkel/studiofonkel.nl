@@ -1,9 +1,9 @@
 {% if document %}
-	{% assign blog = document %}
+	{% assign page = document %}
 {% endif %}
 
-<div class="{{ document.collection }} {{ blog.color }}" data-height="{{ blog.height }}" data-width="{{ blog.width }}">
-	<h3>{{ blog.title }}</h3>
+<div class="{{ document.collection }} {{ page.color }} teaser" data-height="{{ page.height }}" data-width="{{ page.width }}">
+	<h3>{{ page.title }}</h3>
 
-	<a class="blog-link" href="{{ blog.url | prepend: site.baseurl }}">Blog -></a>
+	<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}-></a>
 </div>

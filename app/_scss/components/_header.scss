@@ -1,0 +1,22 @@
+.header {
+	height: 50px;
+	border-bottom: 1px solid black;
+
+	.logo {
+		clear: left;
+	    float: left;
+	    width: 100px;
+	}
+
+	.nav {
+		width: 80%;
+		float: right;
+		text-align: right;
+
+		a {
+			width: 24%;
+			text-align: center;
+			display: inline-block;
+		}
+	}
+}

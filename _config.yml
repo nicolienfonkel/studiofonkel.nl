@@ -29,8 +29,10 @@ highlighter: pygments
 collections:
   cases:
     output: true
+    permalink: /:path/index.html
   blogs:
     output: true
+    permalink: /:path/index.html
   pages:
     output: true
     permalink: /:path/index.html
@@ -41,16 +43,22 @@ defaults:
       type: cases
     values:
       layout: case
+      height: 1
+      width: 1
   - scope:
       path: ""
       type: blogs
     values:
       layout: blog
+      height: 1
+      width: 1
   - scope:
       path: ""
       type: pages
     values:
       layout: page
+      height: 1
+      width: 1
 
 sass:
  sass_dir: _sass
