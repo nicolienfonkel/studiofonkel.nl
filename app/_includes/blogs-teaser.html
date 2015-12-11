@@ -2,7 +2,7 @@
 	{% assign blog = document %}
 {% endif %}
 
-<div class="{{ document.collection }} {{ blog.color }} teaser">
+<div class="{{ blog.collection }} {{ blog.color }} teaser">
 	<h3>{{ blog.title }}</h3>
 
 	<a class="blog-link" href="{{ blog.url | prepend: site.baseurl }}">Blog -></a>
