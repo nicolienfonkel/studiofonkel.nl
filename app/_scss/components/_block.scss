@@ -1,12 +1,21 @@
 .front-grid {
-	margin-left: -50%;
-    margin-top: -45%;
     position: relative;
     width: 100%;
+    min-height: 200px;
 }
+
+$factor: .7;
 
 .block {
 	position: absolute;
+
+	.block-inner {
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+		right: 20px;
+		top: 20px;
+	}
 
 	@for $sx from 1 through 2 {
 		&[data-sizex='#{$sx}'] {
@@ -15,20 +24,36 @@
 	}
 
 	@for $sy from 1 through 2 {
-		&[data-sizey='#{$sy}'] {
-			 height: $sy * 350px;
+		&[data-sizey='#{$sy}']:after {
+			 content: '';
+			 display: block;
+			 width: 100%;
+		}
+
+		&[data-sizex='1'][data-sizey='#{$sy}']:after {
+			 padding-bottom: $sy * 100% * $factor;
+		}
+
+		&[data-sizex='2'][data-sizey='#{$sy}']:after {
+			 padding-bottom: $sy * 50% * $factor;
 		}
 	}
 
 	@for $col from 1 through 2 {
 		&[data-col='#{$col}'] {
-			 margin-left: $col * 50%;
+			 margin-left: ($col - 1) * 50%;
 		}
 	}
 
 	@for $row from 1 through 19 {
 		&[data-row='#{$row}'] {
-			 margin-top: $row * 50%;
+			 margin-top: ($row - 1) * 50% * $factor;
 		}
+	}
+
+	.teaser {
+		position: absolute;
+		width: 100%;
+		height: 100%;
 	}
 }

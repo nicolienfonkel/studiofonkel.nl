@@ -26,11 +26,22 @@ $(function(){
   $('.js-seralize').on('click', function() {
       var s = gridster.serialize();
 
-      var json = JSON.stringify(s)
+      var rows = [];
+
+      $(s).each(function (delta, item) {
+        if (item.row) {
+          rows.push(item.row);
+        }
+      })
+
+      var max = Math.max.apply( null, rows );
+
+      var returnObject = {
+        items: s,
+        height: max
+      }
+
+      var json = JSON.stringify(returnObject)
       $('#log').val(json);
-
-      console.log(json);
-
-
   })
 });

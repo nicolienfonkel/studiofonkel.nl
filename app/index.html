@@ -6,16 +6,24 @@ layout: page
 
   <h1 class="page-heading">{{ site.slogan }}</h1>
 
-	<div class="front-grid" data-height="9">
 
-	    {% for item in site.data.front %}
+
+	<div class="front-grid" data-height="{{ site.data.front.height }}">
+
+	    {% for item in site.data.front.items %}
+
+	    	{% if item.height %}
+	    		<span data-height="{{ item.height }}"></span>	
+	    	{% endif %}
+
 	        <div class="block" data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
-
+	        	<div class="block-inner">
 	            {% for document in site.documents %}
 	                {% if document.url == item.url %}
 	                    {% include {{ document.collection }}-teaser.html %}
 	                {% endif %}
 	            {% endfor %}
+	        	</div>
 	        </div>
 	    {% endfor %}
 	   
