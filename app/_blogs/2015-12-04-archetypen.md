@@ -6,9 +6,6 @@ header-img-alt: "Boat 2 AL"
 color: yellow
 date:   9 december 2015
 author: Theo
-rank: 2
-height: 2
-width: 2
 ---
 ##eerste blog ooit
 
