@@ -3,7 +3,6 @@ $factor: .7;
 .front-grid {
     position: relative;
     width: 100%;
-    min-height: 200px;
 
     @for $h from 1 through 30 {
 		&[data-height='#{$h}']:after {
@@ -28,12 +27,14 @@ $factor: .7;
 		top: $padding;
 	}
 
+	// Width of the columns.
 	@for $sx from 1 through 2 {
 		&[data-sizex='#{$sx}'] {
 			 width: $sx * 50%;
 		}
 	}
 
+	// After for padding bottom hack, for heights.
 	@for $sy from 1 through 2 {
 		&[data-sizey='#{$sy}']:after {
 			 content: '';
@@ -41,21 +42,25 @@ $factor: .7;
 			 width: 100%;
 		}
 
+		// Height for 1 column width and 1 or 2 height.
 		&[data-sizex='1'][data-sizey='#{$sy}']:after {
 			 padding-bottom: $sy * 100% * $factor;
 		}
 
+		// Height for 2 column width and 1 or 2 height.
 		&[data-sizex='2'][data-sizey='#{$sy}']:after {
 			 padding-bottom: $sy * 50% * $factor;
 		}
 	}
 
+	// Margin left for position the left.
 	@for $col from 1 through 2 {
 		&[data-col='#{$col}'] {
 			 margin-left: ($col - 1) * 50%;
 		}
 	}
 
+	// Margin top for position the top.
 	@for $row from 1 through 19 {
 		&[data-row='#{$row}'] {
 			 margin-top: ($row - 1) * 50% * $factor;
