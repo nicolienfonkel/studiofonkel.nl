@@ -30,6 +30,13 @@ $(function(){
 
       $(s).each(function (delta, item) {
         if (item.row) {
+
+          var order = item.col * item.row
+
+          console.log(order)
+
+          item.order = order
+
           rows.push(item.row);
         }
       })

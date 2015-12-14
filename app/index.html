@@ -6,22 +6,36 @@ layout: page
 
   <h1 class="page-heading">{{ site.slogan }}</h1>
 
+	<div class="padding-fix">
+		<div class="front-grid" data-height="{{ site.data.front.height }}">
+
+		    {% assign grouped_by_row_front_items = site.data.front.items | group_by: 'row' | sort: 'name' %}
+
+		    {% for group in grouped_by_row_front_items %}
+
+		    	{% assign sorted_row = group.items %}
+
+			    {% for item in sorted_row | sort: 'col', 'first' %}
+				            {% for document in site.documents %}
+				                	{% if document.url == item.url and document.published %}
+
+				        <div class="block" data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
+				        	<div class="block-inner">
 
 
-	<div class="front-grid" data-height="{{ site.data.front.height }}">
+				                    	{% include {{ document.collection }}-teaser.html %}
+				        	</div>
+				        </div>
 
-	    {% for item in site.data.front.items %}
-	        <div class="block" data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
-	        	<div class="block-inner">
-	            {% for document in site.documents %}
-	                {% if document.url == item.url %}
-	                    {% include {{ document.collection }}-teaser.html %}
-	                {% endif %}
-	            {% endfor %}
-	        	</div>
-	        </div>
-	    {% endfor %}
-	   
+
+				                	{% endif %}
+				            {% endfor %}
+			    {% endfor %}
+
+
+		    {% endfor %}
+
+		</div>
 	</div>
 
 </div>

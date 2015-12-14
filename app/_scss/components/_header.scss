@@ -1,28 +1,96 @@
 .header {
 	height: 50px;
-	border-bottom: 1px solid black;
 	margin-top: 10px;
 
-	.logo {
-		clear: left;
-	    float: left;
-	    width: 100px;
-	    margin-left: 10%;
+	.hamburger {
+		display: none;
 	}
 
 	.nav {
-		width: 30%;
+		width: 60%;
 		float: right;
 		text-align: right;
 		margin-right: 10%;
 		height: 100%;
 
 		a {
-			display: inline-block;
+			color: #7f7f7f;
+		    display: inline-block;
 		    height: 100%;
 		    line-height: 47px;
 		    text-align: center;
-		    width: 24%;
+		    text-decoration: none;
+		    width: 11%;
+		    transition: 0.3s;
+
+		    &:active {
+		    	color: red;
+		    }
+
+		    &:hover {
+		    	color: #3f3f3f;
+		    }
+		}
+	}
+}
+
+@media (max-width: 890px) {
+	.header {
+		margin-top: 0px;
+
+		.hamburger {
+			display: block;
+		    position: absolute;
+		    right: 30px;
+		    top: 30px;
+		    height: 30px;
+		    width: 30px;
+		    z-index: 10000;
+
+		    .bar {
+				width: 100%;
+				height: 4px;
+				background: black;
+				margin: 6px 0;
+				transform: rotate(0deg);
+				opacity: 1;
+				visibility: visible;
+				position: relative;
+
+				&:nth-child(1) {
+					transition: top 0.3s linear 0.3s, transform 0.3s linear 0s;
+					top: 0;
+				}
+				&:nth-child(2) {
+					transition: 0.3s;
+				}
+				&:nth-child(3) {
+					transition: bottom 0.3s linear 0.3s, transform 0.3s linear 0s;
+					bottom: 0;
+				}
+			}
+		}
+
+		.nav {
+			visibility: hidden;
+			width: 100%;
+			position: absolute;
+			height: 100vh;
+			background-color: $yellow;
+			z-index: 999;
+			padding-top: 30px;
+			height: 0vh;
+			transition: 1s;
+			// display: none;
+
+			a {
+				width: 100%;
+				transition: 0s;
+				color: #000;
+				text-align: center;
+				height: 14%;
+				font-size: 30px;
+			}
 		}
 	}
 }

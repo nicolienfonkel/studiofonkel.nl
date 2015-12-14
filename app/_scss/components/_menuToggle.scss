@@ -1,0 +1,25 @@
+.has-active-menu {
+	.hamburger {
+		.bar {
+			&:nth-child(1) {
+				transform: rotate(45deg);
+				top: 10px;
+				transition: top 0.3s linear 0s, transform 0.3s linear 0.3s;
+			}
+			&:nth-child(2) {
+				opacity: 0;
+				visibility: hidden;
+			}
+			&:nth-child(3) {
+				transform: rotate(-45deg);
+				bottom: 10px;
+				transition: bottom 0.3s linear 0s, transform 0.3s linear 0.3s;
+			}
+		}
+	}
+
+	.nav {
+		visibility: visible;
+		height: 100vh;
+	}
+}

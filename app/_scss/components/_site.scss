@@ -1,4 +1,26 @@
 .site {
 	width: 80%;
 	margin: 0 auto;
+
+	.logo {
+		clear: left;
+	    float: left;
+	    width: 100px;
+	}
+
+	.page-heading {
+		font-weight: 100;
+		color: $light-grey;
+	}
+
+	.wrapper {
+		clear: both;
+		padding-top: 1px;
+	}
+}
+
+@media (max-width: 890px) {
+	.site {
+		width: 95%;
+	}
 }
