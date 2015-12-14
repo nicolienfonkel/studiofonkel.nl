@@ -1,22 +1,28 @@
 .header {
 	height: 50px;
 	border-bottom: 1px solid black;
+	margin-top: 10px;
 
 	.logo {
 		clear: left;
 	    float: left;
 	    width: 100px;
+	    margin-left: 10%;
 	}
 
 	.nav {
-		width: 80%;
+		width: 30%;
 		float: right;
 		text-align: right;
+		margin-right: 10%;
+		height: 100%;
 
 		a {
-			width: 24%;
-			text-align: center;
 			display: inline-block;
+		    height: 100%;
+		    line-height: 47px;
+		    text-align: center;
+		    width: 24%;
 		}
 	}
 }

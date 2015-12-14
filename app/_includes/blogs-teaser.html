@@ -3,7 +3,8 @@
 {% endif %}
 
 <div class="{{ document.collection }} {{ blog.color }} teaser">
-	<h3>{{ blog.title }}</h3>
+	
+	<h3 class="header-text">{{ blog.title }}</h3>
 
-	<a class="blog-link" href="{{ blog.url | prepend: site.baseurl }}">Blog -></a>
+	<a class="link" href="{{ blog.url | prepend: site.baseurl }}">Blog -></a>
 </div>

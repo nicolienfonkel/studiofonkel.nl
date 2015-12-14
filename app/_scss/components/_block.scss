@@ -4,7 +4,6 @@ $factor: .7;
     position: relative;
     width: 100%;
     min-height: 200px;
-    border: 1px solid red;
 
     @for $h from 1 through 30 {
 		&[data-height='#{$h}']:after {
@@ -20,11 +19,13 @@ $factor: .7;
 	position: absolute;
 
 	.block-inner {
+		$padding: 10px;
+
 		position: absolute;
-		bottom: 20px;
-		left: 20px;
-		right: 20px;
-		top: 20px;
+		bottom: $padding;
+		left: $padding;
+		right: $padding;
+		top: $padding;
 	}
 
 	@for $sx from 1 through 2 {
