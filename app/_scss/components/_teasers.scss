@@ -7,6 +7,7 @@
 		color: #fff;
 	    display: block;
 	    font-size: 30px;
+	    line-height: 32px;
 	    font-weight: 700;
 	    position: absolute;
 	    bottom: 20%;
@@ -15,9 +16,51 @@
 	.link {
 		color: $yellow;
 		text-decoration: none;
-		font-size: 20px;
+		font-size: 18px;
+		line-height: 30px;
+		font-weight: 100;
 		position: absolute;
 	    bottom: 10%;
+
+	    .arrow {
+			float: right;
+		    height: 30px;
+		    width: 30px;
+		    transition: $speed;
+
+		    .bar {
+		    	background:  $yellow none repeat scroll 0 0;
+			    height: 2px;
+			    margin-top: 14px;
+			    margin-left: 10px;
+			    
+			    &:nth-child(1) {
+			    	width: 18px;
+			    }
+
+			    &:nth-child(2) {
+				    left: 7px;
+				    position: relative;
+				    top: -19px;
+				    transform: rotate(33deg);
+				    width: 12px;
+				}
+
+				&:nth-child(3) {
+				    left: 7px;
+				    position: relative;
+				    top: -29px;
+				    transform: rotate(-33deg);
+				    width: 12px;
+				}
+		    }
+		}
+	}
+
+	&:hover {
+		.arrow {
+			margin-left: 10px;
+		}
 	}
 
 	&.cases {
@@ -37,6 +80,12 @@
 
 		.link {
 			color: black;
+
+			.arrow {
+				.bar {
+					background: #000;
+				}
+			}
 		}	
 	}
 
@@ -52,26 +101,3 @@
 		}
 	}
 }
-
-
-@media (max-width: 890px) {
-	.front-grid {
-		
-		&:after {
-			padding-bottom: 0px !important;
-		}
-
-		.block {
-			width: 100% !important;
-			clear: both;
-			position: relative;
-			margin-left: 0px !important;
-			margin-top: 0px !important;
-		}
-	}
-}
-
-
-
-
-

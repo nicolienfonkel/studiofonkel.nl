@@ -2,7 +2,14 @@
 	{% assign page = document %}
 {% endif %}
 
-<div class="{{ page.collection }} {{ page.color }} teaser">
+<a class="{{ page.collection }} teaser" href="{{ page.url | prepend: site.baseurl }}">
 	<h3 class="header-text">{{ page.title }}</h3>
-	<a class="link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}-></a>
-</div>
+	<div class="link">
+		{{ page.title }}
+		<div class="arrow">
+			<div class="bar">
+			</div><div class="bar"></div>
+			<div class="bar"></div>
+		</div>
+	</div>
+</a>

@@ -18,7 +18,7 @@
 		    display: inline-block;
 		    height: 100%;
 		    line-height: 47px;
-		    text-align: center;
+		    text-align: right;
 		    text-decoration: none;
 		    width: 11%;
 		    transition: 0.3s;
@@ -58,14 +58,14 @@
 				position: relative;
 
 				&:nth-child(1) {
-					transition: top 0.3s linear 0.3s, transform 0.3s linear 0s;
+					transition: top $speed linear $speed, transform $speed linear 0s;
 					top: 0;
 				}
 				&:nth-child(2) {
 					transition: 0.3s;
 				}
 				&:nth-child(3) {
-					transition: bottom 0.3s linear 0.3s, transform 0.3s linear 0s;
+					transition: bottom $speed linear $speed, transform $speed linear 0s;
 					bottom: 0;
 				}
 			}
@@ -78,18 +78,23 @@
 			height: 100vh;
 			background-color: $yellow;
 			z-index: 999;
-			padding-top: 30px;
 			height: 0vh;
 			transition: 1s;
+			overflow: hidden;
 			// display: none;
 
-			a {
-				width: 100%;
-				transition: 0s;
-				color: #000;
-				text-align: center;
-				height: 14%;
-				font-size: 30px;
+			.nav-inner {
+				height: 100vh;
+
+				a {
+					width: 100%;
+					transition: 0s;
+					padding-top: 30px;
+					color: #000;
+					text-align: center;
+					height: 14%;
+					font-size: 30px;
+				}
 			}
 		}
 	}

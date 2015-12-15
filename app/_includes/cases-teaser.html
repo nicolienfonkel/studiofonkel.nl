@@ -2,7 +2,14 @@
 	{% assign case = document %}
 {% endif %}
 
-<div class="{{ case.collection }} teaser" style="background-image: url(' {{ case.header-img }} ')">
+<a class="{{ case.collection }} teaser" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url(' {{ case.header-img }} ')">
 	<h3 class="header-text">{{ case.title }}</h3>
-	<a class="link" href="{{ case.url | prepend: site.baseurl }}">Case -></a>
-</div>
+	<div class="link">
+		Case
+		<div class="arrow">
+			<div class="bar">
+			</div><div class="bar"></div>
+			<div class="bar"></div>
+		</div>
+	</div>
+</a>

@@ -78,3 +78,24 @@ $factor: .7;
 		}
 	}
 }
+
+@media (max-width: 890px) {
+	.front-grid {
+		
+		&:after {
+			padding-bottom: 0px !important;
+		}
+
+		.block {
+			width: 100% !important;
+			clear: both;
+			position: relative;
+			margin-left: 0px !important;
+			margin-top: 0px !important;
+
+			&:after {
+				padding-bottom: 100% * $factor !important;
+			}
+		}
+	}
+}
