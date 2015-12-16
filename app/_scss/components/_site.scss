@@ -1,4 +1,5 @@
 .site {
+	max-width: $max-width;
 	width: 80%;
 	margin: 0 auto;
 
@@ -11,6 +12,8 @@
 	.page-heading {
 		font-weight: 100;
 		color: $light-grey;
+		margin-top: 30px;
+		margin-bottom: 75px;
 	}
 
 	.wrapper {

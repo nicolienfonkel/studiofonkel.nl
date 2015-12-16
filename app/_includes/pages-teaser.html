@@ -1,15 +1,23 @@
 {% if document %}
-	{% assign page = document %}
+	{% assign page_item = document %}
 {% endif %}
 
-<a class="{{ page.collection }} teaser" href="{{ page.url | prepend: site.baseurl }}">
-	<h3 class="header-text">{{ page.title }}</h3>
-	<div class="link">
-		{{ page.title }}
-		<div class="arrow">
-			<div class="bar">
-			</div><div class="bar"></div>
-			<div class="bar"></div>
+{% if page.url == '/widget/index.html' %}
+	{% assign markup_element = 'div' %}
+{% else %}
+	{% assign markup_element = 'a' %}
+{% endif %}
+
+	<{{ markup_element }} class="{{ page_item.collection }} teaser" href="{{ page_item.url | prepend: site.baseurl }}">
+		<div class="inner-wrapper">
+			<h3 class="header-text">{{ page_item.title }}</h3>
+			<div class="link">
+				<span>{{ page_item.title }}</span>
+				<div class="arrow">
+					<div class="bar">
+					</div><div class="bar"></div>
+					<div class="bar"></div>
+				</div>
+			</div>
 		</div>
-	</div>
-</a>
+	</{{ markup_element }}>

@@ -2,14 +2,23 @@
 	{% assign blog = document %}
 {% endif %}
 
-<a class="{{ blog.collection }} teaser" href="{{ blog.url | prepend: site.baseurl }}">
-	<h3 class="header-text">{{ blog.title }}</h3>
-	<div class="link">
-		Blog
-		<div class="arrow">
-			<div class="bar">
-			</div><div class="bar"></div>
-			<div class="bar"></div>
+{% if page.url == '/widget/index.html' %}
+	{% assign markup_element = 'div' %}
+{% else %}
+	{% assign markup_element = 'a' %}
+{% endif %}
+
+
+	<{{ markup_element }} class="{{ blog.collection }} teaser" href="{{ blog.url | prepend: site.baseurl }}">
+	<div class="inner-wrapper">
+		<h3 class="header-text">{{ blog.title }}</h3>
+		<div class="link">
+			<span>Blog</span>
+			<div class="arrow">
+				<div class="bar">
+				</div><div class="bar"></div>
+				<div class="bar"></div>
+			</div>
 		</div>
 	</div>
-</a>
+</{{ markup_element }}>

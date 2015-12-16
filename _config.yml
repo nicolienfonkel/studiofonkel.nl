@@ -42,6 +42,7 @@ defaults:
       path: ""
     values:
       published: true
+      background-position: "center 40%"
   - scope:
       path: ""
       type: cases

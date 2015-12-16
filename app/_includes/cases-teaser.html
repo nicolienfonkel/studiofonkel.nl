@@ -2,14 +2,22 @@
 	{% assign case = document %}
 {% endif %}
 
-<a class="{{ case.collection }} teaser" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url(' {{ case.header-img }} ')">
-	<h3 class="header-text">{{ case.title }}</h3>
-	<div class="link">
-		Case
-		<div class="arrow">
-			<div class="bar">
-			</div><div class="bar"></div>
-			<div class="bar"></div>
+{% if page.url == '/widget/index.html' %}
+	{% assign markup_element = 'div' %}
+{% else %}
+	{% assign markup_element = 'a' %}
+{% endif %}
+
+	<{{ markup_element }} class="{{ case.collection }} teaser" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url('{{ case.header-img }}'); background-position: {{ case.background-position }};">
+	<div class="inner-wrapper">
+		<h3 class="header-text">{{ case.title }}</h3>
+		<div class="link">
+			<span>Case</span>
+			<div class="arrow">
+				<div class="bar">
+				</div><div class="bar"></div>
+				<div class="bar"></div>
+			</div>
 		</div>
 	</div>
-</a>
+</{{ markup_element }}>

@@ -11,6 +11,15 @@ layout: page
   <div class="case-list">
     {% for case in site.cases %}
       <div class="case">
+        {% include cases-teaser.html %}
+      </div>
+
+    {% endfor %}
+  </ul>
+
+</div>
+
+<!-- <div class="case">
         {% if case.header-img %}
           <img src="{{ case.header-img }}">
         {% endif %}
@@ -21,8 +30,4 @@ layout: page
           {% endfor %}
         </ul>
 
-      </div>
-    {% endfor %}
-  </ul>
-
-</div>
+      </div> -->

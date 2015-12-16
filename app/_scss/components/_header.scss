@@ -1,6 +1,9 @@
 .header {
 	height: 50px;
 	margin-top: 10px;
+	max-width: $max-width;
+	width: 80%;
+	margin: 0 auto;
 
 	.hamburger {
 		display: none;
@@ -10,7 +13,6 @@
 		width: 60%;
 		float: right;
 		text-align: right;
-		margin-right: 10%;
 		height: 100%;
 
 		a {

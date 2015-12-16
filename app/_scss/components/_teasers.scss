@@ -1,59 +1,68 @@
 .teaser {
-	padding: 0px 20px;
+	// padding: 0px 20px;
 	background-size: cover;
 	background-position: center center;
 
-	.header-text {
-		color: #fff;
-	    display: block;
-	    font-size: 30px;
-	    line-height: 32px;
-	    font-weight: 700;
-	    position: absolute;
-	    bottom: 20%;
-	}
-
-	.link {
-		color: $yellow;
-		text-decoration: none;
-		font-size: 18px;
-		line-height: 30px;
-		font-weight: 100;
+	.inner-wrapper {
+		margin: 40px;
 		position: absolute;
-	    bottom: 10%;
+		bottom: 0;
 
-	    .arrow {
-			float: right;
-		    height: 30px;
-		    width: 30px;
-		    transition: $speed;
+		.header-text {
+			color: #fff;
+		    display: block;
+		    font-size: 30px;
+		    line-height: 32px;
+		    font-weight: 700;
+		    bottom: 20%;
+		}
 
-		    .bar {
-		    	background:  $yellow none repeat scroll 0 0;
-			    height: 2px;
-			    margin-top: 14px;
-			    margin-left: 10px;
-			    
-			    &:nth-child(1) {
-			    	width: 18px;
-			    }
+		.link {
+			color: $yellow;
+			text-decoration: none;
+			font-size: 18px;
+			line-height: 30px;
+			font-weight: 100;
+		    bottom: 10%;
 
-			    &:nth-child(2) {
-				    left: 7px;
-				    position: relative;
-				    top: -19px;
-				    transform: rotate(33deg);
-				    width: 12px;
-				}
-
-				&:nth-child(3) {
-				    left: 7px;
-				    position: relative;
-				    top: -29px;
-				    transform: rotate(-33deg);
-				    width: 12px;
-				}
+		    span {
+		    	float: left;
 		    }
+
+		    .arrow {
+				float: left;
+			    height: 30px;
+			    width: 30px;
+			    transition: $speed;
+
+			    .bar {
+			    	background:  $yellow none repeat scroll 0 0;
+				    height: 2px;
+				    margin-top: 13px;
+				    margin-left: 10px;
+				    
+				    &:nth-child(1) {
+				    	width: 25px;
+				    	margin-left: 6px;
+				    }
+
+				    &:nth-child(2) {
+					    left: 11px;
+					    position: relative;
+					    top: -18px;
+					    transform: rotate(33deg);
+					    width: 10px;
+					}
+
+					&:nth-child(3) {
+					    left: 11px;
+					    position: relative;
+					    top: -27px;
+					    transform: rotate(-33deg);
+					    width: 10px;
+					}
+			    }
+			}
 		}
 	}
 

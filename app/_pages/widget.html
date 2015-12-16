@@ -12,12 +12,13 @@ published: false
 
     <div class="gridster">
         <ul>
-
+            
             {% for item in site.data.front.items %}
+                
                 <li data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
 
                     {% for document in site.documents %}
-                        {% if document.url == item.url %}
+                        {% if document.url == item.url  and document.published %}
                             {% include {{ document.collection }}-teaser.html %}
                         {% endif %}
                     {% endfor %}
@@ -34,9 +35,11 @@ published: false
                 {% endfor %}
             
                 {% unless current_document_is_already_on_front %}
+                {% if document.published %}
                 <li data-row="1" data-col="1" data-sizex="1" data-sizey="1" data-url="{{ document.url }}">
                     {% include {{ document.collection }}-teaser.html %}
                 </li>
+                {% endif %}
                 {% endunless %}
             {% endfor %}
         </ul>
