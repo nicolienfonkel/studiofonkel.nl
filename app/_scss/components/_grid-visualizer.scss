@@ -31,10 +31,26 @@
 }
 
 
-// @media (max-width: 890px) {
-//   html {
-//     // &:after {
-//     //   width: 95% !important;
-//     // }
-//   }
-// }
+@media (max-width: 890px) {
+  .grid {  
+    .column {
+      width: 12.5%;
+
+      &.desktop {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .grid {  
+    .column {
+      width: 25%;
+
+      &.tablet {
+        display: none;
+      }
+    }
+  }
+}
