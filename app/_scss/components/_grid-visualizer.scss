@@ -1,0 +1,40 @@
+.grid {
+  height: 100vh;
+  left: 50%;
+  max-width: $max-width;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  transform: translateX(-50%);
+  width: 100vw;
+  z-index: 1001;
+  opacity: 0;
+  transition: opacity $speed;
+  background-color: rgba(#BF0000, .5);
+
+  .column {
+    width: (100% / 12);
+    float: left;  
+    height: 100vh;
+    padding: 0 $padding;
+    background-color: red;
+    background-clip: content-box;
+
+    &:nth-child(odd) {
+      background-color: red;
+    }
+  }
+}
+
+.has-grid-overlay-enabled .grid {
+  opacity: .5;
+}
+
+
+// @media (max-width: 890px) {
+//   html {
+//     // &:after {
+//     //   width: 95% !important;
+//     // }
+//   }
+// }

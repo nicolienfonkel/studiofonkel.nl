@@ -1,6 +1,5 @@
 .site {
 	max-width: $max-width;
-	width: 80%;
 	margin: 0 auto;
 
 	.logo {
@@ -19,11 +18,5 @@
 	.wrapper {
 		clear: both;
 		padding-top: 1px;
-	}
-}
-
-@media (max-width: 890px) {
-	.site {
-		width: 95%;
 	}
 }

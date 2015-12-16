@@ -18,11 +18,12 @@
 	.footer-inner {
 		max-width: $max-width;
 		margin: 0 auto;
+		width: 80%;
 
 		.setup {
 			// border: 1px solid black;
-			width: 75%;
-			margin: 0 auto;
+			margin-left: 17.5%;
+    		width: 73%;
 
 			.q1 {
 				width: 20%;
@@ -45,7 +46,7 @@
 			// border: 1px solid black;
 			text-align: center;
 			padding: 40px 0px;
-			width: 50%;
+			width: 52%;
 			margin: 0 auto;
 
 			.icon {
@@ -67,13 +68,13 @@
 
 			.left {
 				// border: 1px solid purple;
-				width: 50%;
+				width: 48%;
 				float: left;
 			}
 
 			.right {
 				// border: 1px solid yellow;
-				width: 50%;	
+				width: 48%;	
 				float: right;
 			}
 		}
@@ -92,21 +93,26 @@
 
 			.left {
 				// border: 1px solid purple;
-				width: 50%;
+				width: 49%;
 				float: left;
 				
 				.list {
-					width: 50%;
+					width: 49%;
 					float: left;
 					list-style-type: none;
 					font-size: 16px;
 					line-height: 26px;
+
+					&:nth-child(3) {
+						float: right;
+						width: 51%;
+					}
 				}
 			}
 
 			.right {
 				// border: 1px solid yellow;
-				width: 50%;
+				width: 49%;
 				float: right;
 
 				.text {
@@ -119,9 +125,11 @@
 		.social {
 			@include clearfix;
 			margin: 0 auto;
-			border: 1px solid green;
-			width: 70%;
+			border-bottom: 1px solid black;
+			width: 69%;
 			text-align: center;
+			margin-top: 70px;
+			margin-bottom: 50px;
 
 			.list {
 				@include clearfix;
@@ -133,12 +141,13 @@
 					.name {
 				    	float: left;
 				    	padding: 0px 5px;
+				    	width: 66%;
 				    }
 
 				    .arrow {
 						float: left;
 					    height: 30px;
-					    width: 30px;
+					    width: 33%;
 					    transition: $speed;
 
 					    .bar {
@@ -171,6 +180,11 @@
 					}
 				}
 			}
+		}
+
+		.logo {
+			width: 100px;
+			margin: 0 auto;
 		}
 	}
 }
