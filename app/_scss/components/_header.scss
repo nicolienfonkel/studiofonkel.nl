@@ -1,28 +1,31 @@
-.header {
-	height: 50px;
-	margin-top: 10px;
-	max-width: $max-width;
-	width: 80%;
-	margin: 0 auto;
-
-	.hamburger {
-		display: none;
+.homepage {
+	.header {
+		border-bottom: 0px;
 	}
+}
+
+.header {
+	@include clearfix;
+	border-bottom: 1px solid $light-grey;
+    margin: 0 auto 40px;
+    max-width: $max-width;
 
 	.nav {
+		@include clearfix;
 		width: 60%;
 		float: right;
 		text-align: right;
+		margin-top: 15px;
 		height: 100%;
 
 		a {
 			color: #7f7f7f;
 		    display: inline-block;
 		    height: 100%;
-		    line-height: 47px;
-		    text-align: right;
+		    line-height: 65px;
+		    text-align: center;
 		    text-decoration: none;
-		    width: 11%;
+		    width: 70px;
 		    transition: 0.3s;
 
 		    &:active {
@@ -36,46 +39,15 @@
 	}
 }
 
-@media (max-width: 890px) {
+@media (max-width: $tablet) {
 	.header {
 		margin-top: 0px;
 
-		.hamburger {
-			display: block;
-		    position: absolute;
-		    right: 30px;
-		    top: 30px;
-		    height: 30px;
-		    width: 30px;
-		    z-index: 10000;
-
-		    .bar {
-				width: 100%;
-				height: 4px;
-				background: black;
-				margin: 6px 0;
-				transform: rotate(0deg);
-				opacity: 1;
-				visibility: visible;
-				position: relative;
-
-				&:nth-child(1) {
-					transition: top $speed linear $speed, transform $speed linear 0s;
-					top: 0;
-				}
-				&:nth-child(2) {
-					transition: 0.3s;
-				}
-				&:nth-child(3) {
-					transition: bottom $speed linear $speed, transform $speed linear 0s;
-					bottom: 0;
-				}
-			}
-		}
-
 		.nav {
+			margin-top: 0px;
 			visibility: hidden;
-			width: 100%;
+			width: 100vw;
+			left: 0;
 			position: absolute;
 			height: 100vh;
 			background-color: $yellow;

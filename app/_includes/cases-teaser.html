@@ -8,12 +8,26 @@
 	{% assign markup_element = 'a' %}
 {% endif %}
 
-	<{{ markup_element }} class="{{ case.collection }} teaser" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url('{{ case.header-img }}'); background-position: {{ case.background-position }};">
+<{{ markup_element }} class="{{ case.collection }} teaser" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url('{{ case.header-img }}'); background-position: {{ case.background-position }};">
 	<div class="inner-wrapper">
 		<h3 class="header-text">{{ case.title }}</h3>
 		<div class="link">
-			<span>Case</span>
-			<div class="arrow">
+
+			{% if page.url == '/cases/index.html' %}
+				
+				{% if case.categories %}
+				    {% for category in case.categories %}
+						<div class="category">{{ category }} </div>
+					{% endfor %}
+				{% else %}
+					<span>Lees meer</span>
+			    {% endif %}
+			     
+			{% else %}
+				<span>Case</span>
+			{% endif %}
+			
+			<div class="arrow-long">
 				<div class="bar">
 				</div><div class="bar"></div>
 				<div class="bar"></div>

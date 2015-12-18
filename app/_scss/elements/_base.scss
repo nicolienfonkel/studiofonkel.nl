@@ -12,3 +12,11 @@ img {
 * {
 	box-sizing: border-box;
 }
+
+h2, p, ul, li, a {
+	margin: 0px;
+	padding: 0px;
+	color: black;
+	font-weight: 100;
+	text-decoration: none;
+}

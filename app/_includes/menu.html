@@ -1,5 +1,11 @@
 <div class="header">
 
+	{% if page.url != '/index.html' %}
+		<div class="logo head">
+			{% include logo.svg %}
+		</div>
+	{% endif %}
+
 	<div class="hamburger">
 		<div class="bar"></div>
 		<div class="bar"></div>

@@ -1,0 +1,13 @@
+.logo {
+	clear: left;
+    width: 100px;
+
+    &.head {
+    	margin-top: 15px;
+    	float: left;
+    }
+
+    &.-home {
+    	float: left;
+    }
+}

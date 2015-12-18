@@ -1,0 +1,38 @@
+.hamburger {
+	display: none;
+}
+
+@media (max-width: $tablet) {
+	.hamburger {
+		display: block;
+	    position: absolute;
+	    right: 30px;
+	    top: 30px;
+	    height: 30px;
+	    width: 30px;
+	    z-index: 10000;
+
+	    .bar {
+			width: 100%;
+			height: 4px;
+			background: black;
+			margin: 6px 0;
+			transform: rotate(0deg);
+			opacity: 1;
+			visibility: visible;
+			position: relative;
+
+			&:nth-child(1) {
+				transition: top $speed linear $speed, transform $speed linear 0s;
+				top: 0;
+			}
+			&:nth-child(2) {
+				transition: 0.3s;
+			}
+			&:nth-child(3) {
+				transition: bottom $speed linear $speed, transform $speed linear 0s;
+				bottom: 0;
+			}
+		}
+	}
+}

@@ -12,7 +12,12 @@
         <!-- endbuild -->
 
     </head>
-    <body>
+
+    {% if page.url == '/index.html' %}
+        <body class="homepage">                
+    {% else %}
+        <body>
+    {% endif %}
 
         {% include menu.html %}
 

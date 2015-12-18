@@ -2,20 +2,27 @@
 	max-width: $max-width;
 	margin: 0 auto;
 
-	.logo {
-		clear: left;
-	    float: left;
-	    width: 100px;
+	.page-heading {
+		color: $grey;
+	    font-weight: 100;
+	    line-height: 36px;
+	    margin-bottom: 45px;
+	    margin-top: 10px;
 	}
 
-	.page-heading {
-		font-weight: 100;
-		color: $light-grey;
-		margin-top: 30px;
-		margin-bottom: 75px;
+	.page-sub-heading {
+		color: $yellow;
+	    font-weight: 100;
+	    font-size: 36px;
+	    line-height: 50px;
+	    width: 67%;
+	    border-bottom: 1px solid $yellow;
+	    padding-bottom: 15px;
+	    margin: 10px auto 85px auto;
 	}
 
 	.wrapper {
+		@include clearfix;
 		clear: both;
 		padding-top: 1px;
 	}

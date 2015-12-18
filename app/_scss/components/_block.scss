@@ -77,7 +77,7 @@ $factor: .7;
 	}
 }
 
-@media (max-width: 890px) {
+@media (max-width: $tablet) {
 	.front-grid {
 		
 		&:after {

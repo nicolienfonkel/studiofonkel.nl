@@ -3,9 +3,11 @@ layout: html
 ---
 <div class="site">
 
-	<div class="logo">
-		{% include logo.svg %}
-	</div>
+	{% if page.url == '/index.html' %}
+		<div class="logo home">
+			{% include logo.svg %}
+		</div>
+	{% endif %}
 
   	{{ content }}
 </div>

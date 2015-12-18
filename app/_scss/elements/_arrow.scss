@@ -1,0 +1,34 @@
+.arrow-long {
+	float: left;
+    height: 30px;
+    width: 30px;
+    transition: $speed;
+
+    .bar {
+    	background:  $yellow none repeat scroll 0 0;
+	    height: 2px;
+	    margin-top: 13px;
+	    margin-left: 10px;
+	    
+	    &:nth-child(1) {
+	    	width: 25px;
+	    	margin-left: 6px;
+	    }
+
+	    &:nth-child(2) {
+		    left: 11px;
+		    position: relative;
+		    top: -18px;
+		    transform: rotate(33deg);
+		    width: 10px;
+		}
+
+		&:nth-child(3) {
+		    left: 11px;
+		    position: relative;
+		    top: -27px;
+		    transform: rotate(-33deg);
+		    width: 10px;
+		}
+    }
+}

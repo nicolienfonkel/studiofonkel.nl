@@ -31,10 +31,18 @@
 }
 
 
-@media (max-width: 890px) {
+@media (max-width: $tablet) {
   .grid {  
     .column {
       width: 12.5%;
+
+      &:nth-child(1) {
+        padding-left: 20px;
+      }
+
+      &:nth-child(8) {
+        padding-right: 20px;
+      }
 
       &.desktop {
         display: none;
@@ -43,10 +51,14 @@
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: $mobile) {
   .grid {  
     .column {
       width: 25%;
+
+      &:nth-child(4) {
+        padding-right: 20px;
+      }
 
       &.tablet {
         display: none;

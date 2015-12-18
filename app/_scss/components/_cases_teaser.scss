@@ -1,0 +1,38 @@
+.wrapper {
+	.case-list {
+		.case {
+			float: left;
+			width: 49%;
+			height: 400px;
+			position: relative;
+			margin-bottom: 20px;
+
+			&:nth-child(even) {
+				margin-left: 2%;
+			}
+
+			.cases.teaser {
+				@include clearfix;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+
+				.category {
+					float: left;
+					padding: 0 7px 0 0;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: $mobile) {
+	.wrapper {
+		.case-list {
+			.case {
+				width: 100%;
+				margin-left: 0px !important;
+			}
+		}
+	}
+}
