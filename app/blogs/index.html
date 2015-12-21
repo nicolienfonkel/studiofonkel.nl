@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+<div class="wrapper">
+
+  <h1 class="page-sub-heading">{{ site.blog_slogan }}</h1>
+
+  <h1 class="page-heading blog">Recente blogs</h1>
+
+  <div class="blog-list">
+    {% for blog in site.blogs %}
+      <div class="blog">
+        {% include blogs-item.html %}
+      </div>
+
+    {% endfor %}
+  </div>
+
+</div>

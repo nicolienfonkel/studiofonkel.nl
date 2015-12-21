@@ -3,25 +3,18 @@ layout: html
 ---
 <div class="site">
 
-  {% if page.date %}
-    <span> {{ page.date }} </span>
-  {% endif %}  
-
   {% if page.subtitle %}
-    <h4> {{ page.subtitle }} </h4>
+    <h3 class="page-sub-heading"> {{ page.subtitle }} </h3>
   {% endif %}
 
   {% if page.title %}
-    <h3> {{ page.title }} </h3>
+    <h2 class="page-heading blog"> {{ page.title }} </h2>
   {% endif %}
 
   {% if page.header-img %}
-    <img alt="{{ page.header-img-alt }}" src="{{ page.header-img }}">
+    <div class="page-image" style="background-image: url('{{ page.header-img }}');"></div>
   {% endif %}
 
   {{ content }}
 
-  <div class="footer">
-    footer
-  </div>
 </div>

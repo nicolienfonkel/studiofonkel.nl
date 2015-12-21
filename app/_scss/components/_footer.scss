@@ -81,7 +81,7 @@
 			width: 100%;
 			margin: 0 auto;
 
-			.header {
+			.header-text {
 				width: 100%;
 				margin-bottom: 30px;
 			}
@@ -188,3 +188,60 @@
 		}
 	}
 }
+
+@media (max-width: $tablet) {
+	.footer {
+		padding-left: 20px;
+		padding-right: 20px;
+
+		.footer-inner {
+			width: 100%;
+
+			.setup {
+				width: 100%;
+				margin-left: 0;
+			}
+
+			.call-mail {
+				width: 100%;
+				padding: 10px 0px;
+			}
+
+			.information {
+				.left,
+				.right {
+					width: 100%;
+
+					.header-text {
+						margin-bottom: 0px;
+					}
+
+					.list {
+						width: 50% !important;
+					}
+				}
+			}
+
+			.social {
+				width: 100%;
+				margin-top: 20px;
+				padding-bottom: 20px;
+
+				.list {
+					.wrapper {
+						width: 100%;
+
+						.name {
+							width: auto;
+							padding: 0 5px 0 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+

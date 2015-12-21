@@ -14,10 +14,25 @@
 
 	<div class="nav">
 		<div class="nav-inner">
-		    <a href="/">Home</a>
-		    <a href="/cases">Cases</a>
-		    <a href="/aanpak">Aanpak</a>
-		    <a href="/blog">Blog</a>
+			
+			{% if page.url == '/index.html' %}			
+			    <a class="active" href="/">Home</a>
+			{% else %}
+				<a href="/">Home</a>
+			{% endif %}
+			
+			{% if page.url == '/cases/index.html' %}			
+			    <a class="active" href="/cases">Cases</a>
+			{% else %}
+				<a href="/cases">Cases</a>
+			{% endif %}
+
+			{% if page.url == '/blogs/index.html' %}			
+			    <a class="active" href="/blogs">Blogs</a>
+			{% else %}
+				<a href="/blogs">Blogs</a>
+			{% endif %}
+
 		</div>
 	 </div>
 

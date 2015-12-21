@@ -7,8 +7,15 @@
 .header {
 	@include clearfix;
 	border-bottom: 1px solid $light-grey;
-    margin: 0 auto 40px;
     max-width: $max-width;
+    top: 0;
+    position: fixed;
+    background: #fff;
+    z-index: 99999;
+    width: 96.1%;
+    height: 80px;
+    left: 50%;
+    transform: translateX(-50%);
 
 	.nav {
 		@include clearfix;
@@ -24,16 +31,31 @@
 		    height: 100%;
 		    line-height: 65px;
 		    text-align: center;
+		    position: relative;
 		    text-decoration: none;
 		    width: 70px;
 		    transition: 0.3s;
 
-		    &:active {
-		    	color: red;
+		    &.active:after {
+		    	background-color: $yellow;
+			    border-radius: 50%;
+			    bottom: 12px;
+			    content: "";
+			    height: 4px;
+			    left: 46%;
+			    position: absolute;
+			    width: 4px;
 		    }
 
-		    &:hover {
-		    	color: #3f3f3f;
+		    &:hover:after {
+		    	background-color: $yellow;
+			    border-radius: 50%;
+			    bottom: 12px;
+			    content: "";
+			    height: 4px;
+			    left: 46%;
+			    position: absolute;
+			    width: 4px;
 		    }
 		}
 	}

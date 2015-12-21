@@ -1,6 +1,18 @@
 .site {
 	max-width: $max-width;
 	margin: 0 auto;
+	margin-top: 110px;
+
+	.page-date {
+		width: 72%;
+		margin: 10px auto;
+		font-weight: 100;
+		color: $text-color;
+		font-size: 14px;
+		line-height: 24px;
+		position: relative;
+		display: block;
+	}
 
 	.page-heading {
 		color: $grey;
@@ -8,6 +20,19 @@
 	    line-height: 36px;
 	    margin-bottom: 45px;
 	    margin-top: 10px;
+	    position: relative;
+	    display: block;
+
+	    &.blog,
+	    &.case {
+	    	font-size: 48px;
+		    font-weight: 700;
+		    line-height: 50px;
+		    margin: 0 auto;
+		    width: 72%;
+		    position: relative;
+		    display: block;
+	    }
 	}
 
 	.page-sub-heading {
@@ -15,10 +40,46 @@
 	    font-weight: 100;
 	    font-size: 36px;
 	    line-height: 50px;
-	    width: 67%;
+	    width: 72%;
 	    border-bottom: 1px solid $yellow;
 	    padding-bottom: 15px;
-	    margin: 10px auto 85px auto;
+	    margin: 10px auto 70px auto;
+	    position: relative;
+	    display: block;
+	}
+
+	.page-image {
+		width: 100%;
+		margin: 60px 0px;
+		height: 260px;
+		background-position: center;
+		background-size: cover;
+		position: relative;
+		display: block;
+	}
+
+	// headers in markdown ##
+	h2 {
+		color: $text-color;
+	    font-weight: 700;
+	    margin: 30px auto 15px;
+	    width: 72%;
+	    position: relative;
+	    display: block;
+	    font-size: 32px;
+	    line-height: 30px;
+	}
+
+	// paragraphs in markdown
+	p {
+		font-size: 20px;
+		line-height: 30px;
+		color: $text-color;
+		font-weight: 100;
+		width: 72%;
+		margin: 30px auto;
+		position: relative;
+		display: block;
 	}
 
 	.wrapper {
@@ -27,3 +88,27 @@
 		padding-top: 1px;
 	}
 }
+
+@media (max-width: $tablet) {
+	.site {
+
+		.page-sub-heading,
+		.page-heading.blog {
+			width: 100%;
+		}
+
+		// headers in markdown ##
+		h2 {
+			width: 100%;
+		}
+
+		// paragraphs in markdown
+		p {
+			width: 100%;
+		}
+	}
+}
+
+
+
+
