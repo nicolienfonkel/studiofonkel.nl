@@ -1,0 +1,40 @@
+.convince {
+	.convince-wrapper {
+		@include clearfix;
+		margin: 20px 0px;
+
+		.wrapper-inner {
+			@include clearfix;
+			width: 50%;
+			float: left;
+		}
+
+		.wrapper {
+			border: 1px solid black;
+			clear: left;
+			float: left;
+			height: 100%;
+			width: 100%;
+			margin-right: 10px;
+		}
+
+		.image {
+			border: 1px solid black;
+			background-size: cover;
+			float: right;
+			padding-bottom: 30%;
+			width: 100%;
+			margin-left: 10px;
+		}
+
+		&:nth-child(even) {
+			.wrapper {
+				float: right;
+			}
+
+			.image {
+				float: left;
+			}
+		}
+	}
+}
