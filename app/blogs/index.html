@@ -9,7 +9,7 @@ layout: page
   <h1 class="page-heading blog">Recente blogs</h1>
 
   <div class="blog-list">
-    {% for blog in site.blogs %}
+    {% for blog in site.blogs limit:2 %}
       <div class="blog">
         {% include blogs-item.html %}
       </div>

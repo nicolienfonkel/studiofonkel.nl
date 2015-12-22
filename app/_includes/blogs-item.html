@@ -7,14 +7,14 @@
 		<div class="text">
 			{{ blog.teaser-text }}
 		</div>
-		<div class="link">
+		<a href="{{ blog.url | prepend: site.baseurl }}" class="link">
 			<span>Lees meer</span>
 			<div class="arrow-long">
 				<div class="bar">
 				</div><div class="bar"></div>
 				<div class="bar"></div>
 			</div>
-		</div>
+		</a>
 	</div>
 
 </div>

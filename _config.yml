@@ -31,12 +31,16 @@ collections:
   cases:
     output: true
     permalink: /:path/index.html
+    front: true
   blogs:
     output: true
     permalink: /:path/index.html
+    front: true
   pages:
     output: true
     permalink: /:path/index.html
+    front: true
+  convince:
 
 defaults:
   - scope:
