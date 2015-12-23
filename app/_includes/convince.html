@@ -1,4 +1,5 @@
 <div class="convince" markdown="0">
+	{% assign items = items | sort: 'number' %}
 	{% for item in items %}
 		<div class="convince-wrapper">
 
@@ -10,6 +11,7 @@
 			<div class="wrapper-inner">
 				<div class="wrapper">
 					<div class="text">
+						<span>#{{ item.number }}</span>
 						<h1>{{ item.title }}</h1>
 						<p>{{ item.content }}</p>
 					</div>

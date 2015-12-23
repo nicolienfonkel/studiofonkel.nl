@@ -242,6 +242,23 @@
 	}
 }
 
+@media (max-width: $mobile) {
 
+	.footer .footer-inner {
+		
+		.call-mail .right,
+		.call-mail .left {
+			width: 55%;
+			width: 55%;
+			float: left;
+		}
+
+		.information .left .list {
+			width: 100% !important;
+			clear: both;
+			margin-bottom: 10px;
+		}
+	}
+}
 
 

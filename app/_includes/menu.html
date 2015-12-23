@@ -1,9 +1,9 @@
 <div class="header">
 
 	{% if page.url != '/index.html' %}
-		<div class="logo head">
+		<a href="/" class="logo head">
 			{% include logo.svg %}
-		</div>
+		</a>
 	{% endif %}
 
 	<div class="hamburger">
@@ -14,24 +14,26 @@
 
 	<div class="nav">
 		<div class="nav-inner">
-			
+
 			{% if page.url == '/index.html' %}			
 			    <a class="active" href="/">Home</a>
 			{% else %}
 				<a href="/">Home</a>
 			{% endif %}
-			
-			{% if page.url == '/cases/index.html' %}			
-			    <a class="active" href="/cases">Cases</a>
-			{% else %}
-				<a href="/cases">Cases</a>
-			{% endif %}
 
-			{% if page.url == '/blogs/index.html' %}			
-			    <a class="active" href="/blogs">Blogs</a>
-			{% else %}
-				<a href="/blogs">Blogs</a>
-			{% endif %}
+			{% assign sorted_pages = site.collections.pages.docs | sort: 'menu' %}
+			
+			{% for page_item in sorted_pages %}
+				{% if page_item.menu %}
+					{% if page_item.url == page.url %}
+						<a class="active" href="{{ page_item.url }}">{{ page_item.title }}</a>
+					{% elsif page.collection and page_item.menu_collection == page.collection %}
+						<a class="active active-trail" href="{{ page_item.url }}">{{ page_item.title }}</a>
+					{% else %}
+						<a href="{{ page_item.url }}">{{ page_item.title }}</a>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
 
 		</div>
 	 </div>

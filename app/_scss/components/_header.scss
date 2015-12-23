@@ -91,6 +91,13 @@
 					text-align: center;
 					height: 14%;
 					font-size: 30px;
+
+					&.active:after {
+				    	background-color: black;
+						left: 50%;
+						height: 7px;
+						width: 7px;
+				    }
 				}
 			}
 		}

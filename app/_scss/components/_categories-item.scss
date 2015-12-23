@@ -1,0 +1,11 @@
+.categories-item {
+  color: $yellow;
+  display: inline-block;
+  line-height: 45px;
+  font-size: 18px;
+  font-weight: 400;
+
+  + .categories-item{
+    margin-left: 20px;
+  }
+}

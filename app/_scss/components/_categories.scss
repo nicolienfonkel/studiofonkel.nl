@@ -1,0 +1,31 @@
+.categories {
+  @include clearfix;
+  width: 68%;
+  margin: 0 auto;
+
+  .categories-inner {
+    margin-top: 15px;
+    border-top: 1px solid $yellow;
+    width: 88%;
+    float: right;
+  }
+
+  .tag {
+    display: block;
+    background-image: url('../img/tag.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    float: left;
+    width: 8%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: $mobile) {
+  .categories {
+    width: 100%;
+  }
+}
