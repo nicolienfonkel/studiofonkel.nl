@@ -2,39 +2,125 @@
 	.convince-wrapper {
 		@include clearfix;
 		margin: 20px 0px;
+		position: relative;
 
 		.wrapper-inner {
 			@include clearfix;
+			position: relative;
 			width: 50%;
 			float: left;
-		}
 
-		.wrapper {
-			border: 1px solid black;
-			clear: left;
-			float: left;
-			height: 100%;
-			width: 100%;
-			margin-right: 10px;
-		}
-
-		.image {
-			border: 1px solid black;
-			background-size: cover;
-			float: right;
-			padding-bottom: 30%;
-			width: 100%;
-			margin-left: 10px;
-		}
-
-		&:nth-child(even) {
 			.wrapper {
-				float: right;
+				background-clip: content-box;
+				padding-right: 10px;
+				background-color: $yellow;
+				width: 100%;
+
+				.text {
+					padding: 50px;
+
+					h1 {
+						border-bottom: 1px solid black;
+						line-height: 41px;
+					}
+
+					p {
+						margin: 0px;
+						color: #000;
+					}
+				}
 			}
+		}
+
+		.image-wrapper {
+			@include clearfix;
+ 			width: 50%;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+
 
 			.image {
-				float: left;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin-left: 10px;
+				background-position: center;
+				background-size: cover;
+			}	
+		}
+	}
+}
+
+.convince {
+	.convince-wrapper:nth-child(even) {
+		.wrapper-inner {
+			float: right;
+			
+			.wrapper {	
+				padding-right: 0px;
+				padding-left: 10px;
+			}
+		}
+		.image-wrapper {
+			left: 0;
+				
+			.image {
+				margin-left: 0px;
+				margin-right: 10px;
 			}
 		}
 	}
 }
+
+@media (max-width: $mobile) {
+	.convince {
+		.convince-wrapper {
+			.wrapper-inner {
+				width: 100%;
+				
+				.wrapper {	
+					padding-right: 0px;
+
+					.text {
+						padding: 30px;
+					}
+				}
+			}
+			.image-wrapper {
+				@include clearfix;
+				position: relative;
+				clear: both;
+				width: 100%;
+					
+				.image {
+					padding-bottom: 30%;
+					position: relative;
+					margin-left: 0px;
+				}
+			}
+
+			&:nth-child(even) {
+				.wrapper-inner {
+					
+					.wrapper {	
+						padding-left: 0px;
+
+					}
+				}
+				.image-wrapper {
+						
+					.image {
+						margin-right: 0px;
+						margin-right: 0px;
+					}
+				}
+			}
+		}
+	}
+}
+
+

@@ -82,7 +82,7 @@
 		display: block;
 	}
 
-	.wrapper {
+	> .wrapper {
 		@include clearfix;
 		clear: both;
 		padding-top: 1px;
