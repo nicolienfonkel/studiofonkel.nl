@@ -9,6 +9,7 @@ layout: page
 	<div class="padding-fix">
 		<div class="front-grid" data-height="{{ site.data.front.height }}">
 
+			{% if site.data.front.items %}
 		    {% assign grouped_by_row_front_items = site.data.front.items | group_by: 'row' | sort: 'name' %}
 
 		    {% for group in grouped_by_row_front_items %}
@@ -19,13 +20,13 @@ layout: page
 				            {% for document in site.documents %}
 				                	{% if document.url == item.url and document.published %}
 
-				        <div class="block" data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
-				        	<div class="block-inner">
+								        <div class="block" data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
+								        	<div class="block-inner">
 
 
-				                    	{% include {{ document.collection }}-teaser.html %}
-				        	</div>
-				        </div>
+								                    	{% include {{ document.collection }}-teaser.html %}
+								        	</div>
+								        </div>
 
 
 				                	{% endif %}
@@ -34,7 +35,7 @@ layout: page
 
 
 		    {% endfor %}
-
+		    {% endif %}
 		</div>
 	</div>
 

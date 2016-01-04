@@ -14,11 +14,23 @@ module.exports = function (grunt) {
   // Load all Grunt tasks
   require('load-grunt-tasks')(grunt);
 
+  grunt.loadNpmTasks('grunt-express-server');
+
   grunt.initConfig({
     // Configurable paths
     yeoman: {
       app: 'app',
       dist: 'dist'
+    },
+    express: {
+      options: {
+        port: 3003
+      },
+      dev: {
+        options: {
+          script: 'server.js'
+        }
+      }
     },
     watch: {
       sass: {
@@ -336,10 +348,11 @@ module.exports = function (grunt) {
 
     grunt.task.run([
       'clean:server',
+      'express:dev',  
       'concurrent:server',
       'autoprefixer:dist',
       'browserSync:server',
-      'watch'
+      'watch',
     ]);
   });
 

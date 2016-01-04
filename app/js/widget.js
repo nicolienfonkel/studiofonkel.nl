@@ -19,36 +19,55 @@ $(function(){
     },
     resize: {
     	enabled: true,
-      max_size: [2, 2]
+      max_size: [2, 2],
+      stop: function() {
+        $('.save').css('display', 'block');
+      }
     }
   }).data('gridster');
 
-  $('.js-seralize').on('click', function() {
-      var s = gridster.serialize();
+  $('#reset').on('click', function() {
+    location.reload();
+  })
 
-      var rows = [];
+  $('#save-frontpage').on('click', function() {
+    $('.save .loader').css('display', 'block');
+      // var s = gridster.serialize();
 
-      $(s).each(function (delta, item) {
-        if (item.row) {
+      // var rows = [];
 
-          var order = item.col * item.row
+      // $(s).each(function (delta, item) {
+      //   if (item.row) {
 
-          console.log(order)
+      //     var order = item.col * item.row
 
-          item.order = order
+      //     item.order = order
 
-          rows.push(item.row);
-        }
-      })
+      //     rows.push(item.row);
+      //   }
+      // })
 
-      var max = Math.max.apply( null, rows );
+      // var max = Math.max.apply( null, rows );
 
-      var returnObject = {
-        items: s,
-        height: max
-      }
+      // var returnObject = {
+      //   items: s,
+      //   height: max
+      // }
 
-      var json = JSON.stringify(returnObject)
-      $('#log').val(json);
+      // var json = JSON.stringify(returnObject)
+
+      // $.ajax({
+      //   type: "POST",
+      //   url: 'http://localhost:3003',
+      //   data: {
+      //     'json': json
+      //   },
+      //   success: function () {
+      //     alert('Yo')
+      //   },
+      //   dataType: 'json'
+      // });
+
+      // return false
   })
 });
