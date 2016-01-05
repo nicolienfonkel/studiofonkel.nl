@@ -1,9 +1,11 @@
 $(function(){
 
+var width = $('.site').width() / 2
+
  var gridster = $(".gridster ul").gridster({
     widget_selector: 'li',
-    widget_base_dimensions: [400, 320],
-    widget_margins: [5, 5],
+    widget_base_dimensions: [width, width * .6],
+    widget_margins: [10, 10],
     max_cols: 2,
     min_cols: 2,
     max_size_x: 2,
@@ -17,11 +19,16 @@ $(function(){
             size_y: wgd.size_y,
         };
     },
+    draggable: {
+      stop: function() {
+        $('.save').css('visibility', 'visible');
+      }
+    },
     resize: {
     	enabled: true,
       max_size: [2, 2],
       stop: function() {
-        $('.save').css('display', 'block');
+        $('.save').css('visibility', 'visible');
       }
     }
   }).data('gridster');
@@ -32,42 +39,42 @@ $(function(){
 
   $('#save-frontpage').on('click', function() {
     $('.save .loader').css('display', 'block');
-      // var s = gridster.serialize();
+      var s = gridster.serialize();
 
-      // var rows = [];
+      var rows = [];
 
-      // $(s).each(function (delta, item) {
-      //   if (item.row) {
+      $(s).each(function (delta, item) {
+        if (item.row) {
 
-      //     var order = item.col * item.row
+          var order = item.col * item.row
 
-      //     item.order = order
+          item.order = order
 
-      //     rows.push(item.row);
-      //   }
-      // })
+          rows.push(item.row);
+        }
+      })
 
-      // var max = Math.max.apply( null, rows );
+      var max = Math.max.apply( null, rows );
 
-      // var returnObject = {
-      //   items: s,
-      //   height: max
-      // }
+      var returnObject = {
+        items: s,
+        height: max
+      }
 
-      // var json = JSON.stringify(returnObject)
+      var json = JSON.stringify(returnObject)
 
-      // $.ajax({
-      //   type: "POST",
-      //   url: 'http://localhost:3003',
-      //   data: {
-      //     'json': json
-      //   },
-      //   success: function () {
-      //     alert('Yo')
-      //   },
-      //   dataType: 'json'
-      // });
+      $.ajax({
+        type: "POST",
+        url: 'http://localhost:3003',
+        data: {
+          'json': json
+        },
+        success: function () {
+          alert('Yo')
+        },
+        dataType: 'json'
+      });
 
-      // return false
+      return false
   })
 });

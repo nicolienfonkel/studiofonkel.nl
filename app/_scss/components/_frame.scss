@@ -1,0 +1,23 @@
+.frame-wrapper {
+	margin: 150px auto;
+	width: 72%;
+	.frame-top {
+		background-image: url("../img/frame.svg");
+	    height: 35px;
+	    border-top-right-radius: 5px;
+	    border-top-left-radius: 5px;
+	}
+
+	.frame-body {
+		img {
+			width: 100%;
+		}
+	}
+
+	p {
+		font-size: 15px;
+	    line-height: 20px;
+	    margin: 10px auto;
+	    width: 80%;
+	}
+}

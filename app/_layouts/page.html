@@ -9,5 +9,13 @@ layout: html
 		</div>
 	{% endif %}
 
+	{% if page.subtitle %}
+		<h3 class="page-sub-heading">{{ page.subtitle }}</h3>
+	{% endif %}
+
+	{% if page.title %}
+		<h2 class="page-heading aanpak">{{ page.title }}</h2>
+	{% endif %}
+
   	{{ content }}
 </div>
