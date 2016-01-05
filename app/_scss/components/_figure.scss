@@ -1,0 +1,44 @@
+figure.image {
+	width: 72%;
+	margin: 150px auto;
+
+	.image-inner {
+		img {
+			width: 100%;
+		}
+	}
+
+	.image-caption {
+		font-size: 13px;
+	    font-weight: 100;
+	    line-height: 20px;
+	    margin: 0 auto;
+	    width: 80%;
+	}
+
+	&.image-browser {
+
+		&:before {
+			background: rgba(0, 0, 0, 0) url("../img/frame.svg") repeat scroll 0 0;
+		    content: "";
+		    display: block;
+		    height: 40px;
+		    left: 0;
+		    margin-bottom: -8px;
+		    position: relative;
+		    top: 0;
+		    width: 100%;
+		    z-index: 3;
+		}
+
+		.image-inner {
+			margin-top: 8px;
+		}
+	}
+}
+
+@media (max-width: $mobile) {
+	figure.image {
+		width: 100%;
+	}
+}

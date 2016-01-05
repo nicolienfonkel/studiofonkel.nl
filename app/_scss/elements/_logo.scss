@@ -12,3 +12,11 @@
     	float: left;
     }
 }
+
+.homepage {
+    .logo.head {
+        visibility: hidden;
+        top: 70px;
+        transition: 0.5s;
+    }
+}

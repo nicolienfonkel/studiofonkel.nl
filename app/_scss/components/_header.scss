@@ -7,20 +7,20 @@
 .header {
 	@include clearfix;
 	border-bottom: 1px solid $light-grey;
-    max-width: $max-width;
     top: 0;
     position: fixed;
     background: #fff;
     z-index: 99999;
-    width: 96.1%;
+    width: 100%;
     height: 80px;
     left: 50%;
     transform: translateX(-50%);
+    transition: 0.5s;
 
 	.nav {
 		@include clearfix;
-		width: 60%;
-		float: right;
+		max-width: $max-width;
+		margin: 0 auto;
 		text-align: right;
 		margin-top: 15px;
 		height: 100%;
