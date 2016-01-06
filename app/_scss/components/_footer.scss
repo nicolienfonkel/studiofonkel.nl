@@ -13,7 +13,7 @@
 	.footer-inner {
 		max-width: $max-width;
 		margin: 0 auto;
-		width: 80%;
+		// width: 80%;
 
 		.setup {
 			// border: 1px solid black;
@@ -242,6 +242,12 @@
 	}
 }
 
+@media (max-width: $max-width) {
+	.footer-inner {
+		padding: 0px 20px;
+	}
+}
+
 @media (max-width: $mobile) {
 
 	.footer .footer-inner {
@@ -260,5 +266,4 @@
 		}
 	}
 }
-
 

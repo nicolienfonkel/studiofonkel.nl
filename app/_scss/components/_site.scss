@@ -36,7 +36,8 @@
 	    }
 	}
 
-	.page-sub-heading {
+	.page-sub-heading,
+	.text {
 		color: $yellow;
 	    font-weight: 100;
 	    font-size: 36px;
@@ -95,6 +96,7 @@
 	.site {
 
 		.page-sub-heading,
+		.text,
 		.page-heading.blog,
 		.page-heading.aanpak,
 		.page-heading.case {

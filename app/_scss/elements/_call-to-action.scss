@@ -1,0 +1,34 @@
+.call-to-action {
+	position: relative;
+
+	.text {
+		padding-bottom: 45px;
+	}
+
+	.phone {
+		background: #fff;
+		border: 1px solid $yellow;
+	    color: $yellow;
+	    left: 50%;
+	    transform: translate(-50%, 0);
+	    position: absolute;
+	    bottom: -20px;
+	    width: 200px;
+		span {
+			display: block;
+			font-weight: 100;
+		    float: right;
+		    height: 20px;
+		    line-height: 20px;
+		    margin: 10px 8px 8px;
+		}
+
+		svg {
+			height: 30px;
+			margin: 4px 0 0 4px;
+			path {
+				fill: $yellow;
+			}
+		}
+	}
+}

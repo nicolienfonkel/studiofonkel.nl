@@ -1,9 +1,5 @@
 <div class="header">
 
-	<a href="/" class="logo head">
-		{% include logo.svg %}
-	</a>
-
 	<div class="hamburger">
 		<div class="bar"></div>
 		<div class="bar"></div>
@@ -11,6 +7,10 @@
 	</div>
 
 	<div class="nav">
+		<a href="/" class="logo head">
+			{% include logo.svg %}
+		</a>
+
 		<div class="nav-inner">
 
 			{% if page.url == '/index.html' %}			
