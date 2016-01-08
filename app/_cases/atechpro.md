@@ -3,12 +3,12 @@ title:  "Atech Pto"
 subtitle: "Alle projecten van Green Giraffe overzichtelijk in een geografische kaart"
 header-img: "/img/atechpro.jpg"
 header-img-alt: "Atech Pro"
-date:   2015-12-15 10:27:01
+date:   2015-12-18 10:27:01
 author: Theo
 categories: 
 - Website
 - Applicatie
-front: yes
+front: yes 
 background-position: "20% 30%"
 ---
 

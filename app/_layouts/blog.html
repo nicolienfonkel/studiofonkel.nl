@@ -20,4 +20,37 @@ layout: html
   {% endif %}
 
   {{ content }}
+
+  <div class="page-footer">
+    
+    {% include call-to-action.html %}
+
+    <div class="more wrapper">
+
+        <div class="blog-list"> 
+
+            <div class="blog">
+              {% for blog in site.blogs %}
+                {% if blog.url == page.previous.url %}
+    
+                  {% include blogs-teaser.html %}
+
+                {% endif %}
+              {% endfor %}
+            </div>
+
+            <div class="blog">
+              {% for blog in site.blogs %}
+                {% if blog.url == page.next.url %}
+    
+                  {% include blogs-teaser.html %}
+
+                {% endif %}
+              {% endfor %}
+            </div>
+        
+        </div>
+
+      </div>
+  </div>
 </div>

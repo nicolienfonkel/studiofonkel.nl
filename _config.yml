@@ -38,10 +38,12 @@ collections:
     front: true
   pages:
     output: true
+    sort_by: title
     permalink: /:path/index.html
     front: true
   convince:
-
+    sort_by: title
+    
 defaults:
   - scope:
       path: ""

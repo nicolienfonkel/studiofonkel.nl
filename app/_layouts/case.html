@@ -19,24 +19,33 @@ layout: html
 
   <div class="page-footer">
     
-    <div class="call-to-action">
-      <h5 class="text">Wij helpen graag met het positioneren van je merk. Bel ons voor meer informatie</h5>
-      <div class="phone">{% include phone.svg %}<span>+31 33 737 0019</span></div>
-    </div>
+    {% include call-to-action.html %}
 
     <div class="more wrapper">
 
         <div class="case-list">
-          {% for case in site.cases limit:2 %}      
-            {% if case.url == page.url %}    
-              jgfjyf
 
-            {% else %}
-              <div class="case">
-                {% include cases-teaser.html %}
-              </div>
-            {% endif %}
-          {% endfor %}
+            <div class="case">
+                 
+              <h1>{{ page.previous.url }}</h1>
+          
+            </div>
+
+            <div class="case">   
+              {% if page.next.url %}
+                <h1>{{ page.next.url }}</h1>
+              {% else%}
+
+                {% assign sorted_cases = site.cases reversed %}
+
+                {% for case in sorted_cases %}
+
+                  {{ case.url }}<br>
+
+                {% endfor %}
+              {% endif %}
+            </div>
+        
         </div>
 
       </div>

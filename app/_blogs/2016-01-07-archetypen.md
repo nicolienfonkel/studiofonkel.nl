@@ -3,7 +3,7 @@ title:  "Archetypen je merkpersoonlijkheid als strategie"
 subtitle: "Hoe zet je je sterker neer? Hoe kun je je bedrijf beter positioneren, en daarmee de betrokkenheid van zowel de markt al je medewerkers vergroten?"
 header-img: "/img/boat2.png"
 header-img-alt: "Boat 2 AL"
-date:   9 december 2015
+date:   2015-01-08 10:27:01
 author: Theo
 front: yes
 teaser-text: or;ughdfhgildfhor;ughdfhgild hor;ughd fhgildfhor;ughdfh gildfhor;ughd fhgildfhor;ugh dfhgil dfhor;ugh dfhgildfhor;ug hdfhgildf hor;ughdfhgild fh or;ughdfh gildfhor;ughdfhgi ldfhor;ughd fhgildfhor;ughdf h gildfhor;ughdfhgildfhor ;ughdfhgildfh or;ughdfhgil dfhor;ughdf hgildfhor;ughdfhgildfh  or;ughdfhgildf hor;ughdfhg ildfhor;u ghdfhgildfhor;ughdfhgi
