@@ -70,7 +70,14 @@ module Jekyll
     end
 
     def navigation_hash_for_document(d)
-      {'title' => d.data['title'], 'url' => d.url}
+      {'title' => d.data['title'],
+       'date' => d.data['date'],
+       'url' => d.url, 
+       'collection' => d.data['collection'],
+       'header-img' => d.data['header-img'],
+       'background-position' => d.data['background-position'],
+       'categories' => d.data['categories']
+     }
     end
   end
 end 

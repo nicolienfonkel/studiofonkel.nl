@@ -1,7 +1,7 @@
 <div class="blog-item">
 
 	<div class="inner-wrapper">
-		<div class="page-date">{{ blog.date }}</div>
+		<div class="page-date">{{ blog.date | localize:"%d %B %Y" }}</div>
 		<h3 class="page-sub-heading">{{ blog.subtitle }}</h3>
 		<h3 class="page-heading">{{ blog.title }}</h3>
 		<div class="text">

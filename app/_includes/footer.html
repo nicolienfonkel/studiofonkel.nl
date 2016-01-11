@@ -1,7 +1,14 @@
 <div class="footer">
 	<div class="footer-inner">
 		<div class="setup">
-			
+			<h2>Kunnen wij je ergens mee helpen?</h2>
+			<form method="post">
+				<input type="text" name="name" placeholder="Je naam">
+				<textarea name="message"></textarea>
+				<input type="text" name="email" placeholder="Je email">
+				<input type="text" name="phone" placeholder="Je telefoonnummer">
+				<button type="submit">Verzend{% include arrow.svg %}</button>
+			</form>
 		</div>
 
 		<div class="call-mail">
@@ -15,7 +22,7 @@
 				<div class="icon">
 					{% include mail.svg %}
 				</div>
-				<a class="-link" href="mailto:info@studiofonkel.nl">info@studiofonkel.nl</a>
+				<a class="contact-link" href="mailto:info@studiofonkel.nl">info@studiofonkel.nl</a>
 			</div>
 		</div>
 

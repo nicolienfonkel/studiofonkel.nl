@@ -3,7 +3,7 @@ title:  "Green Girafe"
 subtitle: "Alle projecten van Green Giraffe overzichtelijk in een geografische kaart"
 header-img: "/img/gg.jpg"
 header-img-alt: "Green Girafe ALT"
-date:   2016-01-16 10:27:01
+date: 2016-01-16 10:27:01
 author: Theo
 categories: 
 - Website

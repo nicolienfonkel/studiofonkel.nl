@@ -14,9 +14,12 @@
 
 .arrow-long {
 	float: left;
-    height: 30px;
-    width: 30px;
+    width: 42px;
     transition: $speed;
+
+    #Laag_1 {
+    	margin-top: 6px;
+    }
 
     .bar {
     	background:  $yellow none repeat scroll 0 0;

@@ -12,7 +12,9 @@ menu_collection: blogs
   <h1 class="page-heading blog">Recente blogs</h1>
 
   <div class="blog-list">
-    {% for blog in site.blogs reversed %}
+
+    {% assign sorted_blogs = site.blogs | sort: 'date' %}
+    {% for blog in sorted_blogs reversed %}
       <div class="blog">
         {% include blogs-item.html %}
       </div>

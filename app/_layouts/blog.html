@@ -27,30 +27,42 @@ layout: html
 
     <div class="more wrapper">
 
-        <div class="blog-list"> 
+      <div class="blog-list">
 
-            <div class="blog">
-              {% for blog in site.blogs %}
-                {% if blog.url == page.previous.url %}
-    
-                  {% include blogs-teaser.html %}
+          <div class="blog">
+            {% if page.previous.url %}  
+              {% assign blog = page.previous %}
+              {% include blogs-teaser.html %}
+            {% endif %}
 
-                {% endif %}
+            {% unless page.previous.url %}
+              {% assign ordered_blogs = site.blogs | sort: 'date' %}
+              {% for blog in ordered_blogs | offset: 2 limit: 1 %}
+                {% assign blogNull = blog %}
+                {% include blogs-teaser.html %}
               {% endfor %}
-            </div>
+            {% endunless %}
 
-            <div class="blog">
-              {% for blog in site.blogs %}
-                {% if blog.url == page.next.url %}
-    
-                  {% include blogs-teaser.html %}
+          </div>
 
-                {% endif %}
+          <div class="blog">
+             {% if page.next.url %}  
+              {% assign blog = page.next %}
+              {% include blogs-teaser.html %}
+            {% endif %}
+
+            {% unless page.next.url %}
+              {% assign ordered_blogs = site.blogs | sort: 'date' %}
+              {% for blog in ordered_blogs | offset: 3 limit: 1 %}
+                {% assign blogNull = blog %}
+                {% include blogs-teaser.html %}
               {% endfor %}
-            </div>
+            {% endunless %}
+
+          </div>
         
-        </div>
+        </div>    
 
-      </div>
+    </div>
   </div>
 </div>

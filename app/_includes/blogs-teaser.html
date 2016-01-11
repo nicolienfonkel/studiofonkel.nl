@@ -9,11 +9,25 @@
 {% endif %}
 
 
-	<{{ markup_element }} class="{{ blog.collection }} teaser" href="{{ blog.url | prepend: site.baseurl }}">
+	<{{ markup_element }} class="blogs teaser" href="{{ blog.url | prepend: site.baseurl }}">
 	<div class="inner-wrapper">
 		<h3 class="header-text">{{ blog.title }}</h3>
 		<div class="link">
-			<span>Blog</span>
+
+			{% if page.url == '/blogs/index.html' %}
+					{% if blog.categories %}
+					    {% for category in blog.categories %}
+							<div class="category">{{ category }} </div>
+						{% endfor %}
+					{% else %}
+						<span>Lees meer</span>
+				    {% endif %}
+			{% elsif blog == page.next or blog == page.previous or blogNull == blog %}
+				<span>{{ blog.date | localize:"%d %B %Y" }}</span>				
+			{% else %}
+				<span>blog</span>
+			{% endif %}
+			
 			<div class="arrow-long">
 				<div class="bar">
 				</div><div class="bar"></div>

@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
 	function addClass(position) {
 		if (position > 35) {
 			if ($('body').hasClass('breakpoint')) {
@@ -12,9 +11,25 @@ $(document).ready(function() {
 			$('body').removeClass('breakpoint');
 		}
 	}
+
+	function hideHeader(position) {
+		var footerPos = $('.footer').offset().top;
+		if (position == footerPos) {
+			if ($('body').hasClass('hideHeader')) {
+
+			} else {
+				$('body').addClass('hideHeader');
+			}
+		} else {
+			$('body').removeClass('hideHeader');
+		}
+	}
 	
 	$(window).scroll(function() {
 		var windowPos = $(window).scrollTop();
+		var headerPos = $('.header').offset().top;
+
+		hideHeader(headerPos);
 
 		addClass(windowPos)
 	})

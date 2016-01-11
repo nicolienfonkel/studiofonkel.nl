@@ -26,24 +26,35 @@ layout: html
         <div class="case-list">
 
             <div class="case">
-                 
-              <h1>{{ page.previous.url }}</h1>
-          
+              {% if page.previous.url %}  
+                {% assign case = page.previous %}
+                {% include cases-teaser.html %}
+              {% endif %}
+
+              {% unless page.previous.url %}
+                {% assign ordered_cases = site.cases | sort: 'date' %}
+                {% for case in ordered_cases | offset: 2 limit: 1 %}
+                  {% assign caseNull = case %}
+                  {% include cases-teaser.html %}
+                {% endfor %}
+              {% endunless %}
+
             </div>
 
-            <div class="case">   
-              {% if page.next.url %}
-                <h1>{{ page.next.url }}</h1>
-              {% else%}
-
-                {% assign sorted_cases = site.cases reversed %}
-
-                {% for case in sorted_cases %}
-
-                  {{ case.url }}<br>
-
-                {% endfor %}
+            <div class="case">
+               {% if page.next.url %}  
+                {% assign case = page.next %}
+                {% include cases-teaser.html %}
               {% endif %}
+
+              {% unless page.next.url %}
+                {% assign ordered_cases = site.cases | sort: 'date' %}
+                {% for case in ordered_cases | offset: 3 limit: 1 %}
+                  {% assign caseNull = case %}
+                  {% include cases-teaser.html %}
+                {% endfor %}
+              {% endunless %}
+
             </div>
         
         </div>

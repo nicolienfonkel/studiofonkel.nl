@@ -19,8 +19,10 @@
 		}
 	}
 
-	.nav {
-		visibility: visible;
-		height: 100vh;
+	.header {
+		.nav {
+			visibility: visible;
+			height: 100vh;
+		}
 	}
 }

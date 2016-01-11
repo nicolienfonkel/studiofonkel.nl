@@ -9,16 +9,17 @@ figure.image {
 	}
 
 	.image-caption {
-		font-size: 13px;
-	    font-weight: 100;
-	    line-height: 20px;
-	    margin: 0 auto;
+		font-size: 14px;
+	    font-weight: 300;
+	    line-height: 24px;
+	    margin: 5px auto;
 	    width: 80%;
 	}
 
 	&.image-browser {
 
 		&:before {
+			border-radius: 8px 8px 0px 0px;
 			background: rgba(0, 0, 0, 0) url("../img/frame.svg") repeat scroll 0 0;
 		    content: "";
 		    display: block;

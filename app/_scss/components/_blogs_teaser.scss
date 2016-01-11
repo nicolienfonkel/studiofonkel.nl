@@ -1,41 +1,43 @@
 .site {
-	.blog {
-		@include clearfix;
-		width: 72%;
-		margin: 20px auto;
+	.blog-list {
+		.blog {
+			@include clearfix;
+			width: 72%;
+			margin: 20px auto;
 
-		.page-date {
-			width: 100%;
-		}
+			.page-date {
+				width: 100%;
+			}
 
-		.page-heading {
-			width: 100%;
-			font-weight: 700;
-			font-size: 32px;
-			line-height: 36px;
-			margin-bottom: 25px;
-		}
+			.page-heading {
+				width: 100%;
+				font-weight: 700;
+				font-size: 32px;
+				line-height: 36px;
+				margin-bottom: 25px;
+			}
 
-		.page-sub-heading {
-			width: 100%;
-			margin-bottom: 20px;
-			font-size: 22px;
-			line-height: 32px;
-		}
+			.page-sub-heading {
+				width: 100%;
+				margin-bottom: 20px;
+				font-size: 22px;
+				line-height: 32px;
+			}
 
-		.text {
-			font-size: 20px;
-			line-height: 30px;
-			color: $text-color;
-			font-weight: 100;
-		}
+			.text {
+				font-size: 20px;
+				line-height: 30px;
+				color: $text-color;
+				font-weight: 100;
+			}
 
-		.link {
-			width: 100%;
-			margin: 20px 0px;
-			float: left;
-			font-size: 22px;
-			line-height: 32px;
+			.link {
+				width: 100%;
+				margin: 20px 0px;
+				float: left;
+				font-size: 22px;
+				line-height: 32px;
+			}
 		}
 	}
 }

@@ -1,0 +1,36 @@
+.page-footer {
+	.wrapper {
+		.blog-list {
+			.blog {
+				float: left;
+				width: 49%;
+				height: 400px;
+				position: relative;
+				margin-bottom: 20px;
+			
+				&:nth-child(even) {
+					margin-left: 2%;
+				}
+
+				.blogs {
+					height: 100%;
+					width: 100%;
+					position: absolute;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: $mobile) {
+	.page-footer {	
+		.wrapper {
+			.blog-list {
+				.blog {
+					width: 100%;
+					margin-left: 0px !important;
+				}
+			}
+		}
+	}
+}

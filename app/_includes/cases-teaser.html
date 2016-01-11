@@ -8,29 +8,27 @@
 	{% assign markup_element = 'a' %}
 {% endif %}
 
-<{{ markup_element }} class="{{ case.collection }} teaser" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url('{{ case.header-img }}'); background-position: {{ case.background-position }};">
+<{{ markup_element }} class="cases teaser" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url('{{ case.header-img }}'); background-position: {{ case.background-position }};">
 	<div class="inner-wrapper">
 		<h3 class="header-text">{{ case.title }}</h3>
 		<div class="link">
 
 			{% if page.url == '/cases/index.html' %}
-				
-				{% if case.categories %}
-				    {% for category in case.categories %}
-						<div class="category">{{ category }} </div>
-					{% endfor %}
-				{% else %}
-					<span>Lees meer</span>
-			    {% endif %}
-			     
+					{% if case.categories %}
+					    {% for category in case.categories %}
+							<div class="category">{{ category }} </div>
+						{% endfor %}
+					{% else %}
+						<span>Lees meer</span>
+				    {% endif %}
+			{% elsif case == page.next or case == page.previous or caseNull == case %}
+				<span>{{ case.date | localize:"%d %B %Y" }}</span>				
 			{% else %}
 				<span>Case</span>
 			{% endif %}
 			
 			<div class="arrow-long">
-				<div class="bar">
-				</div><div class="bar"></div>
-				<div class="bar"></div>
+				{% include arrow.svg %}
 			</div>
 		</div>
 	</div>
