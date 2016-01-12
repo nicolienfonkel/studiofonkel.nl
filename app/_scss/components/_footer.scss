@@ -35,14 +35,22 @@
 
     		textarea {
     			background-color: transparent;
-    			border: 0;
-    			color: $footer-input-color;
-    			line-height: 50px;
-    			border-bottom: 1px solid $footer-input-border;
-    			font-size: 15px;
-    			max-width: 100%;
-    			min-width: 100%;
-    			font-family: "Aktiv Grotesk",sans-serif;
+			    background-image: linear-gradient(transparent 44px, $footer-input-border 1px);
+			    background-repeat: repeat;
+			    background-size: 100% 45px;
+			    border-color: $footer-input-border;
+			    border: 0;
+			    color: $footer-input-color;
+			    font-family: "Aktiv Grotesk",sans-serif;
+			    font-size: 15px;
+			    line-height: 45px;
+			    max-width: 100%;
+			    resize: none;
+			    min-width: 100%;
+
+			    &:focus {
+				    outline: none;
+				}
     		}
 
     		button {
@@ -58,6 +66,13 @@
 
 			    svg {
 			    	width: 26px;
+			    	transition: 0.5s;
+			    }
+
+			    &:hover {
+			    	svg {
+			    		margin-left: 10px;
+			    	}
 			    }
     		}
 		}
@@ -151,6 +166,8 @@
 			text-align: center;
 			margin-top: 70px;
 			margin-bottom: 50px;
+			padding-bottom: 10px;
+			font-weight: 100;
 
 			.list {
 				@include clearfix;
@@ -164,47 +181,6 @@
 				    	padding: 0px 5px;
 				    	width: 66%;
 				    }
-
-				    .arrow {
-						float: left;
-					    height: 30px;
-					    width: 0%;
-					    transition: $speed;
-
-					    .bar {
-					    	background:  black none repeat scroll 0 0;
-						    height: 2px;
-						    margin-top: 13px;
-						    margin-left: 10px;
-						    
-						    &:nth-child(1) {
-						    	width: 25px;
-						    	margin-left: 6px;
-						    }
-
-						    &:nth-child(2) {
-							    left: 11px;
-							    position: relative;
-							    top: -18px;
-							    transform: rotate(33deg);
-							    width: 10px;
-							}
-
-							&:nth-child(3) {
-							    left: 11px;
-							    position: relative;
-							    top: -27px;
-							    transform: rotate(-33deg);
-							    width: 10px;
-							}
-					    }
-					}
-
-					&:hover {
-						.arrow {
-							margin-left: 8px;
-						}
-					}
 				}
 			}
 		}

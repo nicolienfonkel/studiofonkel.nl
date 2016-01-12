@@ -203,6 +203,7 @@ module.exports = function (grunt) {
     htmlmin: {
       dist: {
         options: {
+          keepClosingSlash: true,
           collapseWhitespace: true,
           collapseBooleanAttributes: true,
           removeAttributeQuotes: true,

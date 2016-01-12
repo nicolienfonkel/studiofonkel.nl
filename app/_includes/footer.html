@@ -4,7 +4,7 @@
 			<h2>Kunnen wij je ergens mee helpen?</h2>
 			<form method="post">
 				<input type="text" name="name" placeholder="Je naam">
-				<textarea name="message"></textarea>
+				<textarea id="contactTextArea" name="message" placeholder="Bericht"></textarea>
 				<input type="text" name="email" placeholder="Je email">
 				<input type="text" name="phone" placeholder="Je telefoonnummer">
 				<button type="submit">Verzend{% include arrow.svg %}</button>
@@ -51,34 +51,26 @@
 			<div class="list">
 				<div class="wrapper">
 					<div class="name">Facebook</div>
-					<div class="arrow">
-						<div class="bar">
-						</div><div class="bar"></div>
-						<div class="bar"></div>
+					<div class="arrow-long">
+						{% include arrow.svg %}
 					</div>
 				</div>
 				<div class="wrapper">
 					<div class="name">Twitter</div>
-					<div class="arrow">
-						<div class="bar">
-						</div><div class="bar"></div>
-						<div class="bar"></div>
+					<div class="arrow-long">
+						{% include arrow.svg %}
 					</div>
 				</div>
 				<div class="wrapper">
 					<div class="name">Linkedin</div>
-					<div class="arrow">
-						<div class="bar">
-						</div><div class="bar"></div>
-						<div class="bar"></div>
+					<div class="arrow-long">
+						{% include arrow.svg %}
 					</div>
 				</div>
 				<div class="wrapper">
 					<div class="name">Behance</div>
-					<div class="arrow">
-						<div class="bar">
-						</div><div class="bar"></div>
-						<div class="bar"></div>
+					<div class="arrow-long">
+						{% include arrow.svg %}
 					</div>
 				</div>
 			</div>

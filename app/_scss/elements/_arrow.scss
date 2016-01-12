@@ -1,3 +1,7 @@
+.arrow-long {
+	transition: 0.5s;
+}
+
 .link {
 	color: $yellow;
 	text-decoration: none;
@@ -10,42 +14,44 @@
     	float: left;
     	padding-right: 7px;
     }
+
+    .arrow-long {
+    	float: left;
+	    margin-top: 2px;
+	    width: 32px;
+    }
 }
 
-.arrow-long {
-	float: left;
-    width: 42px;
-    transition: $speed;
+.svg-arrow{
+	fill:none;
+	stroke: #F8BF01;
+	stroke-miterlimit: 10;
+} 
 
-    #Laag_1 {
-    	margin-top: 6px;
-    }
+.blogs {
+	.svg-arrow {
+		fill: none;
+		stroke: #000;
+		stroke-moterlimit: 10;
+	}
+}
 
-    .bar {
-    	background:  $yellow none repeat scroll 0 0;
-	    height: 2px;
-	    margin-top: 13px;
-	    margin-left: 10px;
-	    
-	    &:nth-child(1) {
-	    	width: 25px;
-	    	margin-left: 6px;
-	    }
-
-	    &:nth-child(2) {
-		    left: 11px;
-		    position: relative;
-		    top: -18px;
-		    transform: rotate(33deg);
-		    width: 10px;
+.footer .social .wrapper{
+	cursor: pointer;
+	&:hover {
+		.arrow-long {	
+			margin-left: 10px;
 		}
+	}
 
-		&:nth-child(3) {
-		    left: 11px;
-		    position: relative;
-		    top: -27px;
-		    transform: rotate(-33deg);
-		    width: 10px;
-		}
-    }
+	.arrow-long {
+		width: 32px;
+		float: left;
+	}
+
+	.svg-arrow {
+		fill: none;
+		stroke: #000;
+		stroke-moterlimit: 10;
+	}
 }
