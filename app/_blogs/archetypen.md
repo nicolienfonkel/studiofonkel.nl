@@ -6,7 +6,7 @@ header-img-alt: "Boat 2 AL"
 date:   2015-01-08 10:27:01
 author: Theo
 front: yes
-teaser-text: or;ughdfhgildfhor;ughdfhgild hor;ughd fhgildfhor;ughdfh gildfhor;ughd fhgildfhor;ugh dfhgil dfhor;ugh dfhgildfhor;ug hdfhgildf hor;ughdfhgild fh or;ughdfh gildfhor;ughdfhgi ldfhor;ughd fhgildfhor;ughdf h gildfhor;ughdfhgildfhor ;ughdfhgildfh or;ughdfhgil dfhor;ughdf hgildfhor;ughdfhgildfh  or;ughdfhgildf hor;ughdfhg ildfhor;u ghdfhgildfhor;ughdfhgi
+teaser-text: "or;ughdfhgildfhor;ughdfhgild hor;ughd fhgildfhor;ughdfh gildfhor;ughd fhgildfhor;ugh dfhgil dfhor;ugh dfhgildfhor;ug hdfhgildf hor;ughdfhgild fh or;ughdfh gildfhor;ughdfhgi ldfhor;ughd fhgildfhor;ughdf h gildfhor;ughdfhgildfhor ;ughdfhgildfh or;ughdfhgil dfhor;ughdf hgildfhor;ughdfhgildfh  or;ughdfhgildf hor;ughdfhg ildfhor;u ghdfhgildfhor;ughdfhgi"
 collection: blog
 ---
 ##eerste blog ooit

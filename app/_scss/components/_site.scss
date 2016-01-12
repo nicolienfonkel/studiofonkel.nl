@@ -61,9 +61,10 @@
 		display: block;
 	}
 
-	// headers in markdown ##
-	h2,
-	h3 {
+	// headers in markdown #/##/###
+	> h1,
+	> h2,
+	> h3 {
 		color: $text-color;
 	    font-weight: 700;
 	    margin: 40px auto 15px;

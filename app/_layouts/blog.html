@@ -4,7 +4,7 @@ layout: html
 <div class="site">
 
   {% if page.date %}
-    <h3 class="page-date"> {{ page.date }} </h3>
+    <h3 class="page-date"> {{ page.date | localize:"%d %B %Y" }} </h3>
   {% endif %}  
 
   {% if page.subtitle %}
@@ -12,7 +12,9 @@ layout: html
   {% endif %}
 
   {% if page.title %}
-    <h2 class="page-heading blog"> {{ page.title }} </h2>
+    {% if page.title == "Blogs" %}
+      <h2 class="page-heading blog">Recente downcase({{ page.title }}) </h2>
+    {% endif %}
   {% endif %}
 
   {% if page.header-img %}

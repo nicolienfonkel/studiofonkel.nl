@@ -1,0 +1,23 @@
+.more .case-list,
+.more .blog-list {
+
+	.case,
+	.blog {
+		margin-bottom: 100px !important;
+		.teaser {
+			width: 100% !important;
+		}	
+	}
+}
+
+@media (max-width: $tablet) {
+	.more .case-list,
+	.more .blog-list {
+
+		.case,
+		.blog {
+			margin-bottom: 10px !important;
+		}
+	}
+}
+

@@ -1,0 +1,25 @@
+.mandrill-success {
+	#contact-form button {
+		color: #1EBB15;
+		border-color: #1EBB15;
+
+		.svg-arrow {		
+			display: none;
+		}
+	}
+}
+
+.mandrill-waiting {
+	#contact-form button {
+		color: #555053;
+		border-color: #555053;
+
+		.svg-arrow {		
+			display: none;
+		}
+	}
+}
+
+.empty {
+	border-bottom: 1px solid #D21514 !important;
+}

@@ -36,6 +36,11 @@ figure.image {
 			margin-top: 8px;
 		}
 	}
+
+
+	&.image-full {
+		width: 100%;
+	}
 }
 
 @media (max-width: $mobile) {
