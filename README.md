@@ -7,26 +7,26 @@ Alle afbeeldingen moeten in het mapje /img gezet worden.
 #Algemene instellingen	
 Om dit aan te passen ga naar _config.yml in de root van de website.
 
-name: Studio Fonkel
-description: Studio Fonkel website in Jekyll
-slogan: Gewone jongens (en stiekem een paar meiden) die mooie dingen maken.
-blog_slogan: Inspirerende blogs die jou helpen richting te geven aan je onderneming. (Blog slogan komt op blogs overzicht pagina)
-author:
-name: Studio Fonkel
+-name: Studio Fonkel
+-description: Studio Fonkel website in Jekyll
+-slogan: Gewone jongens (en stiekem een paar meiden) die mooie dingen maken.
+-blog_slogan: Inspirerende blogs die jou helpen richting te geven aan je onderneming. (Blog slogan komt op blogs overzicht pagina)
+-author:
+-name: Studio Fonkel
 
 #Cases
-title:  "title"
-subtitle: "subtitle"
-header-img: “/img/afbeeldingnaam.extensie”
-header-img-alt: “Alt tekst voor afbeelding"
-date: 2015-12-18 10:27:00 (Geeft de volgorde aan op de cases pagina | Nieuw eerst)
-author: Theo
-categories:  (Dit komt bij casespagina als link | NIET VERPLICHT)
+-title:  "title"
+-subtitle: "subtitle"
+-header-img: “/img/afbeeldingnaam.extensie”
+-header-img-alt: “Alt tekst voor afbeelding"
+-date: 2015-12-18 10:27:00 (Geeft de volgorde aan op de cases pagina | Nieuw eerst)
+-author: Theo
+-categories:  (Dit komt bij casespagina als link | NIET VERPLICHT)
 - Website
 - Applicatie
 collection: case
-background-position: "20% 30%” (Als de afbeelding anders gepositioneerd moet worden, horizontaal, verticaal | NIET VERPLICHT | Standaard “CENTER 40%”)
-front: yes (Bij een nieuwe case front op yes zetten als je deze op de voorpagina wilt)
+-background-position: "20% 30%” (Als de afbeelding anders gepositioneerd moet worden, horizontaal, verticaal | NIET VERPLICHT | Standaard “CENTER 40%”)
+-front: yes (Bij een nieuwe case front op yes zetten als je deze op de voorpagina wilt)
 
 #Blogs
 title:  "title"
