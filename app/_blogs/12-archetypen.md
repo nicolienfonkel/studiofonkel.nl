@@ -1,10 +1,9 @@
 ---
 title:  "12 Archetypen"
-subtitle: "12 Archetypen, welke zijn er en waar staan ze voor?"
 date:   2015-11-15 10:27:01
 author: Michiel Kokee
 front: no
-teaser-text: "Hoe zet je je merk sterker neer? Hoe kun je je bedrijf beter positioneren, en daarmee de betrokkenheid van zowel de markt als je medewerkers vergroten?"
+teaser-text: "12 Archetypen, welke zijn er en waar staan ze voor?""
 collection: blog
 ---
 ###Heerser
