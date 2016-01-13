@@ -17,10 +17,11 @@
     left: 50%;
     transform: translateX(-50%);
     transition: 0.5s;
+    padding: 0px 20px;
 
 	.nav {
 		@include clearfix;
-		max-width: $max-width;
+		// max-width: $max-width;
 		position: relative;
 		margin: 0 auto;
 		text-align: right;
@@ -68,33 +69,26 @@
 	}
 }
 
-@media (max-width: $max-width) {
-	.header .nav {
-		padding: 0px 20px;
-	}
-} 
-
 @media (max-width: $tablet) {
 	.header {
 		margin-top: 0px;
 
 		.nav {
 			margin-top: 0px;
-			visibility: hidden;
+			visibility: visible;
 			width: 100vw;
-			margin-left: -2vw;
 			left: 0;
 			position: absolute;
 			height: 100vh;
-			background-color: $yellow;
 			z-index: 999;
-			height: 0vh;
 			transition: 1s;
 			overflow: hidden;
 			// display: none;
 
 			.nav-inner {
 				height: 100vh;
+				visibility: hidden;
+				background-color: $yellow;
 
 				a {
 					width: 100%;

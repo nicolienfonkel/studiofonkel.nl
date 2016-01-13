@@ -14,6 +14,8 @@ layout: html
   {% if page.title %}
     {% if page.title == "Blogs" %}
       <h2 class="page-heading blog">Recente downcase({{ page.title }}) </h2>
+    {% else %}
+      <h2 class="page-heading blog">{{ page.title }}</h2>
     {% endif %}
   {% endif %}
 

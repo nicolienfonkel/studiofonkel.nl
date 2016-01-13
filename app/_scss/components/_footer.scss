@@ -21,7 +21,7 @@
 			margin: 0 auto;
     		width: 72%;
 
-    		input[type="text"] {
+    		input {
     			background-color: transparent;
     			border: 0;
     			border-bottom: 1px solid $footer-input-border;
@@ -250,6 +250,11 @@
 @media (max-width: $max-width) {
 	.footer-inner {
 		padding: 0px 20px;
+
+		.contact-form button {
+			width: 100%;
+			margin-bottom: 50px;
+		}
 	}
 }
 

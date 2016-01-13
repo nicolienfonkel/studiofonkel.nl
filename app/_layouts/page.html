@@ -13,7 +13,13 @@ layout: html
 		<h3 class="page-sub-heading">{{ page.subtitle }}</h3>
 	{% endif %}
 
-	
+	{% if page.title %}
+		{% if page.url == '/blogs/index.html' or page.url == '/cases/index.html' %}
+		
+		{% else %}
+			<h3 class="page-heading page">{{ page.title }}</h3>
+		{% endif %}
+	{% endif %}
 
   	{{ content }}
 </div>

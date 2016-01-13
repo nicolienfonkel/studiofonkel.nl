@@ -25,7 +25,8 @@
 
 	    &.blog,
 	    &.case,
-	    &.aanpak {
+	    &.aanpak,
+	    &.page {
 	    	font-size: 48px;
 		    font-weight: 700;
 		    line-height: 50px;
@@ -75,16 +76,21 @@
 	    line-height: 30px;
 	}
 
+	> h3 {
+		font-size: 21px;
+	}
+
 	// paragraphs in markdown
 	p {
-		font-size: 20px;
-		line-height: 30px;
+		font-size: 16px;
+		line-height: 28px;
 		color: $text-color;
-		font-weight: 100;
+		font-weight: 200;
 		width: 72%;
 		margin: 25px auto;
 		position: relative;
 		display: block;
+		letter-spacing: 0.6px;
 	}
 
 	> .wrapper {
@@ -100,12 +106,14 @@
 		.page-sub-heading,
 		.text,
 		.page-heading.blog,
+		.page-heading.page,
 		.page-heading.aanpak,
 		.page-heading.case {
 			width: 100%;
 		}
 
 		// headers in markdown ##
+		h1,
 		h2, 
 		h3 {
 			width: 100%;

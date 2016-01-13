@@ -3,19 +3,20 @@ layout: page
 menu: 2
 title: Cases
 menu_collection: cases
-subtitle: Geen standaars oplossingen. Streven naarhet beste rendement, voor de korte en lange termijn
 ---
 
 <div class="wrapper">
 
-  <div class="case-list">
-  	{% assign sorted_cases = site.cases | sort: 'date' %}
-    {% for case in sorted_cases reversed %}
-      <div class="case">
-        {% include cases-teaser.html %}
-      </div>
+	<h1 class="page-sub-heading">{{ site.case_slogan }}</h1>
 
-    {% endfor %}
-  </div>
+	<div class="case-list">
+		{% assign sorted_cases = site.cases | sort: 'date' %}
+		{% for case in sorted_cases reversed %}
+			<div class="case">
+			{% include cases-teaser.html %}
+			</div>
+
+		{% endfor %}
+	</div>
 
 </div>
