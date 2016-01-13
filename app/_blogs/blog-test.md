@@ -1,6 +1,6 @@
 ---
 title:  "Blog Test"
-date:   2015-12-25 10:27:01
+date:   2014-12-25 10:27:01
 author: Theo 
 rank: 5
 collection: blog

@@ -3,7 +3,7 @@ title:  "Atrsdh oeuwhfdl owefowef "
 subtitle: "Hoe zet je je sterker neer? Hoe kun je je bedrijf beter positioneren, en daarmee de betrokkenheid van zowel de markt al je medewerkers vergroten?"
 header-img: "/img/boat2.png"
 header-img-alt: "Boat 2 AL"
-date:   2015-12-29 10:27:01
+date:   2014-12-29 10:27:01
 author: Theo
 front: yes
 collection: blog
