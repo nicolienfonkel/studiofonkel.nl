@@ -4,22 +4,17 @@
 Note:
 Alle afbeeldingen moeten in het mapje /img gezet worden.
 
-Algemene instellingen	
-	Om dit aan te passen ga naar _config.yml in de root van de website.
-	
-	---
-	name: Studio Fonkel
+#Algemene instellingen	
+Om dit aan te passen ga naar _config.yml in de root van de website.
+
+name: Studio Fonkel
 description: Studio Fonkel website in Jekyll
 slogan: Gewone jongens (en stiekem een paar meiden) die mooie dingen maken.
-blog_slogan: Inspirerende blogs die jou helpen richting te geven aan je onderneming.
-(Blog slogan komt op blogs overzicht pagina)
+blog_slogan: Inspirerende blogs die jou helpen richting te geven aan je onderneming. (Blog slogan komt op blogs overzicht pagina)
 author:
-	name: Studio Fonkel
-	---
+name: Studio Fonkel
 
-Cases
-Instellingen:
-	---
+#Cases
 title:  "title"
 subtitle: "subtitle"
 header-img: “/img/afbeeldingnaam.extensie”
@@ -32,10 +27,8 @@ categories:  (Dit komt bij casespagina als link | NIET VERPLICHT)
 collection: case
 background-position: "20% 30%” (Als de afbeelding anders gepositioneerd moet worden, horizontaal, verticaal | NIET VERPLICHT | Standaard “CENTER 40%”)
 front: yes (Bij een nieuwe case front op yes zetten als je deze op de voorpagina wilt)
----
 
-Blogs
-	---
+#Blogs
 title:  "title"
 subtitle: "subtitle"
 header-img: “/img/afbeeldingsnaam.extensie"
@@ -46,97 +39,66 @@ front: yes
 teaser-text: “Tekst” (Deze tekst komt bij de teaser op de blogs pagina te staan)
 collection: blog
 front: yes (Bij een nieuwe blogs front op yes zetten als je deze op de voorpagina wilt)
----
 
-Nieuwe pagina
-	---
+#Nieuwe pagina
 title:  "title"
 subtitle: "subtitle"
 author: Theo
 menu: menu plaats | Als dit hetzelfde is als een andere pagina, dan wordt hij niet weergegeven.
-—
 
-Inhoud van pagina/ case/ blog
+#Inhoud van pagina/ case/ blog
 
-Headers———————————————————————————————————————
+##Header
+# : staat voor h1
+## : staat voor h2
+### : staat voor h3
+voorbeeld: #dit is een h1
 
-	# : staat voor h1
-	## : staat voor h2
-	### : staat voor h3
+##Alinea
+Om een aparte alinea te maken moet er een enter tussen de tekst zitten.
 
-	voorbeeld: #dit is een h1
+voorbeeld:
 
-Alinea ————————————————————————————————————————
+dit is een alinea dit is een alinea dit is een alinea dit is een alinea dit is een alinea
+dit is een alinea dit is een alinea dit is een alinea dit is een alinea
+
+dit is dan de volgende alinea dit is dan de volgende alinea dit is dan de volgende alinea
+dit is dan de volgende alinea dit is dan de volgende alinea 
+
+##Image
+Om een afbeelding in een pagina te zetten moet er dit geplaatst worden:
+
+{% image “/img/afbeeldingsnaam.extensie" “style" “tekst onder afbeelding" %}
 	
-	Om een aparte alinea te maken moet er een enter tussen de tekst zitten.
+Styles:
+- default : standaard afbeelding
+- browser : met browser frame
+- full : volledige breedte
 
-	voorbeeld:
+voorbeeld:
+{% image "/img/agile-board.png" “default" "Op het scrumbord zien we precies wat er 		nog moet gebeuren, wie waar mee bezig is en welke taken al zijn afgerond." %}
 
-	dit is een alinea dit is een alinea dit is een alinea dit is een alinea dit is een alinea
-	dit is een alinea dit is een alinea dit is een alinea dit is een alinea
+##Convince
+Om een convine blok zoals http://beta.studiofonkel.nl/aanpak/index.html
+Moet er het volgende geplaatst worden: {% convince naam van map in /convince %}
+Je moet dus een mapje in /convince hebben, daarin zet je dan een .md bestand met als 	instelling: 
 
-	dit is dan de volgende alinea dit is dan de volgende alinea dit is dan de volgende alinea
-	dit is dan de volgende alinea dit is dan de volgende alinea 
-
-Image ————————————————————————————————————————
-
-	Om een afbeelding in een pagina te zetten moet er dit geplaatst worden:
-
-	{% image “/img/afbeeldingsnaam.extensie" “style" “tekst onder afbeelding" %}
-	
-	Styles:
-		- default : standaard afbeelding
-		- browser : met browser frame
-		- full : volledige breedte
-
-	voorbeeld:
-	
-	{% image "/img/agile-board.png" “default" "Op het scrumbord zien we precies wat er 		nog moet gebeuren, wie waar mee bezig is en welke taken al zijn afgerond." %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Convince-——————————————————————————————————————
-
-	Om een convine blok zoals http://beta.studiofonkel.nl/aanpak/index.html
-	Moet er het volgende geplaatst worden: {% convince naam van map in /convince %}
-	Je moet dus een mapje in /convince hebben, daarin zet je dan een .md bestand met als 	instelling: 
-		---
 title:  "title"
 image: /img/afbeeldingsnaam.extensie
 number: nummer die volgorde aangeeft
----
-	
-	Om een nieuw convince blok aan te maken zet je dus een aantal bestanden in /convince.
-	Voorbeeld:
-		/convine
-			eerste.md
-			tweede
-			derde.md
-			vierde.md
-		
-	Instellingen:
-			---
+
+Om een nieuw convince blok aan te maken zet je dus een aantal bestanden in /convince.
+Voorbeeld:
+	/convine
+		eerste.md
+		tweede
+		derde.md
+		vierde.md
+
+Instellingen:
 title:  "Eerste"
 image: /img/eerste.png
 number: 1
-—
 
-Case Tags -——————————————————————————————————————
-
-	{% case_tags %} om de categorieën te laten zien. 
+##Case Tags
+{% case_tags %} om de categorieën te laten zien. 
