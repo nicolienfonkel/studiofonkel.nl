@@ -106,3 +106,4 @@ Instellingen:
 
 ##Case Tags
 {% case_tags %} om de categorieën te laten zien. 
+Wel moet de Case categorieën hebben.
