@@ -20,13 +20,9 @@ Impectforce heeft een nieuw concept ontwikkeld voor ondernemers. Hierdoor krijge
 
 De bergbeklimmer staat voor de vrijheid van de ondernemer. De ondernemer is op weg naar de top en kiest daarbij zijn eigen pad. Maar wie niet gezekerd is, kan hard vallen. Impectforce biedt de veiligheid van het vangnet. Vrijheid én zekerheid.
 
-{% image "/img/if-web1.jpg" "frame image--scroll" "De homepagina impectforce.nl." %}
-
 Om het concept stap-voor-stap uit te leggen, maakten we in samenwerking met illustrator Martijn Cornelissen een animatie.
 
 > "Studio Fonkel heeft geholpen comlexe materie om te zeten in begrijpelijke tekst en uitstraling. Ze zijn gedreven, enthousiast en altijd op zoek naar meer mogelijkheden." – Riemer de Graaf, Impectforce
-
-{% image "/img/if-3.jpg" "default" %}
 
 Studio Fonkel verzorgde het ontwerp en de tekst voor verschillende folders en mailings.
 
