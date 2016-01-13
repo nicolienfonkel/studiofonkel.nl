@@ -29,14 +29,14 @@ Is het erg als je het antwoord op die vragen niet hebt? Je mist in ieder geval d
 
 Stel, je hebt een duidelijke identiteit. Now what? Een paar tips. Hoe blijf je als bedrijf dicht bij jezelf?
 
-• Zorg dat je je verhaal zelf helder voor ogen hebt: [Dit] zijn we, [dit] zijn onze waarden om [deze reden], onze klanten komen bij ons omdat we hen [deze unieke oplossing] bieden voor [dit en dat probleem] en omdat we ons [op deze manier] naar hen gedragen, etc.
+- Zorg dat je je verhaal zelf helder voor ogen hebt: [Dit] zijn we, [dit] zijn onze waarden om [deze reden], onze klanten komen bij ons omdat we hen [deze unieke oplossing] bieden voor [dit en dat probleem] en omdat we ons [op deze manier] naar hen gedragen, etc.
 
-• Check je verhaal. Is dit echt wie je bent of kunt zijn? Of heb je beschreven wie je wílt zijn, maar heb je daar realistisch gezien niet de mensen, de capaciteit of de groeimogelijkheden voor in huis?
+- Check je verhaal. Is dit echt wie je bent of kunt zijn? Of heb je beschreven wie je wílt zijn, maar heb je daar realistisch gezien niet de mensen, de capaciteit of de groeimogelijkheden voor in huis?
 Zorg dat je verhaal gaat leven binnen het bedrijf. Communiceer het en maak het praktisch.
 
-• Wat vloeit er logischerwijs voort uit je identiteit? Welke toon gebruik je om je klanten aan te spreken? Welke kleuren gebruik je in je communicatie? Welke slogans kies je voor campagnes? Wat zeg je wel, wat niet? Waar leg je nadruk op?
+- Wat vloeit er logischerwijs voort uit je identiteit? Welke toon gebruik je om je klanten aan te spreken? Welke kleuren gebruik je in je communicatie? Welke slogans kies je voor campagnes? Wat zeg je wel, wat niet? Waar leg je nadruk op?
 
-• Weersta de verleiding om iets te roepen of te ondernemen dat snel voordeel oplevert, maar niet past bij wie je bent.
+- Weersta de verleiding om iets te roepen of te ondernemen dat snel voordeel oplevert, maar niet past bij wie je bent.
 Je klanten, je medewerkers en jijzelf zullen je eigenheid gaan waarderen.
 
 Kom je er zelf niet uit? Studio Fonkel helpt bedrijven en organisaties om zicht te krijgen op hun eigen identiteit en verhaal. Wil je weten hoe we dit doen en met welk resultaat? Neem dan contact met ons op: 033-7370019 of info@studiofonkel.nl
