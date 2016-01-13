@@ -11,3 +11,5 @@ categories:
 - Magazine
 ---
 4e case ooit
+
+{% case_tags %}

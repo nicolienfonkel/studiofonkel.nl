@@ -5,13 +5,19 @@ author: Theo
 menu: 4
 ---
 
+<<<<<<< HEAD
 #titel
+=======
+#Titel
+>>>>>>> origin/master
 
 In onze aanpak zie je voortdurend de lijn terug van prioriteiten stellen en waarde toevoegen. Dat begint met de vraag die je bij ons neerlegt. We gaan met je in gesprek en adviseren over waar wij geloven dat je het meest mee bent geholpen. Vervolgens werken we je vraag 'agile' uit.
 
 ###Lenig
 
 Agile is een term uit de software-ontwikkeling en betekent 'lenig' en 'behendig'. Het komt erop neer dat er in het proces ruimte is voor verandering (lees: spontane goede ideeën) zonder dat de deadline in gevaar komt. Een voorbeeld van een agile projectbenadering is 'scrum'.
+
+{% image "/img/agile-board.png" "default" %}
 
 ###Scrum
 

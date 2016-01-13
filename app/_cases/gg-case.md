@@ -16,6 +16,8 @@ collection: case
 
 or;ughdfhgildfhor;ughdfhgildfhor;ughd fhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ugh dfhgildfhor;ughdfhgildfhor;ug hdfhgildfhor;ughdfhgildfh or;ughdfh gildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfh gildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgi 
 
+{% case_tags %}
+
 ldfhor;ughdfhgildfh  or;ughdfhgildfhor;ughdfhgildfhor;u ghdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhg ildfhor;ughdfhgildfh 
 
 or;ughdfhgildfhor;ugh dfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ug hdfhgildfhor;ughdfhgildfh  or;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;u ghdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor ;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfh or;ughdfhgildfhor;ughd fhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ug hdf 
