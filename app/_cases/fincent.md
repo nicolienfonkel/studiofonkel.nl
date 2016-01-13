@@ -3,7 +3,7 @@ title:  "Hallo Fincent"
 subtitle: "Een nieuw merk voor een accountant met een goed idee."
 header-img: "/img/gg.jpg"
 header-img-alt: "Green Girafe ALT"
-date: 2015-12-19 10:27:01
+date: 2016-12-01 10:27:01
 author: Theo
 collection: case
 

@@ -3,7 +3,7 @@ title:  "Impectforce"
 subtitle: "Een nieuw concept voor ondernemers doeltreffend communiceren"
 header-img: "/img/atechpro.jpg"
 header-img-alt: "Atechpro"
-date: 2015-12-18 10:27:01
+date: 2014-12-12 10:27:01
 author: Theo
 categories: 
 - Drupal website

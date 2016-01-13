@@ -1,7 +1,7 @@
 ---
 title:  "Tandzorg op Maat"
 subtitle: "Onderscheidende multi-website voor tandartsketen"
-date:   2015-12-14 10:27:01
+date:   2014-12-11 10:27:01
 header-img: "/img/gg.jpg"
 header-img-alt: "Green Girafe ALT"
 

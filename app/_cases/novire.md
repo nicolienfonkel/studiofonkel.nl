@@ -1,7 +1,7 @@
 ---
 title:  "Novire"
 subtitle: "Een brandstory als basis voor de communicatie van Novire"
-date: 2015-12-15 10:27:01
+date: 2015-06-06 10:27:01
 author: Theo
 header-img: "/img/gg.jpg"
 header-img-alt: "Green Girafe ALT"
