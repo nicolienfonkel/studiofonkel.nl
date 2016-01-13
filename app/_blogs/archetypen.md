@@ -1,7 +1,5 @@
 ---
 title:  "Archetypen: je merkpersoonlijkheid als strategie"
-header-img: "/img/boat2.png"
-header-img-alt: "Boat 2 AL"
 date:   2015-11-16 10:27:01
 author: Michiel Kokee
 front: yes

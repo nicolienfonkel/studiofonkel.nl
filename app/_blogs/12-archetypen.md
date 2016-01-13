@@ -3,7 +3,7 @@ title:  "12 Archetypen"
 date:   2015-11-15 10:27:01
 author: Michiel Kokee
 front: no
-teaser-text: "12 Archetypen, welke zijn er en waar staan ze voor?""
+teaser-text: "12 Archetypen, welke zijn er en waar staan ze voor?"
 collection: blog
 ---
 ###Heerser
