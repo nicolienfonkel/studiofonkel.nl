@@ -29,30 +29,30 @@ Om dit aan te passen ga naar _config.yml in de root van de website.
 - front: yes (Bij een nieuwe case front op yes zetten als je deze op de voorpagina wilt)
 
 #Blogs
-title:  "title"
-subtitle: "subtitle"
-header-img: “/img/afbeeldingsnaam.extensie"
-header-img-alt: “Alt tekst voor afbeelding"
-date: 2015-12-18 10:27:00 (Geeft de volgorde aan op de blogs pagina | Nieuw eerst)
-author: Theo
-front: yes
-teaser-text: “Tekst” (Deze tekst komt bij de teaser op de blogs pagina te staan)
-collection: blog
-front: yes (Bij een nieuwe blogs front op yes zetten als je deze op de voorpagina wilt)
+- title:  "title"
+- subtitle: "subtitle"
+- header-img: “/img/afbeeldingsnaam.extensie"
+- header-img-alt: “Alt tekst voor afbeelding"
+- date: 2015-12-18 10:27:00 (Geeft de volgorde aan op de blogs pagina | Nieuw eerst)
+- author: Theo
+- front: yes
+- teaser-text: “Tekst” (Deze tekst komt bij de teaser op de blogs pagina te staan)
+- collection: blog
+- front: yes (Bij een nieuwe blogs front op yes zetten als je deze op de voorpagina wilt)
 
 #Nieuwe pagina
-title:  "title"
-subtitle: "subtitle"
-author: Theo
-menu: menu plaats | Als dit hetzelfde is als een andere pagina, dan wordt hij niet weergegeven.
+- title:  "title"
+- subtitle: "subtitle"
+- author: Theo
+- menu: menu plaats | Als dit hetzelfde is als een andere pagina, dan wordt hij niet weergegeven.
 
 #Inhoud van pagina/ case/ blog
 
 ##Header
-# : staat voor h1
-## : staat voor h2
-### : staat voor h3
-voorbeeld: #dit is een h1
+- # : staat voor h1
+- ## : staat voor h2
+- ### : staat voor h3
+- voorbeeld: #dit is een h1
 
 ##Alinea
 Om een aparte alinea te maken moet er een enter tussen de tekst zitten.
@@ -96,9 +96,9 @@ Voorbeeld:
 		vierde.md
 
 Instellingen:
-title:  "Eerste"
-image: /img/eerste.png
-number: 1
+- title:  "Eerste"
+- image: /img/eerste.png
+- number: 1
 
 ##Case Tags
 {% case_tags %} om de categorieën te laten zien. 
