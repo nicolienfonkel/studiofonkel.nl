@@ -6,11 +6,13 @@ header-img-alt: "Green Girafe ALT"
 date: 2015-12-19 10:27:01
 author: Theo
 collection: case
+
 categories: 
 - Merkverhaal 
 – Visuele identiteit 
 – Tekst 
 – Website
+front: yes
 ---
 Eigenaar van het accountancykantoor Ligterink & De Wit, Lars van Loon, gelooft dat het uitbesteden van financiële administratie eenvoudiger en goedkoper kan. Hij kwam bij Studio Fonkel met een nieuw concept én de vraag: ‘hoe zetten we dit neer?’ Studio Fonkel schreef een merkverhaal, bedacht een naam, creëerde een visuele identiteit en bouwde een website: ‘Hallo Fincent’.
 

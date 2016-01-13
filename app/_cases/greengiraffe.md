@@ -1,29 +1,24 @@
 ---
-title:  "Green Girafe"
-subtitle: "Alle projecten van Green Giraffe overzichtelijk in een geografische kaart"
+title:  "Green Giraffe"
 header-img: "/img/gg.jpg"
 header-img-alt: "Green Girafe ALT"
 date: 2016-01-16 10:27:01
-author: Theo
+
 categories: 
-- Website
-- Applicatie
-- Magazine
+- Drupal 
+- Cartografie 
+- Webdesign
 front: yes
 collection: case
 ---
-##eerste case ooit
-
-or;ughdfhgildfhor;ughdfhgildfhor;ughd fhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ugh dfhgildfhor;ughdfhgildfhor;ug hdfhgildfhor;ughdfhgildfh or;ughdfh gildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfh gildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgi 
+Green Giraffe is een financieel adviesbureau, gespecialiseerd in duurzame energieprojecten. Ze kwamen bij ons met de vraag: "Maak een representatie van ons projectportfolio, zodat duidelijk wordt dat onze adviseurs bij zeer veel omvangrijke off-shore windenergie projecten betrokken zijn."
 
 {% case_tags %}
 
-ldfhor;ughdfhgildfh  or;ughdfhgildfhor;ughdfhgildfhor;u ghdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhg ildfhor;ughdfhgildfh 
+We hebben ervoor gekozen om een visuele identiteit te ontwikkelen waarbij excellentie en esthetiek voorop staan. Ook hebben we een grote online kaart gemaakt, waarbij duidelijk zichtbaar wordt wat de omvang is van Green Giraffe in de Europese markt.
 
-or;ughdfhgildfhor;ugh dfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ug hdfhgildfhor;ughdfhgildfh  or;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;u ghdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor ;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfh or;ughdfhgildfhor;ughd fhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ug hdf 
+“Studio Fonkel heeft zich vanaf het offertetraject tot aan de oplevering onderscheiden. Met name door het aanvoelen van onze identiteit en het op creatieve wijze vertalen daarvan naar onze website. Zowel de oorspronkelijke voorstellen als de latere aanvullingen konden rekenen op een unaniem 'dat ziet er goed uit!' van al onze medewerkers." - Green Giraffe
 
-hgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfh or;ughdfh gildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor 
+Cartografie
 
-;ughdfhgildfhor;ughdfhgildfhor;ughdfhgil dfhor;ughdfhgildfh or;ughdfhgildfhor;ughdfhgildfhor;ughd fhgildfhor;ughdfhgildfhor;ughdfhgildfho r;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfhor;ughdfhgildfh
-
-
+We hebben een kaart ontworpen die aansluit bij de branding van Green Giraffe. Nieuwe projecten kunnen ze eenvoudig zelf toevoegen in het CMS. Het project verschijnt dan op de kaart met de juiste icoontjes op het juiste zoomniveau.
