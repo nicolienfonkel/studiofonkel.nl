@@ -2,6 +2,7 @@
 title:  "Atechpro"
 subtitle: "Alle projecten van Green Giraffe overzichtelijk in een geografische kaart"
 header-img: "/img/atechpro.jpg"
+<<<<<<< HEAD
 header-img-alt: "Atech Pro"
 date: 2015-12-18 10:27:01
 categories:
@@ -9,6 +10,13 @@ categories:
  - Strategie
  - Ontwerp
  - Magazine
+header-img-alt: "Atechpro"
+date: 2015-12-18 10:27:01
+categories: 
+- Drupal 
+- Strategie
+- Ontwerp
+- Magazine
 front: yes
 ---
 
