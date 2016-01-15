@@ -20,9 +20,16 @@
 	}
 
 	.header {
+		height: 100%;
+		background-color: $yellow;
+
 		.nav {
-			visibility: visible;
-			height: 100vh;
+			width: 100%;
+
+			.nav-inner {
+				width: 100%;
+				float: none;
+			}
 		}
 	}
 }

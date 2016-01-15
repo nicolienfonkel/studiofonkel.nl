@@ -1,18 +1,15 @@
 ---
 title:  "Atechpro"
-subtitle: "Algehele aanpak van communicatie zet importeur KWB biomassaketels op de kaart"
+subtitle: "Alle projecten van Green Giraffe overzichtelijk in een geografische kaart"
 header-img: "/img/atechpro.jpg"
-header-img-alt: "Atechpro"
-date: 2015-18-12 10:27:01
-
-categories: 
-- Drupal 
-- Strategie
-- Ontwerp
-- Magazine
+header-img-alt: "Atech Pro"
+date: 2015-12-18 10:27:01
+categories:
+ - Drupal 
+ - Strategie
+ - Ontwerp
+ - Magazine
 front: yes
-collection: case
-background-position: "20% 30%"
 ---
 
 Atechpro is de Nederlandse importeur van biomassaketels van het Oostenrijkse topmerk KWB. Ze vroegen ons een aantal jaar geleden om hun totale communicatie te verzorgen en dat doen we nu nog steeds. We zijn daardoor niet alleen leverancier van Atechpro, maar veel meer partner. De start van onze samenwerking begon met het nadenken over een strategie en het ontwerpen van een huisstijl en een website.

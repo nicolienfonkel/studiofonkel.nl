@@ -74,21 +74,9 @@
 		margin-top: 0px;
 
 		.nav {
-			margin-top: 0px;
-			visibility: visible;
-			width: 100vw;
-			left: 0;
-			position: absolute;
-			height: 100vh;
-			z-index: 999;
-			transition: 1s;
-			overflow: hidden;
-			// display: none;
 
 			.nav-inner {
-				height: 100vh;
-				visibility: hidden;
-				background-color: $yellow;
+				width: 100%;
 
 				a {
 					width: 100%;
@@ -104,6 +92,7 @@
 						left: 50%;
 						height: 7px;
 						width: 7px;
+						bottom: 0;
 				    }
 				}
 			}
