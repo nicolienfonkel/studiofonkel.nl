@@ -25,7 +25,6 @@ Om dit aan te passen ga naar **_config.yml** in de **root** van de website.
 - **categories**:  **(Dit komt bij casespagina als link | NIET VERPLICHT)**
 - Website
 - Applicatie
-- **collection**: case
 - **background-position**: "20% 30%” **(Als de afbeelding anders gepositioneerd moet worden, horizontaal, verticaal | NIET VERPLICHT | Standaard “CENTER 40%”)**
 - **front**: yes **(Bij een nieuwe case front op yes zetten als je deze op de voorpagina wilt)**
 
@@ -38,7 +37,6 @@ Om dit aan te passen ga naar **_config.yml** in de **root** van de website.
 - **author**: Theo
 - **front**: yes
 - **teaser-text**: “Tekst” **(Deze tekst komt bij de teaser op de blogs pagina te staan)**
-- **collection**: blog
 - **front**: yes **(Bij een nieuwe blogs front op yes zetten als je deze op de voorpagina wilt)**
 
 #Nieuwe pagina
