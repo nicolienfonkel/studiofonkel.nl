@@ -77,6 +77,8 @@
 
 			.nav-inner {
 				width: 100%;
+				visibility: hidden;
+				transition: 0.3s;
 
 				a {
 					width: 100%;

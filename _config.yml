@@ -12,8 +12,8 @@ author:
   name: Studio Fonkel
 
 # Grunt handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+exclude: ['img', 'css', 'js', 'fonts', 'pages',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 'widget.html']
 
 include: ['.htaccess']
 
