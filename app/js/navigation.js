@@ -34,6 +34,7 @@ $(document).ready(function() {
 		addClass(windowPos)
 
 		window.requestAnimationFrame(navLogo);
+		window.requestAnimationFrame(navFooter);
 	})
 
 	function navLogo() {
@@ -56,7 +57,19 @@ $(document).ready(function() {
 		}
 	}
 
+	scroll = 0;
+	function navFooter() {
+		var headerOffset = Math.round(jQuery('.header').offset().top + 80)
+		var footerOffset = Math.round(jQuery('.footer').offset().top)
+		var difference =  headerOffset - footerOffset;
+		console.log('difference: '+difference);
+		console.log('footer: '+footerOffset);
+		
+		$('body').addClass('footerNav');
+	}	
+
 	navLogo();
+	navFooter();
 	addClass($(window).scrollTop())
 })
 

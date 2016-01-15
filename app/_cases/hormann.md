@@ -9,7 +9,6 @@ categories:
 - Website
 - Conversie
 front: yes
-collection: case
 ---
 Hörmann is de grootste aanbieder in Europa op het gebied van garagedeuren, huisdeuren, kozijnen en aandrijvingen voor woning en industrie. Ze wilden een conversiegerichte website. Eén die directe leads oplevert voor de verschillende Hörmann-partners in Nederland. In samenwerking met Graphius, die het ontwerp verzorgde, ontwikkelde Studio Fonkel een website met voor iedere Hörmann-partner een eigen sectie.CartografieConversietrackingDrupal
 

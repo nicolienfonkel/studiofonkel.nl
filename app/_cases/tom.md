@@ -11,7 +11,6 @@ categories:
 - Drupal 
 - Ontwerp
 author: Theo
-collection: case
 ---
 Tandzorg Op Maat (TOM) is een tandartsketen met een heel eigen visie op de tandarts praktijk. Ze vroegen ons om een website te maken die hun identiteit en sfeer goed weergeeft en nieuwe klanten aantrekt. We hebben daarom een website ontworpen en gebouwd die zich onderscheidt van veel andere tandartsenwebsites.
 

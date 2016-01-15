@@ -10,7 +10,6 @@ categories:
 - Drupal & Symfony
 - Scrum
 - Copywriting
-collection: case
 ---
 Novire is één van onze oudste klanten. Als destijds jong adviesbureau voor zorgondernemers vroegen ze ons om een logo en een website. De volgende opdracht was het bouwen van een kennisportal waar zorgprofessionals informatie kunnen vinden over wetgeving en protocollen. Toen Novire een totaaloplossing ontwikkelde die het hele zorgproces vanuit de klant organiseert, ontwierpen wij de interface. 
 

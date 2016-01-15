@@ -9,7 +9,6 @@ categories:
 - Cartografie 
 - Webdesign
 front: yes
-collection: case
 ---
 Green Giraffe is een financieel adviesbureau, gespecialiseerd in duurzame energieprojecten. Ze kwamen bij ons met de vraag: "Maak een representatie van ons projectportfolio, zodat duidelijk wordt dat onze adviseurs bij zeer veel omvangrijke off-shore windenergie projecten betrokken zijn."
 

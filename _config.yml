@@ -8,12 +8,14 @@ description: Studio Fonkel
 slogan: Gewone jongens (en stiekem een paar meiden) die mooie dingen maken.
 case_slogan: Geen standaars oplossingen. Streven naarhet beste rendement, voor de korte en lange termijn
 blog_slogan: Inspirerende blogs die jou helpen richting te geven aan je onderneming.
+footer_phone_number: +31 33 737 0019
+footer_email: info@studiofonkel.nl
 author:
   name: Studio Fonkel
 
 # Grunt handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts', 'pages',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 'widget.html']
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', '_pages/widget.html']
 
 include: ['.htaccess']
 
@@ -32,15 +34,18 @@ collections:
     output: true
     permalink: /:path/index.html
     front: true
+    collection: case
   blogs:
     output: true
     permalink: /:path/index.html
     front: true
+    collection: blog
   pages:
     output: true
     sort_by: title
     permalink: /:path/index.html
     front: true
+    collection: page
   convince:
     sort_by: title
     

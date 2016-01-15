@@ -10,7 +10,6 @@ categories:
 - Strategie
 - Copywriting
 - Animatie
-collection: case
 background-position: "20% 30%"
 ---
 

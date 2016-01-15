@@ -10,7 +10,6 @@ categories:
 - Meertalig
 - Drupal
 - Ontwerp
-collection: case
 background-position: "20% 30%"
 ---
 

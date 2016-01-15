@@ -5,7 +5,6 @@ author: Lianne Barelds
 rank: 5
 front: yes
 teaser-text: "12 Archetypen, welke zijn er en waar staan ze voor?"
-collection: blog
 ---
 
 ‘Dicht bij jezelf blijven’ vinden we vaak een waardevolle eigenschap in mensen. Andersom noemen we iemand die wat hij zegt laat afhangen van wat hem het meest oplevert, ‘onecht’, ‘onbetrouwbaar’ of ‘opportunistisch’. We gaan liever om met de persoon die consequent spreekt en leeft vanuit zijn persoonlijke waarden. Je kunt het eens of oneens zijn met die waarden, maar je weet wat je aan hem hebt en waardeert zijn echtheid. 

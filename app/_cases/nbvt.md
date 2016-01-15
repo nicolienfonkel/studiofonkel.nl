@@ -11,7 +11,6 @@ categories:
 - CRM-koppeling 
 - Drupal
 author: Theo
-collection: case
 ---
 De Nederlandse Branchevereniging voor de Timmerindustrie (NBVT) verdedigt het belang van circa 180 timmerfabrieken. Hun vraag was een nieuwe website met een moderne uitstraling die informatie sneller toegankelijk maakt voor hun leden. De informatie moest bovendien simpeler. In samenwerking met Graphius, die het ontwerp verzorgde, bouwde Studio Fonkel de website. De website heeft een afgeschermd ledengedeelte en is later ook responsive uitgevoerd.
 
