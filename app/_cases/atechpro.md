@@ -3,7 +3,7 @@ title:  "Atechpro"
 subtitle: "Algehele aanpak van communicatie zet importeur KWB biomassaketels op de kaart"
 header-img: "/img/atechpro.jpg"
 header-img-alt: "Atechpro"
-date: 2015-12-18 10:27:01
+date: 2015-18-12 10:27:01
 
 categories: 
 - Drupal 
