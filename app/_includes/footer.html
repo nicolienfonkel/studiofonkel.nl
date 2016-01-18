@@ -30,20 +30,20 @@
 			<div class="left">
 				<h2 class="header-text">Gegevens</h2>
 				<ul class="list">
-					<li>Studio Fonkel BV</li>
-					<li>Arnhemseweg 11</li>
-					<li>3811 NN Amersfoort</li>
+					<li>{{ site.company }}</li>
+					<li>{{ site.address }}</li>
+					<li>{{ site.zipcode }} {{ site.city }}</li>
 				</ul>
 				<ul class="list">
-					<li>KVK: 60546204</li>
-					<li>BTW: 8539.55.712.B01</li>
-					<li>IBAN: NL09RABO0155510681</li>
+					<li>KVK: {{ site.kvk }}</li>
+					<li>BTW: {{ site.btw }}</li>
+					<li>IBAN: {{ site.iban }}</li>
 				</ul>
 			</div>
 
 			<div class="right">
 				<h2 class="header-text">Parkeren</h2>
-				<p class="text">Is je op de stadsring de parkeergarage onder e Plusmarktwh hh ewhfeufhewou;fho iuhewfiuh i uehfiuh iuewhf iuh iuwehf iuhiuhwed iuhiu ilwebilb ilwebi bweilfbekjbflwjb lkwejbfklewb fkjbe lb bweb webb weubouwbfd oubouweh ouhowu ehouh ouewuo wuehuoh oh</p>
+				<p class="text">{{ site.footer_text }}</p>
 			</div>
 		</div>
 

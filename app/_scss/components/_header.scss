@@ -21,7 +21,7 @@
 
 	.nav {
 		@include clearfix;
-		// max-width: $max-width;
+		max-width: $max-width;
 		position: relative;
 		margin: 0 auto;
 		text-align: right;

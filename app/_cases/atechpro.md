@@ -16,6 +16,8 @@ Atechpro is de Nederlandse importeur van biomassaketels van het Oostenrijkse top
 
 {% case_tags %}
 
+{% include team-widget.html %}
+
 “Studio Fonkel brengt creativiteit, mateloze energie en enorme vakdeskundigheid. Door onze samenwerking hebben ze niet alleen Atechpro op de kaart gezet, maar ook een nieuwe professionele kleur gegeven aan de biomassaverwarmingsmarkt in Nederland.” - Mark Likkel, Atechpro
 
 ###Magazine

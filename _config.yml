@@ -5,11 +5,24 @@
 
 name: studiofonkel-jekyll
 description: Studio Fonkel
+
 slogan: Gewone jongens (en stiekem een paar meiden) die mooie dingen maken.
 case_slogan: Geen standaars oplossingen. Streven naarhet beste rendement, voor de korte en lange termijn
 blog_slogan: Inspirerende blogs die jou helpen richting te geven aan je onderneming.
+
 footer_phone_number: +31 33 737 0019
 footer_email: info@studiofonkel.nl
+footer_text:  met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jar
+
+company: Studio Fonkel BV
+address: Arnhemseweg 11
+zipcode: 3811 NN
+city: Amersfoort
+
+kvk: 60546204
+btw: 8539.55.712.B01
+iban: NL09RABO0155510681
+
 author:
   name: Studio Fonkel
 

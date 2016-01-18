@@ -1,0 +1,66 @@
+.team-widget {
+	@include clearfix;
+	width: 100%;
+	clear: both;
+
+
+	.employee {
+	    clear: none;
+	    cursor: pointer !important;
+	    min-height: 200px;
+	    margin: 20px;
+	    transition: $speed;
+	    width: 20%;
+	    display: inline-block;
+	    vertical-align: top;
+
+	    &:hover {
+	    	.image {
+	    		background-position: 100%;
+	    	}
+	    }
+
+	    .employee-radio {
+	    	display: none;
+
+	    	&:checked + .info {
+		    	max-height: 1000px;
+		    }
+	    }
+
+	    .image {
+	    	background-size: cover;
+			background-position: center;
+			display: block;
+			height: 200px;
+			transition: $speed;
+			width: 100%;
+		    display: block;
+		    float: left;
+
+		    &:nth-child(4n + 1) {
+		    	clear: left;
+		    }
+
+		    &:nth-child(4n + 2) {
+		    	margin-left: calc(20% + 40px);
+		    }
+
+		    &:nth-child(4n + 3) {
+		    	margin-left: calc(40% + 60px);
+		    }
+
+		    &:nth-child(4n + 4) {
+		    	margin-left: calc(60% + 80px);
+		    }
+
+	    }
+
+	    .info {
+	    	max-height: 0;
+	    	overflow: hidden;
+	    	float: left;
+	    }
+	}
+}
+

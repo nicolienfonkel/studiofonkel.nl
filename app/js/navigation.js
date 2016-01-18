@@ -39,22 +39,25 @@ $(document).ready(function() {
 
 	function navLogo() {
 
-		$('.logo.head').css('top','0');
+		if ($('.logo.home').length) {
+			$('.logo.head').css('top','0');
 
-		var logo1 = $('.logo.head')
-		var logo2 = $('.logo.home')
+			var logo1 = $('.logo.head')
+			var logo2 = $('.logo.home')
 
-		var logo1Offset = logo1.offset().top
-		var logo2Offset = logo2.offset().top
+			var logo1Offset = logo1.offset().top
+			var logo2Offset = logo2.offset().top
 
-		if (logo1Offset >= logo2Offset) {
-			logo2.css('opacity','0')
-			logo1.css('opacity','1')
+			if (logo1Offset >= logo2Offset) {
+				logo2.css('opacity','0')
+				logo1.css('opacity','1')
+			}
+			else {
+				logo1.css('opacity','0')
+				logo2.css('opacity','1')
+			}
 		}
-		else {
-			logo1.css('opacity','0')
-			logo2.css('opacity','1')
-		}
+
 	}
 
 	scroll = 0;
@@ -62,8 +65,8 @@ $(document).ready(function() {
 		var headerOffset = Math.round(jQuery('.header').offset().top + 80)
 		var footerOffset = Math.round(jQuery('.footer').offset().top)
 		var difference =  headerOffset - footerOffset;
-		console.log('difference: '+difference);
-		console.log('footer: '+footerOffset);
+		// console.log('difference: '+difference);
+		// console.log('footer: '+footerOffset);
 		
 		$('body').addClass('footerNav');
 	}	

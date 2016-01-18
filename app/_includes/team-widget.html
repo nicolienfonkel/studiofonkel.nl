@@ -1,0 +1,19 @@
+<div class="team-widget" markdown="0">
+		{% assign counter = 0 %}
+		{% for employee in site.data.team %}
+
+		{% assign counter = counter | plus: 1 %}
+
+			<div class="employee">
+				<label for="employee-{{ counter }}">
+					<div class="image" style="background-image: url('../img/platform_pulsvissen.jpg')"></div>
+				</label>
+				<input type="radio" id="employee-{{ counter }}" name="employee-counter" class="employee-radio" />
+				<div class="info">
+					<h2>{{ employee.name }}</h2>
+					<p>{{ employee.bio }}</p>
+				</div>
+			</div>
+
+		{% endfor %}
+</div>
