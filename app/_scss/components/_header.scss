@@ -17,16 +17,14 @@
     left: 50%;
     transform: translateX(-50%);
     transition: 0.5s;
-    padding: 0px 20px;
 
 	.nav {
+	    padding: 0px 20px;
 		@include clearfix;
 		max-width: $max-width;
 		position: relative;
 		margin: 0 auto;
 		text-align: right;
-		margin-top: 15px;
-		height: 100%;
 
 		.nav-inner {
 			width: 70%;

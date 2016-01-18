@@ -1,0 +1,6 @@
+@mixin grid-columns($columns, $start, $grid){
+  $minus-columns: $grid - $columns;
+  $grid-plus-one: $grid + 1;
+  width: calc(100% - 20px - 100% / #{$grid} * #{$minus-columns});
+  margin-left: calc(100% + 10px - 100% / #{$grid} * (#{$grid-plus-one} - #{$start}));
+}

@@ -64,8 +64,9 @@
 	    	overflow: hidden;
 	    	float: left;
 	    	transition: max-height $speed 0s;
-			width: calc(400% + 140px); 
-			margin: 50px;
+			width: 208%;
+			margin: 0;
+			margin-left: 108%;
 
 			h2 {
 				color: $yellow;
@@ -74,12 +75,15 @@
 			    padding-top: 10px;
 			    font-weight: 700;
 			    margin: 0 auto;
-			    width: 72%;
+			    width: 100%;
+			    margin-top: 50px;
 			}
 
 			p {
 				color: #f8bf00;
     			margin: 0 auto;
+    			width: 100%;
+    			margin-bottom: 50px;
 			}	
 	    }
 	}
@@ -89,20 +93,21 @@
 .team-widget .employee {
     &:nth-of-type(4n + 2) {
 		.info {
-			margin-left: calc(-100% - 40px);
-			width: calc(400% + 140px); 
+			width: 208%;
+			margin-left: 0%;
 		}
     }
 
     &:nth-of-type(4n + 3) {
 		.info {
-			margin-left: calc(-200% - 40px);
+			margin-left: -108%;
 		}
     }
 
     &:nth-of-type(4n + 4) {
 		.info {
-			margin-left: calc(-300% - 40px);
+			margin-left: -215%;
+			clear: both;
 		}
     }
 }

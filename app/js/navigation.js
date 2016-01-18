@@ -40,7 +40,7 @@ $(document).ready(function() {
 	function navLogo() {
 
 		if ($('.logo.home').length) {
-			$('.logo.head').css('top','0');
+			$('.logo.head').css('top', '10px');
 
 			var logo1 = $('.logo.head')
 			var logo2 = $('.logo.home')

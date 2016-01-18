@@ -2,7 +2,7 @@
 	background-color: $lighter-grey;
 	padding: 50px 0px 80px 0px;
 	clear: both;
-	margin: 0px -20px;
+	margin: 0px;
 	min-height: 100vh;
 	margin-top: 50px;
 
@@ -14,12 +14,12 @@
 	.footer-inner {
 		max-width: $max-width;
 		margin: 0 auto;
-		// width: 80%;
+		padding: 0 10px;
 
 		.setup {
 			// border: 1px solid black;
 			margin: 0 auto;
-    		width: 72%;
+			@include grid-columns(8, 3, 12);
 
     		input {
     			background-color: transparent;
@@ -85,14 +85,19 @@
 			@include clearfix;
 			// border: 1px solid black;
 			text-align: center;
-			padding: 40px 0px;
-			width: 52%;
-			margin: 0 auto;
+			@include grid-columns(6, 4, 12);
+
+			.left, .right {
+				display: inline;
+			}
+
+			.right{
+				margin-left: 20px;
+			}
 
 			.icon {
-				width: 9%;
-				margin-right: 6%;
-				float: left;
+				display: inline-block;
+				vertical-align: middle;
 
 				svg {
 					height: 27px;
@@ -100,22 +105,9 @@
 			}
 
 			.contact-link {
-				float: left;
 				font-size: 18px;
 				line-height: 33px;
 
-			}
-
-			.left {
-				// border: 1px solid purple;
-				width: 48%;
-				float: left;
-			}
-
-			.right {
-				// border: 1px solid yellow;
-				width: 48%;	
-				float: right;
 			}
 		}
 		
@@ -132,28 +124,25 @@
 			}
 
 			.left {
-				// border: 1px solid purple;
-				width: 49%;
+				@include grid-columns(6, 1, 12);
+				margin-right: -100%;
 				float: left;
-				
+		
 				.list {
-					width: 49%;
 					float: left;
 					list-style-type: none;
 					font-size: 16px;
 					line-height: 26px;
+					width: calc(100% - 10px - 100% / 6 * 3);
+				}
 
-					&:nth-child(3) {
-						float: right;
-						width: 51%;
-					}
+				.list:nth-of-type(2) {
+					float: right;
 				}
 			}
 
 			.right {
-				// border: 1px solid yellow;
-				width: 49%;
-				float: right;
+				@include grid-columns(6, 7, 12);
 
 				.text {
 					font-size: 16px;
@@ -197,15 +186,11 @@
 
 @media (max-width: $tablet) {
 	.footer {
-		padding-left: 20px;
-		padding-right: 20px;
-
 		.footer-inner {
 			width: 100%;
 
 			.setup {
-				width: 100%;
-				margin-left: 0;
+				@include grid-columns(6, 2, 8);
 			}
 
 			.call-mail {
@@ -250,7 +235,7 @@
 
 @media (max-width: $max-width) {
 	.footer-inner {
-		padding: 0px 20px;
+		// padding: 0px 20px;
 
 		.contact-form button {
 			width: 100%;
