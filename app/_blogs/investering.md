@@ -1,5 +1,6 @@
 ---
 title:  "Een website: kostenpost of investering?"
+header-img: "/img/website-investering.jpg"
 date:   2015-06-22 10:27:01
 author: Floris van Woudenberg
 front: no

@@ -1,5 +1,6 @@
 ---
 title:  "Communicatie begint aan de binnenkant"
+header-img: "/img/cummunicatie-binnenkant.jpg"
 date:   2015-08-25 10:27:01
 author: Lianne Barelds 
 rank: 5
