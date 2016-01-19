@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "gridster": "~0.5.6",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "singularity": "~1.6.2"
   }
 }
