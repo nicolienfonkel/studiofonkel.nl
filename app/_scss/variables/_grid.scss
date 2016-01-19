@@ -1,0 +1,23 @@
+// $mobile: 320px;
+// $tablet: 720px;
+// $tablet-max: 719px;
+// $desktop: 1024px;
+// $max-width: 1650px;
+// $gutter: 30px;
+
+$max-width: 1100px;
+$desktop: 980px;
+$tablet: 720px;
+$mobile: 480px;
+
+
+@include sgs-change('debug', true);
+// @include sgs-change('mobile first', false);
+
+@include add-gutter(1/3);
+@include add-gutter-style('split');
+
+@include add-grid(12);
+@include add-grid(12 at $desktop);
+@include add-grid(8 at $tablet);
+@include add-grid(4 at $mobile);

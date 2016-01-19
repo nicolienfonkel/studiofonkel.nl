@@ -1,4 +1,7 @@
 .convince {
+	@include grid-span(12, 1, 12);
+	clear: both;
+
 	.convince-wrapper {
 		@include clearfix;
 		margin: 20px 0px;
@@ -11,6 +14,7 @@
 			float: left;
 
 			.wrapper {
+				@include clearfix;
 				background-clip: content-box;
 				padding-right: 10px;
 				background-color: $yellow;
@@ -18,6 +22,7 @@
 
 				.text {
 					padding: 50px;
+					@include clearfix;
 
 					span{
 						font-size: 60px;

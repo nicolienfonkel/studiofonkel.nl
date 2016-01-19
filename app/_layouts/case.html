@@ -2,64 +2,65 @@
 layout: html
 ---
 <div class="site">
+  <div class="site-inner">
 
-  {% if page.subtitle %}
-    <h3 class="page-sub-heading"> {{ page.subtitle }} </h3>
-  {% endif %}
+    {% if page.subtitle %}
+      <h3 class="page-sub-heading"> {{ page.subtitle }} </h3>
+    {% endif %}
 
-  {% if page.title %}
-    <h2 class="page-heading blog"> {{ page.title }} </h2>
-  {% endif %}
+    {% if page.title %}
+      <h2 class="page-heading blog"> {{ page.title }} </h2>
+    {% endif %}
 
-  {% if page.header-img %}
-    <div class="page-image" style="background-image: url('{{ page.header-img }}');"></div>
-  {% endif %}
+    {% if page.header-img %}
+      <div class="page-image" style="background-image: url('{{ page.header-img }}');"></div>
+    {% endif %}
 
-  {{ content }}
+    {{ content }}
 
-  <div class="page-footer">
-    
-    {% include call-to-action.html %}
+    <div class="page-footer">
+      
+      {% include call-to-action.html %}
 
-    <div class="more wrapper">
+      <div class="more wrapper">
 
-        <div class="case-list">
+          <div class="case-list">
 
-            <div class="case">
-              {% if page.previous.url %}  
-                {% assign case = page.previous %}
-                {% include cases-teaser.html %}
-              {% endif %}
-
-              {% unless page.previous.url %}
-                {% assign ordered_cases = site.cases | sort: 'date' %}
-                {% for case in ordered_cases | offset: 2 limit: 1 %}
-                  {% assign caseNull = case %}
+              <div class="case">
+                {% if page.previous.url %}  
+                  {% assign case = page.previous %}
                   {% include cases-teaser.html %}
-                {% endfor %}
-              {% endunless %}
+                {% endif %}
 
-            </div>
+                {% unless page.previous.url %}
+                  {% assign ordered_cases = site.cases | sort: 'date' %}
+                  {% for case in ordered_cases | offset: 2 limit: 1 %}
+                    {% assign caseNull = case %}
+                    {% include cases-teaser.html %}
+                  {% endfor %}
+                {% endunless %}
 
-            <div class="case">
-               {% if page.next.url %}  
-                {% assign case = page.next %}
-                {% include cases-teaser.html %}
-              {% endif %}
+              </div>
 
-              {% unless page.next.url %}
-                {% assign ordered_cases = site.cases | sort: 'date' %}
-                {% for case in ordered_cases | offset: 3 limit: 1 %}
-                  {% assign caseNull = case %}
+              <div class="case">
+                 {% if page.next.url %}  
+                  {% assign case = page.next %}
                   {% include cases-teaser.html %}
-                {% endfor %}
-              {% endunless %}
+                {% endif %}
 
-            </div>
-        
+                {% unless page.next.url %}
+                  {% assign ordered_cases = site.cases | sort: 'date' %}
+                  {% for case in ordered_cases | offset: 3 limit: 1 %}
+                    {% assign caseNull = case %}
+                    {% include cases-teaser.html %}
+                  {% endfor %}
+                {% endunless %}
+
+              </div>
+          
+          </div>
+
         </div>
-
-      </div>
+    </div>
   </div>
-
 </div>

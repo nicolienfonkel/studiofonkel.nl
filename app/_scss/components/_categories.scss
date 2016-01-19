@@ -1,7 +1,6 @@
 .categories {
-  @include clearfix;
-  width: 68%;
-  margin: 0 auto;
+  @include grid-span(8, 3, 12);
+  clear: both;
 
   .categories-inner {
     margin-top: 15px; 
@@ -36,8 +35,17 @@
   }
 }
 
+@media (max-width: $tablet) {
+  .categories {
+    @include grid-span(8, 1, 8);
+  }
+}
+
 @media (max-width: $mobile) {
   .categories {
-    width: 100%;
+    @include grid-span(4, 1, 4);
+    .categories-inner .categories-item {
+      font-size: 14px;
+    }
   }
 }

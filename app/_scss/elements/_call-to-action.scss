@@ -1,9 +1,14 @@
 .call-to-action {
 	position: relative;
+	@include clearfix;
 	margin: 70px 0px 110px;
+	@include grid-span(8, 3, 12);
 
 	.cta-text {
-		padding-bottom: 45px;
+		width: 100% !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding-bottom: 45px !important;
 	}
 
 	.phone {
@@ -13,7 +18,7 @@
 	    left: 50%;
 	    transform: translate(-50%, 0);
 	    position: absolute;
-	    bottom: -20px;
+	    bottom: 30px;
 	    width: 200px;
 		span {
 			display: block;

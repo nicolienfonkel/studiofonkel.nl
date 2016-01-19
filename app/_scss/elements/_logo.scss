@@ -13,6 +13,7 @@
     }
 
     &.home {
+        @include grid-span(2, 1, 12);
     	float: left;
         z-index: 9999999;
         position: relative;
@@ -22,6 +23,14 @@
 .homepage {
     .logo.head {
         top: 95px;
+    }
+}
+
+@media (max-width: $tablet) {
+    .homepage .logo {
+        &.home {
+            @include grid-span(2, 1, 8);
+        }
     }
 }
 

@@ -1,6 +1,13 @@
 .page-footer {
+	@include grid-span(12, 1, 12, $gutter: 0);
+	clear: both;
+
 	.wrapper {
+		@include clearfix;
 		.blog-list {
+			margin: 0;
+			width: 100%;
+			
 			.blog {
 				float: left;
 				width: 49%;

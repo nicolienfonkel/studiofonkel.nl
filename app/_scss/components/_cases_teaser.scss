@@ -1,5 +1,8 @@
 .wrapper {
 	.case-list {
+		@include grid-span(12, 1, 12);
+		clear: both;
+		
 		.case {
 			float: left;
 			width: 49%;
