@@ -1,0 +1,134 @@
+.front-overview {
+	position: relative;
+	width: 100%;
+	float: left;
+	clear: both;
+
+	@for $h from 1 through 30 {
+		&[data-height='#{$h}']:after {
+			content: '';
+			display: block;
+			width: 100%;
+			padding-bottom: $h * 50% * $factor;
+		}
+	}
+}
+
+.grid-block {
+	position: absolute;
+
+	.grid-block-inner {
+		position: absolute;
+	}
+
+	// Width of the columns.
+	@for $sx from 1 through 2 {
+		&[data-sizex='#{$sx}'] {
+			 width: $sx * 50%;
+		}
+	}
+
+	// After for padding bottom hack, for heights.
+	@for $sy from 1 through 2 {
+		&[data-sizey='#{$sy}']:after {
+			 content: '';
+			 display: block;
+			 width: 100%;
+		}
+
+		// Height for 1 column width and 1 or 2 height.
+		&[data-sizex='1'][data-sizey='#{$sy}']:after {
+			 padding-bottom: $sy * 100% * $factor;
+		}
+
+		// Height for 2 column width and 1 or 2 height.
+		&[data-sizex='2'][data-sizey='#{$sy}']:after {
+			padding-bottom: $sy * 50% * $factor;
+		}
+	}
+
+	// Margin left for position the left.
+	@for $col from 1 through 2 {
+		&[data-col='#{$col}'] {
+			 margin-left: ($col - 1) * 50%;
+		}
+	}
+
+	// Margin top for position the top.
+	@for $row from 1 through 19 {
+		&[data-row='#{$row}'] {
+			 margin-top: ($row - 1) * 50% * $factor;
+		}
+	}
+
+	.teaser {
+		position: absolute !important;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+@media (max-width: $tablet) {
+	.front-overview {
+		&:after {
+			padding-bottom: 0 !important;
+		}
+
+		.grid-block {
+			@include grid-span(4, 1);
+			clear: both;
+			position: relative;
+
+			.grid-block-inner {
+				top: 0 !important;
+				bottom: 0 !important;
+				left: 0;
+				right: 0;
+			}
+
+			margin-top: 20px !important;
+
+			&:after {
+				padding-bottom: 100% * $factor !important;
+			}
+		}
+	}
+}
+
+@include responsive-repeat($tablet, $desktop) {
+	.grid-block {
+		.grid-block-inner {
+			left: gutter-span();
+			right: gutter-span();
+		}
+
+		&[data-sizey='1'] {
+			.grid-block-inner {
+				bottom: gutter-span() * 2;
+				top: gutter-span() * 2;
+			}
+		}
+
+		&[data-sizey='2'] {
+			.grid-block-inner {
+				bottom: gutter-span();
+				top: gutter-span();
+			}
+		}
+
+		&[data-sizex='1'] {
+			.grid-block-inner {
+				left: gutter-span();
+				right: gutter-span();
+			}
+		}
+
+		&[data-sizex='2'] {
+			.grid-block-inner {
+				left: gutter-span() / 2;
+				right: gutter-span() / 2;
+			}
+		}
+	}
+}

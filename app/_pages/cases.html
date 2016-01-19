@@ -2,21 +2,14 @@
 layout: page
 menu: 2
 title: Cases
+subtitle: Geen standaars oplossingen. Streven naar het beste rendement, voor de korte en lange termijn.
 menu_collection: cases
 ---
 
-<div class="wrapper">
+<div class="cases-overview">
+	{% assign sorted_cases = site.cases | sort: 'date' %}
 
-	<h1 class="page-sub-heading">{{ site.case_slogan }}</h1>
-
-	<div class="case-list">
-		{% assign sorted_cases = site.cases | sort: 'date' %}
-		{% for case in sorted_cases reversed %}
-			<div class="case">
-			{% include cases-teaser.html %}
-			</div>
-
-		{% endfor %}
-	</div>
-
+	{% for case in sorted_cases reversed %}
+		{% include teaser/cases.html %}
+	{% endfor %}
 </div>

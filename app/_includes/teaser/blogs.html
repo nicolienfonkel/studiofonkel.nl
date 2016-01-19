@@ -2,14 +2,7 @@
 	{% assign blog = document %}
 {% endif %}
 
-{% if page.url == '/widget/index.html' %}
-	{% assign markup_element = 'div' %}
-{% else %}
-	{% assign markup_element = 'a' %}
-{% endif %}
-
-
-	<{{ markup_element }} class="blogs teaser" href="{{ blog.url | prepend: site.baseurl }}">
+	<a class="blogs teaser" href="{{ blog.url | prepend: site.baseurl }}">
 	<div class="inner-wrapper">
 		<h3 class="header-text">{{ blog.title }}</h3>
 		<div class="link">
@@ -29,8 +22,8 @@
 			{% endif %}
 			
 			<div class="arrow-long">
-				{% include arrow.svg %}
+				{% include svg/arrow.svg %}
 			</div>
 		</div>
 	</div>
-</{{ markup_element }}>
+</a>

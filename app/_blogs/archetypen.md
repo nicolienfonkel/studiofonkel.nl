@@ -2,7 +2,7 @@
 title:  "Archetypen: je merkpersoonlijkheid als strategie"
 date:   2015-11-16 10:27:01
 author: Michiel Kokee
-front: yes
+front: true
 teaser-text: "Hoe zet je je merk sterker neer? Hoe kun je je bedrijf beter positioneren, en daarmee de betrokkenheid van zowel de markt als je medewerkers vergroten?"
 subtitle: "Yo Henkie!"
 ---

@@ -3,7 +3,7 @@ title:  "Communicatie begint aan de binnenkant"
 date:   2015-08-25 10:27:01
 author: Lianne Barelds 
 rank: 5
-front: yes
+front: true
 teaser-text: "12 Archetypen, welke zijn er en waar staan ze voor?"
 ---
 

@@ -4,71 +4,10 @@ layout: html
 <div class="site">
   <div class="site-inner">
 
-    {% if page.date %}
-      <h3 class="page-date"> {{ page.date | localize:"%d %B %Y" }} </h3>
-    {% endif %}  
-
-    {% if page.subtitle %}
-      <h3 class="page-sub-heading"> {{ page.subtitle }} </h3>
-    {% endif %}
-
-    {% if page.title %}
-      {% if page.title == "Blogs" %}
-        <h2 class="page-heading blog">Recente downcase({{ page.title }}) </h2>
-      {% else %}
-        <h2 class="page-heading blog">{{ page.title }}</h2>
-      {% endif %}
-    {% endif %}
-
-    {% if page.header-img %}
-      <div class="page-image" style="background-image: url('{{ page.header-img }}');"></div>
-    {% endif %}
+    {% include regions/content-header.html %}
 
     {{ content }}
 
-    <div class="page-footer">
-      
-      {% include call-to-action.html %}
-
-      <div class="more wrapper">
-
-        <div class="blog-list">
-
-            <div class="blog">
-              {% if page.previous.url %}  
-                {% assign blog = page.previous %}
-                {% include blogs-teaser.html %}
-              {% endif %}
-
-              {% unless page.previous.url %}
-                {% assign ordered_blogs = site.blogs | sort: 'date' %}
-                {% for blog in ordered_blogs | offset: 2 limit: 1 %}
-                  {% assign blogNull = blog %}
-                  {% include blogs-teaser.html %}
-                {% endfor %}
-              {% endunless %}
-
-            </div>
-
-            <div class="blog">
-               {% if page.next.url %}  
-                {% assign blog = page.next %}
-                {% include blogs-teaser.html %}
-              {% endif %}
-
-              {% unless page.next.url %}
-                {% assign ordered_blogs = site.blogs | sort: 'date' %}
-                {% for blog in ordered_blogs | offset: 3 limit: 1 %}
-                  {% assign blogNull = blog %}
-                  {% include blogs-teaser.html %}
-                {% endfor %}
-              {% endunless %}
-
-            </div>
-          
-          </div>    
-
-      </div>
-    </div>
+    <!--include regions/content-footer.html-->
   </div>
 </div>

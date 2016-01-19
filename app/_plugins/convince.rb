@@ -21,7 +21,7 @@ module Jekyll
 	    	end
 	    end
 
-	    filename = site.source + '/_includes/convince.html'
+	    filename = site.source + '/_includes/html/convince.html'
 		file = File.open(filename, "rt")
 
 		@template = Liquid::Template.parse(file.read)

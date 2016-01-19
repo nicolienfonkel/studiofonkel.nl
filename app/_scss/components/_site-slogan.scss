@@ -1,0 +1,15 @@
+.site-slogan {
+  @include grid-span(4, 1);
+  clear: left;
+
+  @include breakpoint($tablet) {
+    @include grid-span(8, 1);
+    clear: left;
+  }
+
+  @include breakpoint($desktop) {
+    @include grid-span(12, 1);
+    clear: left;
+  }
+
+}

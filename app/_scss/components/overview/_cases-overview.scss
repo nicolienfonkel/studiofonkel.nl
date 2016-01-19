@@ -1,0 +1,20 @@
+.cases-overview {
+  float: left;
+  width: 100%;
+  clear: both;
+  @include clearfix;
+  
+  .teaser {
+    padding-bottom: 100% * $factor;
+    @include float-span(4, 1);
+
+    @include breakpoint($tablet) {
+      padding-bottom: 50% * $factor;
+      @include float-span(4, 1);
+    }
+
+    @include breakpoint($desktop) {
+      @include float-span(6, 1);
+    }
+  }
+}

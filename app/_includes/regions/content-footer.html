@@ -1,0 +1,44 @@
+<div class="page-footer">
+
+    {% include html/call-to-action.html %}
+
+    <div class="more wrapper">
+
+        <div class="case-list">
+
+            <div class="case">
+                {% if page.previous.url %}
+                {% assign case = page.previous %}
+                {% include teaser/cases.html %}
+                {% endif %}
+
+                {% unless page.previous.url %}
+                {% assign ordered_cases = site.cases | sort: 'date' %}
+                {% for case in ordered_cases | offset: 2 limit: 1 %}
+                {% assign caseNull = case %}
+                {% include teaser/cases.html %}
+                {% endfor %}
+                {% endunless %}
+
+            </div>
+
+            <div class="case">
+                {% if page.next.url %}
+                {% assign case = page.next %}
+                {% include teaser/cases.html %}
+                {% endif %}
+
+                {% unless page.next.url %}
+                {% assign ordered_cases = site.cases | sort: 'date' %}
+                {% for case in ordered_cases | offset: 3 limit: 1 %}
+                {% assign caseNull = case %}
+                {% include teaser/cases.html %}
+                {% endfor %}
+                {% endunless %}
+
+            </div>
+
+        </div>
+
+    </div>
+</div>

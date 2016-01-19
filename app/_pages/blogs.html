@@ -2,24 +2,15 @@
 layout: page
 menu: 3
 title: Blogs
+subtitle: Inspirerende blogs die jou helpen richting te geven aan je onderneming.
 menu_collection: blogs
 ---
 
-<div class="wrapper">
+<div class="blogs-overview">
 
-  <h1 class="page-sub-heading">{{ site.blog_slogan }}</h1>
+  {% assign sorted_blogs = site.blogs | sort: 'date' %}
 
-  <h1 class="page-heading blog">Recente blogs</h1>
-
-  <div class="blog-list">
-
-    {% assign sorted_blogs = site.blogs | sort: 'date' %}
-    {% for blog in sorted_blogs reversed %}
-      <div class="blog">
-        {% include blogs-item.html %}
-      </div>
-
-    {% endfor %}
-  </div>
-
+  {% for blog in sorted_blogs reversed %}
+    {% include blogs-item.html %}
+  {% endfor %}
 </div>

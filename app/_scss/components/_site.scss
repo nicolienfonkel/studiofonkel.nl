@@ -1,160 +1,20 @@
 .site {
 	max-width: $desktop;
-	margin: 0 auto;
+	margin: 110px auto 0;
 	@include clearfix;
-	margin-top: 110px;
+}
 
-	.wrapper {
+.site-inner {
+	@include grid-span(4, 1, $gutter: 0);
+	clear: left;
+
+	@include breakpoint($tablet) {
+		@include grid-span(8, 1, $gutter: 0);
 		clear: left;
-		width: 100%;
-	}
-	
-
-	.page-date {
-		@include grid-span(8, 3, 12, $gutter: 0);
-		margin: 10px auto;
-		font-weight: 100;
-		color: $text-color;
-		font-size: 14px;
-		line-height: 24px;
-		position: relative;
-		display: block;
 	}
 
-	.site-inner {
-		@include grid-span(12, 1, 12, $gutter: 0);
-	
-
-		.page-heading {
-			color: $grey;
-		    font-weight: 100;
-		    line-height: 46px;
-		    font-size: 46px;
-		    @include grid-span(10, 1, 12);
-		    clear: both;
-
-		    &.blog,
-		    &.case,
-		    &.aanpak,
-		    &.page,
-		    &.team {
-		    	font-size: 48px;
-			    font-weight: 700;
-			    line-height: 50px;
-			    margin: 0 auto;
-			    margin-bottom: 30px;
-			    @include grid-span(8, 3, 12);
-			    position: relative;
-			    display: block;
-			    clear: both;
-		    }
-		}
-
-		.page-sub-heading,
-		.cta-text {
-			@include grid-span(8, 3, 12);
-			clear: both;
-			color: $yellow;
-		    font-weight: 100;
-		    font-size: 36px;
-		    line-height: 50px;
-		    margin-bottom: 50px;
-		    border-bottom: 1px solid $yellow;
-		    padding-bottom: 15px;
-		    position: relative;
-		    display: block;
-		}
-
-		.page-image {
-			width: 100%;
-			margin: 60px 0px;
-			height: 260px;
-			background-position: center;
-			background-size: cover;
-			position: relative;
-			display: block;
-			@include grid-span(12, 1, 12);
-			clear: both;
-		}
-
-		// headers in markdown #/##/###
-		> h1,
-		> h2,
-		> h3 {
-			color: $text-color;
-		    font-weight: 700;
-		    margin: 40px auto 15px;
-		    position: relative;
-		    display: block;
-		    font-size: 32px;
-		    line-height: 30px;
-		    @include grid-span(8, 3, 12);
-		    clear: both;
-		}
-
-		> h3 {
-			font-size: 21px;
-		}
-
-		// paragraphs in markdown
-		p {
-			font-size: 16px;
-			line-height: 28px;
-			color: $text-color;
-			font-weight: 200;
-			width: 72%;
-			margin: 25px auto;
-			position: relative;
-			display: block;
-			letter-spacing: 0.6px;
-			@include grid-span(8, 3, 12);
-			clear: both;
-		}
-	}
-
-	> .wrapper {
-		@include clearfix;
-		clear: both;
-		padding-top: 1px;
+	@include breakpoint($desktop) {
+		@include grid-span(12, 1, $gutter: 0);
+		clear: left;
 	}
 }
-
-@media (max-width: $tablet) {
-	.site {
-
-		.site-inner {
-			.page-sub-heading,
-			.text,
-			.page-heading.blog,
-			.page-heading.page,
-			.page-heading.aanpak,
-			.page-heading.case {
-				@include grid-span(8, 1, 8);
-				clear: both;
-			}
-
-			.page-image {
-				@include grid-span(8, 1, 8);
-				clear: both;	
-			}
-
-			// headers in markdown ##
-			h1,
-			h2, 
-			h3 {
-				@include grid-span(8, 1, 8);
-				clear: both;
-			}
-
-			// paragraphs in markdown
-			p {
-				@include grid-span(8, 1, 8);
-				clear: both;
-			}
-		}
-	}
-}
-
-
-
-

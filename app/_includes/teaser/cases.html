@@ -2,13 +2,7 @@
 	{% assign case = document %}
 {% endif %}
 
-{% if page.url == '/widget/index.html' %}
-	{% assign markup_element = 'div' %}
-{% else %}
-	{% assign markup_element = 'a' %}
-{% endif %}
-
-<{{ markup_element }} class="cases teaser" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url('{{ case.header-img }}'); background-position: {{ case.background-position }};">
+<a class="cases teaser" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url('{{ case.header-img }}'); background-position: {{ case.background-position }};">
 	<div class="inner-wrapper">
 		<h3 class="header-text">{{ case.title }}</h3>
 		<div class="link">
@@ -28,8 +22,8 @@
 			{% endif %}
 			
 			<div class="arrow-long">
-				{% include arrow.svg %}
+				{% include svg/arrow.svg %}
 			</div>
 		</div>
 	</div>
-</{{ markup_element }}>
+</a>

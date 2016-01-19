@@ -1,0 +1,15 @@
+{% if page.date and page.collection == 'blog' %}
+    <h3 class="page-date"> {{ page.date | localize:"%d %B %Y" }} </h3>
+{% endif %}
+
+{% if page.subtitle %}
+    <h3 class="page-sub-heading"> {{ page.subtitle }} </h3>
+{% endif %}
+
+{% if page.title %}
+    <h2 class="page-heading blog">{{ page.title }}</h2>
+{% endif %}
+
+{% if page.header-img %}
+    <div class="page-image" style="background-image: url('{{ page.header-img }}');"></div>
+{% endif %}

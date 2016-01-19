@@ -1,0 +1,15 @@
+{% if document %}
+	{% assign page_item = document %}
+{% endif %}
+
+<a class="{{ page_item.collection }} teaser" href="{{ page_item.url | prepend: site.baseurl }}">
+	<div class="inner-wrapper">
+		<h3 class="header-text">{{ page_item.title }}</h3>
+		<div class="link">
+			<span>{{ page_item.title }}</span>
+			<div class="arrow-long">
+				{% include svg/arrow.svg %}
+			</div>
+		</div>
+	</div>
+</a>

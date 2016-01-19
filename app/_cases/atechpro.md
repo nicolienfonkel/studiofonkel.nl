@@ -9,14 +9,12 @@ categories:
 - Strategie
 - Ontwerp
 - Magazine
-front: yes
+front: true
 ---
 
 Atechpro is de Nederlandse importeur van biomassaketels van het Oostenrijkse topmerk KWB. Ze vroegen ons een aantal jaar geleden om hun totale communicatie te verzorgen en dat doen we nu nog steeds. We zijn daardoor niet alleen leverancier van Atechpro, maar veel meer partner. De start van onze samenwerking begon met het nadenken over een strategie en het ontwerpen van een huisstijl en een website.
 
 {% case_tags %}
-
-{% include team-widget.html %}
 
 “Studio Fonkel brengt creativiteit, mateloze energie en enorme vakdeskundigheid. Door onze samenwerking hebben ze niet alleen Atechpro op de kaart gezet, maar ook een nieuwe professionele kleur gegeven aan de biomassaverwarmingsmarkt in Nederland.” - Mark Likkel, Atechpro
 

@@ -28,7 +28,7 @@ module.exports = function (grunt) {
       },
       dev: {
         options: {
-          script: 'server.js'
+          script: 'frontpage-widget-server.js'
         }
       }
     },

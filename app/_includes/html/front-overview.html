@@ -1,0 +1,21 @@
+<div class="front-overview" data-height="{{ site.data.front.height }}">
+    {% if site.data.front.items %}
+        {% assign grouped_by_row_front_items = site.data.front.items | group_by: 'row' | sort: 'name' %}
+
+        {% for group in grouped_by_row_front_items %}
+            {% assign sorted_row = group.items %}
+
+            {% for item in sorted_row | sort: 'col', 'first' %}
+                {% for document in site.documents %}
+                    {% if document.url == item.url and document.published %}
+                        <div class="grid-block" data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
+                            <div class="grid-block-inner">
+                                {% include teaser/{{ document.collection }}.html %}
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    {% endif %}
+</div>

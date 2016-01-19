@@ -6,13 +6,13 @@
 name: studiofonkel-jekyll
 description: Studio Fonkel
 
-slogan: Gewone jongens (en stiekem een paar meiden) die mooie dingen maken.
+slogan: Gewone jongens die mooie dingen maken.
 case_slogan: Geen standaars oplossingen. Streven naarhet beste rendement, voor de korte en lange termijn
 blog_slogan: Inspirerende blogs die jou helpen richting te geven aan je onderneming.
 
-footer_phone_number: +31 33 737 0019
+phone_number: +31 33 737 0019
 footer_email: info@studiofonkel.nl
-footer_text:  met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jar
+footer_text: Als je op de stadsring de parkeergarage onder de Plusmarkt op de hoek van Stadsring / Arnhemseweg inrijdt (ga hiervoor net voor de stoplichten op de Stadsring links), dan ben je op 2 minuten lopen verwijderd van ons kantoor.
 
 company: Studio Fonkel BV
 address: Arnhemseweg 11
@@ -28,7 +28,7 @@ author:
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', '_pages/widget.html']
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
 include: ['.htaccess']
 
@@ -45,18 +45,18 @@ highlighter: false
 collections:
   cases:
     output: true
-    permalink: /:path/index.html
+    permalink: /cases/:path/
     front: true
     collection: case
   blogs:
     output: true
-    permalink: /:path/index.html
+    permalink: /blogs/:path/
     front: true
     collection: blog
   pages:
     output: true
     sort_by: title
-    permalink: /:path/index.html
+    permalink: /:path/
     front: true
     collection: page
   convince:

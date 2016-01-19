@@ -1,0 +1,11 @@
+.page-image {
+  width: 100%;
+  margin: 60px 0px;
+  height: 260px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: block;
+  @include grid-span(12, 1, 12);
+  clear: both;
+}

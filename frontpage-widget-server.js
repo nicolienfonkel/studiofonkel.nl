@@ -16,7 +16,6 @@ app.listen(3003, function() {
     console.log('Express server listening on port');
 
 	app.post('/', function (req, res) {
-		console.log(req.body)
 		res.send('POST request to widget');
 
 		fs.writeFile('app/_data/front.json', req.body['json'], function (err) {

@@ -1,6 +1,5 @@
 .grid {
   position: fixed;
-  left: 0;
   top: 0;
   max-width: $desktop;
   width: 100%;
@@ -10,40 +9,8 @@
   z-index: 0;
   pointer-events: none;
   display: none;
-
-  .column {
-    width: calc(100% / 12);
-    height: 100vh;
-    background: rgba(red, 0.3);
-    float: left;
-    border-left: 10px solid rgba(red, .5);
-    border-right: 10px solid rgba(red, .5);
-  }
-}
-
-@include breakpoint(max-width $tablet) {
-  .grid {
-    .column {
-      width: calc(100% / 8);
-
-      &.desktop {
-        display: none;
-      }
-    }
-  }
-}
-
-@include breakpoint(max-width $mobile) {
-  .grid {
-    .column {
-      width: calc(100% / 4);
-
-      &.desktop,
-      &.tablet {
-        display: none;
-      }
-    }
-  }
+  @include background-grid($color: blue);
+  opacity: .4;
 }
 
 .has-grid-overlay-enabled {
@@ -51,62 +18,3 @@
     display: block;
   }
 }
-
-
-
-// .grid {
-//   height: 100vh;
-//   left: 50%;
-//   max-width: $max-width;
-//   pointer-events: none;
-//   position: fixed;
-//   top: 0;
-//   transform: translateX(-50%);
-//   width: 100vw;
-//   z-index: 999999999;
-//   opacity: 0;
-//   transition: opacity $speed;
-//   background-color: rgba(#BF0000, .5);
-//   padding: 0 10px;
-
-//   .column {
-//     width: (100% / 12);
-//     float: left;  
-//     height: 100vh;
-//     padding: 0 $padding;
-//     background-color: red;
-//     background-clip: content-box;
-
-//     &:nth-child(odd) {
-//       background-color: red;
-//     }
-//   }
-// }
-
-// .has-grid-overlay-enabled .grid {
-//   opacity: .5;
-// }
-
-
-// @media (max-width: $tablet) {
-//   .grid {  
-//     .column {
-//       width: 12.5%;
-//       &.desktop {
-//         display: none;
-//       }
-//     }
-//   }
-// }
-
-// @media (max-width: $mobile) {
-//   .grid {  
-//     .column {
-//       width: 25%;
-
-//       &.tablet {
-//         display: none;
-//       }
-//     }
-//   }
-// }

@@ -1,20 +1,18 @@
-<div class="blog-item">
+<div class="blogs item">
 
-	<div class="inner-wrapper">
-		<div class="page-date">{{ blog.date | localize:"%d %B %Y" }}</div>
-		<h3 class="page-sub-heading">{{ blog.subtitle }}</h3>
-		<h3 class="page-heading">{{ blog.title }}</h3>
-		<div class="text">
-			{{ blog.teaser-text }}
-		</div>
-		<a href="{{ blog.url | prepend: site.baseurl }}" class="link">
-			<span>Lees meer</span>
-			<div class="arrow-long">
-				<div class="bar">
-				</div><div class="bar"></div>
-				<div class="bar"></div>
-			</div>
-		</a>
+	<div class="blog-date">{{ blog.date | localize:"%d %B %Y" }}</div>
+	<h3 class="blog-sub-heading">{{ blog.subtitle }}</h3>
+	<h3 class="blog-heading">{{ blog.title }}</h3>
+	<div class="text">
+		{{ blog.teaser-text }}
 	</div>
+	<a href="{{ blog.url | prepend: site.baseurl }}" class="link">
+		<span>Lees meer</span>
+		<div class="arrow-long">
+			<div class="bar">
+			</div><div class="bar"></div>
+			<div class="bar"></div>
+		</div>
+	</a>
 
 </div>

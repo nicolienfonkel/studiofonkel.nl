@@ -1,0 +1,7 @@
+@mixin responsive-repeat($breakpoints...) {
+  @each $breakpoint in $breakpoints {
+    @include breakpoint($breakpoint) {
+      @content;
+    }
+  }
+}

@@ -4,63 +4,10 @@ layout: html
 <div class="site">
   <div class="site-inner">
 
-    {% if page.subtitle %}
-      <h3 class="page-sub-heading"> {{ page.subtitle }} </h3>
-    {% endif %}
-
-    {% if page.title %}
-      <h2 class="page-heading blog"> {{ page.title }} </h2>
-    {% endif %}
-
-    {% if page.header-img %}
-      <div class="page-image" style="background-image: url('{{ page.header-img }}');"></div>
-    {% endif %}
+    {% include regions/content-header.html %}
 
     {{ content }}
 
-    <div class="page-footer">
-      
-      {% include call-to-action.html %}
-
-      <div class="more wrapper">
-
-          <div class="case-list">
-
-              <div class="case">
-                {% if page.previous.url %}  
-                  {% assign case = page.previous %}
-                  {% include cases-teaser.html %}
-                {% endif %}
-
-                {% unless page.previous.url %}
-                  {% assign ordered_cases = site.cases | sort: 'date' %}
-                  {% for case in ordered_cases | offset: 2 limit: 1 %}
-                    {% assign caseNull = case %}
-                    {% include cases-teaser.html %}
-                  {% endfor %}
-                {% endunless %}
-
-              </div>
-
-              <div class="case">
-                 {% if page.next.url %}  
-                  {% assign case = page.next %}
-                  {% include cases-teaser.html %}
-                {% endif %}
-
-                {% unless page.next.url %}
-                  {% assign ordered_cases = site.cases | sort: 'date' %}
-                  {% for case in ordered_cases | offset: 3 limit: 1 %}
-                    {% assign caseNull = case %}
-                    {% include cases-teaser.html %}
-                  {% endfor %}
-                {% endunless %}
-
-              </div>
-          
-          </div>
-
-        </div>
-    </div>
+    <!--include regions/content-footer.html-->
   </div>
 </div>

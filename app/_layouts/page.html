@@ -4,24 +4,11 @@ layout: html
 <div class="site">
 	<div class="site-inner">
 
-		{% if page.url == '/index.html' %}
-			<div class="logo home">
-				{% include logo.svg %}
-			</div>
-		{% endif %}
+		{% include regions/content-header.html %}
 
-		{% if page.subtitle %}
-			<h3 class="page-sub-heading">{{ page.subtitle }}</h3>
-		{% endif %}
-
-		{% if page.title %}
-			{% if page.url == '/blogs/index.html' or page.url == '/cases/index.html' %}
-			
-			{% else %}
-				<h3 class="page-heading page">{{ page.title }}</h3>
-			{% endif %}
-		{% endif %}
 
 	  	{{ content }}
+
+		<!--include regions/content-footer.html-->
   	</div>
 </div>

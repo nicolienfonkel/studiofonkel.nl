@@ -1,0 +1,13 @@
+.cta-text {
+  @include grid-span(8, 3, 12);
+  clear: both;
+  color: $yellow;
+  font-weight: 100;
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid $yellow;
+  padding-bottom: 15px;
+  position: relative;
+  display: block;
+}
