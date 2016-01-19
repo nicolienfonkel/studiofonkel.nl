@@ -1,5 +1,6 @@
 ---
 title:  "12 Archetypen"
+header-img: "/img/12-Arechetypes.jpg"
 date:   2015-11-15 10:27:01
 author: Michiel Kokee
 front: no
