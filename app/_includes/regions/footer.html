@@ -1,82 +1,27 @@
 <div class="footer">
 	<div class="footer-inner">
-		<div class="setup">
-			<h2>Kunnen wij je ergens mee helpen?</h2>
-			<form id="contact-form" method="post">
-				<input type="text" name="name" placeholder="Je naam" required>
-				<textarea id="contactTextArea" name="message" placeholder="Bericht" required></textarea>
-				<input type="email" name="email" placeholder="Je email" required>
-				<input type="text" name="phone" placeholder="Je telefoonnummer" required>
-				<button type="submit">Verzend{% include svg/arrow.svg %}</button>
-			</form>
+		<div class="contact-form footer-block">
+			{% include html/contact-form.html %}
 		</div>
 
-		<div class="call-mail">
-			<div class="left">
-				<div class="icon">
-					{% include svg/phone.svg %}
-				</div>
-				<a class="contact-link" href="#!">{{ site.phone_number }}</a>
-			</div>
-			<div class="right">	
-				<div class="icon">
-					{% include svg/mail.svg %}
-				</div>
-				<a class="contact-link" href="mailto:info@studiofonkel.nl">{{ site.footer_email }}</a>
-			</div>
+		<div class="call-mail footer-block">
+			<a class="contact-link phone left" href="tel:{{ site.phone_number }}">
+				{% include svg/phone.svg %}{{ site.phone_number }}
+			</a>
+			<a class="contact-link mail right" href="mailto:info@studiofonkel.nl">
+				{% include svg/mail.svg %} {{ site.footer_email }}
+			</a>
 		</div>
 
-		<div class="information">
-			<div class="left">
-				<h2 class="header-text">Gegevens</h2>
-				<ul class="list">
-					<li>{{ site.company }}</li>
-					<li>{{ site.address }}</li>
-					<li>{{ site.zipcode }} {{ site.city }}</li>
-				</ul>
-				<ul class="list">
-					<li>KVK: {{ site.kvk }}</li>
-					<li>BTW: {{ site.btw }}</li>
-					<li>IBAN: {{ site.iban }}</li>
-				</ul>
-			</div>
-
-			<div class="right">
-				<h2 class="header-text">Parkeren</h2>
-				<p class="text">{{ site.footer_text }}</p>
-			</div>
+		<div class="information footer-block">
+			{% include html/contact-information.html %}
 		</div>
 
-		<div class="social">
-			<div class="list">
-				<a href="https://nl-nl.facebook.com/studiofonkel" target="_blank" class="wrapper">
-					<div class="name">Facebook</div>
-					<div class="arrow-long">
-						{% include svg/arrow.svg %}
-					</div>
-				</a>
-				<a href="https://twitter.com/StudioFonkel" target="_blank" class="wrapper">
-					<div class="name">Twitter</div>
-					<div class="arrow-long">
-						{% include svg/arrow.svg %}
-					</div>
-				</a>
-				<a href="https://www.linkedin.com/company/studio-fonkel" target="_blank" class="wrapper">
-					<div class="name">Linkedin</div>
-					<div class="arrow-long">
-						{% include svg/arrow.svg %}
-					</div>
-				</a>
-				<a href="https://www.behance.net/StudioFonkel" target="_blank" class="wrapper">
-					<div class="name">Behance</div>
-					<div class="arrow-long">
-						{% include svg/arrow.svg %}
-					</div>
-				</a>
-			</div>
+		<div class="social footer-block">
+			{% include html/footer-social.html %}
 		</div>
 
-		<div class="logo">
+		<div class="logo footer-block">
 			{% include svg/logo.svg %}
 		</div>
 

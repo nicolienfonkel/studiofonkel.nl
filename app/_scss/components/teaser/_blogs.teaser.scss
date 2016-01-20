@@ -2,14 +2,14 @@
 	background-color: $yellow;
 	@include clearfix;
 
-	.page-heading {
+	.blog-heading {
 		font-weight: 700;
 		font-size: 32px;
 		line-height: 36px;
 		margin: 10px 0px;
 	}
 
-	.page-sub-heading {
+	.blog-sub-heading {
 		margin-bottom: 20px;
 		font-size: 22px;
 		line-height: 32px;
