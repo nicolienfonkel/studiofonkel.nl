@@ -6,6 +6,6 @@
   background-size: cover;
   position: relative;
   display: block;
-  @include grid-span(12, 1, 12);
+  width: 100%;
   clear: both;
 }
