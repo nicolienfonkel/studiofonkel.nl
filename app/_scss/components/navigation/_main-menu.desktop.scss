@@ -1,0 +1,9 @@
+@include breakpoint($tablet) {
+  .main-menu {
+    .menu-link {
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}
