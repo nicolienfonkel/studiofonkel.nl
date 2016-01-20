@@ -2,6 +2,8 @@
   max-width: 100px;
   display: block;
   float: left;
+  opacity: 1;
+  //transition: all .3s;
   
   &.head {
     position: absolute;
@@ -12,5 +14,11 @@
 @include responsive-repeat($mobile, $tablet, $desktop) {
   .site-logo.home {
     margin-left: gutter-span() / 2;
+  }
+}
+
+.has-active-menu {
+  .site-logo.head {
+    opacity: 0;
   }
 }
