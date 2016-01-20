@@ -1,4 +1,5 @@
 .footer {
+	@include clearfix;
 	background-color: $lighter-grey;
 	padding: 50px 0px 80px 0px;
 	clear: both;
@@ -12,12 +13,17 @@
 	}
 }
 
-.footer-block {
-	margin-top: 40px;
-	margin-bottom: 40px;
+.header-text {
+	font-weight: 700;
+	font-size: 34px;
 }
 
-.footer-block.contact-form {
+.footer-block {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footer-block {
 	@include grid-span(4, 1);
 	clear: both;
 
@@ -32,8 +38,117 @@
 	}
 }
 
-.footer-block.call-mail {
-	
+.footer-block.contact-form {
 }
+
+.footer-block.call-mail {
+	@include breakpoint($tablet) {
+		text-align: center;
+	}
+}
+
+
+.footer-block.information {
+
+	.header-text {
+		margin-bottom: 10px;
+	}
+
+	.list {
+		margin-bottom: 20px;
+	}
+
+	.text {
+		width: 100%;
+	}
+
+	@include breakpoint($tablet) {
+		.left {
+			@include grid-span(3, 1, 6, $gutter: 0);
+		}
+
+		.right {
+			@include grid-span(3, 4, 6);
+		}
+	}	
+
+	@include breakpoint($desktop) {
+		@include grid-span(12, 1, 12);
+		clear: both;
+
+		.left {
+			@include grid-span(6, 1, 12, $gutter: 0);
+
+			.list {
+				@include grid-span(3, 1, 6, $gutter: 0);
+
+				&:last-child {
+					@include grid-span(3, 4, 6);
+				}
+			}
+		}
+
+		.right {
+			@include grid-span(6, 7, 12);
+		}
+	}	
+}
+
+.footer-block.social {
+	border-bottom: 1px solid black;
+	clear: both; 
+
+	.list {
+		@include clearfix;
+	}
+
+	.wrapper {
+		clear: both;
+	    float: left;
+	    width: 100%;
+	    margin: 10px 0px;
+	}
+
+	.name {
+		float: left;
+    	width: 30%;
+	}
+
+	@include breakpoint($tablet) {
+	    .wrapper {
+		    float: left;
+		    width: 25%;
+		    clear: right;
+		}
+
+	    .name {
+    		width: 62%;
+	    }
+	}
+}
+
+.footer-block.logo {
+	@include grid-span(4, 1);
+	clear: both;
+	text-align: center;
+
+	#logo {
+		width: 100px;
+	}
+
+	@include breakpoint($tablet) {
+		@include grid-span(6, 2);
+		clear: both;
+	}
+
+	@include breakpoint($desktop) {
+		@include grid-span(8, 3);
+		clear: both;
+	}
+}
+
+
+
+
 
 
