@@ -1,6 +1,20 @@
 @include breakpoint($tablet) {
   .main-menu {
     .menu-link {
+      display: inline-block;
+      color: #7f7f7f;
+      line-height: 65px;
+      text-align: center;
+      position: relative;
+      text-decoration: none;
+      transition: 0.3s;
+      padding: 0 10px;
+
+      &:hover:after,
+      &.active:after {
+        background-color: $yellow;
+      }
+
       &:last-child {
         padding-right: 0;
       }

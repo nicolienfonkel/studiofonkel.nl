@@ -1,17 +1,7 @@
 .main-menu {
   .menu-link {
-    color: #7f7f7f;
-    display: inline-block;
-    line-height: 65px;
-    text-align: center;
-    position: relative;
-    text-decoration: none;
-    transition: 0.3s;
-    padding: 0 10px;
-
     &:hover:after,
     &.active:after {
-      background-color: $yellow;
       border-radius: 50%;
       bottom: 12px;
       content: "";
@@ -20,6 +10,28 @@
       transform: translateX(-50%);
       position: absolute;
       width: 4px;
+    }
+  }
+}
+
+@include breakpoint(max-width $tablet - 1) {
+  .main-menu {
+    .menu-link {
+      color: black;
+      float: left;
+      clear: left;
+      line-height: 65px;
+      text-align: center;
+      position: relative;
+      text-decoration: none;
+      transition: 0.3s;
+      padding: 0 10px;
+      width: 100%;
+
+      &:hover:after,
+      &.active:after {
+        background-color: black;
+      }
     }
   }
 }
