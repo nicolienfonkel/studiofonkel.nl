@@ -1,21 +1,20 @@
 .page-heading {
   color: $grey;
-  font-weight: 100;
-  line-height: 46px;
   font-size: 48px;
   font-weight: 700;
   line-height: 50px;
   position: relative;
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .page-sub-heading {
+  margin-top: 0;
   color: $yellow;
   font-weight: 100;
   font-size: 36px;
   line-height: 50px;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
   border-bottom: 1px solid $yellow;
   padding-bottom: 15px;
   position: relative;
@@ -41,7 +40,6 @@
 
 .page-heading {
   @include breakpoint($tablet) {
-    margin-bottom: 0px;
     clear: both;
   }
 }

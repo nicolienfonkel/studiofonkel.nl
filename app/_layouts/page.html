@@ -6,8 +6,12 @@ layout: html
 
 		{% include regions/content-header.html %}
 
+		{% if page.path %}
+			{% assign extension_splitted = page.path | split: '.' %}
+			{% assign extension = extension_splitted[1] %}
+		{% endif %}
 
-	  	{{ content }}
+		<div class="{{ extension }}-wrapper">{{ content }}</div>
 
 		<!--include regions/content-footer.html-->
   	</div>
