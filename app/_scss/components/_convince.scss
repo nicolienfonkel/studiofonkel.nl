@@ -94,7 +94,7 @@
 				width: 100%;
 				
 				.wrapper {	
-					padding-right: 0px;
+					padding-right: 0;
 
 					.text {
 						padding: 30px;
@@ -110,24 +110,17 @@
 				.image {
 					padding-bottom: 30%;
 					position: relative;
-					margin-left: 0px;
+					margin-left: 0;
 				}
 			}
 
 			&:nth-child(odd) {
-				.wrapper-inner {
-					
-					.wrapper {	
-						padding-left: 0px;
-
-					}
+				.wrapper {
+					padding-left: 0;
 				}
-				.image-wrapper {
-						
-					.image {
-						margin-right: 0px;
-						margin-right: 0px;
-					}
+
+				.image {
+					margin-right: 0;
 				}
 			}
 		}

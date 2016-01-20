@@ -1,0 +1,16 @@
+.site-logo {
+  max-width: 100px;
+  display: block;
+  float: left;
+  
+  &.head {
+    position: absolute;
+    top: 10px;
+  }
+}
+
+@include responsive-repeat($mobile, $tablet, $desktop) {
+  .site-logo.home {
+    margin-left: gutter-span() / 2;
+  }
+}

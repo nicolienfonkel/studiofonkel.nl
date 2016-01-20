@@ -6,7 +6,7 @@
   height: 100vh;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 0;
+  z-index: 101;
   pointer-events: none;
   display: none;
   @include background-grid($color: blue);

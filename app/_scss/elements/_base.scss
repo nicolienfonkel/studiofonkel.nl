@@ -29,3 +29,11 @@ h2, p, ul, li, a {
 	text-decoration: none;
 	list-style: none;
 }
+
+*:focus {
+	outline: none;
+}
+
+*::-moz-focus-inner {
+	border: none;
+}

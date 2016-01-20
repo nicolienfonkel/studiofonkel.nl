@@ -2,23 +2,22 @@
 
 	<div class="header-inner">
 
-		<div class="hamburger">
-			<div class="bar"></div>
-			<div class="bar"></div>
-			<div class="bar"></div>
-		</div>
+		<div class="nav main-menu">
+			<div class="hamburger">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
 
-		<div class="nav">
-			<a href="/" class="logo head">
+			<a href="/" class="site-logo head">
 				{% include svg/logo.svg %}
 			</a>
 
 			<div class="nav-inner">
-
-				{% if page.url == '/index.html' %}			
-				    <a class="active" href="/">Home</a>
+				{% if page.url == '/index.html' %}
+				    <a class="active menu-link" href="/">Home</a>
 				{% else %}
-					<a href="/">Home</a>
+					<a class="menu-link" href="/">Home</a>
 				{% endif %}
 
 				{% assign sorted_pages = site.collections.pages.docs | sort: 'menu' %}
@@ -26,11 +25,11 @@
 				{% for page_item in sorted_pages %}
 					{% if page_item.menu %}
 						{% if page_item.url == page.url %}
-							<a class="active" href="{{ page_item.url }}">{{ page_item.title }}</a>
+							<a class="active menu-link" href="{{ page_item.url }}">{{ page_item.title }}</a>
 						{% elsif page.collection and page_item.menu_collection == page.collection %}
-							<a class="active active-trail" href="{{ page_item.url }}">{{ page_item.title }}</a>
+							<a class="active active-trail menu-link" href="{{ page_item.url }}">{{ page_item.title }}</a>
 						{% else %}
-							<a href="{{ page_item.url }}">{{ page_item.title }}</a>
+							<a class="menu-link" href="{{ page_item.url }}">{{ page_item.title }}</a>
 						{% endif %}
 					{% endif %}
 				{% endfor %}
