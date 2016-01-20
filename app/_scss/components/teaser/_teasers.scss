@@ -1,6 +1,7 @@
 .teaser {
 	transition: $speed;
 	background-size: cover;
+	position: relative;
 
 	.inner-wrapper {
 		margin: 40px;

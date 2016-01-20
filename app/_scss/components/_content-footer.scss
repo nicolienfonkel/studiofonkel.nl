@@ -1,0 +1,19 @@
+.content-footer {
+  float: left;
+  clear: both;
+  width: 100%;
+  @include clearfix;
+
+  .teaser {
+    padding-bottom: $factor * 50%;
+
+    @include responsive-repeat($mobile, $tablet) {
+      @include float-span(4);
+    }
+
+    @include breakpoint($desktop) {
+      @include float-span(6);
+    }
+
+  }
+}

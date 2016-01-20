@@ -2,25 +2,21 @@
 	{% assign case = document %}
 {% endif %}
 
-<a class="cases teaser" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url('{{ case.header-img }}'); background-position: {{ case.background-position }};">
+<a class="cases teaser {{ extra_class }}" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url('{{ case.header-img }}'); background-position: {{ case.background-position }};">
 	<div class="inner-wrapper">
 		<h3 class="header-text">{{ case.title }}</h3>
 		<div class="link">
 
-			{% if page.url == '/cases/index.html' %}
-					{% if case.categories %}
-					    {% for category in case.categories %}
-							<div class="category">{{ category }} </div>
-						{% endfor %}
-					{% else %}
-						<span>Lees meer</span>
-				    {% endif %}
+			{% if page.url == '/cases/' %}
+				<span>Bekijk case</span>
 			{% elsif case == page.next or case == page.previous or caseNull == case %}
-				<span>{{ case.date | localize:"%d %B %Y" }}</span>				
+				{% if case.date %}
+					<span>{{ case.date | localize:"%d %B %Y" }}</span>
+				{% endif %}
 			{% else %}
 				<span>Case</span>
 			{% endif %}
-			
+
 			<div class="arrow-long">
 				{% include svg/arrow.svg %}
 			</div>

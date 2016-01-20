@@ -73,16 +73,19 @@ defaults:
       type: cases
     values:
       layout: case
+      collection: cases
   - scope:
       path: ""
       type: blogs
     values:
       layout: blog
+      collection: blogs
   - scope:
       path: ""
       type: pages
     values:
       layout: page
+      collection: pages
 
 sass:
  sass_dir: _sass

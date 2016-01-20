@@ -7,16 +7,10 @@
 		<h3 class="header-text">{{ blog.title }}</h3>
 		<div class="link">
 
-			{% if page.url == '/blogs/index.html' %}
-					{% if blog.categories %}
-					    {% for category in blog.categories %}
-							<div class="category">{{ category }} </div>
-						{% endfor %}
-					{% else %}
-						<span>Lees meer</span>
-				    {% endif %}
+			{% if page.url == '/blogs/' %}
+				<span>Lees blog</span>
 			{% elsif blog == page.next or blog == page.previous or blogNull == blog %}
-				<span>{{ blog.date | localize:"%d %B %Y" }}</span>				
+				<span>{{ blog.date | localize:"%d %B %Y" }}</span>
 			{% else %}
 				<span>blog</span>
 			{% endif %}

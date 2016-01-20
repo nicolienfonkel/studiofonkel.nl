@@ -1,44 +1,29 @@
-<div class="page-footer">
+{% if page.previous.url or page.next.url %}
+    <div class="content-footer">
 
-    {% include html/call-to-action.html %}
+        <div class="previous">
+        {% if page.previous.url and page.previous.collection %}
+            {% assign document = page.previous %}
+                {% include teaser/{{ page.previous.collection }}.html %}
+        {% else %}
+            {% assign ordered_documents = site[page.collection] | sort: 'date' %}
+            {% for document in ordered_documents | offset: 2 limit: 1 %}
+                {% include teaser/{{ page.collection }}.html %}
+            {% endfor %}
+        {% endif %}
+        </div>
 
-    <div class="more wrapper">
-
-        <div class="case-list">
-
-            <div class="case">
-                {% if page.previous.url %}
-                    {% assign case = page.previous %}
-                    {% include teaser/cases.html %}
-                {% endif %}
-
-                {% unless page.previous.url %}
-                    {% assign ordered_cases = site.cases | sort: 'date' %}
-                    {% for case in ordered_cases | offset: 2 limit: 1 %}
-                        {% assign caseNull = case %}
-                        {% include teaser/cases.html %}
-                    {% endfor %}
-                {% endunless %}
-
-            </div>
-
-            <div class="case">
-                {% if page.next.url %}
-                    {% assign case = page.next %}
-                    {% include teaser/cases.html %}
-                {% endif %}
-
-                {% unless page.next.url %}
-                    {% assign ordered_cases = site.cases | sort: 'date' %}
-                    {% for case in ordered_cases | offset: 3 limit: 1 %}
-                        {% assign caseNull = case %}
-                        {% include teaser/cases.html %}
-                    {% endfor %}
-                {% endunless %}
-
-            </div>
-
+        <div class="next">
+        {% if page.next.url and page.next.collection %}
+            {% assign document = page.next %}
+                {% include teaser/{{ page.next.collection }}.html %}
+        {% else %}
+            {% assign ordered_documents = site[page.collection] | sort: 'date' | reverse %}
+            {% for document in ordered_documents | offset: 2 limit: 1 %}
+                {% include teaser/{{ page.collection }}.html %}
+            {% endfor %}
+        {% endif %}
         </div>
 
     </div>
-</div>
+{% endif %}
