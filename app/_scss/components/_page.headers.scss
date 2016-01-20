@@ -1,0 +1,29 @@
+.site-inner {
+	h1,
+	h2,
+	h3 {
+		color: $text-color;
+	    font-weight: 700;
+	    margin: 30px auto 15px;
+	    position: relative;
+	    display: block;
+	    font-size: 32px;
+	    line-height: 30px;
+	    @include grid-span(4, 1);
+	    clear: both;
+
+	    @include breakpoint($tablet) {
+			@include grid-span(6, 2);
+			clear: both;
+		}
+
+		@include breakpoint($desktop) {
+			@include grid-span(8, 3);
+			clear: both;
+		}
+	}
+
+	h3 {
+		font-size: 21px;
+	}
+}

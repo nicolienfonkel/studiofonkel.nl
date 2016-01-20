@@ -1,3 +1,14 @@
 p {
+	margin: 10px 0px;
 	@include grid-span(4, 1, 4);
+
+	@include breakpoint($tablet) {
+		@include grid-span(6, 2);
+		clear: both;
+	}
+
+	@include breakpoint($desktop) {
+		@include grid-span(8, 3);
+		clear: both;
+	}
 }
