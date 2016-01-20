@@ -3,29 +3,14 @@
   font-weight: 100;
   line-height: 46px;
   font-size: 46px;
-  @include grid-span(10, 1, 12);
-  clear: both;
-
-  &.blog,
-  &.case,
-  &.aanpak,
-  &.page,
-  &.team {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 50px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    @include grid-span(8, 3, 12);
-    position: relative;
-    display: block;
-    clear: both;
-  }
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  position: relative;
+  display: block;
 }
 
 .page-sub-heading {
-  @include grid-span(8, 3, 12);
-  clear: both;
   color: $yellow;
   font-weight: 100;
   font-size: 36px;
@@ -35,4 +20,21 @@
   padding-bottom: 15px;
   position: relative;
   display: block;
+}
+
+
+.page-heading,
+.page-sub-heading {
+  @include grid-span(4, 1);
+  clear: both;
+
+  @include breakpoint($tablet) {
+    @include grid-span(6, 2);
+    clear: both;
+  }
+
+  @include breakpoint($desktop) {
+    @include grid-span(8, 3);
+    clear: both;
+  }
 }

@@ -6,191 +6,34 @@
 	min-height: 100vh;
 	margin-top: 50px;
 
-	h2 {
-		font-weight: 700;
-		font-size: 34px;
-	}
-
 	.footer-inner {
 		max-width: $desktop;
 		margin: 0 auto;
 	}
+}
 
-	.setup {
-		margin: 0 auto;
-		margin-bottom: 40px;
-		@include grid-span(4, 1);
+.footer-block {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.footer-block.contact-form {
+	@include grid-span(4, 1);
+	clear: both;
+
+	@include breakpoint($tablet) {
+	@include grid-span(6, 2);
 		clear: both;
 	}
 
-	.call-mail {
-		@include clearfix;
-		text-align: center;
-		@include grid-span(4, 1);
+	@include breakpoint($desktop) {
+	@include grid-span(8, 3);
 		clear: both;
-
-		.left, .right {
-			display: inline;
-		}
-
-		.right{
-			margin-left: 20px;
-		}
-
-		.icon {
-			display: inline-block;
-			vertical-align: middle;
-
-			svg {
-				height: 27px;
-			}
-		}
-
-		.contact-link {
-			font-size: 18px;
-			line-height: 33px;
-
-		}
-	}
-
-	.information {
-		@include clearfix;
-		padding: 20px 0px;
-		margin: 50px auto;
-		max-width: $desktop;
-		@include grid-span(4, 1);
-
-		.header-text {
-			width: 100%;
-			margin-bottom: 30px;
-		}
-
-		.left {
-			float: left;
-			width: 100%;
-			clear: left;
-
-			.list {
-				float: left;
-				width: 100%;
-				list-style-type: none;
-				font-size: 16px;
-				line-height: 26px;
-			}
-		}
-
-		.right {
-			float: left;
-			width: 100%;
-			clear: left;
-
-			.text {
-				font-size: 16px;
-				line-height: 26px;
-			}
-		}
-	}
-
-	.social {
-		@include clearfix;
-		margin: 0 auto;
-		border-bottom: 1px solid black;
-		text-align: center;
-		margin-bottom: 50px;
-		padding-bottom: 10px;
-		font-weight: 100;
-		@include grid-span(4, 1);
-		clear: both;
-
-		.list {
-			@include clearfix;
-			.wrapper {
-				float: left;
-				clear: both;
-				width: 100%;
-
-				.name {
-					float: left;
-					padding: 0px 5px;
-				}
-			}
-		}
-	}
-
-	.logo {
-		margin: 0 auto;
 	}
 }
 
-@include breakpoint($tablet) {
-	.footer {
-		.setup,
-		.call-mail {
-			@include grid-span(6, 2);
-			clear: both;
-		}
-
-		.information {
-			@include grid-span(6, 2, $gutter: 0);
-			clear: both;
-
-			.left {
-				margin-bottom: 30px;
-			}
-
-			.left {
-				@include grid-span(3, 1, 6);
-			}
-
-			.right {
-				@include grid-span(3, 4, 6);
-			}
-		}
-
-		.social {
-			@include grid-span(6, 2, 8);
-			clear: both;
-		}
-	}
+.footer-block.call-mail {
+	
 }
-
-@include breakpoint($desktop) {
-	.footer {
-		.setup {
-			@include grid-span(8, 3);
-		}
-
-		.information,
-		.call-mail {
-			@include grid-span(8, 3, $gutter: 0);
-			clear: both;
-			text-align: left;
-
-			.left {
-				@include grid-span(4, 1, 8);
-			}
-
-			.right {
-				@include grid-span(4, 5, 8);
-			}
-		}
-
-
-		.social {
-			@include grid-span(6, 4);
-			clear: both;
-
-			.wrapper {
-				display: inline-block;
-				float: none !important;
-				text-align: left;
-				margin: 6px 0px;
-			}
-		}
-	}
-}
-
-
-
 
 

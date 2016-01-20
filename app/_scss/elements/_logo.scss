@@ -13,7 +13,7 @@
     }
 
     &.home {
-        @include grid-span(2, 1, 12);
+        @include grid-span(2, 1);
     	float: left;
         z-index: 9999999;
         position: relative;
@@ -26,7 +26,7 @@
     }
 }
 
-@media (max-width: $tablet) {
+@include breakpoint($tablet) {
     .homepage .logo {
         &.home {
             @include grid-span(2, 1, 8);
@@ -38,6 +38,10 @@
     .homepage .logo {
         &.head {
             position: relative;
+        }
+
+        &.home {
+            @include grid-span(2, 1, 12);
         }
     }
 }
