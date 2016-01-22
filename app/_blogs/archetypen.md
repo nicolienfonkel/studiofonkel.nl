@@ -1,11 +1,13 @@
 ---
 title:  "Archetypen: je merkpersoonlijkheid als strategie"
+header-img: "/img/Archetypen-strategie.jpg"
 date:   2015-11-16 10:27:01
 author: Michiel Kokee
 front: true
 teaser-text: "Hoe zet je je merk sterker neer? Hoe kun je je bedrijf beter positioneren, en daarmee de betrokkenheid van zowel de markt als je medewerkers vergroten?"
 subtitle: "Yo Henkie!"
 ---
+
 Hoe zet je je merk sterker neer? Hoe kun je je bedrijf beter positioneren, en daarmee de betrokkenheid van zowel de markt als je medewerkers vergroten?
 
 Eén van de manieren om dat te doen, is het gebruikmaken van de archetypen van Jung. Hiermee krijg je vat op de persoonlijkheid van je bedrijf en geef je woorden aan de ziel van je merk. Je bedrijf is meer dan alleen het product of de dienst. Net zoals mensen liever niet alleen werken voor een salaris – ze willen graag meewerken aan een hoger doel – kopen mensen vaak ook niet alleen een product omdat ze het nu eenmaal nodig hebben voor een taak. Mensen doen iets of kopen iets omdat het iets groters representeert waarvan ze (onbewust) deel uit willen maken.

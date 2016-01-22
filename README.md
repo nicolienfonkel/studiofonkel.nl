@@ -47,6 +47,10 @@ Om dit aan te passen ga naar **_config.yml** in de **root** van de website.
 
 #Inhoud van **pagina** / **case** / **blog**
 
+##Lijsten
+`1. 2. 3. ect.` voor een numerieke lijst.
+`- bla - bla` voor een lijst met puntjes ervoor.
+
 ##Links
 ``[Google](https://www.google.com "Google's Homepage")`` = [Google](https://www.google.com "Google's Homepage")
 

@@ -1,5 +1,6 @@
 ---
 title:  "Een website: kostenpost of investering?"
+header-img: "/img/website-investering.jpg"
 date:   2015-06-22 10:27:01
 author: Floris van Woudenberg
 teaser-text: "Zie ik deze website als kostenpost of als een investering die geld oplevert?’ Het antwoord bepaalt in hoge mate het uiteindelijke resultaat."
