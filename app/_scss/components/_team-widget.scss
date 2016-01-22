@@ -2,7 +2,7 @@
 	margin: 30px 0px;
     font-size: 0;
     letter-spacing: 0;
-    @include grid-span(12, 1, 12, $gutter: 0);
+    @include grid-span(4, 1);
 	clear: both;
 
 	.employees-wrapper {
@@ -13,9 +13,9 @@
 	.employee {
 	    clear: none;
 	    min-height: 200px;
-	    padding: 10px;
+	    margin: 20px 0px;
 	    transition: $speed;
-	    width: 25%;
+	    width: 100%;
 	    display: inline-block;
 	    vertical-align: top;
 
@@ -28,7 +28,11 @@
 	    .employee-radio {
 	    	display: none;
 
-	    	&:checked + .info {
+	    	&:checked ~ label .image {
+	    		background-position: 100%;
+	    	}
+
+	    	&:checked ~ .info {
 		    	transition: max-height $speed .6s;
 		    	max-height: 600px;
 		    }
@@ -68,9 +72,9 @@
 	    	overflow: hidden;
 	    	float: left;
 	    	transition: max-height $speed 0s;
-			width: 208%;
+			width: 100%;
 			margin: 0;
-			margin-left: 108%;
+			// margin-left: 108%;
 			// @include grid-span(6, 4, 3, $gutter: 0);
 
 			h2 {
@@ -85,10 +89,13 @@
 			}
 
 			p {
-				color: #f8bf00;
-    			margin: 0 auto;
-    			width: 100%;
-    			margin-bottom: 50px;
+				@include clearfix;
+				color: $yellow;
+			    font-size: 18px;
+			    letter-spacing: 1px;
+			    line-height: 23px;
+			    margin: 0 auto 50px;
+			    width: 100%;
 			}	
 	    }
 	}
@@ -98,39 +105,41 @@
 .team-widget .employee {
     &:nth-of-type(4n + 2) {
 		.info {
-			width: 208%;
-			margin-left: 0%;
+			margin-left: 0;
+			width: 99%;
 		}
     }
 
     &:nth-of-type(4n + 3) {
 		.info {
-			margin-left: -108%;
+			margin-left: 0;
 		}
     }
 
     &:nth-of-type(4n + 4) {
 		.info {
-			margin-left: -215%;
-			clear: both;
+			margin-left: 0;
 		}
     }
 }
 
-@include breakpoint(max-width $tablet) {
+@include breakpoint($tablet) {
 	.team-widget {
+		@include grid-span(8, 1, $gutter: 0);
+		clear: both;
 
 		h2.page-heading.team {
-			width: 100% !important;
-			margin: 10px 0px 10px 10px !important;
+			// margin: 10px 0px 10px 10px !important;
+			@include grid-span(6, 2, 8);
 		}
 
 		.employee {
 			width: 50%;
+			padding: 12px;
 
 			.info {
-				width: 206%;
-				margin: 0; 
+				margin: 0 0 0 27%;
+    			width: 153%;
 			}
 		}
 	}
@@ -139,55 +148,65 @@
 	.team-widget .employee {
 	    &:nth-of-type(4n + 2) {
 			.info {
-				width: 206%;
-				margin-left: -107%;
+				margin-left: -80%;
+    			width: 153%;
 			}
 	    }
 
 	    &:nth-of-type(4n + 3) {
 			.info {
-				margin-left: 0;
+				margin-left: 27%;
 			}
 	    }
 
 	    &:nth-of-type(4n + 4) {
 			.info {
-				margin-left: -107%;
+				margin-left: -79%;
 			}
 	    }
 	}
 }
 
-@include breakpoint(max-width $mobile) {
+@include breakpoint($desktop) {
 	.team-widget {
+		
+		h2.page-heading.team {
+			// margin: 10px 0px 10px 10px !important;
+			@include grid-span(8, 3);
+		}
 
 		.employee {
-			width: 100%;
+			width: 25%;
 
 			.info {
-				width: 99%;
+				margin-left: 110%;
+    			width: 212%;
 			}
 		}
 	}
 
-	// If 4 in a row.
+	// // If 4 in a row.
 	.team-widget .employee {
 	    &:nth-of-type(4n + 2) {
 			.info {
-				margin-left: 0;
-    			width: 99%;
+				width: 208%;
+				margin-left: 0%;
 			}
 	    }
 
 	    &:nth-of-type(4n + 3) {
 			.info {
-				margin-left: 0;
+				clear: both;
+			    margin-left: -111%;
+			    width: 212%;
 			}
 	    }
 
 	    &:nth-of-type(4n + 4) {
 			.info {
-				margin-left: 0;
+				clear: both;
+			    margin-left: -222%;
+			    width: 212%;
 			}
 	    }
 	}

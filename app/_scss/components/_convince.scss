@@ -1,5 +1,5 @@
 .convince {
-	@include grid-span(12, 1, 12);
+	@include grid-span(4, 1);
 	clear: both;
 
 	.convince-wrapper {
@@ -10,18 +10,18 @@
 		.wrapper-inner {
 			@include clearfix;
 			position: relative;
-			width: 50%;
+			width: 100%;
 			float: left;
 
 			.wrapper {
 				@include clearfix;
 				background-clip: content-box;
-				padding-right: 10px;
+				padding-right: 0px;
 				background-color: $yellow;
 				width: 100%;
 
 				.text {
-					padding: 50px;
+					padding: 30px;
 					@include clearfix;
 
 					span{
@@ -33,10 +33,14 @@
 					h1 {
 						border-bottom: 1px solid black;
 						line-height: 41px;
+						color: #000;
+						margin: 25px 0px;
+						width: 100%;
 					}
 
 					p {
 						margin: 0px;
+						width: 100%;
 						color: #000;
 					}
 				}
@@ -44,23 +48,21 @@
 		}
 
 		.image-wrapper {
-			@include clearfix;
- 			width: 50%;
-			position: absolute;
 			top: 0;
 			right: 0;
 			bottom: 0;
+			@include clearfix;
+			position: relative;
+			clear: both;
+			width: 100%;
 
 
 			.image {
-				position: absolute;
-				top: 0;
-				left: 0;
-				right: 0;
-				bottom: 0;
-				margin-left: 10px;
 				background-position: center;
 				background-size: cover;
+				padding-bottom: 40%;
+				position: relative;
+				margin-left: 0;
 			}	
 		}
 	}
@@ -72,59 +74,38 @@
 			float: right;
 			
 			.wrapper {	
-				padding-right: 0px;
-				padding-left: 10px;
+				padding-left: 0;
 			}
 		}
 		.image-wrapper {
 			left: 0;
 				
 			.image {
-				margin-left: 0px;
-				margin-right: 10px;
+				margin-right: 0;
 			}
 		}
 	}
 }
 
-@media (max-width: $mobile) {
+@include breakpoint($tablet) {
 	.convince {
+		@include grid-span(8, 1);
+		clear: both;
+
 		.convince-wrapper {
-			.wrapper-inner {
-				width: 100%;
-				
-				.wrapper {	
-					padding-right: 0;
-
-					.text {
-						padding: 30px;
-					}
-				}
-			}
 			.image-wrapper {
-				@include clearfix;
-				position: relative;
-				clear: both;
-				width: 100%;
-					
-				.image {
-					padding-bottom: 30%;
-					position: relative;
-					margin-left: 0;
-				}
+				@include grid-span(4, 1);
 			}
 
-			&:nth-child(odd) {
-				.wrapper {
-					padding-left: 0;
-				}
-
-				.image {
-					margin-right: 0;
-				}
+			.wrapper-inner {
+				@include grid-span(4, 5);
 			}
 		}
 	}
 }
+
+
+
+
 
 
