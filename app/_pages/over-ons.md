@@ -15,7 +15,7 @@ In onze aanpak zie je voortdurend de lijn terug van prioriteiten stellen en waar
 
 Agile is een term uit de software-ontwikkeling en betekent 'lenig' en 'behendig'. Het komt erop neer dat er in het proces ruimte is voor verandering (lees: spontane goede ideeën) zonder dat de deadline in gevaar komt. Een voorbeeld van een agile projectbenadering is 'scrum'.
 
-{% image "/img/agile-board.png" "default" %}
+{% image "/img/agile-board.png" "browser" %}
 
 ###Scrum
 

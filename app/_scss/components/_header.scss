@@ -20,6 +20,8 @@
 	transition: all .3s;
 
 	.nav {
+		@include grid-span(4, 1);
+
 		@include breakpoint($tablet) {
 			@include grid-span(8, 1);
 		}
