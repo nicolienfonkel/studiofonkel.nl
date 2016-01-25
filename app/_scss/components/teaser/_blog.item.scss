@@ -36,4 +36,9 @@
 		@include grid-span(6, 2);
 		clear: both;		
 	}
+
+	@include breakpoint($desktop) {
+		@include grid-span(8, 3);
+		clear: both;		
+	}
 }

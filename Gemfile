@@ -7,3 +7,4 @@ gem 'sass-globbing', '~> 1.0.0'
 gem 'i18n'
 gem "singularitygs", "~>1.4"
 gem 'breakpoint'
+gem 'octopress-autoprefixer'

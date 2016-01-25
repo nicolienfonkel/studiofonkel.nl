@@ -1,8 +1,8 @@
 .page-heading {
   color: $grey;
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 40px;
   position: relative;
   display: block;
   margin-bottom: 50px;
@@ -41,5 +41,7 @@
 .page-heading {
   @include breakpoint($tablet) {
     clear: both;
+    font-size: 48px;
+    line-height: 50px;
   }
 }

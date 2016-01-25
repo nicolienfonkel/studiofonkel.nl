@@ -39,6 +39,16 @@
 }
 
 .footer-block.contact-form {
+	span {
+		float: left;
+	    height: 100%;
+	    line-height: 40px;
+	    margin-left: 10px;
+	}
+
+	svg {
+		height: 42px;
+	}
 }
 
 .footer-block.call-mail {
@@ -111,6 +121,10 @@
 	.name {
 		float: left;
     	width: 30%;
+	}
+
+	.arrow-long {
+		height: 20px;
 	}
 
 	@include breakpoint($tablet) {
