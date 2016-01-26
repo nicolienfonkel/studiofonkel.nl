@@ -19,14 +19,14 @@ $(document).ready(function() {
         emails: [
             {
                 from: 'contact@studiofonkel.nl',
+                subject: 'Bericht via studiofonkel.nl',
+                to: ['theobouwman98@gmail.com'],
                 fromNameField: 'name',
+                phoneNumber: 'phone',
+                replyToField: 'email'
                 // fromName: 'John Smith',
                 // toField: '',
-                to: ['theobouwman98@gmail.com'],
                 // replyTo: 'mail@domain.com',
-                replyToField: 'email',
-                subject: 'Bericht via studiofonkel.nl',
-                phoneNumber: 'phone'
             }
         ]
     });

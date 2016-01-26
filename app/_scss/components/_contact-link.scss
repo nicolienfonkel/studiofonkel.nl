@@ -3,6 +3,7 @@
     margin: 15px 0;
     white-space: nowrap;
     width: 42%;
+    clear: both;
     float: left;
 
     &:last-child {
@@ -11,6 +12,7 @@
 
     @include breakpoint($tablet) {
     	display: unset;
+        clear: none;
    		margin-right: 25px;
     }
 }

@@ -1,0 +1,5 @@
+.break {
+  @include breakpoint($tablet) {
+    display: none;
+  }
+}
