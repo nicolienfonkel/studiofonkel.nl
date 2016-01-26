@@ -6,7 +6,9 @@
     <h3 class="page-sub-heading"> {{ page.subtitle }} </h3>
 {% endif %}
 
-{% if page.title %}
+{% if page.html_title %}
+    <h2 class="page-heading blog">{{ page.html_title }}</h2>
+{% else %}
     <h2 class="page-heading blog">{{ page.title }}</h2>
 {% endif %}
 

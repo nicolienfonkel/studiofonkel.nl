@@ -5,7 +5,7 @@
   @include clearfix;
   
   .teaser {
-    padding-bottom: 100% * $factor;
+
     @include float-span(4, 1);
 
     @include breakpoint($tablet) {

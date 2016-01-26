@@ -1,7 +1,7 @@
 .cases.teaser {
 	@include clearfix;
 	position: relative;
-	margin-bottom: 20px;
+	margin-bottom: 10px !important;
 	
 	&:before {
 		background: rgba(0, 0, 0, 0) linear-gradient(transparent 0px, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
@@ -16,5 +16,9 @@
 	.category {
 		float: left;
 		padding: 0 7px 0 0;
+	}
+
+	@include breakpoint($tablet) {
+		margin-bottom: 30px !important;
 	}
 }

@@ -1,5 +1,6 @@
 ---
 title:  "Archetypen: je merkpersoonlijkheid als strategie"
+html_title:  "Archetypen: je merk<span class='break'>-<br></span>persoonlijkheid als strategie"
 header-img: "/img/Archetypen-strategie.jpg"
 date:   2015-11-16 10:27:01
 author: Michiel Kokee

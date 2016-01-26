@@ -4,7 +4,13 @@
 
 <a class="blogs teaser" href="{{ blog.url | prepend: site.baseurl }}">
 	<div class="inner-wrapper">
-		<h3 class="header-text">{{ blog.title }}</h3>
+		<h3 class="header-text">
+			{% if blog.html_title %}
+				{{ blog.html_title }}
+			{% else %}
+				{{ blog.title }}
+			{% endif %}
+		</h3>
 		<div class="link">
 
 			{% if page.url == '/blogs/' %}
