@@ -3,10 +3,15 @@
 	background-size: cover;
 	position: relative;
 
+	@include grid-span(4, 1);
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+
 	.inner-wrapper {
+		@include clearfix;
 		margin: 40px;
-		position: absolute;
 		bottom: 0;
+		padding: 30px 0px;
 
 		.header-text {
 			color: #fff;
@@ -22,6 +27,16 @@
 	&:hover {
 		.arrow-long {
 			margin-left: 10px;
+		}
+	}
+
+	@include breakpoint($tablet) {
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+
+		.inner-wrapper {
+			padding: 0px;
+			position: absolute !important;
 		}
 	}
 }

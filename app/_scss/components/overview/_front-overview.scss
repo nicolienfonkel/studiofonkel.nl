@@ -8,8 +8,8 @@
 @include breakpoint (max-width $tablet - 1) {
 	.front-overview {
 		.teaser {
-			float: left;
-			width: 100%;
+			//float: left;
+			//width: 100%;
 			min-height: 100px;
 		}
 	}
