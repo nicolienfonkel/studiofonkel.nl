@@ -1,14 +1,4 @@
 .contact-link {
-	display: block;
-    margin: 15px 0;
-    white-space: nowrap;
-    width: 42%;
-    clear: both;
-    float: left;
-
-    &:last-child {
-    	margin-left: 0 !important;
-    }
 
     @include breakpoint($tablet) {
     	display: unset;

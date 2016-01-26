@@ -1,4 +1,6 @@
 .main-menu {
+  border-bottom: 1px solid #cccccc;
+
   .menu-link {
     &:hover:after,
     &.active:after {
@@ -34,4 +36,8 @@
       }
     }
   }
+}
+
+.homepage .main-menu {
+  border-bottom: 0 solid #cccccc;
 }

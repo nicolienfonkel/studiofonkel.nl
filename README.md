@@ -29,7 +29,7 @@ Om dit aan te passen ga naar **_config.yml** in de **root** van de website.
 - **background-position**: "20% 30%” **(Als de afbeelding anders gepositioneerd moet worden, horizontaal, verticaal | NIET VERPLICHT | Standaard “CENTER 40%”)**
 - **front**: yes **(Bij een nieuwe case front op yes zetten als je deze op de voorpagina wilt)**
 
-#Blogs 
+#Blogs
 - **title**:  "title"
 - **html_title**: "Archetypen: je merk`<span class='break'>-<br></span>`persoonlijkheid als strategie" (De html_title is er om lange worden in een title een break te geven, zodat deze goed weergegeven wordt | `<span class='break'>-<br></span>`)
 - **subtitle**: "subtitle"

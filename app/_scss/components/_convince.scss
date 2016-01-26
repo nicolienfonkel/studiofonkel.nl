@@ -68,25 +68,6 @@
 	}
 }
 
-.convince {
-	.convince-wrapper:nth-child(odd) {
-		.wrapper-inner {
-			float: right;
-			
-			.wrapper {	
-				padding-left: 0;
-			}
-		}
-		.image-wrapper {
-			left: 0;
-				
-			.image {
-				margin-right: 0;
-			}
-		}
-	}
-}
-
 @include breakpoint($tablet) {
 	.convince {
 		@include grid-span(8, 1, $gutter: 0);
@@ -128,6 +109,26 @@
 
 			.wrapper-inner {
 				@include grid-span(6, 7);
+			}
+		}
+	}
+
+	.convince {
+		.convince-wrapper:nth-child(odd) {
+			.wrapper-inner {
+				@include grid-span(6, 1);
+
+				.wrapper {
+					padding-left: 0;
+				}
+			}
+			.image-wrapper {
+				@include grid-span(6, 7);
+				left: auto !important;
+
+				.image {
+					margin-right: 0;
+				}
 			}
 		}
 	}
