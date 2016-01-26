@@ -17,7 +17,7 @@ Om dit aan te passen ga naar **_config.yml** in de **root** van de website.
 
 #Cases
 - **title**:  "title"
-- **html_title**: "Archetypen: je merk`<span class='break'>-<br></span>`persoonlijkheid als strategie" (De html_title is er om lange worden in een title een break te geven, zodat deze goed weergegeven wordt | <span class='break'>-<br></span>)
+- **html_title**: "Archetypen: je merk`<span class='break'>-<br></span>`persoonlijkheid als strategie" (De html_title is er om lange worden in een title een break te geven, zodat deze goed weergegeven wordt | `<span class='break'>-<br></span>`)
 - **subtitle**: "subtitle"
 - **header-img**: “/img/**afbeeldingnaam.extensie**”
 - **header-img-alt**: “Alt tekst voor afbeelding"
@@ -31,7 +31,7 @@ Om dit aan te passen ga naar **_config.yml** in de **root** van de website.
 
 #Blogs
 - **title**:  "title"
-- **html_title**: "Archetypen: je merk`<span class='break'>-<br></span>`persoonlijkheid als strategie" (De html_title is er om lange worden in een title een break te geven, zodat deze goed weergegeven wordt | <span class='break'>-<br></span>)
+- **html_title**: "Archetypen: je merk`<span class='break'>-<br></span>`persoonlijkheid als strategie" (De html_title is er om lange worden in een title een break te geven, zodat deze goed weergegeven wordt | `<span class='break'>-<br></span>`)
 - **subtitle**: "subtitle"
 - **header-img**: “/img/afbeeldingsnaam.extensie"
 - **header-img-alt**: “Alt tekst voor afbeelding"
