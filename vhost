@@ -3,6 +3,7 @@ server {
   listen 80;
   root /var/www/Studio-Fonkel-Jekyll;
   index index.html;
+  error_page  404  /app/_pages/404.md;
 
   location / {
     try_files $uri $uri/ @rewrites;
