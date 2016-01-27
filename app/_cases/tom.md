@@ -23,3 +23,5 @@ Op de homepagina hebben we gekozen voor kleur in plaats van het standaard wit. D
 ###Tandzorg Op Maat
 
 Iedere Tandzorg Op Maat-vestiging heeft een eigen URL die onder het hoofddomein valt. Binnen het CMS kan de beheerder zelf eenvoudig nieuwe websites aanmaken voor nieuwe vestigingen.
+
+{% image “/img/grijs.jpg" "full" %}

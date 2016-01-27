@@ -17,3 +17,5 @@ Naast de Nederlandse versie, is er een Franse variant uitgerold. In de toekomst 
 "Het aantal leads is significant gestegen sinds de lancering van de nieuwe website." – Hörmann
 
 {% case_tags %}
+
+{% image “/img/grijs.jpg" "full" %}

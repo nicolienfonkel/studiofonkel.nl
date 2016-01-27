@@ -25,3 +25,5 @@ De kern van het concept; ‘eenvoud’, zie je overal terugkomen. In het taalgeb
 Er is bewust gekozen om weg te blijven bij de vertrouwde, veelgebruikte en saaie accountancy kleuren zoals donkerblauw, grijs en rood. Hallo Fincent is anders. Het is de nieuwe manier van je financiële administratie uitbesteden. Dat zie je meteen.
 
 {% image “/img/Fincent-mobiel.jpg" %}
+
+{% image “/img/grijs.jpg" "full" %}

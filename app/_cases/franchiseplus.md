@@ -13,3 +13,5 @@ categories:
 4e case ooit
 
 {% case_tags %}
+
+{% image “/img/grijs.jpg" "full" %}

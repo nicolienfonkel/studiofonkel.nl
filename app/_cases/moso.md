@@ -8,3 +8,6 @@ author: Theo
 ##5e casasde ooit
 
 grunt serve test 
+
+
+{% image “/img/grijs.jpg" "full" %}
