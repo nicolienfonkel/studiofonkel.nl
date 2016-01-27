@@ -5,7 +5,7 @@ date: 2015-01-03 10:27:01
 header-img: "/img/masugro-mlogo.jpg"
 header-img-alt: "Green Girafe ALT"
 front: true
-background-position: "100% 100%"
+header-img-position: "30% 70%"
 
 categories:
 - Branding 
