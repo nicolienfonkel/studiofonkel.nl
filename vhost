@@ -1,7 +1,7 @@
 server {
   server_name beta.studiofonkel.nl;
   listen 80;
-  root /var/www/studiofonkel.nl;
+  root [REPLACE_WITH_BUILD_PATH];
   index index.html;
   error_page  404  /app/_pages/404.md;
 
