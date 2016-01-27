@@ -22,5 +22,4 @@ Atechpro is de Nederlandse importeur van biomassaketels van het Oostenrijkse top
 
 Atechpro bereikt haar klanten onder andere via installateurs. Deze installateurs kennen het verhaal achter de techniek niet altijd. Voor de uiteindelijke prospect is verwarmen met biomassa vaak nog een ver-van-hun-bed-show. Atechpro zocht daarom naar een middel om het verhaal toch dichtbij te brengen. Wij bedachten een magazine. Met daarin interviews met klanten over hun ervaringen met biomassa. We bezochten onder andere een zwembad, een boerderij, een landhuis, voetbalvereniging en het KWB hoofdkantoor in Oostenrijk. Deze artikelen vulden we aan met weetjes, heldere informatie en mooie fotografie. De magazines liggen nu bij installateurs en worden door Atechpro succesvol gebruikt op energiebeurzen.
 
-
 {% image “/img/grijs.jpg" "full" %}
