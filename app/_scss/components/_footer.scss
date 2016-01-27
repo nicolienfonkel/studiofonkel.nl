@@ -27,6 +27,7 @@
 	a {
 		line-height: 26px !important;
 		font-size: 16px !important;
+		font-weight: 300 !important;
 	}
 }
 
@@ -40,7 +41,7 @@
 	}
 
 	@include breakpoint($desktop) {
-	@include grid-span(8, 3);
+	@include grid-span(8, 3, $gutter: 0);
 		clear: both;
 	}
 }
@@ -190,14 +191,10 @@
 	}
 
 	.name {
-		line-height: 20px;
-		padding: 0 10px 0 0;
 		display: initial;
-		float: left;
-	}
-
-	.arrow-long {
-		height: 20px;
+	    float: left;
+	    line-height: 20px;
+	    padding: 0 18px 0 0;
 	}
 
 	@include breakpoint($tablet) {
@@ -209,7 +206,7 @@
 		}
 
 		.name {
-			padding: 0 2px 0 18px;
+			padding: 0 15px 0 18px;
 		}
 
 		.list {
@@ -218,8 +215,12 @@
 	}
 
 	@include breakpoint($desktop) {
-		.name {
-			padding: 0 7px 0 26px;
+		.wrapper {
+			@include float-span(2, $grid: 8);
+
+			.name {
+				padding: 0 15px 0 0 !important;
+			}
 		}
 	}
 }

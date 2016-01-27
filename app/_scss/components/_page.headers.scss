@@ -3,12 +3,12 @@
 	h2,
 	h3 {
 		color: $text-color;
-	    font-weight: 700;
+	    font-weight: 600;
 	    margin: 30px auto 15px;
 	    position: relative;
 	    display: block;
 	    font-size: 32px;
-	    line-height: 30px;
+	    line-height: 36px;
 	    @include grid-span(4, 1);
 	    clear: both;
 
@@ -21,9 +21,5 @@
 			@include grid-span(8, 3);
 			clear: both;
 		}
-	}
-
-	h3 {
-		font-size: 21px;
 	}
 }
