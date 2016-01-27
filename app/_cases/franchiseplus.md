@@ -1,6 +1,6 @@
 ---
 title:  "Franchise+"
-header-img: "/img/gg.jpg"
+header-img: "/img/gevels.jpg"
 header-img-alt: "Green Girafe ALT"
 date: 2016-10-01 10:27:01
 front: true
