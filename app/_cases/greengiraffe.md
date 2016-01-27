@@ -21,3 +21,5 @@ We hebben ervoor gekozen om een visuele identiteit te ontwikkelen waarbij excell
 ###Cartografie
 
 We hebben een kaart ontworpen die aansluit bij de branding van Green Giraffe. Nieuwe projecten kunnen ze eenvoudig zelf toevoegen in het CMS. Het project verschijnt dan op de kaart met de juiste icoontjes op het juiste zoomniveau.
+
+{% image “/img/grijs.jpg" "full" %}
