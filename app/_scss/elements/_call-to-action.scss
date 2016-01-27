@@ -3,11 +3,14 @@
 	position: relative;
 	@include clearfix;
 	clear: both;
+	margin-top: 20px;
+	margin-bottom: 20px;
 
 	.cta-text {
 		width: 100% !important;
 		margin-left: 0 !important;
 		margin-right: 0 !important;
+		margin-top: 0px;
 		padding-bottom: 45px !important;
 	}
 
@@ -45,7 +48,7 @@
 	}
 
 	@include breakpoint($tablet) {
-		margin: 70px 0px;
+		margin: 40px 0px;
 		@include grid-span(6, 2);
 		clear: both;
 	}

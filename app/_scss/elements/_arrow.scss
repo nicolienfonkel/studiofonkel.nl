@@ -12,8 +12,10 @@
     bottom: 10%;
 
     span {
-    	float: left;
+    	float: left; 
     	padding-right: 7px;
+    	z-index: 44;
+		position: relative;
     }
 
     .arrow-long {

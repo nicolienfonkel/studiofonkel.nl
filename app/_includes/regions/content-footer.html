@@ -1,6 +1,8 @@
 {% if page.previous.url or page.next.url %}
     <div class="content-footer">
 
+        <h3 class="content-footer-header">Meer {{ page.collection }}</h3>
+
         <div class="previous">
         {% if page.previous.url and page.previous.collection %}
             {% assign document = page.previous %}

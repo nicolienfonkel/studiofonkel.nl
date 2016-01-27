@@ -21,13 +21,13 @@ city: Amersfoort
 
 kvk: 60546204
 btw: 8539.55.712.B01
-iban: NL09RABO0155510681
+iban: NL 09 RABO 0 15 55 10 680
 
 author:
   name: Studio Fonkel
 
 # Grunt handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts',
+exclude: ['img', 'css', 'js', 'fonts', '_pages/widget.html',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 'widget.html']
 
 include: ['.htaccess']

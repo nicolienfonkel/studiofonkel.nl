@@ -22,9 +22,11 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 	
-	p, ul {
-		line-height: 26px;
-		font-style: 16px;
+	p, 
+	ul li,
+	a {
+		line-height: 26px !important;
+		font-size: 16px !important;
 	}
 }
 
@@ -70,8 +72,8 @@
 	margin-top: 10px;
 
 	.svg-icon {
-		height:23px;
-		width: 23px;
+		height:30px;
+		width: 30px; 
 		margin-right: 15px;
 		margin-top: -5px;
 	}
@@ -159,7 +161,7 @@
 				@include grid-span(3, 1, 6, $gutter: 0);
 
 				&:last-child {
-					@include grid-span(3, 4, 6);
+					@include grid-span(3, 4, 6, $gutter: 7px);
 				}
 			}
 		}
@@ -188,7 +190,7 @@
 	}
 
 	.name {
-		line-height: 14px;
+		line-height: 20px;
 		padding: 0 10px 0 0;
 		display: initial;
 		float: left;
