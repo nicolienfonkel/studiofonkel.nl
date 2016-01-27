@@ -4,7 +4,7 @@ subtitle: "Een nieuw concept voor ondernemers doeltreffend communiceren"
 header-img: "/img/atechpro.jpg"
 header-img-alt: "Atechpro"
 date: 2014-12-12 10:27:01
-author: Theo
+front: true
 categories: 
 - Drupal website
 - Strategie

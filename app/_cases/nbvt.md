@@ -4,6 +4,7 @@ subtitle: "Complexe wensen vertaald naar goed functionerende oplossingen"
 date:   2015-08-08 10:27:01
 header-img: "/img/gg.jpg"
 header-img-alt: "Green Girafe ALT"
+front: true
 
 categories:
 - Benchmarks 
