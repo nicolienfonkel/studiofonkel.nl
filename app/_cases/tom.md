@@ -16,9 +16,13 @@ Tandzorg Op Maat (TOM) is een tandartsketen met een heel eigen visie op de tanda
 
 {% case_tags %} 
 
+{% image “/img/tom1.jpg" %}
+
 Op de homepagina hebben we gekozen voor kleur in plaats van het standaard wit. Deze laat de huiselijkheid van TOM zien. Het ‘anders-zijn’ komt verder tot uiting in de vier verrassende omklapbare panelen waaruit de homepagina bestaat.
 
 > “We zijn erg blij met de nieuwe website. Het aantal aanmeldingen van nieuwe patiënten is sterk gestegen sinds de lancering.” – 
+
+{% image “/img/tom2.jpg" %}
 
 ###Tandzorg Op Maat
 

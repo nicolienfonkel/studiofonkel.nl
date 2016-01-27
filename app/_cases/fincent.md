@@ -11,7 +11,8 @@ header-img: "/img/fincent.jpg"
 header-img-alt: "Green Girafe ALT"
 subtitle: "Een nieuw merk voor een accountant met een goed idee."
 title: "Hallo Fincent"
-background-position: "50% 80%"
+header-img-position: "100% 65%"
+background-position: "50% 65%"
 ---
 
 Eigenaar van het accountancykantoor Ligterink & De Wit, Lars van Loon, gelooft dat het uitbesteden van financiële administratie eenvoudiger en goedkoper kan. Hij kwam bij Studio Fonkel met een nieuw concept én de vraag: ‘hoe zetten we dit neer?’ Studio Fonkel schreef een merkverhaal, bedacht een naam, creëerde een visuele identiteit en bouwde een website: ‘Hallo Fincent’.
