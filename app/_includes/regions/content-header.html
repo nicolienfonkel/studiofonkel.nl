@@ -13,5 +13,9 @@
 {% endif %}
 
 {% if page.header-img %}
-    <div class="page-image" style="background-image: url('{{ page.header-img }}');"></div>
+    {% if page.header-img-position %}
+    	<div class="page-image" style="background-image: url('{{ page.header-img }}'); background-position: {{ page.header-img-position }};"></div>
+    {% else %}
+    	<div class="page-image" style="background-image: url('{{ page.header-img }}');"></div>
+    {% endif %}
 {% endif %}

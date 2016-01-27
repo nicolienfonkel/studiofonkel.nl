@@ -27,6 +27,7 @@ Om dit aan te passen ga naar **_config.yml** in de **root** van de website.
 - Website
 - Applicatie
 - **background-position**: "20% 30%” **(Als de afbeelding anders gepositioneerd moet worden, horizontaal, verticaal | NIET VERPLICHT | Standaard “CENTER 40%”)**
+- **header-img-position**: "20% 30%” **(Als de header afbeelding anders gepositioneerd moet worden, horizontaal, verticaal | NIET VERPLICHT | Standaard “CENTER 40%”)**
 - **front**: yes **(Bij een nieuwe case front op yes zetten als je deze op de voorpagina wilt)**
 
 #Blogs
@@ -40,6 +41,7 @@ Om dit aan te passen ga naar **_config.yml** in de **root** van de website.
 - **front**: yes
 - **teaser-text**: “Tekst” **(Deze tekst komt bij de teaser op de blogs pagina te staan)**
 - **front**: yes **(Bij een nieuwe blogs front op yes zetten als je deze op de voorpagina wilt)**
+- **header-img-position**: "20% 30%” **(Als de header afbeelding anders gepositioneerd moet worden, horizontaal, verticaal | NIET VERPLICHT | Standaard “CENTER 40%”)**
 
 #Nieuwe pagina
 - **title**:  "title"
