@@ -1,7 +1,6 @@
 # Studio-Fonkel
 ## Instructies
 
-
 Note:
 **Alle** afbeeldingen moeten in het mapje **/img** gezet worden.
 

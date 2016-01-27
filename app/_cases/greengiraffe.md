@@ -18,6 +18,6 @@ We hebben ervoor gekozen om een visuele identiteit te ontwikkelen waarbij excell
 
 “Studio Fonkel heeft zich vanaf het offertetraject tot aan de oplevering onderscheiden. Met name door het aanvoelen van onze identiteit en het op creatieve wijze vertalen daarvan naar onze website. Zowel de oorspronkelijke voorstellen als de latere aanvullingen konden rekenen op een unaniem 'dat ziet er goed uit!' van al onze medewerkers." - Green Giraffe
 
-Cartografie
+###Cartografie
 
 We hebben een kaart ontworpen die aansluit bij de branding van Green Giraffe. Nieuwe projecten kunnen ze eenvoudig zelf toevoegen in het CMS. Het project verschijnt dan op de kaart met de juiste icoontjes op het juiste zoomniveau.

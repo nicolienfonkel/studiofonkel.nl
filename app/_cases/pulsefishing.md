@@ -1,7 +1,7 @@
 ---
 title:  "Pulsefishing.eu"
-subtitle: "AEen informatieplatform over pulsvissen voor Europese beleidsmakers"
-header-img: "/img/atechpro.jpg"
+subtitle: "Een informatieplatform over pulsvissen voor Europese beleidsmakers"
+header-img: "/img/puls_vissen.jpg"
 header-img-alt: "Atechpro"
 date: 2015-04-04 10:27:01
 
@@ -10,7 +10,7 @@ categories:
 - Meertalig
 - Drupal
 - Ontwerp
-background-position: "20% 30%"
+
 ---
 
 Over pulsvissen als vismethode bestaan veel spookverhalen. Het Ministerie van Economische zaken kwam bij ons met de vraag: “Maak een meertalig informatieplatform over pulsvissen zodat Europese beleidsmakers hun keuze baseren op feiten en onderzoek.” Deze website moet stakeholders voorzien van objectieve informatie over deze duurzame vismethode.

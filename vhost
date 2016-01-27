@@ -1,7 +1,7 @@
 server {
   server_name beta.studiofonkel.nl;
   listen 80;
-  root /var/www/Studio-Fonkel-Jekyll;
+  root /var/www/studiofonkel.nl;
   index index.html;
 
   location / {
@@ -9,9 +9,9 @@ server {
   }
 
   location @rewrites {
-    rewrite ^ /index.php last;
+    rewrite ^ /index.html last;
   }
-
+  
   location ~* \.(jpg|jpeg|gif|css|png|js|ico|html|svg)$ {
     access_log off;
     expires max;

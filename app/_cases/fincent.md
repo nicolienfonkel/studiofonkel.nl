@@ -1,5 +1,5 @@
 ---
-author: Theo
+title:  "Fincent"
 categories: 
   - Merkverhaal
   - Visuele identiteit
@@ -7,7 +7,7 @@ categories:
   - Website
 date: 2016-12-01 10:27:01 +00:00
 front: true
-header-img: /img/gg.jpg
+header-img: /img/Fincent-full.jpg
 header-img-alt: "Green Girafe ALT"
 subtitle: "Een nieuw merk voor een accountant met een goed idee."
 title: "Hallo Fincent"
@@ -16,6 +16,12 @@ Eigenaar van het accountancykantoor Ligterink & De Wit, Lars van Loon, gelooft d
 
 {% case_tags %}
 
+{% image “/img/Fincent-4.jpg" %}
+
 De kern van het concept; ‘eenvoud’, zie je overal terugkomen. In het taalgebruik en de vormgeving. De conceptnaam ‘FDPT’ werd ‘Hallo Fincent’. We ontwierpen een logo en schakelden een illustrator in om Fincent een gezicht te geven.    
 
+{% image “/img/Fincent-page.jpg" %}
+
 Er is bewust gekozen om weg te blijven bij de vertrouwde, veelgebruikte en saaie accountancy kleuren zoals donkerblauw, grijs en rood. Hallo Fincent is anders. Het is de nieuwe manier van je financiële administratie uitbesteden. Dat zie je meteen.
+
+{% image “/img/Fincent-mobiel.jpg" %}
