@@ -1,5 +1,5 @@
 ---
-title:  "Studio Fonkel Jekyll"
+title:  "Moso"
 date: 2015-10-10 10:27:01
 header-img: "/img/gg.jpg"
 header-img-alt: "Green Girafe ALT"

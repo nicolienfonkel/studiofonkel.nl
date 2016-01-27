@@ -5,7 +5,6 @@ categories:
   - Visuele identiteit
   - Tekst
   - Website
-  - DRUPAL
 date: 2016-12-01 10:27:01 +00:00
 front: true
 header-img: /img/gg.jpg
