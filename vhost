@@ -1,9 +1,9 @@
 server {
-  server_name beta.studiofonkel.nl;
+  server_name [REPLACE_WITH_CNAME];
   listen 80;
   root [REPLACE_WITH_BUILD_PATH];
   index index.html;
-  error_page  404  /app/_pages/404.md;
+  error_page  404  /404;
 
   location / {
     try_files $uri $uri/ @rewrites;
