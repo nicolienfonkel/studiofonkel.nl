@@ -3,13 +3,13 @@ title:  "Green Giraffe"
 header-img: "/img/gg.jpg"
 header-img-alt: "Green Girafe ALT"
 date: 2015-01-01 10:27:01
-
 categories: 
 - Drupal 
 - Cartografie 
 - Webdesign
 front: true
 ---
+
 Green Giraffe is een financieel adviesbureau, gespecialiseerd in duurzame energieprojecten. Ze kwamen bij ons met de vraag: "Maak een representatie van ons projectportfolio, zodat duidelijk wordt dat onze adviseurs bij zeer veel omvangrijke off-shore windenergie projecten betrokken zijn."
 
 {% case_tags %}

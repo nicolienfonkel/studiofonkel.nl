@@ -1,16 +1,15 @@
 ---
-title:  "Fincent"
+title: "Hallo Fincent"
+subtitle: "Een nieuw merk voor een accountant met een goed idee."
+date: 2016-12-01 10:27:01 +00:00
 categories: 
   - Merkverhaal
   - Visuele identiteit
   - Tekst
   - Website
-date: 2016-12-01 10:27:01 +00:00
 front: true
 header-img: "/img/fincent.jpg"
 header-img-alt: "Green Girafe ALT"
-subtitle: "Een nieuw merk voor een accountant met een goed idee."
-title: "Hallo Fincent"
 header-img-position: "100% 65%"
 background-position: "50% 65%"
 ---

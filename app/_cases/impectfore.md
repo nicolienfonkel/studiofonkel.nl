@@ -1,9 +1,9 @@
 ---
 title:  "Impectforce"
 subtitle: "Een nieuw concept voor ondernemers doeltreffend communiceren"
+date: 2014-12-12 10:27:01
 header-img: "/img/impectforce.jpg"
 header-img-alt: "Atechpro"
-date: 2014-12-12 10:27:01
 front: true
 categories: 
 - Drupal website
