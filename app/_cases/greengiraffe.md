@@ -14,6 +14,8 @@ Green Giraffe is een financieel adviesbureau, gespecialiseerd in duurzame energi
 
 {% case_tags %}
 
+{% image “/img/green1.jpg" %}
+
 We hebben ervoor gekozen om een visuele identiteit te ontwikkelen waarbij excellentie en esthetiek voorop staan. Ook hebben we een grote online kaart gemaakt, waarbij duidelijk zichtbaar wordt wat de omvang is van Green Giraffe in de Europese markt.
 
 “Studio Fonkel heeft zich vanaf het offertetraject tot aan de oplevering onderscheiden. Met name door het aanvoelen van onze identiteit en het op creatieve wijze vertalen daarvan naar onze website. Zowel de oorspronkelijke voorstellen als de latere aanvullingen konden rekenen op een unaniem 'dat ziet er goed uit!' van al onze medewerkers." - Green Giraffe
@@ -21,5 +23,9 @@ We hebben ervoor gekozen om een visuele identiteit te ontwikkelen waarbij excell
 ###Cartografie
 
 We hebben een kaart ontworpen die aansluit bij de branding van Green Giraffe. Nieuwe projecten kunnen ze eenvoudig zelf toevoegen in het CMS. Het project verschijnt dan op de kaart met de juiste icoontjes op het juiste zoomniveau.
+
+{% image “/img/green2.jpg" %}
+
+{% image “/img/green3.jpg" %}
 
 {% image “/img/grijs.jpg" "full" %}
