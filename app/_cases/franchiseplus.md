@@ -14,4 +14,6 @@ categories:
 
 {% case_tags %}
 
+{% image “/img/franchiseplus-site2.jpg" %}
+
 {% image “/img/grijs.jpg" "full" %}
