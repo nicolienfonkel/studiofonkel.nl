@@ -18,7 +18,13 @@ module Jekyll
         @caption = ''
       end
 
-      "<figure class='image image-#{@type}'><div class='image-inner'><img src='#{@url}' alt='#{@alt}' title='#{@alt}'></div>#{@caption}</figure>"
+      if @type == "full"
+        @image = "<div class='background-image' style='background-image: url(#{@url})'></div>"
+      else
+        @image = "<img src='#{@url}' alt='#{@alt}' title='#{@alt}'>"
+      end
+
+      "<figure class='image image-#{@type}'><div class='image-inner'>#{@image}</div>#{@caption}</figure>"
     end
   end
 end
