@@ -19,18 +19,18 @@ Archetypen zijn ontwikkeld door Carl Gustav Jung. Het zijn een soort psychologis
 
 Er zijn meerdere modellen in omloop, maar de meest bruikbare voor het bepalen van je merkpersoonlijkheid is het model van 12 archetypen. 
 
-Heerser – Orde en autoriteit
-Schepper – Visie en creatie
-Onschuldige – Veiligheid en dromen
-Wijze – Kennis en wijsheid
-Ontdekker – Ontdekken en onafhankelijkheid
-Magiër – Transformatie en catalysatie
-Rebel – Vrijheid
-Held – Prestatie
-Nar – Plezier en onbezorgdheid
-Bondgenoot – Toegankelijk en voor iedereen
-Minnaar – Passie en intimiteit
-Zorggever – Betrokkenheid en toewijding
+1. Heerser – Orde en autoriteit
+2. Schepper – Visie en creatie
+3. Onschuldige – Veiligheid en dromen
+4. Wijze – Kennis en wijsheid
+5. Ontdekker – Ontdekken en onafhankelijkheid
+6. Magiër – Transformatie en catalysatie
+7. Rebel – Vrijheid
+8. Held – Prestatie
+9. Nar – Plezier en onbezorgdheid
+10. Bondgenoot – Toegankelijk en voor iedereen
+11. Minnaar – Passie en intimiteit
+12. Zorggever – Betrokkenheid en toewijding
 
 [Een uitgebreidere omschrijving van de archetypen vind je hier](https://studiofonkel.nl/blogs/12-archetypen/ "12 archetypen"). 
 
