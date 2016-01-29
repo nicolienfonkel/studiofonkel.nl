@@ -3,6 +3,8 @@ title:  "Aanpak"
 subtitle: "Het budget zo inzetten dat we maximaal waarde toevoegen aan je organiatie. Dat is onze doelstelling. "
 author: Theo
 menu: 4
+front: true
+
 ---
 
 #Titel
@@ -22,4 +24,3 @@ Een groot voordeel van de scrum methodiek is dat je als klant maximaal grip hebt
 {% image "/img/agile-board.png" "full" "Op het scrumbord zien we precies wat er nog moet gebeuren, wie waar mee bezig is en welke taken al zijn afgerond." %}
 
 {% convince aanpak %}
-

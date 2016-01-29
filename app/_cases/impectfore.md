@@ -4,8 +4,7 @@ subtitle: "Een nieuw concept voor ondernemers doeltreffend communiceren"
 date: 2014-12-12 10:27:01
 header-img: "/img/impectforce.jpg"
 header-img-alt: "Atechpro"
-front: true
-categories: 
+categories:
 - Drupal website
 - Strategie
 - Copywriting
