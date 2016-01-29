@@ -54,7 +54,7 @@ figure.image {
 	    margin: 0;
 	    position: relative;
 	    width: 100vw;
-	    height: 400px;
+	    height: 45vh !important;
 	    overflow: hidden;
 	    margin-top: 40px !important;
 
@@ -87,7 +87,6 @@ figure.image {
 		    margin: 0;
 		    position: relative;
 		    width: 100vw;
-		    height: 400px;
 		    overflow: hidden;
 		    left: 0;
 
@@ -122,7 +121,6 @@ figure.image {
 		    margin: 0;
 		    position: relative;
 		    width: 100vw;
-		    height: 400px;
 		    overflow: hidden;
 
 		    .background-image {
