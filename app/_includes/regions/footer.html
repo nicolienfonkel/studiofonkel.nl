@@ -3,26 +3,33 @@
 		<div class="contact-form footer-block">
 			{% include html/contact-form.html %}
 		</div>
+	</div>
 
-		<div class="call-mail footer-block">
-			<a class="phone left" href="tel:{{ site.phone_number }}">
-				{% include svg/phone.svg %}{{ site.phone_number }}
-			</a>
-			<a class="mail right" href="mailto:info@studiofonkel.nl">
-				{% include svg/mail.svg %} {{ site.footer_email }}
-			</a>
-		</div>
+	<div class="dark-region">
 
-		<div class="information footer-block">
-			{% include html/contact-information.html %}
-		</div>
+		<div class="max-width">
+			
+			<div class="call-mail footer-block">
+				<a class="phone left" href="tel:{{ site.phone_number }}">
+					{% include svg/phone.svg %}{{ site.phone_number }}
+				</a>
+				<a class="mail right" href="mailto:info@studiofonkel.nl">
+					{% include svg/mail.svg %} {{ site.footer_email }}
+				</a>
+			</div>
 
-		<div class="social footer-block">
-			{% include html/footer-social.html %}
-		</div>
+			<div class="information footer-block">
+				{% include html/contact-information.html %}
+			</div>
 
-		<div class="logo footer-block">
-			{% include svg/logo.svg %}
+			<div class="social footer-block">
+				{% include html/footer-social.html %}
+			</div>
+
+			<div class="logo footer-block">
+				{% include svg/logo.svg %}
+			</div>
+
 		</div>
 
 	</div>
