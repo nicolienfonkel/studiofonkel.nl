@@ -1,16 +1,18 @@
 <div class="blogs item">
-
-	<div class="blog-date">{{ blog.date | localize:"%d %B %Y" }}</div>
-	<h3 class="blog-sub-heading">{{ blog.subtitle }}</h3>
-	<h3 class="blog-heading">{{ blog.title }}</h3>
-	<!-- <div class="text">
-		{{ blog.teaser-text }}
-	</div> -->
 	<a href="{{ blog.url | prepend: site.baseurl }}" class="link">
+		<div class="blog-date">{{ blog.date | localize:"%d %B %Y" }}</div>
+		<h3 class="blog-heading">{{ blog.title }}</h3>
+		{% if blog.header-img %}
+		<div class="blog-image">
+			<div class="background-image" style="background-image: url({{ blog.header-img }})"></div>
+		</div>
+		{% endif %}
+		<div class="blog-text">
+			{{ blog.teaser-text }}
+		</div>
 		<span>Lees meer</span>
 			<div class="arrow-long">
 				{% include svg/arrow.svg %}
 		</div>
 	</a>
-
 </div>
