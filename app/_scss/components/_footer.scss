@@ -1,7 +1,7 @@
 .footer {
 	@include clearfix;
 	background-color: $lighter-grey;
-	padding: 50px 0px 30px 0px;
+	padding-top: 50px;
 	clear: both;
 	margin: 0;
 	min-height: 100vh;
@@ -14,8 +14,20 @@
 }
 
 .footer-block-header {
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 34px;
+}
+
+.dark-region {
+	@include clearfix;
+	clear: both;
+	background-color: $footer-dark-block;
+	padding-top: 30px;
+}
+
+.max-width {
+    margin: 0 auto;
+    max-width: 1100px;
 }
 
 .footer-block {
@@ -25,9 +37,13 @@
 	p, 
 	ul li,
 	a {
-		line-height: 26px !important;
-		font-size: 16px !important;
+		line-height: 25px !important;
+		font-size: 15px !important;
 		font-weight: 300 !important;
+	} 
+
+	a {
+		font-size: 16px !important;
 	}
 }
 

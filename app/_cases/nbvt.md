@@ -4,12 +4,11 @@ subtitle: "Complexe wensen vertaald naar goed functionerende oplossingen"
 date:   2015-08-08 10:27:01
 header-img: "/img/nbvt.jpg"
 header-img-alt: "Green Girafe ALT"
-front: true
 
 categories:
-- Benchmarks 
-- Rekentools 
-- CRM-koppeling 
+- Benchmarks
+- Rekentools
+- CRM-koppeling
 - Drupal
 author: Theo
 ---
