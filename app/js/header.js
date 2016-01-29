@@ -27,11 +27,16 @@ $(document).ready(function() {
 
 	function navLogo() {
 		if ($('.site-logo.home').length) {
-			if (mainLogoTop == 0) { mainLogoTop = $('.site-logo.home').offset().top; }
+			if (mainLogoTop == 0) { 
+				mainLogoTop = $('.site-logo.home').offset().top; 
+			}
+			
 			var logoTop = mainLogoTop - $(window).scrollTop();
-			if (logoTop < 10) { logoTop = 10 }
+			if (logoTop < 10) { 
+				logoTop = 10 
+			}
+
 			$('.site-logo.head').css('top', logoTop);
-			$('.site-logo.head').css('display', 'block');
 		}
 	}
 
