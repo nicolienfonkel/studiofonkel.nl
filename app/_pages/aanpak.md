@@ -1,8 +1,10 @@
 ---
-title:  "Aanpak"
+title:  "Hoe we werken"
 subtitle: "Het budget zo inzetten dat we maximaal waarde toevoegen aan je organiatie. Dat is onze doelstelling. "
 author: Theo
+front: true
 menu: 4
+
 ---
 
 #Titel
