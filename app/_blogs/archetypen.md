@@ -31,7 +31,8 @@ Nar – Plezier en onbezorgdheid
 Bondgenoot – Toegankelijk en voor iedereen
 Minnaar – Passie en intimiteit
 Zorggever – Betrokkenheid en toewijding
-Een uitgebreidere omschrijving van de archetypen vind je hier.
+
+[Een uitgebreidere omschrijving van de archetypen vind je hier](https://studiofonkel.nl/blogs/12-archetypen/ "12 archetypen"). 
 
 Sommige bekende merken maken hier goed gebruik van. Harley Davidson excelleert bijvoorbeeld in het uitbuiten van zijn archetype ‘Rebel’; radicale vrijheid en tegendraadsheid. Hiermee onderscheidt het merk zich duidelijk van andere spelers in de markt.
 
