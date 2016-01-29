@@ -12,16 +12,8 @@
 			{% endif %}
 		</h3>
 		<div class="link">
-
-			{% if page.url == '/cases/' %}
-				<span>Bekijk case</span>
-			{% elsif case == page.next or case == page.previous or caseNull == case %}
-				{% if case.date %}
-					<span>{{ case.date | localize:"%d %B %Y" }}</span>
-				{% endif %}
-			{% else %}
-				<span>Case</span>
-			{% endif %}
+			
+			<span>Bekijk case</span>
 
 			<div class="arrow-long">
 				{% include svg/arrow.svg %}
