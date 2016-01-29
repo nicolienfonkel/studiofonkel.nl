@@ -1,24 +1,54 @@
 blockquote {
+  @include clearfix;
+  position: relative;
+  clear: both;
+  @include grid-span(4, 1);
+
   p {
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 32px;
-    color: $yellow;
+    font-weight: 300 !important;
+    font-size: 22px !important;
+    line-height: 32px !important;
+    color: $yellow !important;
+    float: right !important;
+    margin: 0 !important;
+    width: 88% !important;
+    margin-top: 25px !important;
 
     &:first-child {
-      margin-top: 15px;
-      padding-top: 10px;
       border-top: 1px solid $yellow;
     }
   }
 
   &:before {
     content: '';
-    display: block;
+    display: block; 
     background-image: url('../img/quote.svg');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: contain;
     height: 50px;
+    float: left;
+    width: 8%;
+    margin-right: 4%;
+    margin-top: 10px;
   }
+
+  @include breakpoint($tablet) {
+    @include grid-span(6, 2);
+    clear: both;
+    p {
+      margin-top: -35px;
+      clear: right !important;
+    }
+  }
+
+  @include breakpoint($desktop) {
+    @include grid-span(8, 3);
+    clear: both;
+    p {
+      margin-top: -35px;
+      clear: right !important;
+    }
+  }
+
 }
