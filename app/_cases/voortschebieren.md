@@ -18,7 +18,7 @@ Studio Fonkel heeft de visuele identiteit ontworpen voor de Voortsche Speciaalbi
 
 {% case_tags %}
 
-{% image “/img/grijs.jpg"  "full" %}
+{% image “/img/grijs.jpg" "full" %}
 
 Studio Fonkel heeft het logo ontworpen en op basis daarvan diverse items zoals glazen, etiketten, viltjes en tafelkaarten.
 
