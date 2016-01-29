@@ -23,6 +23,10 @@ $(document).ready(function() {
 		}
 
 		window.requestAnimationFrame(navLogo);
+
+		if (scrollTop > 0) {
+			$('.homepage .site-logo.head').css('display', 'block');
+		}
 	});
 
 	function navLogo() {
