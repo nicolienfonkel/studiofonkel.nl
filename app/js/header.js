@@ -31,6 +31,7 @@ $(document).ready(function() {
 			var logoTop = mainLogoTop - $(window).scrollTop();
 			if (logoTop < 10) { logoTop = 10 }
 			$('.site-logo.head').css('top', logoTop);
+			$('.site-logo.head').css('display', 'block');
 		}
 	}
 
