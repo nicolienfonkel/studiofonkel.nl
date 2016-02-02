@@ -4,8 +4,6 @@ subtitle: "Visuele identiteit voor puur streekbier"
 header-img: "/img/voortsebieren.png"
 header-img-alt: "Voortsche bieren"
 date: 2015-04-04 10:27:01
-front: true
-
 
 categories:
 - Branding

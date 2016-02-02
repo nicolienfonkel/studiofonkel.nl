@@ -4,7 +4,6 @@ subtitle: "Het budget zo inzetten dat we maximaal waarde toevoegen aan je organi
 author: Theo
 front: true
 menu: 4
-front: true
 
 ---
 
