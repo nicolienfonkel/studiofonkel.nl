@@ -8,7 +8,9 @@
     {% if page.date %}
         <div class="page-date">{{ page.date | localize:"%d %B %Y" }}</div>
     {% endif %}
-    <div class="page-teaser">{{ page.teaser-text }}</div>
+    {% if page.teaser-text %}
+        <div class="page-teaser">{{ page.teaser-text }}</div>
+    {% endif %}
 {% endif %}
 
 
