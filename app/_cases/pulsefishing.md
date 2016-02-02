@@ -5,8 +5,6 @@ header-img: "/img/platform_pulsvissen.jpg"
 header-img-alt: "Atechpro"
 date: 2015-04-04 10:27:01
 header-img-position: "100% 34%"
-front: true
-
 
 categories:
 - Webrichtlijnen

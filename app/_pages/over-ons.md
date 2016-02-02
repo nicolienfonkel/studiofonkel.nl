@@ -3,7 +3,7 @@ title:  "Over ons"
 subtitle: "Wij zijn Studio Fonkel, gewone jongens (en stiekem een paar meiden) die mooie dingen maken."
 author: Theo
 menu: 4
-front: true
+
 ---
 
 In onze aanpak zie je voortdurend de lijn terug van prioriteiten stellen en waarde toevoegen. Dat begint met de vraag die je bij ons neerlegt. We gaan met je in gesprek en adviseren over waar wij geloven dat je het meest mee bent geholpen. Vervolgens werken we je vraag 'agile' uit.
