@@ -16,6 +16,10 @@ background-position: "50% 65%"
 
 Eigenaar van het accountancykantoor Ligterink & De Wit, Lars van Loon, gelooft dat het uitbesteden van financiële administratie eenvoudiger en goedkoper kan. Hij kwam bij Studio Fonkel met een nieuw concept én de vraag: ‘hoe zetten we dit neer?’ Studio Fonkel schreef een merkverhaal, bedacht een naam, creëerde een visuele identiteit en bouwde een website: ‘Hallo Fincent’.
 
+Bekijk dit project live op <a href="http://hallofincent.nl/" target="_blank">hallofincent.nl</a>
+
+Illustratie: <a href="http://www.bamseontwerpt.nl/" target="_blank">Bamse Ontwerpt</a>
+
 {% case_tags %}
 
 {% image “/img/Fincent-4.jpg" %}
@@ -28,4 +32,4 @@ Er is bewust gekozen om weg te blijven bij de vertrouwde, veelgebruikte en saaie
 
 {% image “/img/Fincent-mobiel.jpg" %}
 
-{% image “/img/grijs.jpg" "full" %}
+{% image “/img/grijs.jpg" %}

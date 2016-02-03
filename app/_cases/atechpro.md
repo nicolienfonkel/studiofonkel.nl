@@ -14,6 +14,8 @@ front: true
 
 Atechpro is de Nederlandse importeur van biomassaketels van het Oostenrijkse topmerk KWB. Ze vroegen ons een aantal jaar geleden om hun totale communicatie te verzorgen en dat doen we nu nog steeds. We zijn daardoor niet alleen leverancier van Atechpro, maar veel meer partner. De start van onze samenwerking begon met het nadenken over een strategie en het ontwerpen van een huisstijl en een website.
 
+Bekijk dit project live op <a href="http://atechpro.nl/" target="_blank">atechpro.nl</a>
+
 {% case_tags %}
 
 {% image “/img/atechpro-web1.jpg" %}

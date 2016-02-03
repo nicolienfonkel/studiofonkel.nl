@@ -15,6 +15,8 @@ Novire is één van onze oudste klanten. Als destijds jong adviesbureau voor zor
 
 Tussendoor zijn er heel veel documenten vormgegeven, geredigeerd en geschreven. Hierbij was de vraag om moeilijk te begrijpen materie te vatten in heldere teksten.
 
+Bekijk dit project op <a href="http://novire.nl/" target="_blank">novire.nl</a>
+
 {% case_tags %}
 
 {% image “/img/novire-web2.jpg" %}

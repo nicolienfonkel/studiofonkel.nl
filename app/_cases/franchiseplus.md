@@ -1,5 +1,6 @@
 ---
 title:  "Franchise+"
+subtitle: "Dé marktplaats voor franchising"
 header-img: "/img/gevels.jpg"
 header-img-alt: "Green Girafe ALT"
 date: 2016-10-01 10:27:01
@@ -14,6 +15,8 @@ categories:
 
 asd
 
+Bekijk dit project live op <a href="http://franchiseplus.nl/" target="_blank">franchiseplus.nl</a>
+
 {% case_tags %}
 
 {% image “/img/franchiseplus-site2.jpg" %}
@@ -24,4 +27,4 @@ asd
 
 {% image “/img/franchiseplus-site4.jpg" %}
 
-{% image “/img/grijs.jpg" "full" %}
+{% image “/img/franchising.jpg" "full" %}

@@ -17,6 +17,10 @@ categories:
 
 grunt serve test 
 
+Bekijk dit project op <a href="http://moso.eu/" target="_blank">Moso.eu</a>
+
+Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
+
 {% case_tags %}
 
 {% image “/img/moso-home.jpg" %}

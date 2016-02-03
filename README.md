@@ -58,6 +58,9 @@ Om dit aan te passen ga naar **_config.yml** in de **root** van de website.
 ##Links
 ``[Google](https://www.google.com "Google's Homepage")`` = [Google](https://www.google.com "Google's Homepage")
 
+Blank target : There is no such feature in markdown, however you can always use HTML inside markdown:
+<a href="http://example.com/" target="_blank">example</a>
+
 ##Header
 - **#** : staat voor h1
 - **##** : staat voor h2

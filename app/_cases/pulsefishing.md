@@ -16,6 +16,8 @@ categories:
 
 Over pulsvissen als vismethode bestaan veel spookverhalen. Het Ministerie van Economische zaken kwam bij ons met de vraag: “Maak een meertalig informatieplatform over pulsvissen zodat Europese beleidsmakers hun keuze baseren op feiten en onderzoek.” Deze website moet stakeholders voorzien van objectieve informatie over deze duurzame vismethode.
 
+Bekijk dit project op <a href="http://pulsefishing.eu/" target="_blank">pulsefishing.eu</a>
+
 {% image “/img/pv6.jpg" %}
 
 {% image “/img/pv5.jpg" %}
