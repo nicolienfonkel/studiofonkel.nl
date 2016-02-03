@@ -28,5 +28,3 @@ We hebben een nieuw logo ontworpen met eenvoudige vormen. Op basis van dit logo 
 Masugro had verschillende producten en wilde deze graag in één lijn aanbieden. Studio Fonkel bedacht deze lijn ontwierp de productlogo’s. Vervolgens hebben we een aantal gerichte campagnes gedaan om deze nieuwe lijn bij de doelgroep onder de aandacht te brengen.
 
 {% image “/img/masugro-4.jpg" "full" %}
-
-{% image “/img/grijs.jpg" "full" %}

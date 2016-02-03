@@ -29,4 +29,4 @@ sfsdf
 
 {% image “/img/moso-web-2.jpg" %}
 
-{% image “/img/grijs.jpg" "full" %}
+{% image “/img/wuxi-grand-theatre.jpg" "full" %}

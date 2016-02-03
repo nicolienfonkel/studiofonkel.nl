@@ -28,4 +28,4 @@ We hebben een kaart ontworpen die aansluit bij de branding van Green Giraffe. Ni
 
 {% image “/img/green3.jpg" %}
 
-{% image “/img/grijs.jpg" "full" %}
+{% image “/img/carto3a.jpg" "full" %}

@@ -16,12 +16,18 @@ categories:
 
 Over pulsvissen als vismethode bestaan veel spookverhalen. Het Ministerie van Economische zaken kwam bij ons met de vraag: “Maak een meertalig informatieplatform over pulsvissen zodat Europese beleidsmakers hun keuze baseren op feiten en onderzoek.” Deze website moet stakeholders voorzien van objectieve informatie over deze duurzame vismethode.
 
+{% image “/img/pv6.jpg" %}
+
+{% image “/img/pv5.jpg" %}
+
 {% case_tags %}
+
+{% image “/img/pv1.jpg" %}
 
 Deze website is gemaakt in opdracht van Platform Pulsvissen, een samenwerkingsverband tussen het ministerie van Economische zaken, Wageningen Universiteit / Imares en de Coöperatieve Visserij Organisatie (CVO).
 
-{% image “/img/pulse-logos-s.jpg" %}
-
 > Stakeholders en lobbypartijen hebben nu betere informatie beschikbaar over pulsvissen op een heldere en toegankelijke website.
 
-{% image “/img/grijs.jpg" "full" %}
+{% image “/img/pv4.jpg" %}
+
+{% image “/img/boat.jpg" "full" %}

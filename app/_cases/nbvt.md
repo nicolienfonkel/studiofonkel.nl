@@ -28,4 +28,4 @@ Ook hebben we benchmarks uitgevoerd en geïntegreerd. Leden kunnen nu zien wat d
 
 {% image “/img/statistieken-beheerder.jpg" %}
 
-{% image “/img/grijs.jpg" "full" %}
+{% image “/img/nbvt.jpg" "full" %}
