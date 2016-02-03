@@ -1,6 +1,6 @@
 ---
 title:  "Identiteit en merkkarakter"
-image: /img/boat2.png
+image: /img/identity-game.jpg
 number: 1
 front: true
 

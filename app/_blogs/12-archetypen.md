@@ -125,3 +125,9 @@ Mensen prioriteit maken. Deskundige mentoren en hartstochtelijke verdedigers, de
 Verzorger-culturen hebben een open houding, zijn consistent en betrouwbaar. Ze zijn het sterkst wanneer zij optreden als mentor voor medewerkers of klanten. Echter, zelfopoffering en slapeloze nachten door te veel zorgen zijn de schaduwkant van de Verzorger.
 
 Bekende merken: Kneipp, Oxfam Novib
+
+-
+
+Door: Michiel Kokee
+
+Bronnen: Mark Margaret & Margaret Mark | Joshua C. Chen , Margaret Hartwell & Joshua C. Chen

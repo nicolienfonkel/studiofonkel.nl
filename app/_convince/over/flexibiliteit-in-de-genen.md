@@ -1,6 +1,6 @@
 ---
 title:  "Flexibiliteit in de genen"
-image: /img/boat2.png
+image: /img/magazine.jpg
 number: 1
 front: true
 

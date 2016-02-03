@@ -42,3 +42,7 @@ Je klanten, je medewerkers en jijzelf zullen je eigenheid gaan waarderen.
 Kom je er zelf niet uit? Studio Fonkel helpt bedrijven en organisaties om zicht te krijgen op hun eigen identiteit en verhaal. Wil je weten hoe we dit doen en met welk resultaat? Neem dan contact met ons op: 033-7370019 of info@studiofonkel.nl
 
 Studiofonkel.nl 
+
+-
+
+Door: Lianne Barelds

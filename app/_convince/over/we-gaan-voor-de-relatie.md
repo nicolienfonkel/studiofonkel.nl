@@ -1,6 +1,6 @@
 ---
 title:  "We gaan voor de relatie"
-image: /img/boat2.png
-number: 3
+image: /img/vz03a.jpg
+number: 4
 ---
 Een wederzijdse klik zien we als belangrijke voorwaarde om waarde toe te voegen.

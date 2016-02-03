@@ -1,6 +1,6 @@
 ---
-title:  "We zijn vakidioten"
-image: /img/12-Arechetypes.jpg
+title:  "Een mooie en overtuigende website"
+image: /img/webdesign.jpg
 number: 2
 ---
-Ons vak fascineert ons. Ook buiten kantoortijden. Iedereen vinnen het team heeft zijn eigen specialisme en zo vullen we elkaar.
+Wij zetten een website neer die naadloos aansluit bij je organisatie-identiteit en klanten inspireert.

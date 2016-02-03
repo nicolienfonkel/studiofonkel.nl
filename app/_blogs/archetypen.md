@@ -46,3 +46,6 @@ Hoe bepaal je welk archetype de kern beschrijft van jouw bedrijf? Hiervoor moet 
 ###Ten slotte
 Nu je beter zicht hebt op je identiteit en welke behoefte je aanspreekt in je klanten; richt je daar op in je communicatie. Focus en wees consequent. De heldere merkpersoonlijkheid die je gaat neerzetten, zullen mensen niet in één dag opmerken. Je bouwt je imago over een langere tijd op. Bouw zorgvuldig.
 
+-
+
+Door: Michiel Kokee
