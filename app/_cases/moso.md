@@ -1,5 +1,6 @@
 ---
 title:  "Moso Bamboo"
+subtitle: "subtitle"
 date: 2015-10-10 10:27:01
 header-img: "/img/moso.jpg"
 header-img-alt: "Green Girafe ALT"

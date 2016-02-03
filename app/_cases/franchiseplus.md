@@ -10,10 +10,18 @@ categories:
 - Applicatie
 - Magazine
 ---
-4e case ooit
+###4e case ooit
+
+asd
 
 {% case_tags %}
 
 {% image “/img/franchiseplus-site2.jpg" %}
+
+asd
+
+{% image “/img/franchiseplus-site3.jpg" %}
+
+{% image “/img/franchiseplus-site4.jpg" %}
 
 {% image “/img/grijs.jpg" "full" %}
