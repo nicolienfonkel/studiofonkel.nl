@@ -20,6 +20,8 @@ Over pulsvissen als vismethode bestaan veel spookverhalen. Het Ministerie van Ec
 
 Deze website is gemaakt in opdracht van Platform Pulsvissen, een samenwerkingsverband tussen het ministerie van Economische zaken, Wageningen Universiteit / Imares en de Coöperatieve Visserij Organisatie (CVO).
 
+{% image “/img/pulse-logos-s.jpg" %}
+
 > Stakeholders en lobbypartijen hebben nu betere informatie beschikbaar over pulsvissen op een heldere en toegankelijke website.
 
 {% image “/img/grijs.jpg" "full" %}
