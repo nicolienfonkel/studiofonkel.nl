@@ -25,6 +25,6 @@ Naast de Nederlandse versie, is er een Franse variant uitgerold. In de toekomst 
 
 Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
 
-Bekijk dit project op <a href="http://hormann.nl/" target="_blank">hormann.nl</a>
+Bekijk dit project op <a href="http://hormannpartner.nl/" target="_blank">hormannpartner.nl</a>
 
 {% image “/img/grijs.jpg" %}
