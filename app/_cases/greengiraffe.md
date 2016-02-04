@@ -28,6 +28,6 @@ We hebben een kaart ontworpen die aansluit bij de branding van Green Giraffe. Ni
 
 {% image “/img/green3.jpg" %}
 
-{% image “/img/carto3a.jpg" "full" %}
-
 Bekijk dit project op <a href="http://green-giraffe.eu/" target="_blank">green-giraffe.eu</a>
+
+{% image “/img/carto3a.jpg" "full" %}
