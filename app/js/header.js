@@ -44,8 +44,8 @@ $(document).ready(function() {
 	//	}
 	//}
 
-	$(window).scroll()
-	navLogo()
+	//$(window).scroll()
+	//navLogo()
 });
 
 
