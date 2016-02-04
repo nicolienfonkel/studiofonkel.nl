@@ -17,18 +17,18 @@ MOSO wilde graag een nieuwe website die beter past bij hun nieuwe marktpositie. 
 
 {% case_tags %}
 
-{% image “/img/moso-home.jpg" %}
-
 Waar de oude website gericht was op informeren, gaat het bij de nieuwe om inspireren. Er is veel beeld gebruikt en bezoekers krijgen snel een indruk van de mogelijkheden wanneer ze door de galerij met bamboetoepassingen klikken. Producten op de website kunnen in een wensenlijst worden gezet om vervolgens eenvoudig diverse samples of een offerte aan te vragen.
 
-{% image “/img/website-chinees.jpg" %}
+{% image “/img/moso-home.jpg" %}
 
 Bijzonder is de productzoeker waarbij de bezoeker zijn eigen vraag steeds verder invult en zo tot een productselectie komt. De achttalige website is bovendien zeer gebruiksvriendelijk in het beheer.
 
-{% image “/img/moso-web-2.jpg" %}
+{% image “/img/website-chinees.jpg" %}
 
 Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
 
 Bekijk dit project op <a href="http://moso.eu/" target="_blank">Moso.eu</a>
+
+{% image “/img/moso-web-2.jpg" %}
 
 {% image “/img/wuxi-grand-theatre.jpg" "full" %}
