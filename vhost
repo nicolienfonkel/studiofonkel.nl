@@ -12,7 +12,7 @@ server {
   location @rewrites {
     rewrite ^ /index.html last;
   }
-  
+
   location ~* \.(jpg|jpeg|gif|css|png|js|ico|html|svg)$ {
     access_log off;
     expires max;
@@ -24,4 +24,85 @@ server {
     deny  all;
   }
 
+  location /mooie-dingen {
+       rewrite ^/.* http://$server_name/cases permanent;
+    }
+  location /team {
+       rewrite ^/.* http://$server_name/over-ons permanent;
+    }
+  location /archetypen-je-merkpersoonlijkheid-als-strategie {
+       rewrite ^/.* http://$server_name/blogs/archetypen/ permanent;
+    }
+  location /communicatie-begint-aan-de-binnenkant {
+       rewrite ^/.* http://$server_name/blogs/communicatie/ permanent;
+    }
+  location /12-archetypen {
+       rewrite ^/.* http://$server_name/blogs/12-archetypen/ permanent;
+    }
+  location /contact {
+       rewrite ^/.* http://$server_name/over-ons permanent;
+    }
+  location /service {
+       rewrite ^/.* http://$server_name/aanpak permanent;
+    }
+  location /service {
+       rewrite ^/.* http://$server_name/aanpak permanent;
+    }
+  location /webapplicatie/nederlandse-branchevereniging-voor-de-timmerindustrie {
+       rewrite ^/.* http://$server_name/cases/nbvt permanent;
+    }
+  location /webapplicaties-webdesign/green-deal-bevorderen-duurzaam-bosbeheer {
+       rewrite ^/.* http://$server_name/cases/nbvt permanent;
+    }
+  location /webapplicatie/nederlandse-branchevereniging-voor-de-timmerindustrie {
+       rewrite ^/.* http://$server_name/cases/nbvt permanent;
+    }
+  location /webapplicaties/novire-q-suite {
+       rewrite ^/.* http://$server_name/cases/novire permanent;
+    }
+  location /webapplicaties/novire-q-suite {
+       rewrite ^/.* http://$server_name/cases/novire permanent;
+    }
+  location /webdesign/novire-systems {
+       rewrite ^/.* http://$server_name/cases/novire permanent;
+    }
+  location /webdesign/zuyderduin {
+       rewrite ^/.* http://$server_name/cases/ permanent;
+    }
+  location /webapplicaties-webdesign/mijn-taal {
+       rewrite ^/.* http://$server_name/cases/ permanent;
+   }
+  location /infographics/hogeschool-utrecht-boek {
+       rewrite ^/.* http://$server_name/cases/ permanent;
+   }
+  location /cartografie/noordzee-cartogafie {
+       rewrite ^/.* http://$server_name/cases/ permanent;
+   }
+  location /cartografie-webdesign/hörmann-partnerwebsite {
+       rewrite ^/.* http://$server_name/cases/hormann/ permanent;
+   }
+  location /cartografie-webdesign/tandzorg-op-maat {
+       rewrite ^/.* http://$server_name/cases/tom/ permanent;
+   }
+  location /cartografie-webdesign/hörmann-partnerwebsite {
+       rewrite ^/.* http://$server_name/cases/hormann/ permanent;
+   }
+  location /cartografie-webdesign/green-giraffe-energy-bankers {
+       rewrite ^/.* http://$server_name/cases/greengiraffe/ permanent;
+   }
+  location /webdesign/communicatiebureau-de-kippen {
+       rewrite ^/.* http://$server_name/cases/ permanent;
+   }
+  location /infographics/nationaal-rapporteur-mensenhandel-en-seksueel-geweld-tegen-kinderen {
+       rewrite ^/.* http://$server_name/cases/ permanent;
+   }
+  location /webdesign/atechpro {
+       rewrite ^/.* http://$server_name/cases/atechpro/ permanent;
+   }
+  location /cartografie/mensenhandel-nederland {
+       rewrite ^/.* http://$server_name/cases/ permanent;
+   }
+  location /prowebdesign/trans-world-radio {
+       rewrite ^/.* http://$server_name/cases/ permanent;
+   }
 }
