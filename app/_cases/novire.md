@@ -15,8 +15,6 @@ Novire is één van onze oudste klanten. Als destijds jong adviesbureau voor zor
 
 Tussendoor zijn er heel veel documenten vormgegeven, geredigeerd en geschreven. Hierbij was de vraag om moeilijk te begrijpen materie te vatten in heldere teksten.
 
-Bekijk dit project op <a href="http://novire.nl/" target="_blank">novire.nl</a>
-
 {% case_tags %}
 
 {% image “/img/novire-web2.jpg" %}
@@ -28,3 +26,5 @@ Toen het aanbod van Novire na een aantal jaar flink was uitgebreid, was er behoe
 > "Of het nu technisch of grafisch is, Studio Fonkel heeft de expertise in huis. Ze weten buiten de kaders te denken, maar ook een goed doordacht SCRUM-proces op te zetten, zodat maximaal efficiënt en effectief een geweldig product ontstaat en doorontwikkeld wordt." – Evelien Verkade, Stichting BIM en Novire
 
 {% image “/img/novire3.jpg" "full" %}
+
+Bekijk dit project op <a href="http://novire.nl/" target="_blank">novire.nl</a>
