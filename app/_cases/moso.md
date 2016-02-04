@@ -25,10 +25,10 @@ Waar de oude website gericht was op informeren, gaat het bij de nieuwe om inspir
 
 Bijzonder is de productzoeker waarbij de bezoeker zijn eigen vraag steeds verder invult en zo tot een productselectie komt. De achttalige website is bovendien zeer gebruiksvriendelijk in het beheer.
 
+{% image “/img/moso-web-2.jpg" %}
+
 Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
 
 Bekijk dit project op <a href="http://moso.eu/" target="_blank">Moso.eu</a>
-
-{% image “/img/moso-web-2.jpg" %}
 
 {% image “/img/wuxi-grand-theatre.jpg" "full" %}
