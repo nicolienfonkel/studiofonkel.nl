@@ -11,7 +11,7 @@ categories:
 - Drupal 8
 - Contentstrategie
 ---
-Franchise+ kwam bij Studio Fonkel omdat hun oude portal niet meer voldeed aan de wensen van deze tijd. Om goed te beginnen en alle neuzen dezelfde kant op te krijgen, zijn we gestart met een strategisch traject. Op basis van het daaruit voortgekomen merkverhaal hebben we een nieuwe portal ontworpen en gebouwd. 
+Franchise+ kwam bij Studio Fonkel omdat hun oude portal niet meer voldeed. Om goed te beginnen en alle neuzen dezelfde kant op te krijgen, zijn we gestart met een strategisch traject. Op basis van het daaruit voortgekomen merkverhaal hebben we een nieuwe portal ontworpen en gebouwd. 
 
 {% case_tags %}
 
