@@ -23,7 +23,7 @@ Waar de oude website gericht was op informeren, gaat het bij de nieuwe om inspir
 
 Bijzonder is de productzoeker waarbij de bezoeker zijn eigen vraag steeds verder invult en zo tot een productselectie komt. De achttalige website is bovendien zeer gebruiksvriendelijk in het beheer.
 
-{% image “/img/website-chinees.jpg" %}
+{% image “/img/website-zoeker.jpg" %}
 
 Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
 
