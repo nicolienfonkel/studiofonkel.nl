@@ -13,11 +13,12 @@
     {% endif %}
 {% endif %}
 
-
-{% if page.html_title %}
-    <h2 class="page-heading blog">{{ page.html_title }}</h2>
-{% else %}
-    <h2 class="page-heading blog">{{ page.title }}</h2>
+{% if page.url != '/index.html' %}
+  {% if page.html_title %}
+      <h2 class="page-heading blog">{{ page.html_title }}</h2>
+  {% else %}
+      <h2 class="page-heading blog">{{ page.title }}</h2>
+  {% endif %}
 {% endif %}
 
 {% if page.header-img %}
