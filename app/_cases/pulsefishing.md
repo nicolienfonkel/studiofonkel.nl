@@ -30,6 +30,6 @@ Deze website is gemaakt in opdracht van Platform Pulsvissen, een samenwerkingsve
 
 {% image “/img/pv4.jpg" %}
 
-{% image “/img/boat.jpg" "full" %}
-
 Bekijk dit project op <a href="http://pulsefishing.eu/" target="_blank">pulsefishing.eu</a>
+
+{% image “/img/boat.jpg" "full" %}

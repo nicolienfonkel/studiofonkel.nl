@@ -33,5 +33,3 @@ Atechpro bereikt haar klanten onder andere via installateurs. Deze installateurs
 {% image “/img/mag-3.jpg" %}
 
 {% image “/img/mag-large.jpg" "full" %}
-
-Bekijk dit project live op <a href="http://atechpro.nl/" target="_blank">atechpro.nl</a>

@@ -28,6 +28,6 @@ Op de homepagina hebben we gekozen voor kleur in plaats van het standaard wit. D
 
 Iedere Tandzorg Op Maat-vestiging heeft een eigen URL die onder het hoofddomein valt. Binnen het CMS kan de beheerder zelf eenvoudig nieuwe websites aanmaken voor nieuwe vestigingen.
 
-{% image “/img/grijs.jpg" %}
-
 Bekijk dit project op <a href="http://tandartsopmaat.nl/" target="_blank">tandartsopmaat.nl</a>
+
+{% image “/img/grijs.jpg" %}
