@@ -24,7 +24,7 @@ Je weet wat je verkoopt of welke dienst je levert, maar wie ben je eigenlijk? So
 
 *Effect op je interne organisatie*
 
-Is het erg als je het antwoord op die vragen niet hebt? Je mist in ieder geval de kans om je klant een herkenbaar gezicht te laten zien. Los van de klant heeft het effect op je interne organisatie. Uit een heldere identiteit vloeit een heldere strategie: ‘Waarom kiezen we voor X? Omdat we Y zijn.’ Zelfs als dat op het moment niet de meest logische (lees: winstgevende) keuze lijkt, levert dat op termijn meer op. Ook medewerkers verbinden zich liever aan een organisatie met een duidelijk gezicht. Ze weten waar het bedrijf voor staat, daarom begrijpen ze waarom bepaalde keuzes worden gemaakt. Hoe sterker het verhaal en de eigenheid, hoe sterker medewerkers zich doorgaans met een bedrijf verbonden voelen. Hetzelfde geldt voor je klanten.
+Is het erg als je het antwoord op die vragen niet hebt? Je mist in ieder geval de kans om je klant een herkenbaar gezicht te laten zien. Los van de klant heeft het effect op je interne organisatie. Uit een heldere identiteit vloeit een heldere strategie: ‘Waarom kiezen we voor X? Omdat we X zijn.’ Zelfs als dat op het moment niet de meest logische (lees: winstgevende) keuze lijkt, levert dat op termijn meer op. Ook medewerkers verbinden zich liever aan een organisatie met een duidelijk gezicht. Ze weten waar het bedrijf voor staat, daarom begrijpen ze waarom bepaalde keuzes worden gemaakt. Hoe sterker het verhaal en de eigenheid, hoe sterker medewerkers zich doorgaans met een bedrijf verbonden voelen. Hetzelfde geldt voor je klanten.
 
 ###2) Dicht bij jezelf blijven
 
