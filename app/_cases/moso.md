@@ -9,15 +9,11 @@ front: true
 categories:
 - Strategie
 - Drupal 8
-- Multi language
+- Meertalig
 
 ---
 
 MOSO wilde graag een nieuwe website die beter paste bij hun nieuwe marktpositie. We zijn begonnen met een strategisch traject in samenwerking met Narritivity. Deze voorbereiding leverde een helder beeld op van de identiteit en het merk MOSO. Een prettig uitgangspunt voor het vervolgtraject. 
-
-Bekijk dit project op <a href="http://moso.eu/" target="_blank">Moso.eu</a>
-
-Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
 
 {% case_tags %}
 
@@ -28,6 +24,10 @@ Waar de oude website gericht was op informeren, gaat het bij de nieuwe om inspir
 {% image “/img/website-chinees.jpg" %}
 
 Bijzonder is de productzoeker waarbij de bezoeker zijn eigen vraag steeds verder invult en zo tot een productselectie komt. De achttalige website is bovendien zeer gebruiksvriendelijk in het beheer.
+
+Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
+
+Bekijk dit project op <a href="http://moso.eu/" target="_blank">Moso.eu</a>
 
 {% image “/img/moso-web-2.jpg" %}
 
