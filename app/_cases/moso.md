@@ -29,6 +29,4 @@ Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
 
 Bekijk dit project op <a href="http://moso.eu/" target="_blank">Moso.eu</a>
 
-{% image “/img/moso-web-2.jpg" %}
-
 {% image “/img/wuxi-grand-theatre.jpg" "full" %}
