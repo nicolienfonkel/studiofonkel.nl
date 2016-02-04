@@ -1,6 +1,6 @@
 ---
 title: "Hallo Fincent"
-subtitle: "Een nieuw merk voor een accountant met een goed idee."
+subtitle: "Een nieuw merk voor een accountant met een goed idee"
 date: 2016-12-01 10:27:01 +00:00
 categories: 
   - Merkverhaal
