@@ -6,4 +6,4 @@ front: true
 
 
 ---
-We kijken verder dan de oorspronkelijke vraag en voegen waarde toe waar dat het meeste oplevert.
+We kijken verder dan de oorspronkelijke vraag en voegen waarde toe waar dat het meest oplevert.
