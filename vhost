@@ -1,7 +1,7 @@
-# server {
-#    server_name  www.[REPLACE_WITH_CNAME];
-#    return       301 http://studiofonkel.nl/$request_uri;
-# }
+server {
+    server_name  studiofonkel.nl;
+    return       301 http://www.studiofonkel.nl/$request_uri;
+}
 
 server {
   server_name www.studiofonkel.nl;
