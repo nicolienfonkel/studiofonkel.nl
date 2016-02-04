@@ -11,7 +11,14 @@
     {% else %}
     <title>Studio Fonkel | Branding, strategie en webontwikkeling</title>
     {% endif %}
+    <meta name="description" content="{{ page.metadescription }}" />
+    <meta itemprop="url" content="{{ page.url | prepend: site.url }}" />
+    <meta itemprop="name" content="{{ page.metatitle }}">
+    <meta itemprop="description" content="{{ page.metadescription }}">
 
+    <meta property="og:title" content="{{ page.metatitle }}" />
+    <meta property="og:description" content="{{ page.metadescription }}" />
+    <meta property="og:site_name" content="Studio Fonkel" />
 
     <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-touch-icon-60x60.png">
