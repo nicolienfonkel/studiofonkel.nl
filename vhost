@@ -4,7 +4,7 @@
 # }
 
 server {
-  server_name studiofonkel.nl.build.studiofonkel.nl studiofonkel.nl;
+  server_name www.studiofonkel.nl;
   listen 80;
   root [REPLACE_WITH_BUILD_PATH];
   index index.html;
