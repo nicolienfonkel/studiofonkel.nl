@@ -50,20 +50,11 @@ server {
   location /service {
        rewrite ^/.* http://$server_name/aanpak permanent;
     }
-  location /service {
-       rewrite ^/.* http://$server_name/aanpak permanent;
-    }
   location /webapplicatie/nederlandse-branchevereniging-voor-de-timmerindustrie {
        rewrite ^/.* http://$server_name/cases/nbvt permanent;
     }
   location /webapplicaties-webdesign/green-deal-bevorderen-duurzaam-bosbeheer {
        rewrite ^/.* http://$server_name/cases/nbvt permanent;
-    }
-  location /webapplicatie/nederlandse-branchevereniging-voor-de-timmerindustrie {
-       rewrite ^/.* http://$server_name/cases/nbvt permanent;
-    }
-  location /webapplicaties/novire-q-suite {
-       rewrite ^/.* http://$server_name/cases/novire permanent;
     }
   location /webapplicaties/novire-q-suite {
        rewrite ^/.* http://$server_name/cases/novire permanent;
