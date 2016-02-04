@@ -15,9 +15,9 @@ Franchise+ kwam bij Studio Fonkel omdat hun oude portal niet meer voldeed. Om go
 
 {% case_tags %}
 
-Speciale vraag was het maken van een module die de websitebezoeker inhoud presenteert op basis van relevantie. Daarnaast wilde Franchise+ graag een handige tool waardoor kandidaten die zich via de portal aanmelden automatisch in het CRM-systeem terechtkomen.
-
 {% image “/img/franchiseplus-site2.jpg" %}
+
+Speciale vraag was het maken van een module die de websitebezoeker inhoud presenteert op basis van relevantie. Daarnaast wilde Franchise+ graag een handige tool waardoor kandidaten die zich via de portal aanmelden automatisch in het CRM-systeem terechtkomen.
 
 Bekijk dit project live op <a href="http://franchiseplus.nl/" target="_blank">franchiseplus.nl</a>
 
