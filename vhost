@@ -122,5 +122,4 @@ server {
    ssl_stapling on;
    ssl_stapling_verify on;
 
-   ssl_trusted_certificate /etc/ssl/PositiveSSL_Bundle.crt;
 }
