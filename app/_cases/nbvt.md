@@ -22,7 +22,7 @@ We ontwikkelden handige rekentools voor op de website. Er is een tool die uitrek
 
 {% image “/img/nbvt-website.jpg" %}
 
-“Studio Fonkel heeft ons duidelijk inzicht gegeven in de mogelijkheden die er zijn voor een functionele website zonder zich te verliezen in de technische mogelijkheden. Door de duidelijk aanwezige ervaring met complexe websites met veel functionaliteiten hebben ze onze wensen snel en effectief vertaald naar goed functionerende oplossingen. Van onze leden en andere bezoekers hebben we veel positieve reacties gekregen op het uiteindelijke resultaat: www.nbvt.nl” – Bert Kattenbroek, NBVT
+> “Studio Fonkel heeft ons duidelijk inzicht gegeven in de mogelijkheden die er zijn voor een functionele website zonder zich te verliezen in de technische mogelijkheden. Door de duidelijk aanwezige ervaring met complexe websites met veel functionaliteiten hebben ze onze wensen snel en effectief vertaald naar goed functionerende oplossingen. Van onze leden en andere bezoekers hebben we veel positieve reacties gekregen op het uiteindelijke resultaat: www.nbvt.nl” – Bert Kattenbroek, NBVT
 
 {% image “/img/nbvt-mobile.jpg" %}
 
