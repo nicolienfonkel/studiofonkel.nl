@@ -13,7 +13,7 @@ categories:
 
 ---
 
-MOSO wilde graag een nieuwe website die beter past bij hun nieuwe marktpositie. We zijn begonnen met een strategisch traject in samenwerking met Narritivity. Deze voorbereiding leverde een helder beeld op van de identiteit en het merk MOSO. Een prettig uitgangspunt voor het vervolgtraject. 
+MOSO wilde graag een nieuwe website die beter past bij hun nieuwe marktpositie. We zijn begonnen met een strategisch traject in samenwerking met [Narritivity] (http://www.narrativity-group.com/). Deze voorbereiding leverde een helder beeld op van de identiteit en het merk MOSO. Een prettig uitgangspunt voor het vervolgtraject. 
 
 {% case_tags %}
 
