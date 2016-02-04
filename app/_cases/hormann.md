@@ -1,6 +1,6 @@
 ---
 title:  "Hörmann"
-subtitle: "Een conversiegerichte website voor de grootste aanbieder van Europa op het gebied van garage- en huisdeuren."
+subtitle: "Een conversiegerichte website voor de grootste aanbieder van Europa op het gebied van garage- en huisdeuren"
 date: 2015-02-02 10:27:01
 header-img: "/img/hormann-large.jpg"
 header-img-alt: "Green Girafe ALT"
