@@ -14,8 +14,6 @@ background-position: "20% 30%"
 
 Impectforce heeft een nieuw concept ontwikkeld voor ondernemers. Hierdoor krijgen ondernemers, net als medewerkers, toegang tot het sociale vangnet. Impectforce vroeg ons om een website die dit concept helder en doeltreffend communiceert.
 
-Bekijk dit project op <a href="http://impectforce.nl/" target="_blank">impectforce.nl</a>
-
 {% case_tags %}
 
 {% image “/img/impectforce-2.jpg" %}
@@ -29,5 +27,7 @@ Om het concept stap-voor-stap uit te leggen, maakten we in samenwerking met illu
 Studio Fonkel verzorgde het ontwerp en de tekst voor verschillende folders en mailings.
 
 Onze samenwerking met Impectforce heeft geresulteerd in een parterschap, waarbij we meedenken, adviseren en uitvoeren. Hierbij is ons verdienmodel gebaseerd op het resultaat van onze toegevoegde waarde.
+
+Bekijk dit project op <a href="http://impectforce.nl/" target="_blank">impectforce.nl</a>
 
 {% image “/img/grijs.jpg" %}
