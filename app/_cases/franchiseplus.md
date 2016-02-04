@@ -23,6 +23,4 @@ Bekijk dit project live op <a href="http://franchiseplus.nl/" target="_blank">fr
 
 {% image “/img/franchiseplus-site3.jpg" %}
 
-{% image “/img/franchiseplus-site4.jpg" %}
-
 {% image “/img/franchising.jpg" "full" %}
