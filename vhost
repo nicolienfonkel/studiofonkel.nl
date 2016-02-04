@@ -89,9 +89,6 @@ server {
   location /cartografie-webdesign/tandzorg-op-maat {
        rewrite ^/.* http://$server_name/cases/tom/ permanent;
    }
-  location /cartografie-webdesign/hörmann-partnerwebsite {
-       rewrite ^/.* http://$server_name/cases/hormann/ permanent;
-   }
   location /cartografie-webdesign/green-giraffe-energy-bankers {
        rewrite ^/.* http://$server_name/cases/greengiraffe/ permanent;
    }
