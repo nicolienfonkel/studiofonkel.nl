@@ -1,6 +1,6 @@
 server {
     server_name  www.[REPLACE_WITH_CNAME];
-    return       301 http://[REPLACE_WITH_CNAME]$request_uri;
+    return       301 http://studiofonkel.nl/$request_uri;
 }
 
 server {
