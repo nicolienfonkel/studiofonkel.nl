@@ -14,8 +14,6 @@ author: Theo
 ---
 De Nederlandse Branchevereniging voor de Timmerindustrie (NBVT) verdedigt het belang van circa 180 timmerfabrieken. Hun vraag was een nieuwe website met een moderne uitstraling die informatie sneller toegankelijk maakt voor hun leden. De informatie moest bovendien simpeler. In samenwerking met Graphius, die het ontwerp verzorgde, bouwde Studio Fonkel de website. De website heeft een afgeschermd ledengedeelte en is later ook responsive uitgevoerd.
 
-Bekijk dit project op <a href="http://nbvt.nl/" target="_blank">nbvt.nl</a>
-
 Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
 
 {% case_tags %}
@@ -33,3 +31,5 @@ Ook hebben we benchmarks uitgevoerd en geïntegreerd. Leden kunnen nu zien wat d
 {% image “/img/statistieken-beheerder.jpg" %}
 
 {% image “/img/nbvt.jpg" "full" %}
+
+Bekijk dit project op <a href="http://nbvt.nl/" target="_blank">nbvt.nl</a>
