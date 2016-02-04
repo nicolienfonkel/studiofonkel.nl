@@ -1,4 +1,9 @@
 server {
+    server_name  www.[REPLACE_WITH_CNAME];
+    return       301 http://[REPLACE_WITH_CNAME]$request_uri;
+}
+
+server {
   server_name [REPLACE_WITH_CNAME];
   listen 80;
   root [REPLACE_WITH_BUILD_PATH];
