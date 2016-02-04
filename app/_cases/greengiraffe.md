@@ -12,8 +12,6 @@ front: true
 
 Green Giraffe is een financieel adviesbureau, gespecialiseerd in duurzame energieprojecten. Ze kwamen bij ons met de vraag: "Maak een representatie van ons projectportfolio, zodat duidelijk wordt dat onze adviseurs bij zeer veel omvangrijke off-shore windenergie projecten betrokken zijn."
 
-Bekijk dit project op <a href="http://green-giraffe.eu/" target="_blank">green-giraffe.eu</a>
-
 {% case_tags %}
 
 {% image “/img/green1.jpg" %}
@@ -31,3 +29,5 @@ We hebben een kaart ontworpen die aansluit bij de branding van Green Giraffe. Ni
 {% image “/img/green3.jpg" %}
 
 {% image “/img/carto3a.jpg" "full" %}
+
+Bekijk dit project op <a href="http://green-giraffe.eu/" target="_blank">green-giraffe.eu</a>
