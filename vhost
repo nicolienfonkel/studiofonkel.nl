@@ -1,10 +1,10 @@
-server {
-    server_name  www.[REPLACE_WITH_CNAME];
-    return       301 http://studiofonkel.nl/$request_uri;
-}
+# server {
+#    server_name  www.[REPLACE_WITH_CNAME];
+#    return       301 http://studiofonkel.nl/$request_uri;
+# }
 
 server {
-  server_name [REPLACE_WITH_CNAME];
+  server_name studiofonkel.nl.build.studiofonkel.nl studiofonkel.nl;
   listen 80;
   root [REPLACE_WITH_BUILD_PATH];
   index index.html;
