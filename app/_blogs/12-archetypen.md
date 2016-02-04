@@ -1,7 +1,7 @@
 ---
 title:  "12 Archetypen"
 header-img: "/img/12-Arechetypes.jpg"
-date:   2015-11-15 10:27:01
+date:   2015-09-15 10:27:01
 
 author: Michiel Kokee
 teaser-text: "12 Archetypen, welke zijn er en waar staan ze voor?"
