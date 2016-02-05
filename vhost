@@ -1,5 +1,4 @@
 server {
-    listen       80;
     server_name  studiofonkel.nl;
     return       301 https://studiofonkel.nl$request_uri;
 }
@@ -9,8 +8,8 @@ server {
 }
 
 server {
-  server_name [REPLACE_WITH_CNAME];
   listen 443 ssl;
+  server_name [REPLACE_WITH_CNAME];
   root [REPLACE_WITH_BUILD_PATH];
   index index.html;
   error_page  404  /404;
