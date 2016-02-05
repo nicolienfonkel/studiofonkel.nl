@@ -14,14 +14,14 @@ phone_number: +31 33 737 0019
 footer_email: info@studiofonkel.nl
 footer_text: Als je op de stadsring de parkeergarage onder de Plusmarkt op de hoek van Stadsring / Arnhemseweg inrijdt (ga hiervoor net voor de stoplichten op de Stadsring links), dan ben je op 2 minuten lopen verwijderd van ons kantoor.
 
-company: Studio Fonkel BV
+company: Studio Fonkel B.V.
 address: Arnhemseweg 11
 zipcode: 3811 NN
 city: Amersfoort
 
 kvk: 60546204
 btw: 8539.55.712.B01
-iban: NL09RABO0155510680
+iban: NL09RABO0155510681
 
 author:
   name: Studio Fonkel
@@ -61,7 +61,7 @@ collections:
     collection: page
   convince:
     sort_by: title
-    
+
 defaults:
   - scope:
       path: ""
