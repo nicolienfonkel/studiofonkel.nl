@@ -1,10 +1,10 @@
 server {
     server_name  studiofonkel.nl;
-    return       301 http://www.studiofonkel.nl/$request_uri;
+    return       301 http://www.studiofonkel.nl$request_uri;
 }
 server {
     server_name  www.studiofonkel.nl;
-    return       301 https://www.studiofonkel.nl/$request_uri;
+    return       301 https://www.studiofonkel.nl$request_uri;
 }
 
 server {
