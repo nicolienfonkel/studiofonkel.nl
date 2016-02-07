@@ -4,15 +4,15 @@
 
 <a class="cases teaser {{ extra_class }}" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url('{{ case.header-img }}'); background-position: {{ case.background-position }};">
 	<div class="inner-wrapper">
-		<h3 class="header-text">
+		<h2 class="header-text">
 			{% if case.html_title %}
 				{{ case.html_title }}
 			{% else %}
 				{{ case.title }}
 			{% endif %}
-		</h3>
+		</h2>
 		<div class="link">
-			
+
 			<span>Bekijk case</span>
 
 			<div class="arrow-long">
