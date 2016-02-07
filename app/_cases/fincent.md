@@ -19,15 +19,15 @@ Eigenaar van het accountancykantoor Ligterink & De Wit, Lars van Loon, gelooft d
 
 {% case_tags %}
 
-{% image “/img/Fincent-4.jpg" %}
+{% image “/img/Fincent-4.jpg" "Branding voor hallofincent" "Branding voor hallofincent" "Branding voor hallofincent" %}
 
 De kern van het concept; ‘eenvoud’, zie je overal terugkomen. In het taalgebruik en de vormgeving. De conceptnaam ‘FDPT’ werd ‘Hallo Fincent’. We ontwierpen een logo en schakelden een illustrator in om Fincent een gezicht te geven.    
 
-{% image “/img/Fincent-page.jpg" %}
+{% image “/img/Fincent-page.jpg" "Eenvoud zie je overal terugkomen" "Eenvoud zie je overal terugkomen" "Eenvoud zie je overal terugkomen" %}
 
 Er is bewust gekozen om weg te blijven bij de vertrouwde, veelgebruikte en saaie accountancy kleuren zoals donkerblauw, grijs en rood. Hallo Fincent is anders. Het is de nieuwe manier van je financiële administratie uitbesteden. Dat zie je meteen.
 
-{% image “/img/Fincent-mobiel.jpg" %}
+{% image “/img/Fincent-mobiel.jpg" "Hallofincent responive uitgevoerd" "Hallofincent responive uitgevoerd" "Hallofincent responive uitgevoerd" %}
 
 Bekijk dit project live op <a href="http://hallofincent.nl/" target="_blank">hallofincent.nl</a>
 
