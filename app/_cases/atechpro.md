@@ -17,7 +17,7 @@ Atechpro is de Nederlandse importeur van biomassaketels van het Oostenrijkse top
 
 {% case_tags %}
 
-{% image “/img/atechpro-web1.jpg" %}
+{% image “/img/atechpro-web1.jpg" "Website ontwerp Atechpro" "Alle biomassa-ketels in een overzicht" "Website ontwerp Atechpro" %}
 
 > “Studio Fonkel brengt creativiteit, mateloze energie en enorme vakdeskundigheid. Door onze samenwerking hebben ze niet alleen Atechpro op de kaart gezet, maar ook een nieuwe professionele kleur gegeven aan de biomassaverwarmingsmarkt in Nederland.” - Mark Likkel, Atechpro
 
@@ -25,12 +25,12 @@ Atechpro is de Nederlandse importeur van biomassaketels van het Oostenrijkse top
 
 Atechpro bereikt haar klanten onder andere via installateurs. Deze installateurs kennen het verhaal achter de techniek niet altijd. Voor de uiteindelijke prospect is verwarmen met biomassa vaak nog een ver-van-hun-bed-show. Atechpro zocht daarom naar een middel om het verhaal toch dichtbij te brengen. Wij bedachten een magazine. Met daarin interviews met klanten over hun ervaringen met biomassa. We bezochten onder andere een zwembad, een boerderij, een landhuis, voetbalvereniging en het KWB hoofdkantoor in Oostenrijk. Deze artikelen vulden we aan met weetjes, heldere informatie en mooie fotografie. De magazines liggen nu bij installateurs en worden door Atechpro succesvol gebruikt op energiebeurzen.
 
-{% image “/img/mag-0.jpg" %}
+{% image “/img/mag-0.jpg" "Magazine duurzame biomassa-ketels" "" "Magazine duurzame biomassa-ketels" %}
 
-{% image “/img/mag-1.jpg" %}
+{% image “/img/mag-1.jpg" "Magazine duurzame biomassa-ketels" "" "Magazine duurzame biomassa-ketels" %}
 
-{% image “/img/mag-2.jpg" %}
+{% image “/img/mag-2.jpg" "Magazine duurzame biomassa-ketels" "" "Magazine duurzame biomassa-ketels" %}
 
-{% image “/img/mag-3.jpg" %}
+{% image “/img/mag-3.jpg" "Magazine duurzame biomassa-ketels" "" "Magazine duurzame biomassa-ketels" %}
 
 {% image “/img/mag-large.jpg" "full" %}
