@@ -1,6 +1,7 @@
 ---
 title:  "Masugro"
 subtitle: "Een visuele rebranding die toegankelijkheid uitstraalt"
+metadescription: "Een visuele rebranding die toegankelijkheid uitstraalt"
 date: 2015-01-03 10:27:01
 header-img: "/img/masugro-mlogo.jpg"
 header-img-alt: "Green Girafe ALT"

@@ -1,6 +1,7 @@
 ---
 title:  "Pulsefishing.eu"
 subtitle: "Een informatieplatform over pulsvissen voor Europese beleidsmakers"
+metadescription: "Een informatieplatform over pulsvissen voor Europese beleidsmakers"
 header-img: "/img/platform_pulsvissen.jpg"
 header-img-alt: "Atechpro"
 date: 2015-04-04 10:27:01

@@ -1,5 +1,6 @@
 ---
 title:  "Green Giraffe"
+metadescription: "Drupal website met op unieke geografische kaart"
 header-img: "/img/gg.jpg"
 header-img-alt: "Green Girafe ALT"
 date: 2015-01-01 10:27:01

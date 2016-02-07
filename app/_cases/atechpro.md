@@ -1,6 +1,7 @@
 ---
 title:  "Atechpro"
 subtitle: "Maatpak voor een duurzame energie-onderneming"
+metadescription: "Maatpak voor een duurzame energie-onderneming"
 header-img: "/img/atechpro.jpg"
 header-img-alt: "Atech Pro"
 date: 2015-12-18 10:27:01

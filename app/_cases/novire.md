@@ -1,6 +1,7 @@
 ---
 title:  "Novire"
 subtitle: "Een brandstory als basis voor de communicatie van Novire"
+metadescription: "Een brandstory als basis voor de communicatie van Novire"
 date: 2015-06-06 10:27:01
 front: true
 header-img: "/img/novire.jpg"

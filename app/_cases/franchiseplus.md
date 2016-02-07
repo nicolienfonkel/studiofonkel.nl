@@ -1,6 +1,7 @@
 ---
 title:  "Franchise+"
 subtitle: "Nieuwe portal voor dé marktplaats voor franchising"
+metadescription: "Nieuwe portal voor dé marktplaats voor franchising"
 header-img: "/img/gevels.jpg"
 header-img-alt: "Green Girafe ALT"
 date: 2016-10-01 10:27:01
