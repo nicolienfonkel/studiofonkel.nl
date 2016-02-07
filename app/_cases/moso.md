@@ -17,11 +17,11 @@ MOSO wilde graag een nieuwe website die beter past bij hun nieuwe marktpositie. 
 
 {% case_tags %}
 
-Waar de oude website gericht was op informeren, gaat het bij de nieuwe om inspireren. Er is veel beeld gebruikt en bezoekers krijgen snel een indruk van de mogelijkheden wanneer ze door de galerij met bamboetoepassingen klikken. Producten op de website kunnen in een wensenlijst worden gezet om vervolgens eenvoudig diverse samples of een offerte aan te vragen.
+Waar de oude website gericht was op informeren, gaat het bij de nieuwe om inspireren. Er is veel beeld gebruikt en bezoekers krijgen snel een indruk van de mogelijkheden wanneer ze door de galerij met bamboetoepassingen klikken. Producten op de Drupal 8 website kunnen in een wensenlijst worden gezet om vervolgens eenvoudig diverse samples of een offerte aan te vragen.
 
 {% image “/img/moso-home.jpg" %}
 
-Bijzonder is de productzoeker waarbij de bezoeker zijn eigen vraag steeds verder invult en zo tot een productselectie komt. De achttalige website is bovendien zeer gebruiksvriendelijk in het beheer.
+Bijzonder is de productzoeker waarbij de bezoeker zijn eigen vraag steeds verder invult en zo tot een productselectie komt. De achttalige Drupal website is bovendien zeer gebruiksvriendelijk in het beheer.
 
 {% image “/img/website-zoeker.jpg" %}
 

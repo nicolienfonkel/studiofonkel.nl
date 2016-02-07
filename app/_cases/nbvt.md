@@ -18,7 +18,7 @@ Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
 
 {% case_tags %}
 
-We ontwikkelden handige rekentools voor op de website. Er is een tool die uitrekent hoe groot je raam mag zijn voordat deze knapt en een tool om uit te rekenen hoeveel CO2 opgeslagen zit in een specifiek houtproduct. Hiermee tonen timmerfabrikanten duurzaamheid aan.
+We ontwikkelden handige rekentools voor op de Drupal website. Er is een tool die uitrekent hoe groot je raam mag zijn voordat deze knapt en een tool om uit te rekenen hoeveel CO2 opgeslagen zit in een specifiek houtproduct. Hiermee tonen timmerfabrikanten duurzaamheid aan.
 
 {% image “/img/nbvt-website.jpg" %}
 
