@@ -22,7 +22,7 @@ De huisstijl van Masugro was donker. Zwart met rood en wit. Juist omdat het bedr
 
 {% case_tags %}
 
-{% image “/img/masugro-3.jpg" "Fris ontworpen Drupal website" "Het ontwerp van de Drupal website" %}
+{% image “/img/masugro-3.jpg" "Fris ontworpen Drupal website" "Het ontwerp van de Drupal website" "Fris ontworpen Drupal website" %}
 
 We hebben een nieuw logo ontworpen met eenvoudige vormen. Op basis van dit logo en het ontwerp voor een nieuwe website op basis van het Drupal CMS, hebben we belettering voor de auto’s gemaakt en heeft Masugro haar kantoor opnieuw ingericht. Zo is de nieuwe stijl overal doorgevoerd.
 
