@@ -25,8 +25,9 @@
     <meta property="og:description" content="{{ page.metadescription }}" />
     <meta property="og:site_name" content="Studio Fonkel" />
     <meta property="og:image" content="{{ site.url }}/img/og-image.png" />
-
+    {% if page.url != '/index.html' %}
     <link rel="canonical" href="https://studiofonkel.nl{{ page.url }}">
+    {% endif %}
 
     <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-touch-icon-60x60.png">
