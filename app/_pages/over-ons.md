@@ -11,6 +11,6 @@ Wij zijn Studio Fonkel. Noem ons een 'webdesignbureau plus'. 'Webdesign' omdat w
 
 {% include html/team-widget.html %}
 
-#4 redenen om met ons te werken
+##4 redenen om met ons te werken
 
 {% convince over %}
