@@ -16,11 +16,11 @@ Hörmann is de grootste aanbieder in Europa op het gebied van garagedeuren, huis
 
 {% case_tags %}
 
-{% image “/img/hormann-1.jpg" %}
+{% image “/img/hormann-1.jpg" "Drupal website Hormann" "Het ontwerp van de Drupal website" "Drupal website Hormann" %}
 
 Naast de Nederlandse versie, is er een Franse variant uitgerold. In de toekomst zullen er nog een aantal versies van de website worden uitgerold in andere Europese landen.
 
-{% image “/img/hormann-2.jpg" %}
+{% image “/img/hormann-2.jpg" "Drupal website" "Vind eenvoudig een verkooppunt" "Drupal website Hormann" %}
 
 > "Het aantal leads is significant gestegen sinds de lancering van de nieuwe  Drupal website." – Hörmann
 

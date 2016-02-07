@@ -17,19 +17,19 @@ categories:
 
 Over pulsvissen als vismethode bestaan veel spookverhalen. Het Ministerie van Economische zaken kwam bij ons met de vraag: “Maak een meertalig informatieplatform over pulsvissen zodat Europese beleidsmakers hun keuze baseren op feiten en onderzoek.” Deze website moet stakeholders voorzien van objectieve informatie over deze duurzame vismethode.
 
-{% image “/img/pv6.jpg" %}
+{% image “/img/pv6.jpg" "Meertalige Drupal website" "" "Meertalige Drupal website" %}
 
-{% image “/img/pv5.jpg" %}
+{% image “/img/pv5.jpg" "Meertalige Drupal website" "" "Meertalige Drupal website" %}
 
 {% case_tags %}
 
-{% image “/img/pv1.jpg" %}
+{% image “/img/pv1.jpg" "Meertalige Drupal website" "" "Meertalige Drupal website" %}
 
 Deze Drupal website is gemaakt in opdracht van Platform Pulsvissen, een samenwerkingsverband tussen het ministerie van Economische zaken, Wageningen Universiteit / Imares en de Coöperatieve Visserij Organisatie (CVO).
 
 > Stakeholders en lobbypartijen hebben nu betere informatie beschikbaar over pulsvissen op een heldere en toegankelijke website.
 
-{% image “/img/pv4.jpg" %}
+{% image “/img/pv4.jpg" "Meertalige Drupal website" "" "Meertalige Drupal website" %}
 
 Bekijk dit project op <a href="http://pulsefishing.eu/" target="_blank">pulsefishing.eu</a>
 

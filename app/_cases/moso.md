@@ -20,11 +20,11 @@ MOSO wilde graag een nieuwe website die beter past bij hun nieuwe marktpositie. 
 
 Waar de oude website gericht was op informeren, gaat het bij de nieuwe om inspireren. Er is veel beeld gebruikt en bezoekers krijgen snel een indruk van de mogelijkheden wanneer ze door de galerij met bamboetoepassingen klikken. Producten op de Drupal 8 website kunnen in een wensenlijst worden gezet om vervolgens eenvoudig diverse samples of een offerte aan te vragen.
 
-{% image “/img/moso-home.jpg" %}
+{% image “/img/moso-home.jpg" "Drupal 8 website" "Inspiratie staat voorop in deze Drupal website" "Drupal 8 website" %}
 
 Bijzonder is de productzoeker waarbij de bezoeker zijn eigen vraag steeds verder invult en zo tot een productselectie komt. De achttalige Drupal website is bovendien zeer gebruiksvriendelijk in het beheer.
 
-{% image “/img/website-zoeker.jpg" %}
+{% image “/img/website-zoeker.jpg" "Drupal website" "Producten en projecten zoeken" "Drupal website" %}
 
 Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
 

@@ -18,11 +18,11 @@ Tussendoor zijn er heel veel documenten vormgegeven, geredigeerd en geschreven. 
 
 {% case_tags %}
 
-{% image “/img/novire-web2.jpg" %}
+{% image “/img/novire-web2.jpg" "Jekyll statische website" "" "Jekyll statische website" %}
 
 Toen het aanbod van Novire na een aantal jaar flink was uitgebreid, was er behoefte aan een duidelijk verhaal. Wie zijn we en wat is onze propositie? Met behulp van [Narrativity](http://www.narrativity-group.com/ "Narrativity Group") is er een brandstory ontwikkeld. Met dat verhaal als uitgangspunt hebben we een nieuwe website voor Novire ontworpen en gebouwd. De brandstory vormt nu ook de basis voor verdere communicatie.
 
-{% image “/img/bim.jpg" %}
+{% image “/img/bim.jpg" "Ontwerp" "" "ontwerp" %}
 
 > "Of het nu technisch of grafisch is, Studio Fonkel heeft de expertise in huis. Ze weten buiten de kaders te denken, maar ook een goed doordacht SCRUM-proces op te zetten, zodat maximaal efficiënt en effectief een geweldig product ontstaat en doorontwikkeld wordt." – Evelien Verkade, Stichting BIM en Novire
 

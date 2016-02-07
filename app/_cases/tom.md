@@ -17,13 +17,13 @@ Tandzorg Op Maat (TOM) is een tandartsketen met een heel eigen visie op de tanda
 
 {% case_tags %} 
 
-{% image “/img/tom1.jpg" %}
+{% image “/img/tom1.jpg" "Drupal website voor tandartsenketen" "Het ontwerp van de voorpagina" "Drupal website voor tandartsenketen" %}
 
 Op de homepagina hebben we gekozen voor kleur in plaats van het standaard wit. Deze laat de huiselijkheid van TOM zien. Het ‘anders-zijn’ komt verder tot uiting in de vier verrassende omklapbare panelen waaruit de homepagina bestaat.
 
 > “We zijn erg blij met de nieuwe website. Het aantal aanmeldingen van nieuwe patiënten is sterk gestegen sinds de lancering.” – 
 
-{% image “/img/tom2.jpg" %}
+{% image “/img/tom2.jpg" "Drupal website met geografische kaart" "Geografische kaart afgestemd op de huisstijl" "Drupal website met geografische kaart" %}
 
 ###Tandzorg Op Maat
 

@@ -17,7 +17,7 @@ Impectforce heeft een nieuw concept ontwikkeld voor ondernemers. Hierdoor krijge
 
 {% case_tags %}
 
-{% image “/img/impectforce-2.jpg" %}
+{% image “/img/impectforce-2.jpg" "Drupal website Impectforce" "Het ontwerp van de website" "Drupal website Impectforce" %}
 
 De bergbeklimmer staat voor de vrijheid van de ondernemer. De ondernemer is op weg naar de top en kiest daarbij zijn eigen pad. Maar wie niet gezekerd is, kan hard vallen. Impectforce biedt de veiligheid van het vangnet. Vrijheid én zekerheid.
 
