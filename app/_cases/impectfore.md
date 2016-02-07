@@ -30,5 +30,3 @@ Studio Fonkel verzorgde het ontwerp en de tekst voor verschillende folders en ma
 Onze samenwerking met Impectforce heeft geresulteerd in een parterschap, waarbij we meedenken, adviseren en uitvoeren. Hierbij is ons verdienmodel gebaseerd op het resultaat van onze toegevoegde waarde.
 
 Bekijk dit project op <a href="http://impectforce.nl/" target="_blank">impectforce.nl</a>
-
-{% image “/img/grijs.jpg" %}

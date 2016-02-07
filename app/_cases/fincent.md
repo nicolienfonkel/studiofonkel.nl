@@ -33,4 +33,4 @@ Bekijk dit project live op <a href="http://hallofincent.nl/" target="_blank">hal
 
 Illustratie: <a href="http://www.bamseontwerpt.nl/" target="_blank">Bamse Ontwerpt</a>
 
-{% image “/img/grijs.jpg" %}
+
