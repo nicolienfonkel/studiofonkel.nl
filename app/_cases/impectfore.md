@@ -23,7 +23,7 @@ De bergbeklimmer staat voor de vrijheid van de ondernemer. De ondernemer is op w
 
 Om het concept stap-voor-stap uit te leggen, maakten we in samenwerking met illustrator Martijn Cornelissen een animatie.
 
-> "Studio Fonkel heeft geholpen comlexe materie om te zeten in begrijpelijke tekst en uitstraling. Ze zijn gedreven, enthousiast en altijd op zoek naar meer mogelijkheden." – Riemer de Graaf, Impectforce
+> "Studio Fonkel heeft geholpen complexe materie om te zeten in begrijpelijke tekst en uitstraling. Ze zijn gedreven, enthousiast en altijd op zoek naar meer mogelijkheden." – Riemer de Graaf, Impectforce
 
 Studio Fonkel verzorgde het ontwerp en de tekst voor verschillende folders en mailings.
 
