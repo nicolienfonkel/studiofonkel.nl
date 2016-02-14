@@ -1,8 +1,7 @@
 ---
 title:  "Hoe we werken"
-subtitle: "Het budget zo inzetten dat we maximaal waarde toevoegen aan je organiatie. Dat is onze doelstelling"
-author: Theo
-metadescription: "Het budget zo inzetten dat we maximaal waarde toevoegen aan je organiatie. Dat is onze doelstelling"
+subtitle: "Het budget zo inzetten dat we maximaal waarde toevoegen aan je organisatie. Dat is onze doelstelling"
+metadescription: "Het budget zo inzetten dat we maximaal waarde toevoegen aan je organisatie. Dat is onze doelstelling"
 menu: 4
 
 ---
