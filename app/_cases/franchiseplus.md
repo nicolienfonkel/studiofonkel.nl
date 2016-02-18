@@ -24,6 +24,8 @@ Bekijk dit project live op <a href="http://franchiseplus.nl/" target="_blank">fr
 
 Speciale vraag was het maken van een Drupal module die de websitebezoeker inhoud presenteert op basis van relevantie. Daarnaast wilde Franchise+ graag een handige tool waardoor kandidaten die zich via de portal aanmelden automatisch in het CRM-systeem terechtkomen.
 
+> "We waren opzoek naar een partij die visie had om de website niet alleen te voorzien van een nieuw jasje, maar ook keek naar hoe wij ons konden onderscheiden in de markt. Die partij vonden we in Studio Fonkel. Bovendien waardeerden we hun eerlijkheid, directheid en het actieve meedenken."
+
 {% image “/img/franchiseplus-site3.jpg" "Formulepresentatie voor franchise-formules" "Alle franchise-formules hebben een eigen presentatie" "Formulepresentatie voor franchise-formules" %}
 
 {% image “/img/franchising.jpg" "full" %}
