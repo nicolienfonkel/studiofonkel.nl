@@ -1,6 +1,6 @@
 ---
 title:  "Franchise+"
-subtitle: "Een nieuwe Drupal portal voor Franchise+"
+subtitle: "Een nieuwe Drupal portal voor dé marktplaats voor franchising"
 metadescription: "Een nieuwe Drupal portal voor dé marktplaats voor franchising"
 header-img: "/img/gevels.jpg"
 header-img-alt: "Formulepresentatie voor frachnise-formules"
