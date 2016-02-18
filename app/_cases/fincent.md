@@ -10,7 +10,6 @@ categories:
   - Website
 front: true
 header-img: "/img/fincent.jpg"
-header-img-alt: "Green Girafe ALT"
 header-img-position: "100% 65%"
 background-position: "50% 65%"
 ---
