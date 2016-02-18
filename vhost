@@ -1,11 +1,4 @@
-server {
-    server_name  studiofonkel.nl;
-    return       301 https://studiofonkel.nl$request_uri;
-}
-server {
-    server_name  www.studiofonkel.nl;
-    return       301 https://studiofonkel.nl$request_uri;
-}
+
 
 server {
   listen 443 ssl;
