@@ -3,7 +3,7 @@ title: "Hallo Fincent"
 subtitle: "Een nieuw merk voor een accountant met een goed idee"
 metadescription: "Een nieuw merk voor een accountant met een goed idee"
 date: 2016-12-01 10:27:01 +00:00
-categories: 
+categories:
   - Merkverhaal
   - Visuele identiteit
   - Tekst
@@ -27,10 +27,8 @@ De kern van het concept; ‘eenvoud’, zie je overal terugkomen. In het taalgeb
 
 Er is bewust gekozen om weg te blijven bij de vertrouwde, veelgebruikte en saaie accountancy kleuren zoals donkerblauw, grijs en rood. Hallo Fincent is anders. Het is de nieuwe manier van je financiële administratie uitbesteden. Dat zie je meteen.
 
-{% image “/img/Fincent-mobiel.jpg" "Hallofincent responive uitgevoerd" "Hallofincent responive uitgevoerd" "Hallofincent responive uitgevoerd" %}
+{% image “/img/Fincent-mobiel.jpg" "Hallofincent responive uitgevoerd" "Hallofincent responsive uitgevoerd" "Hallofincent responsive uitgevoerd" %}
 
 Bekijk dit project live op <a href="http://hallofincent.nl/" target="_blank">hallofincent.nl</a>
 
 Illustratie: <a href="http://www.bamseontwerpt.nl/" target="_blank">Bamse Ontwerpt</a>
-
-
