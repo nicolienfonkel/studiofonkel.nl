@@ -2,7 +2,7 @@
 title:  "Je merkverhaal en de klantreis"
 html_title:  "Je merkverhaal en de klantreis"
 metatitle: "Je merkverhaal en de klantreis"
-metadescription: "Hoe zet je je merk sterker neer? Hoe vergroot je de betrokkenheid van zowel de markt als je medewerkers?"
+metadescription: "De klantreis is de weg die een klant aflegt: van het eerste contact met je merk tot en met de nazorg."
 header-img: "/img/klantreis.png"
 date:   2016-02-18 10:27:01
 author: Floris van Woudenberg
