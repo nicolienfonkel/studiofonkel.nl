@@ -21,4 +21,3 @@ Een groot voordeel van de scrum methodiek is dat je als klant maximaal grip hebt
 ##We zijn goed in:
 
 {% convince aanpak %}
-
