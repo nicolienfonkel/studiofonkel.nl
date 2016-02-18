@@ -14,7 +14,7 @@ categories:
 - Copywriting
 - Drupal
 ---
-Masugro verbetert processen van organisaties door het leveren van simpele en effectieve ICT-oplossingen. Ze vroegen ons om een complete visuele rebranding te maken.
+Masugro verbetert processen van organisaties door het leveren van simpele en effectieve ICT-oplossingen. Ze vroegen ons om een complete visuele rebranding.
 
 {% image “/img/masugro-car.jpg" "Ontwerp auto" "Het ontwerp van de bedrijfswagens" "Ontwerp reclame op auto" %}
 
