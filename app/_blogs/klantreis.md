@@ -17,6 +17,7 @@ De klantreis is de weg die een klant aflegt: van het eerste contact met je merk 
 Als organisatie doe je er goed aan om deze klantreis schematisch in beeld te brengen:
 
 - Welke kanalen gebruik je (online, offline, via e-mail etc.)?
+
 - Wat zijn de contactpunten in die kanalen; de website, een bevestigingsmail, een nieuwsbrief, het telefoongesprek wanneer iemand een klacht heeft etc.
 
 Als je een eerste aanzet hiertoe gegeven hebt, krijg je een veel beter beeld van hoe het klantcontact met de organisatie verloopt. Vervolgens kun je beoordelen of in dat contactpunt het belang van de klant voorop staat: Wat is de behoefte van de klant tijdens de verschillende contactmomenten en hoe voorzie je het beste in die behoefte? Hierbij komt dan je merkverhaal van pas, waarin altijd een belofte aan de klant wordt beschreven: Doe actief je best om die belofte in ieder contactpunt waar te maken.
@@ -25,10 +26,15 @@ Een goed voorbeeld hiervan is Coolblue.
 De belofte van Coolblue is 'alles voor een glimlach'. Oftewel: Wij zien het als onze belangrijkste taak om klanten blij te maken. Dit heeft een grote impact op de organisatie en keuzes die er gemaakt worden. Als je wel eens een aankoop bij Coolblue hebt gedaan (ja, ikzelf ben een trouwe, loyale en enthousiast klant, zelfs een ambassadeur :-)) dan zie je dat ze dit consequent overal in doorvoeren:
 
 - De presentatie van de producten: Heldere en eerlijke informatie, veelal voorzien van een video waarin dezelfde taal gesproken wordt.
+
 - In het aankoopproces zelf: Het is een eenvoudig bestelproces, het frustreert niet.
-- Na afloop van het checkout proces in de webshop: Je krijgt een aantal 'grappen' voorgeschoteld, zoals wacht-therapie, een deurhanger en nog wat zaken die totaal onbruikbaar zijn, maar wel een glimlach veroorzaken
+
+- Na afloop van het checkout proces in de webshop: Je krijgt een aantal 'grappen' voorgeschoteld, zoals wacht-therapie, een deurhanger en nog wat zaken die totaal onbruikbaar zijn, maar wel een glimlach veroorzaken.
+
 - Het telefonisch contact: Vriendelijk, duidelijk en heel consequent. Je krijgt geen azijnpisser aan de lijn die erop uit lijkt te zijn om je vooral niet te willen helpen, maar een vriendelijke service-gericht persoon die je vanaf het eerste moment sympathiek vindt.
+
 - Bij de afhandeling van retouren: Het uitgangspunt is vertrouwen. Je wordt niet bij voorbaat gezien als klant die erop uit is om onterecht een gebrek te melden en zijn geld terug te krijgen, maar als klant die een product heeft gekocht en daar een probleem mee heeft dat opgelost moet worden.
+
 - Verpakkingen:	Tot in het kleinste detail is 'alles voor een glimlach' doorgevoerd. Heb je de dozen van Coolblue wel eens goed van binnen en buiten bekeken? Deze staan vol met teksten met een knipoog.
 
 Betrek dus je hele organisatie in je merkverhaal. Zorg ervoor dat je hele organisatie in elk aspect je merkverhaal 'uitademt'. Neem je merkverhaal als uitgangspunt voor je HRM-beleid, als criterium om personeel aan te nemen tot en met het selecteren van de juiste koffiebonen. Hang de kernpunten van het verhaal op in het kantoor, laat iedereen in de organisatie het uit z'n hoofd leren, zorg dat iedereen het zich eigen maakt.
