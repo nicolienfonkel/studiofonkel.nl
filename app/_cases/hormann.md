@@ -20,9 +20,9 @@ Hörmann is de grootste aanbieder in Europa op het gebied van garagedeuren, huis
 
 Naast de Nederlandse versie, is er een Franse variant uitgerold. In de toekomst zullen er nog een aantal versies van de website worden uitgerold in andere Europese landen.
 
-{% image “/img/hormann-2.jpg" "Drupal website" "Vind eenvoudig een verkooppunt" "Drupal website Hormann" %}
-
 > "Het aantal leads is significant gestegen sinds de lancering van de nieuwe  Drupal website." – Hörmann
+
+{% image “/img/hormann-2.jpg" "Drupal website" "Vind eenvoudig een verkooppunt" "Drupal website Hormann" %}
 
 Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
 

@@ -1,5 +1,6 @@
 ---
 title:  "Green Giraffe"
+subtitle: "Drupal website met unieke landkaart die projectportfolio toont"
 metadescription: "Drupal website met op unieke geografische kaart"
 header-img: "/img/gg.jpg"
 header-img-alt: "Green Girafe ALT"
