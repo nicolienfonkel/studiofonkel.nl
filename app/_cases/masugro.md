@@ -1,6 +1,6 @@
 ---
 title:  "Masugro"
-subtitle: "Een visuele rebranding die toegankelijkheid uitstraalt"
+subtitle: "Visuele rebranding voor Masugro; een nieuwe jas die beter bij het merk past"
 metadescription: "Een visuele rebranding die toegankelijkheid uitstraalt"
 date: 2015-01-03 10:27:01
 header-img: "/img/masugro-mlogo.jpg"
