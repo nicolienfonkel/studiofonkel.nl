@@ -1,7 +1,7 @@
 ---
 title:  "Franchise+"
-subtitle: "Nieuwe Drupal portal voor dé marktplaats voor franchising"
-metadescription: "Nieuwe Drupal portal voor dé marktplaats voor franchising"
+subtitle: "Een nieuwe Drupal portal voor Franchise+"
+metadescription: "Een nieuwe Drupal portal voor dé marktplaats voor franchising"
 header-img: "/img/gevels.jpg"
 header-img-alt: "Formulepresentatie voor frachnise-formules"
 date: 2016-10-01 10:27:01
