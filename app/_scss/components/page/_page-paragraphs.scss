@@ -21,7 +21,7 @@ p {
 		color: $yellow;
 		transition: $speed;
 		position: relative;
-		
+
 		&:before {
 			content: "";
 			display: block;

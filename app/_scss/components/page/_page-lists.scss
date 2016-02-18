@@ -8,7 +8,7 @@
 		@include clearfix;
 		list-style: decimal;
 		list-style-position: inside;
-		margin: 15px 0px; 
+		margin: 15px 0px;
 
 		p {
 			width: 94% !important;
@@ -38,4 +38,6 @@
 
 .md-wrapper ul li {
 	list-style: inside;
+	font-size: 18px;
+	line-height: 28px;
 }
