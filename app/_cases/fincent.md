@@ -22,7 +22,7 @@ Eigenaar van het accountancykantoor Ligterink & De Wit, Lars van Loon, gelooft d
 
 De kern van het concept; ‘eenvoud’, zie je overal terugkomen. In het taalgebruik en de vormgeving. De conceptnaam ‘FDPT’ werd ‘Hallo Fincent’. We ontwierpen een logo en schakelden een illustrator in om Fincent een gezicht te geven.    
 
-> "Studio Fonkel heeft mij het meest geholpen door te doen wat ze hebben beloofd. Toen ik vroeg om een websiteje, zei Floris: “Dat is leuk, maar we verkopen geen websiteje. Voor een websiteje moet je een Wordpress Harry bellen, maar daarmee ga je je doel niet bereiken. Wat is je doel? Uitstralen wat je predikt.” Het resultaat, het merk en de website, passen zo goed bij mij en het concept. Dat is bizar. Fincent is mijn tweelingbroer." - Lars van Loon
+> "Studio Fonkel heeft mij het meest geholpen door te doen wat ze hebben beloofd. Toen ik vroeg om een websiteje, zei Floris: “Dat is leuk, maar we verkopen geen websiteje. Voor een websiteje moet je een Wordpress Harry bellen, maar daarmee ga je je doel niet bereiken. Wat is je doel? Uitstralen wat je predikt.” Het resultaat past zo goed bij mij en het concept. Dat is bizar. Fincent is mijn tweelingbroer." - Lars van Loon
 
 {% image “/img/Fincent-page.jpg" "Eenvoud zie je overal terugkomen" "Eenvoud zie je overal terugkomen" "Eenvoud zie je overal terugkomen" %}
 
