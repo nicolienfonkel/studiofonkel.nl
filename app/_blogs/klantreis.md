@@ -4,6 +4,7 @@ html_title:  "Je merkverhaal en de klantreis"
 metatitle: "Je merkverhaal en de klantreis"
 metadescription: "De klantreis is de weg die een klant aflegt: van het eerste contact met je merk tot en met de nazorg."
 header-img: "/img/klantreis.png"
+og-image: "/img/klantreis.png"
 date:   2016-02-18 10:27:01
 author: Floris van Woudenberg
 front: true
