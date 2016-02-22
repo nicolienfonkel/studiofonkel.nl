@@ -70,6 +70,7 @@ defaults:
       background-position: "center 40%"
       header-img-position: "center 40%"
       cta-text: "Wij helpen graag met het positioneren van je merk. Bel ons voor meer informatie."
+      og-image: "/img/og-image.png"
   - scope:
       path: ""
       type: cases
