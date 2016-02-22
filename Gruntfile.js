@@ -232,7 +232,7 @@ module.exports = function (grunt) {
     imagemin: {
       dist: {
         options: {
-          progressive: false
+          progressive: true
         },
         files: [{
           expand: true,
