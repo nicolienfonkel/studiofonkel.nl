@@ -4,13 +4,22 @@
 	margin-bottom: 10px !important;
 	
 	&:before {
-		background: rgba(0, 0, 0, 0) linear-gradient(transparent 0px, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+		background: rgba(0, 0, 0, 0) linear-gradient(transparent 0px, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
 		content: "";
 		height: 100%;
 		width: 100%;
 		top: 0;
 		left: 0;
 		position: absolute;
+
+		@include breakpoint($tablet) {
+			background: rgba(0, 0, 0, 0) linear-gradient(transparent 0px, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+		}
+	}
+
+	.link {
+		position: relative;
+		z-index: 4;
 	}
 
 	.category {

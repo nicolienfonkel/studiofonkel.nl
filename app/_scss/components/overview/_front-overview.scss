@@ -89,15 +89,15 @@
 
 		&[data-sizey='1'] {
 			.grid-block-inner {
-				bottom: gutter-span() * 2;
-				top: gutter-span() * 2;
+				bottom: gutter-span() * 1.4;
+				top: gutter-span() * 1.4;
 			}
 		}
 
 		&[data-sizey='2'] {
 			.grid-block-inner {
-				bottom: gutter-span();
-				top: gutter-span();
+				bottom: gutter-span() * 0.7;
+				top: gutter-span() * 0.7;
 			}
 		}
 

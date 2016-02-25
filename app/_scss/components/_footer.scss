@@ -72,11 +72,13 @@
 	span {
 		float: left;
 	    height: 100%;
-	    line-height: 35px;
+	    line-height: 38px;
 	    margin-left: 10px;
 	}
 
 	svg {
+		top: 1px;
+		position: relative;
 		height: 35px;
 	}
 }
