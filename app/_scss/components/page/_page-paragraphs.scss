@@ -1,4 +1,4 @@
-.md-wrapper p {
+.md-wrapper > p {
 	margin: 10px 0px;
 	@include grid-span(4, 1, 4);
 

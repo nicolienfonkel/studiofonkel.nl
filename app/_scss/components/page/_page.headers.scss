@@ -1,7 +1,7 @@
 .md-wrapper {
-	h1,
-	h2,
-	h3 {
+	> h1,
+	> h2,
+	> h3 {
 		color: $text-color;
 	    font-weight: 600;
 	    margin: 30px auto 15px;

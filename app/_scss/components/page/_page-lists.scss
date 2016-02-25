@@ -1,5 +1,5 @@
-.md-wrapper ol,
-.md-wrapper ul {
+.md-wrapper > ol,
+.md-wrapper > ul {
 	@include grid-span(4, 1);
 	@include clearfix;
 	clear: both;

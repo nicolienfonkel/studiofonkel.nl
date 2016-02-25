@@ -1,9 +1,9 @@
 .team-widget {
-	margin: 30px 0px;
+	margin: 30px 0;
     font-size: 0;
     letter-spacing: 0;
-    @include grid-span(4, 1);
 	clear: both;
+	float: left;
 
 	.employees-wrapper {
 		@include clearfix;
@@ -11,61 +11,22 @@
 	}
 
 	.employee {
-	    clear: none;
-	    min-height: 200px;
-	    margin: 20px 0px;
+	    margin-top: 20px;
+		margin-bottom: 20px;
 	    transition: $speed;
-	    width: 100%;
-	    display: inline-block;
-	    vertical-align: top;
-
-	    &:hover {
-	    	.image {
-	    		background-position: 100%;
-	    	}
-	    }
-
-	    .employee-radio {
-	    	display: none;
-
-	    	&:checked ~ label .image {
-	    		background-position: 100%;
-	    	}
-
-	    	&:checked ~ .info {
-		    	transition: max-height $speed .6s;
-		    	max-height: 600px;
-		    }
-	    }
+		@include isolation-span(4, 1, 'both');
 
 	    .image {
 	    	cursor: pointer;
 	    	background-size: cover;
 			background-position: center;
 			display: block;
-			height: 260px;
+			padding-bottom: 100%;
 			transition: $speed;
 			width: 100%;
-		    display: block;
 		    float: left;
-
-		    &:nth-of-type(4n + 1) {
-		    	clear: left;
-		    }
-
-		    &:nth-of-type(4n + 2) {
-		    	margin-left: calc(20% + 40px);
-		    }
-
-		    &:nth-of-type(4n + 3) {
-		    	margin-left: calc(40% + 60px);
-		    }
-
-		    &:nth-of-type(4n + 4) {
-		    	margin-left: calc(60% + 80px);
-		    }
-
-	    }
+			border: 1px solid transparent;
+		}
 
 	    .info {
 	    	max-height: 0;
@@ -74,8 +35,6 @@
 	    	transition: max-height $speed 0s;
 			width: 100%;
 			margin: 0;
-			// margin-left: 108%;
-			// @include grid-span(6, 4, 3, $gutter: 0);
 
 			h2 {
 				color: $yellow;
@@ -83,136 +42,143 @@
 			    font-size: 20px;
 			    padding-top: 10px;
 			    font-weight: 700;
-			    margin: 0 auto;
-			    width: 100%;
 			    margin-top: 50px;
 			}
 
 			p {
-				@include clearfix;
 				color: $yellow;
 			    font-size: 18px;
 			    letter-spacing: 1px;
 			    line-height: 23px;
-			    margin: 0 auto 50px;
-			    width: 100%;
-			}	
+				margin: 0;
+				width: 100%;
+			}
 	    }
+
+		.employee-radio {
+			display: none;
+
+			&:checked ~ label .image {
+				border: 1px solid $yellow;
+			}
+
+			&:checked ~ .info {
+				transition: max-height $speed .6s;
+				max-height: 600px;
+			}
+		}
 	}
 }
 
-// If 4 in a row.
-.team-widget .employee {
-    &:nth-of-type(4n + 2) {
-		.info {
-			margin-left: 0;
-			width: 99%;
-		}
-    }
+@include breakpoint(440px) {
+	$magical-number: 14.5%;
 
-    &:nth-of-type(4n + 3) {
-		.info {
-			margin-left: 0;
-		}
-    }
+	.team-widget {
+		.employee {
+			.info {
+				width: 200% + $magical-number;
+			}
 
-    &:nth-of-type(4n + 4) {
-		.info {
-			margin-left: 0;
+			&:nth-child(odd) {
+				@include isolation-span(2, 1, 'both');
+			}
+
+			&:nth-child(even) {
+				@include isolation-span(2, 3, 'right');
+
+				.info {
+					margin-left: - (100% + $magical-number);
+				}
+			}
 		}
-    }
+	}
 }
 
 @include breakpoint($tablet) {
+	$magical-number: 14.5%;
+
 	.team-widget {
-		@include grid-span(8, 1, $gutter: 0);
-		clear: both;
-
-		h2.page-heading.team {
-			// margin: 10px 0px 10px 10px !important;
-			@include grid-span(6, 2, 8);
-		}
-
 		.employee {
-			width: 50%;
-			padding: 12px;
+			&:nth-child(4n+1) {
+				@include isolation-span(2, 1, 'both');
 
-			.info {
-				margin: 0 0 0 27%;
-    			width: 153%;
+				.info {
+					margin-left: (100% + $magical-number);
+				}
+			}
+
+			&:nth-child(4n+2) {
+				@include isolation-span(2, 3, 'right');
+
+				.info {
+					margin-left: 0;
+				}
+			}
+
+			&:nth-child(4n+3) {
+				@include isolation-span(2, 5, 'right');
+
+				.info {
+					margin-left: - (100% + $magical-number);
+				}
+			}
+
+			&:nth-child(4n+4) {
+				@include isolation-span(2, 7, 'right');
+
+				.info {
+					float: right;
+					margin-right: (100% + $magical-number);
+				}
 			}
 		}
-	}
-
-	// If 4 in a row.
-	.team-widget .employee {
-	    &:nth-of-type(4n + 2) {
-			.info {
-				margin-left: -80%;
-    			width: 153%;
-			}
-	    }
-
-	    &:nth-of-type(4n + 3) {
-			.info {
-				margin-left: 27%;
-			}
-	    }
-
-	    &:nth-of-type(4n + 4) {
-			.info {
-				margin-left: -79%;
-			}
-	    }
 	}
 }
 
 @include breakpoint($desktop) {
+	$magical-number: 9.1%;
+
 	.team-widget {
-		
-		h2.page-heading.team {
-			// margin: 10px 0px 10px 10px !important;
-			@include grid-span(8, 3);
-		}
-
 		.employee {
-			width: 25%;
-
 			.info {
-				margin-left: 110%;
-    			width: 212%;
+				width: 200% + $magical-number;
+			}
+
+			&:nth-child(4n+1) {
+				@include isolation-span(3, 1, 'both');
+
+				.info {
+					margin-left: (100% + $magical-number);
+				}
+			}
+
+			&:nth-child(4n+2) {
+				@include isolation-span(3, 4, 'right');
+
+				.info {
+					margin-left: 0;
+				}
+			}
+
+			&:nth-child(4n+3) {
+				@include isolation-span(3, 7, 'right');
+
+				.info {
+					margin-left: - (100% + $magical-number);
+				}
+			}
+
+			&:nth-child(4n+4) {
+				@include isolation-span(3, 10, 'right');
+
+				.info {
+					float: right;
+					margin-right: (100% + $magical-number);
+				}
 			}
 		}
-	}
-
-	// // If 4 in a row.
-	.team-widget .employee {
-	    &:nth-of-type(4n + 2) {
-			.info {
-				width: 208%;
-				margin-left: 0%;
-			}
-	    }
-
-	    &:nth-of-type(4n + 3) {
-			.info {
-				clear: both;
-			    margin-left: -111%;
-			    width: 212%;
-			}
-	    }
-
-	    &:nth-of-type(4n + 4) {
-			.info {
-				clear: both;
-			    margin-left: -222%;
-			    width: 212%;
-			}
-	    }
 	}
 }
-
-
 
 
 
