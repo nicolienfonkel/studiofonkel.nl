@@ -36,7 +36,7 @@ server {
 
 server {
   listen 443 ssl;
-  server_name studiofonkel.nl studiofonkel.nl.build.studiofonkel.nl;
+  server_name [REPLACE_WITH_CNAME] [REPLACE_WITH_ALIAS];
   root [REPLACE_WITH_BUILD_PATH];
   index index.html;
   error_page  404  /404;
