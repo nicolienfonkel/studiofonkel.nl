@@ -39,3 +39,34 @@ p {
 *::-moz-focus-inner {
 	border: none;
 }
+
+p {
+	font-size: 18px;
+	line-height: 28px;
+
+	a {
+		color: $yellow;
+		transition: $speed;
+		position: relative;
+
+		&:before {
+			content: "";
+			display: block;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			height: 1px;
+			width: 0px;
+			background: black;
+			transition: $speed;
+		}
+
+		&:hover {
+			color: black;
+
+			&:before {
+				width: 100%;
+			}
+		}
+	}
+}
