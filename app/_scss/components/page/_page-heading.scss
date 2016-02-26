@@ -47,22 +47,6 @@
   }
 }
 
-.page-date {
-  @include grid-span(4, 1);
-  clear: both !important;
-  float: none !important;
-  margin: auto !important;
-  margin-bottom: 10px !important;
-
-  @include breakpoint($tablet) {
-    @include grid-span(6, 2);
-  }
-
-  @include breakpoint($desktop) {
-    @include grid-span(8, 3);
-  }
-}
-
 .page-teaser {
   @include grid-span(4, 1);
   clear: both;
@@ -74,13 +58,12 @@
   border-bottom: 1px solid $yellow;
   padding-bottom: 15px;
   position: relative;
-  display: block;
 
   @include breakpoint($tablet) {
-    @include grid-span(6, 2);
+    @include isolation-span(6, 2, 'both');
   }
 
   @include breakpoint($desktop) {
-    @include grid-span(8, 3);
+    @include isolation-span(8, 3, 'both');
   }
 }
