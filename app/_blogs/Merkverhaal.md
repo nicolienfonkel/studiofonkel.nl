@@ -11,8 +11,6 @@ front: false
 cta-text: "Wij helpen je graag om je merkverhaal te schrijven."
 teaser-text: "In een aantal van onze blogs ben je het concept ‘merkverhaal’ tegengekomen. Even terug naar de basis: wat is een merkverhaal precies? "
 ---
-In een aantal van onze blogs ben je het concept ‘merkverhaal’ tegengekomen. Even terug naar de basis: wat is een merkverhaal precies? 
-
 ###In het kort
 Een merkverhaal is een korte tekst van een paar alinea’s waarin duidelijk wordt hoe een merk voelt. Het beschrijft de ziel van een merk en neemt zaken als missie, klantbelofte en kernwaarden mee. Waarom een merkverhaal belangrijk is? Omdat het houvast en richting geeft. Omdat het je helpt consequent vanuit je kern te communiceren met je doelgroep. Dat waardeert je doelgroep en dat krijg je terug.
 
@@ -26,7 +24,7 @@ Door consequent je keuzes te baseren op je kernwaarden, krijg je een gezicht. Wo
 ###Maak je kernwaarden levend
 Waarom een verhaal? De meeste organisaties hebben ergens een lijstje met kernwaarden liggen – dan gebruik je die toch?
 
-“Een verzameling woorden kan tot verschillende interpretaties leiden. (…) Woorden worden pas relevant als ze in de context van een normale zin worden geplaatst. Nog beter is de context van een verhaal.” - Van Riel*
+> “Een verzameling woorden kan tot verschillende interpretaties leiden. (…) Woorden worden pas relevant als ze in de context van een normale zin worden geplaatst. Nog beter is de context van een verhaal.” - Van Riel*
 
 Woorden kunnen nietszeggend zijn. Vraag je een willekeurig bedrijf naar zijn kernwaarden, dan roept de helft iets in de richting van ‘professioneel’ en ‘klantvriendelijk’. Maar wat betekent dat? Hoe ziet dat er in jouw bedrijf uit? Vertolken die woorden bovendien echt de ziel van je bedrijf? Is dat wat je onderscheidt en uniek maakt? 
 
@@ -37,9 +35,9 @@ Wat wijzelf als groot voordeel ervaren, is dat een merkverhaal (interne) traject
 
 Dat zul je ook merken wanneer je het merkverhaal binnen je eigen organisatie gaat gebruiken. Wanneer iets eerst tot een flinke interne discussie kon leiden, is nu voor iedereen duidelijk dat bepaalde keuzes niet bij het bedrijf passen en andere juist wel. Het merkverhaal wordt een richtlijn bij elke vorm van klantcontact.  
 
-Voor wie wordt een merkverhaal geschreven?
+###Voor wie wordt een merkverhaal geschreven?
 Een merkverhaal is dus vooral voor intern gebruik bedoeld. Als houvast voor marketeers en ontwerpers binnen de organisatie of voor een extern bureau dat je inhuurt. Zij moeten worden geïnspireerd door het verhaal en creatieve variaties kunnen maken op de hoofdtonen. Zodat alles wat de klant ziet en merkt van je bedrijf gebaseerd is op dezelfde kern.
 
 Door: Lianne Barelds
 
-* In het boek ‘Identiteit en Imago, Recente inzichten in corporate communication’
+* Uit het boek ‘Identiteit en Imago, Recente inzichten in corporate communication’
