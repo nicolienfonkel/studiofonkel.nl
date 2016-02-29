@@ -4,6 +4,7 @@ metatitle: "Blog: Een website: kostenpost of investering?"
 metadescription: "Overweeg je een nieuwe website? Dan gaan er veel vragen spelen, waarvan er één vaak wordt vergeten"
 header-img: "/img/website-investering.jpg"
 date:   2015-06-22 10:27:01
+front: false
 author: Floris van Woudenberg
 cta-text: "Wij helpen je graag met een doordachte en overtuigende website."
 teaser-text: "Zie ik deze website als kostenpost of als een investering die geld oplevert?’ Het antwoord bepaalt in hoge mate het uiteindelijke resultaat."
