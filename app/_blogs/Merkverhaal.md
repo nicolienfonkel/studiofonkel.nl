@@ -22,7 +22,7 @@ In je eentje is het nog wel te doen om dicht bij jezelf te blijven. Alhoewel, oo
 Door je keuzes consequent te baseren op je kernwaarden, krijg je een gezicht. Word je herkenbaar. Geleidelijk zo herkenbaar dat je uit de massa concurrenten springt. Daarvoor moet de persoonlijkheid van het bedrijf wel op alle afdelingen leven, en niet alleen bij de directeur of het management. 
 
 ###Breng je kernwaarden tot leven
-Waarom een verhaal? De meeste organisaties hebben ergens een lijstje met kernwaarden liggen – dan gebruik je die toch?
+Waarom een verhaal? De meeste organisaties hebben ergens een lijstje met kernwaarden liggen – dan gebruik je dat toch?
 
 > “Een verzameling woorden kan tot verschillende interpretaties leiden. (…) Woorden worden pas relevant als ze in de context van een normale zin worden geplaatst. Nog beter is de context van een verhaal.” - Van Riel*
 
