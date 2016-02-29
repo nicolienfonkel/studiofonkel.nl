@@ -5,7 +5,7 @@ metatitle: "Een merkverhaal: wat is het en waarom is het belangrijk?"
 metadescription: "Een merkverhaal: wat is het en waarom is het belangrijk? Omdat het houvast en richting geeft. "
 header-img: "/img/klantreis.png"
 og-image: "/img/Je_merkverhaal_en_de_klantreis_Studio_Fonkel.jpg"
-date:   2011-02-18 10:27:01
+date:   2016-02-29 10:27:01
 author: Lianne Barelds
 front: false
 cta-text: "Wij helpen je graag om je merkverhaal te schrijven en je klantreis in kaart te brengen."
