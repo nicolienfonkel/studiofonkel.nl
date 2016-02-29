@@ -3,12 +3,12 @@ title:  "Een merkverhaal: wat is het en waarom is het belangrijk?"
 html_title:  "Een merkverhaal: wat is het en waarom is het belangrijk?"
 metatitle: "Een merkverhaal: wat is het en waarom is het belangrijk?"
 metadescription: "Een merkverhaal: wat is het en waarom is het belangrijk? Omdat het houvast en richting geeft. "
-header-img: "/img/klantreis.png"
-og-image: "/img/Je_merkverhaal_en_de_klantreis_Studio_Fonkel.jpg"
+header-img: "/img/een-merkverhaal.png"
+og-image: "/img/Een_merkverhaal_wat_en_waarom_Studio_Fonkel.jpg"
 date:   2016-02-29 10:27:01
 author: Lianne Barelds
 front: false
-cta-text: "Wij helpen je graag om je merkverhaal te schrijven en je klantreis in kaart te brengen."
+cta-text: "Wij helpen je graag om je merkverhaal te schrijven."
 teaser-text: "In een aantal van onze blogs ben je het concept ‘merkverhaal’ tegengekomen. Even terug naar de basis: wat is een merkverhaal precies? "
 ---
 In een aantal van onze blogs ben je het concept ‘merkverhaal’ tegengekomen. Even terug naar de basis: wat is een merkverhaal precies? 
