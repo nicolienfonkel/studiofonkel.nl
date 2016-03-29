@@ -1,15 +1,18 @@
 .footer {
+	clear: both;
 	@include clearfix;
 	background-color: $lighter-grey;
 	padding-top: 50px;
-	clear: both;
 	margin: 0;
-	min-height: 100vh;
 	margin-top: 50px;
 
 	.footer-inner {
 		max-width: $desktop;
 		margin: 0 auto;
+	}
+
+	.svg-icon.mail {
+		margin-left: -1px;
 	}
 }
 
@@ -31,9 +34,22 @@
 }
 
 .footer-block {
-	margin-top: 30px;
 	margin-bottom: 30px;
-	
+
+	@include grid-span(4, 1);
+	clear: both;
+
+
+	@include breakpoint($tablet) {
+		@include grid-span(6, 2);
+		clear: both;
+	}
+
+	@include breakpoint($desktop) {
+		@include grid-span(8, 3);
+		clear: both;
+	}
+
 	p, 
 	ul li,
 	a {
@@ -47,21 +63,6 @@
 	}
 }
 
-.footer-block {
-	@include grid-span(4, 1);
-	clear: both;
-
-	@include breakpoint($tablet) {
-	@include grid-span(6, 2);
-		clear: both;
-	}
-
-	@include breakpoint($desktop) {
-	@include grid-span(8, 3, $gutter: 0);
-		clear: both;
-	}
-}
-
 .footer-block.contact-form {
 	.header-text {
 		margin: 20px 0 40px;
@@ -72,11 +73,13 @@
 	span {
 		float: left;
 	    height: 100%;
-	    line-height: 35px;
+	    line-height: 38px;
 	    margin-left: 10px;
 	}
 
 	svg {
+		top: 1px;
+		position: relative;
 		height: 35px;
 	}
 }
@@ -168,17 +171,17 @@
 	}	
 
 	@include breakpoint($desktop) {
-		@include grid-span(12, 1, 12);
-		clear: both;
+		@include isolation-span(12, 1, 'both', $gutter: 0);
 
 		.left {
 			@include grid-span(6, 1, 12, $gutter: 0);
 
+			.footer-block-header,
 			.list {
-				@include grid-span(3, 1, 6, $gutter: 0);
+				@include isolation-span(3, 1, 'left', 6);
 
 				&:last-child {
-					@include grid-span(3, 4, 6, $gutter: 7px);
+					@include grid-span(3, 4, 6);
 				}
 			}
 		}

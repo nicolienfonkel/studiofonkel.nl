@@ -38,7 +38,7 @@
 
 .has-fixed-menu {
 	.header {
-		box-shadow: 0 0 13px -2px rgba(0,0,0,0.55);
+		box-shadow: 0 0 13px -4px rgba(0, 0, 0, 0.4);
 	}
 
 	.main-menu {
@@ -49,7 +49,6 @@
 .has-hidden-header {
 	.header {
 		transform: translateY(-100%);
-		//@include grid-span(4, 1, 4);
 	}
 }
 
