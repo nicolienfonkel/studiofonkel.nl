@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	$(document).keypress(";",function(e) {
-		if( e.ctrlKey) {
+	$('body').keydown(function(e) {
+		if( e.ctrlKey && (e.keyCode == 186 || e.keyCode == 59)) {
 			$('body').toggleClass('has-grid-overlay-enabled');
 		}
 	});

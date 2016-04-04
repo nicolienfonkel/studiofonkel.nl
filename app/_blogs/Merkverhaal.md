@@ -4,11 +4,11 @@ html_title:  "Een merkverhaal: wat is het en waarom is het belangrijk?"
 metatitle: "Een merkverhaal: wat is het en waarom is het belangrijk?"
 metadescription: "Een merkverhaal: wat is het en waarom is het belangrijk? Omdat het houvast en richting geeft. "
 header-img: "/img/een-merkverhaal.png"
-og-image: "/img/Een_merkverhaal_wat_en_waarom_Studio_Fonkel.png"
+og-image: "/img/Een_merkverhaal_wat_en_waarom_Studio_Fonkel.jpg"
 date:   2016-02-29 10:27:01
 author: Lianne Barelds
 front: true
-cta-text: "Wij helpen je graag met een merkverhaal."
+cta-text: "Wij helpen je graag met het formuleren van jouw merkverhaal."
 teaser-text: "In een aantal van onze blogs ben je het concept ‘merkverhaal’ tegengekomen. Even terug naar de basis: wat is een merkverhaal precies? "
 ---
 ###In het kort
@@ -22,7 +22,7 @@ In je eentje is het nog wel te doen om dicht bij jezelf te blijven. Alhoewel, oo
 Door je keuzes consequent te baseren op je kernwaarden, krijg je een gezicht. Word je herkenbaar. Geleidelijk zo herkenbaar dat je uit de massa concurrenten springt. Daarvoor moet de persoonlijkheid van het bedrijf wel op alle afdelingen leven, en niet alleen bij de directeur of het management.
 
 ###Breng je kernwaarden tot leven
-Waarom een verhaal? De meeste organisaties hebben ergens een lijstje met kernwaarden liggen – dan gebruik je dat toch?
+Waarom een verhaal? De meeste organisaties hebben wel ergens een lijstje met kernwaarden liggen – dan gebruik je dat toch?
 
 > “Een verzameling woorden kan tot verschillende interpretaties leiden. (…) Woorden worden pas relevant als ze in de context van een normale zin worden geplaatst. Nog beter is de context van een verhaal.” - Van Riel*
 

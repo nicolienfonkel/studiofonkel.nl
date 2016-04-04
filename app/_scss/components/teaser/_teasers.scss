@@ -4,13 +4,12 @@
 	position: relative;
 
 	@include grid-span(4, 1);
-	margin-top: 10px !important;
-	margin-bottom: 10px !important;
+	margin-top: 10px;
+	margin-bottom: 10px;
 
 	.inner-wrapper {
 		@include clearfix;
 		margin: 30px;
-		bottom: 0;
 
 		.header-text {
 			color: #fff;
@@ -35,11 +34,12 @@
 	}
 
 	@include breakpoint($tablet) {
-		margin-top: 0px !important;
-		margin-bottom: 0px !important;
+		margin-top: 0;
+		margin-bottom: 0;
 
 		.inner-wrapper {
-			padding: 0px;
+			padding: 0;
+			bottom: 0;
 			position: absolute !important;
 		}
 	}

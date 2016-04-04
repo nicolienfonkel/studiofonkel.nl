@@ -67,10 +67,6 @@ figure.image {
 	    	left: 0;
 	    	background-position: center center;
 	    }
-
-		.image-caption {
-			// @include grid-span(4, 1);
-		}
 	}
 
 	@include breakpoint($tablet) {
@@ -99,11 +95,7 @@ figure.image {
 		    	left: 0;
 		    	background-position: center center;
 		    }
-
-			.image-caption {
-				// @include grid-span(6, 2);
-			}
-		}		
+		}
 	}
 
 	@include breakpoint($desktop) {
@@ -132,53 +124,6 @@ figure.image {
 		    	left: 0;
 		    	background-position: center center;
 		    }
-
-			.image-caption {
-				// @include grid-span(8, 3);
-			}
-		}	
+		}
 	}
 }
-
-// @media (max-width: $tablet) {
-// 	figure.image {
-// 		@include grid-span(6, 2, 8);
-// 		clear: both;
-
-// 		&.image-browser {
-// 			@include grid-span(6, 2, 8);
-// 			clear: both;
-// 		}
-
-// 		&.image-full {
-// 			@include grid-span(8, 1, 8);
-// 			clear: both;
-
-// 			.image-caption {
-// 				@include grid-span(6, 2, 8, $gutter: 0);
-// 			}
-// 		}
-// 	}
-// }
-
-// @media (max-width: $tablet) {
-// 	figure.image {
-// 		@include grid-span(4, 1, 4);
-// 		clear: both;
-
-// 		&.image-browser {
-// 			@include grid-span(4, 1, 4);
-// 			clear: both;
-// 		}
-
-// 		&.image-full {
-// 			@include grid-span(4, 1, 4);
-// 			clear: both;
-
-// 			.image-caption {
-// 				@include grid-span(4, 1, 4, $gutter: 0);
-// 			}
-// 		}
-// 	}
-// }
-
