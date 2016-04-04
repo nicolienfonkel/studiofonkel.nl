@@ -14,7 +14,7 @@ Tijdens één of meerdere sessies gaan we op zoek naar het antwoord op die vraag
 ### Stap 2
 ‘Merkpositionering stap 2’ is het ‘hoe?’. We weten nu wie je bent en op welke vlakken je je onderscheidt. Hoe buiten we deze eigenschappen vervolgens uit? Hoe communiceer je je identiteit en onderscheidende eigenschappen consequent richting je doelgroep? Het is belangrijk om hier kort na ‘Merkpositionering stap 1’ mee aan de slag te gaan binnen je bedrijf.
 
-### Executie
+### Praktische uitwerking
 Al te vaak zien we enthousiaste klanten die hun vernieuwde zicht op hun positionering niet ten volle uitbuiten. Regelmatig maken goede voornemens plaats voor de dagelijkse drukte en belandt een merkverhaal op een stapel.
 
 Daarom is de tweede stap van merkpositionering minstens net zo belangrijk als de eerste stap. Met elkaar – en desgewenst met verschillende afdelingen binnen je organisatie – gaan we creatief aan de slag met het merkverhaal en de praktische uitwerking binnen het bedrijf. Zodat het merkverhaal en de positionering van het bedrijf gaan leven binnen alle geledingen van de organisatie. Zodat klanten een consistente merkbeleving ervaren.
