@@ -18,6 +18,12 @@ We kennen Drupal van de kern tot de voorkant. Daardoor zijn we in staat hoge kwa
 ### Betrokken community
 Drupal is bijzonder betrouwbaar en veilig. Het Witte Huis heeft een Drupal website, net als Twitter. Waar wij zelf super enthousiast over zijn, is de Drupal Community. Dit is een enorm betrokken groep van meer dan 100.000 ontwikkelaars van over de hele wereld – waar wij zelf ook deel van uitmaken. Samen bouwen we aan Drupal en breiden we het uit.  
 
+### We leren je graag kennen
+We helpen je graag! Wie zijn ‘wij’? Wij zijn Studio Fonkel. Noem ons een 'webdesignbureau plus'. 'Webdesign' omdat we websites ontwerpen en bouwen. 'Plus' omdat we meer doen dan dat. We helpen jou bij je positionering. Samen zoeken we naar het onderscheidende verhaal dat naadloos aansluit bij de identiteit van je organisatie. Om van hieruit, met de juiste middelen, een passende huisstijl en een heldere boodschap, je doelgroep te inspireren.
+
+Neem contact met ons op voor een vrijblijvend gesprek! We leren je graag kennen.
+
+
 <br/>
 ### Inspirerende blogs en cases:
 <div class="cases-overview">
