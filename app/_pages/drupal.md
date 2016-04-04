@@ -1,5 +1,5 @@
 ---
-title:  "Drupal Webite"
+title:  "Drupal Website"
 subtitle: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt"
 metadescription: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt"
 
