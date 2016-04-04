@@ -31,6 +31,6 @@ Op die manier word je een bedrijf met een sterke persoonlijkheid. Een bedrijf wa
 	{% endfor %}
 </div>
 <br/>
-### Hier zijn we nog meer goed in:
+### Hier zijn we goed in:
 
 {% convince aanpak %}

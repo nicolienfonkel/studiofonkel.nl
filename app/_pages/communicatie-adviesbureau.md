@@ -27,6 +27,6 @@ Wil je meer weten over communicatie adviesbureau Studio Fonkel? Je bent van hart
 	{% endfor %}
 </div>
 <br/>
-### Hier zijn we nog meer goed in:
+### Hier zijn we goed in:
 
 {% convince aanpak %}

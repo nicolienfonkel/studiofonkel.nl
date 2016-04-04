@@ -35,6 +35,6 @@ Neem contact met ons op voor een vrijblijvend gesprek! We leren je graag kennen.
 	{% endfor %}
 </div>
 <br/>
-### Hier zijn we nog meer goed in:
+### Hier zijn we goed in:
 
 {% convince aanpak %}
