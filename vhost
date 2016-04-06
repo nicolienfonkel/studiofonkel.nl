@@ -74,9 +74,7 @@ server {
   location /12-archetypen {
        rewrite ^/.* /blogs/12-archetypen/ permanent;
     }
-  location /contact {
-       rewrite ^/.* /over-ons permanent;
-    }
+
   location /service {
        rewrite ^/.* /aanpak permanent;
     }
