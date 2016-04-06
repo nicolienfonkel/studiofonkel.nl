@@ -2,6 +2,7 @@
 title:  "Drupal Website"
 subtitle: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt"
 metadescription: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt"
+cta-text: "Wil je kennis maken met de Drupal specialisten uit ons team?"
 
 ---
 Je wilt een Drupal website? Dan ben je bij ons aan het goede adres! Binnen Studio Fonkel hebben we samen ruim 40.000 uur aan ervaring met werken in Drupal. Inmiddels hebben we ook al een heel aantal websites en applicaties gebouwd in de nieuwste versie van Drupal; Drupal 8.
@@ -21,8 +22,10 @@ Drupal is bijzonder betrouwbaar en veilig. Het Witte Huis heeft een Drupal websi
 ### We leren je graag kennen
 We helpen je graag! Wie zijn ‘wij’? Wij zijn Studio Fonkel. Noem ons een 'webdesignbureau plus'. 'Webdesign' omdat we websites ontwerpen en bouwen. 'Plus' omdat we meer doen dan dat. We helpen jou bij je positionering. Samen zoeken we naar het onderscheidende verhaal dat naadloos aansluit bij de identiteit van je organisatie. Om van hieruit, met de juiste middelen, een passende huisstijl en een heldere boodschap, je doelgroep te inspireren.
 
-Neem contact met ons op voor een vrijblijvend gesprek! We leren je graag kennen.
-
+<div class="call-to-action">
+  <h5 class="cta-text">{{ page.cta-text }}</h5>
+  <div class="number"><a href="/contact">Neem contact op</a></span></div>
+</div>
 
 <br/>
 ### Inspirerende blogs en cases:

@@ -2,6 +2,7 @@
 title:  "Merkpositionering: hoe positioneer ik mijn merk?"
 subtitle: "Geef aandacht aan het positioneren van je merk; waarom wil een klant zich aan jóu verbinden?"
 metadescription: "Geef aandacht aan het positioneren van je merk; waarom wil een klant zich aan jóu verbinden?"
+cta-text: "Wij kunnen je helpen met een onderscheidende positionering in de markt. En we vertellen je graag in een eerste gesprek hoe"
 
 ---
 Hoe onderscheid je je van concurrenten? Wat maakt jouw bedrijf uniek? Waarom wil een klant zich aan jouw organisatie binden in plaats van aan een van de andere spelers in de markt? Kortom; hoe positioneer je je merk? Als communicatie adviesbureau helpen wij je daar graag bij!
@@ -20,6 +21,11 @@ Al te vaak zien we enthousiaste klanten die hun vernieuwde zicht op hun position
 Daarom is de tweede stap van merkpositionering minstens net zo belangrijk als de eerste stap. Met elkaar – en desgewenst met verschillende afdelingen binnen je organisatie – gaan we creatief aan de slag met het merkverhaal en de praktische uitwerking binnen het bedrijf. Zodat het merkverhaal en de positionering van het bedrijf gaan leven binnen alle geledingen van de organisatie. Zodat klanten een consistente merkbeleving ervaren.
 
 Op die manier word je een bedrijf met een sterke persoonlijkheid. Een bedrijf waar je doelgroep zich tot aangetrokken voelt.
+
+<div class="call-to-action">
+  <h5 class="cta-text">{{ page.cta-text }}</h5>
+  <div class="number"><a href="/contact">Neem contact op</a></span></div>
+</div>
 
 <br/>
 ### Inspirerende blogs en cases:

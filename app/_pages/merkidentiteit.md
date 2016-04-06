@@ -2,6 +2,7 @@
 title:  "Merkidentiteit"
 subtitle: "Leer consequent vanuit je merkidentiteit te communiceren"
 metadescription: "Leer consequent vanuit je merkidentiteit te communiceren"
+cta-text: "Wil je vrijblijvend kennis met ons maken?"
 
 ---
 Wie ben je als merk? Welk gedrag hoort daarbij en welke communicatie? Een goede vraag om jezelf als bedrijf te stellen. Zonder heldere merkidentiteit is het lastig voor je doelgroep om zich aan je bedrijf te verbinden. Terwijl dat is wat je graag wilt; klanten die terugkomen omdat ze een ‘klik’ voelen met je organisatie.
@@ -22,7 +23,10 @@ Stap 2 is vanuit je merkidentiteit gaan communiceren. De vraag is dan niet lange
 ### We leren je graag kennen
 Zoals gezegd; wij helpen je graag! Wie zijn ‘wij’? Studio Fonkel is een communicatie adviesbureau. Samen met jou zoeken we het onderscheidende verhaal dat naadloos aansluit bij de identiteit van je organisatie. Om van hieruit passende communicatiemiddelen te ontwikkelen die je doelgroep aanspreken.
 
-Neem contact met ons op voor een vrijblijvend gesprek! We leren je graag kennen.
+<div class="call-to-action">
+  <h5 class="cta-text">{{ page.cta-text }}</h5>
+  <div class="number"><a href="/contact">Neem contact op</a></span></div>
+</div>
 
 
 <br/>

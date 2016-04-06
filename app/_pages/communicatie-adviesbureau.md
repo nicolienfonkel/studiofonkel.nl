@@ -2,6 +2,7 @@
 title:  "Ik zoek een communicatie adviesbureau"
 subtitle: "Creatief communicatie adviesbureau; van strategie en merkverhaal tot huisstijl en website"
 metadescription: "Creatief communicatie adviesbureau; van strategie en merkverhaal tot huisstijl en website"
+cta-text: "Wil je meer weten over communicatie adviesbureau Studio Fonkel? Je bent van harte welkom voor een vrijblijvend gesprek"
 
 ---
 Ben je op zoek naar een communicatie adviesbureau? Studio Fonkel helpt je graag!
@@ -14,8 +15,10 @@ Zo’n merkverhaal vormt vervolgens het uitgangspunt voor de communicatie van je
 
 Vanzelfsprekend bekijken we ook hoe we maximaal aansluiten bij de eigenschappen van je doelgroep.  
 
-### Contact
-Wil je meer weten over communicatie adviesbureau Studio Fonkel? Je bent van harte welkom voor een vrijblijvend gesprek
+<div class="call-to-action">
+  <h5 class="cta-text">{{ page.cta-text }}</h5>
+  <div class="number"><a href="/contact">Neem contact op</a></span></div>
+</div>
 
 <br/>
 ### Inspirerende blogs en cases:
