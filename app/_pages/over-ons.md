@@ -3,7 +3,7 @@ title:  "Over Studio Fonkel"
 subtitle: "Wij zijn Studio Fonkel, gewone jongens (en stiekem een paar meiden) die mooie dingen maken"
 metadescription: "Wij zijn Studio Fonkel, gewone jongens (en stiekem een paar meiden) die mooie dingen maken"
 author: Theo
-menu: 4
+menu: 5
 front: true
 ---
 
