@@ -28,17 +28,21 @@ Zoals gezegd; wij helpen je graag! Wie zijn ‘wij’? Studio Fonkel is een comm
   <div class="number"><a href="/contact">Neem contact op</a></span></div>
 </div>
 
-
-<br/>
 ### Inspirerende blogs en cases:
 <div class="cases-overview">
-	{% assign sorted_cases = site.cases | sort: 'date' %}
+	{% assign document = site.blogs | where: 'relative_path': '_blogs/archetypen.md' | first %}
+  {% include teaser/blogs.html %}
 
-	{% for case in sorted_cases reversed %}
-		{% include teaser/cases.html %}
-	{% endfor %}
+  {% assign document = site.cases | where: 'relative_path': '_cases/fincent.md' | first %}
+  {% include teaser/cases.html %}
+
+  {% assign document = site.cases | where: 'relative_path': '_cases/moso.md' | first %}
+  {% include teaser/cases.html %}
+
+  {% assign document = site.blogs | where: 'relative_path': '_blogs/Merkverhaal.md' | first %}
+  {% include teaser/blogs.html %}
+
 </div>
-<br/>
 ### Hier zijn we goed in:
 
 {% convince aanpak %}
