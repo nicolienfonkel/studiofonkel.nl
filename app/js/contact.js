@@ -14,21 +14,21 @@ $(document).ready(function() {
             $('body').removeClass('mandrill-waiting');
             $('body').addClass('mandrill-success');
             $('#contact-form button').text('Verzonden')
-            
+
         },
         emails: [
             {
-                from: 'contact@studiofonkel.nl',
+                from: 'info@studiofonkel.nl',
                 subject: 'Bericht via studiofonkel.nl',
-                to: ['daniel@studiofonkel.nl'],
+                to: ['info@studiofonkel.nl'],
                 fromNameField: 'name',
                 phoneNumber: 'phone',
                 replyToField: 'email'
-                // fromName: 'John Smith', 
+                // fromName: 'John Smith',
                 // toField: '',
                 // replyTo: 'mail@domain.com',
             }
         ]
     });
- 
-}); 
+
+});
