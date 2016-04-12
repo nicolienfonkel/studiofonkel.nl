@@ -4,7 +4,7 @@ subtitle: "Een nieuwe Drupal portal voor dé marktplaats voor franchising"
 metadescription: "Een nieuwe Drupal portal voor dé marktplaats voor franchising"
 header-img: "/img/gevels.jpg"
 header-img-alt: "Formulepresentatie voor frachnise-formules"
-date: 2016-10-01 10:27:01
+date: 2016-01-10 10:27:01
 front: true
 author: Theo
 categories: 
