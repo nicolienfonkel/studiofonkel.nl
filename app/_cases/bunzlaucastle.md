@@ -20,9 +20,14 @@ Bunzlau Castle is vooral bekend van het sfeervolle Poolse servies dat ze wereldw
 
 {% image “/img/Bunzlau_Castle_1.jpg" "Bunzlau Castle fotografie" "" "Bunzlau Castle magazine ontwerp" %}
 
+We zijn begonnen met een strategisch traject. Wie is Bunzlau Castle, wie is de lezer – we ontwikkelden een ijkpersoon – en wat betekent dat voor het magazine? De output van deze eerste fase was een merkverhaal.
+
 {% image “/img/Bunlzau_Castle_magazine_cover.jpg" "bedrijfsmagazine" "" "bedrijfsmagazine" %}
 
-We zijn begonnen met een strategisch traject. Wie is Bunzlau Castle, wie is de lezer – we ontwikkelden een ijkpersoon – en wat betekent dat voor het magazine? De output van deze eerste fase was een merkverhaal.
+Vanuit het merkverhaal zijn we begonnen met de invulling van het magazine; de keuze voor stijl, beeld, rubrieken enzovoort. Authenticiteit was een belangrijke kernwaarde en dat zie je onder andere terug in de personen die zijn geïnterviewd en hun verhalen.
+ 
+De uitvoer van de plannen betekende onder andere het ontwerp van het magazine, een fotoshoot in een oude, leegstaande zijdefabriek en het afreizen van Amersfoort naar Utrecht tot aan Parijs voor foto’s en interviews.   
+
 
 {% image “/img/Bunlzau_Castle_magazine_1.jpg" "Magazine concept ontwerp" "" "Magazine concept ontwerp" %}
 
