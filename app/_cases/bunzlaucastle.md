@@ -5,12 +5,12 @@ metadescription: "Redesign, concept en ontwikkeling van halfjaarlijks, internati
 header-img: "/img/Bunlzau_Castle.jpg"
 header-img-alt: "Bunzlau Castle"
 date: 2016-04-12 10:27:01
-categories: 
-- Magazine
-- Ontwerp 
-– Concept 
-– Tekst 
-– Fotografie
+categories:
+  - Magazine
+  - Ontwerp
+  – Concept
+  – Tekst
+  – Fotografie
 front: true
 ---
 
@@ -25,7 +25,7 @@ We zijn begonnen met een strategisch traject. Wie is Bunzlau Castle, wie is de l
 {% image “/img/Bunlzau_Castle_magazine_cover.jpg" "bedrijfsmagazine" "" "bedrijfsmagazine" %}
 
 Vanuit het merkverhaal zijn we begonnen met de invulling van het magazine; de keuze voor stijl, beeld, rubrieken enzovoort. Authenticiteit was een belangrijke kernwaarde en dat zie je onder andere terug in de personen die zijn geïnterviewd en hun verhalen.
- 
+
 De uitvoer van de plannen betekende onder andere het ontwerp van het magazine, een fotoshoot in een oude, leegstaande zijdefabriek en het afreizen van Amersfoort naar Utrecht tot aan Parijs voor foto’s en interviews.   
 
 
