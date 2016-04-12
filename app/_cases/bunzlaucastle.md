@@ -4,13 +4,13 @@ subtitle: "Redesign, concept en ontwikkeling van halfjaarlijks, internationaal l
 metadescription: "Redesign, concept en ontwikkeling van halfjaarlijks, internationaal lifestylemagazine"
 header-img: "/img/Bunlzau_Castle.jpg"
 header-img-alt: "Bunzlau Castle"
-date: 2016-04-12 10:27:01
+date: 2016-04-12 08:27:01
 categories:
   - Magazine
   - Ontwerp
-  – Concept
-  – Tekst
-  – Fotografie
+  - Concept
+  - Tekst
+  - Fotografie
 front: true
 ---
 
