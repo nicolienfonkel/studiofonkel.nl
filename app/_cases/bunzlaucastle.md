@@ -33,7 +33,7 @@ De uitvoer van de plannen betekende onder andere het ontwerp van het magazine, e
 
 {% image “/img/Bunlzau_Castle_magazine_2.jpg" "Magazine concept tekst" "" "Magazine concept tekst" %}
 
-{% image “/img/Bunlzau_Castle_magazine_3.jpg" "Magazine concept content" "" "Magazine concept content" %}
+{% image “/img/Bunlzau_Castle_magazine_5.jpg" "Magazine concept content" "" "Magazine concept content" %}
 
 {% image “/img/Bunlzau_Castle_magazine_4.jpg" "Magazine concept redactie" "" "Magazine concept redactie" %}
 
