@@ -6,7 +6,6 @@ metadescription: "Hoe zet je je merk sterker neer? Hoe vergroot je de betrokkenh
 header-img: "/img/Archetypen-strategie.jpg"
 date:   2015-11-16 10:27:01
 author: Michiel Kokee
-front: true
 teaser-text: "Hoe zet je je merk sterker neer? Hoe vergroot je de betrokkenheid van zowel de markt als je medewerkers?"
 ---
 
