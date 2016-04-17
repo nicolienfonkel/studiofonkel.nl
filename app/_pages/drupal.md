@@ -13,10 +13,10 @@ Drupal is meer dan een CMS (Content Management System). Een CMS zorgt ervoor dat
 ### Flexibiliteit van Drupal
 We werken graag met Drupal. Met name omdat het een heel flexibel systeem is. We gebruiken de kern van Drupal – Drupal Core, dat is het fundament – en daaromheen zetten we modules. Modules die de Drupal Community heeft geschreven of Custom Modules die we zelf schrijven voor specifieke klantvragen. Zo bouwen we stap voor stap een website op. Met alle bouwstenen die voor onze klant nuttig zijn.
 
-### Externe systemen koppelen
+### Externe systemen koppelen met Drupal
 We kennen Drupal van de kern tot de voorkant. Daardoor zijn we in staat hoge kwaliteit op te leveren. Wanneer dat nodig is, koppelen we externe systemen aan de Drupal website. Denk aan een CRM, een productcatalogus of een financieel systeem.
 
-### Betrokken community
+### Drupal heeft een betrokken community
 Drupal is bijzonder betrouwbaar en veilig. Het Witte Huis heeft een Drupal website, net als Twitter. Waar wij zelf super enthousiast over zijn, is de Drupal Community. Dit is een enorm betrokken groep van meer dan 100.000 ontwikkelaars van over de hele wereld – waar wij zelf ook deel van uitmaken. Samen bouwen we aan Drupal en breiden we het uit.  
 
 ### We leren je graag kennen
