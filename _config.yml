@@ -5,6 +5,7 @@
 
 name: studiofonkel-jekyll
 description: Studio Fonkel
+site.url: https://studiofonkel.nl
 
 slogan: Gewone jongens die mooie dingen maken
 case_slogan: Geen standaars oplossingen. Streven naarhet beste rendement, voor de korte en lange termijn
