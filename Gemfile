@@ -8,3 +8,4 @@ gem 'i18n'
 gem "singularitygs", "~>1.4"
 gem 'breakpoint'
 gem 'octopress-autoprefixer'
+gem 'jekyll-sitemap'
