@@ -46,9 +46,9 @@ Komen ze er om je telefoonnummer op te zoeken of moet de website je bezoeker van
 
 Maak één of meerdere persona’s; omschrijvingen van gemiddelde bezoekers van jouw website. Wie zijn ze en waar zijn ze naar op zoek? Als je dat weet, weet je ook hoe je de website het best op kunt bouwen, wat prominent zichtbaar moet zijn wat minder relevant is.  
 
-Wanneer je nu een webbureau gaat briefen, resulteert dat – als het goed is – in een website die meer is dan ‘mooier is dan de oude’ of ‘gebruiksvriendelijker dan vorige’. Nu klopt je nieuwe website. 
+Wanneer je nu een webbureau gaat briefen, resulteert dat – als het goed is – in een website die meer is dan ‘mooier dan de oude’ of ‘gebruiksvriendelijker dan vorige’. 
 
-Je website is een verlengstuk van je merkidentiteit geworden en sluit aan bij je doelgroep.
+Zo wordt je website een verlengstuk van je merkidentiteit, herkenbaar en aantrekkelijk voor je doelgroep.
 
 
 Door: Lianne Barelds & Michiel Kokee
