@@ -1,5 +1,5 @@
 ---
-title:  "Bunzlau Castle lifestyle magazine"
+title:  "Bunzlau Castle"
 subtitle: "Redesign, concept en ontwikkeling van halfjaarlijks, internationaal lifestylemagazine"
 metadescription: "Redesign, concept en ontwikkeling van halfjaarlijks, internationaal lifestylemagazine"
 header-img: "/img/Bunlzau_Castle.jpg"
