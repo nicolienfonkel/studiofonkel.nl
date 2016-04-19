@@ -2,7 +2,7 @@
 title:  "Wikselaar Satelite Trading"
 subtitle: "Handige Drupal-webapplicatie om internet op campings te beheren"
 metadescription: "Handige webapplicatie om internet op campings te beheren op basis van Drupal"
-date: 2016-04-18 10:27:01
+date: 2014-04-18 10:27:01
 header-img: "/img/wifibeheer.jpg"
 header-img-alt: "Wifibeheer"
 cta-text: "Maak kennis met onze Drupal specialisten. Bel ons voor een kennismakingsafspraak"
