@@ -18,7 +18,7 @@ Bijkomend voordeel van deze locatie is dat we de ruimte zelf mochten indelen. Di
 
 Met trots presenteren we: ons nieuwe kantoor!
 
-{% image “/img/Klussen nieuw pand.jpg" "Het nieuwe pand bekijken" "Het nieuwe pand bekijken." "Het nieuwe pand bekijken." %}
+{% image “/img/Klussen nieuw pand.jpg" "Klussen in het nieuwe pand" "Er wordt geklust in het nieuwe pand." "Klussen." %}
 
 
 {% image “/img/_MG_2018.jpg" "" "" "" %}
