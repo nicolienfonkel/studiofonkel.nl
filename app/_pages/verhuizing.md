@@ -17,6 +17,9 @@ Bijkomend voordeel van deze locatie is dat we de ruimte zelf mochten indelen. Di
 
 Met trots presenteren we: ons nieuwe kantoor!
 
+{% image “/img/_MG_8329.jpg" "Het nieuwe pand bekijken" "Het nieuwe pand bekijken." "Het nieuwe pand bekijken." %}
+
+Hela hola check
 
 
 <div class="call-to-action">
