@@ -6,7 +6,7 @@ categories:
   - Arnhemseweg 6, Amersfoort (3e etage)
 
 ---
-Studio Fonkel is verhuisd! 
+Studio Fonkel is verhuisd!
 Ons nieuwe kantoor bevindt zich tegenover ons vorige pand: 
 
 {% case_tags %}
