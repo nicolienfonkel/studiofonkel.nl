@@ -24,7 +24,8 @@ Met trots presenteren we: ons nieuwe kantoor!
 
 {% image “/img/Klussen nieuw pand.jpg" "Klussen in het nieuwe pand" "De wanden worden geplaatst." "Klussen." %}
 
-
+### Parkeren
+Klanten die bij ons op bezoek komen, kunnen parkeren in de parkeergarage onder de Plus. Het adres is Soeverein 36. Je krijgt van ons een uitrijkaart.
 
 
 <div class="call-to-action">
