@@ -18,9 +18,8 @@ Bijkomend voordeel van deze locatie is dat we de ruimte zelf mochten indelen. Di
 
 Met trots presenteren we: ons nieuwe kantoor!
 
-{% image “/img/_MG_8329.jpg" "Het nieuwe pand bekijken" "Het nieuwe pand bekijken." "Het nieuwe pand bekijken." %}
+{% image “/img/Klussen nieuw pand.jpg" "Het nieuwe pand bekijken" "Het nieuwe pand bekijken." "Het nieuwe pand bekijken." %}
 
-{% image “/img/masugro-3.jpg" "Fris ontworpen Drupal website" "Het ontwerp van de Drupal website" "Fris ontworpen Drupal website" %}
 
 {% image “/img/_MG_2018.jpg" "" "" "" %}
 
