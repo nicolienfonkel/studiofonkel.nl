@@ -1,12 +1,13 @@
 ---
-title:  "Verhuisd!"
-subtitle: "Een nieuw kantoor dat bij ons past, aan de overkant van de straat."
+title:  "We zijn verhuisd!"
+subtitle: "Een nieuw kantoor dat bij ons past, aan de overkant van de straat"
 cta-text: "We zijn verhuisd - hoe awesome is dat!!"
 categories:
   - Arnhemseweg 6, Amersfoort (3e etage)
 
 ---
-Studio Fonkel is verhuisd! Ons nieuwe kantoor bevindt zich tegenover ons vorige pand: 
+Studio Fonkel is verhuisd! 
+Ons nieuwe kantoor bevindt zich tegenover ons vorige pand: 
 
 {% case_tags %}
 
@@ -18,6 +19,8 @@ Bijkomend voordeel van deze locatie is dat we de ruimte zelf mochten indelen. Di
 Met trots presenteren we: ons nieuwe kantoor!
 
 {% image “/img/_MG_8329.jpg" "Het nieuwe pand bekijken" "Het nieuwe pand bekijken." "Het nieuwe pand bekijken." %}
+{% image “/img/masugro-3.jpg" "Fris ontworpen Drupal website" "Het ontwerp van de Drupal website" "Fris ontworpen Drupal website" %}
+{% image “/img/_MG_2018.jpg" "" "" "" %}
 
 Hela hola check
 
