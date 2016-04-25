@@ -18,12 +18,13 @@ Bijkomend voordeel van deze locatie is dat we de ruimte zelf mochten indelen. Di
 
 Met trots presenteren we: ons nieuwe kantoor!
 
-{% image “/img/Klussen nieuw pand.jpg" "Klussen in het nieuwe pand" "Er wordt geklust in het nieuwe pand." "Klussen." %}
+{% image “/img/vloer.jpg" "Klussen in het nieuwe pand" "Eerst is er een laag over de betonnen vloer gespoten." "Klussen." %}
+
+{% image “/img/leeg kantoor.jpg" "Klussen in het nieuwe pand" "" "Klussen." %}
+
+{% image “/img/Klussen nieuw pand.jpg" "Klussen in het nieuwe pand" "De wanden worden geplaatst." "Klussen." %}
 
 
-{% image “/img/_MG_2018.jpg" "" "" "" %}
-
-Hela hola check
 
 
 <div class="call-to-action">
