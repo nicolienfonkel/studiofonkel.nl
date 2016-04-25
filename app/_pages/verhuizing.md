@@ -18,7 +18,7 @@ Bijkomend voordeel van deze locatie is dat we de ruimte zelf mochten indelen. Di
 
 Met trots presenteren we: ons nieuwe kantoor!
 
-{% image “/img/vloer.jpg" "Klussen in het nieuwe pand" "Eerst is er een laag over de betonnen vloer gespoten." "Klussen." %}
+{% image “/img/Vloer.jpg" "Klussen in het nieuwe pand" "Eerst is er een laag over de betonnen vloer gespoten." "Klussen." %}
 
 {% image “/img/leeg kantoor.jpg" "Klussen in het nieuwe pand" "" "Klussen." %}
 
