@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 
 	$('#contact-form').jsClientMail({
-        api: 'http://build.studiofonkel.nl/send-mail',
+        api: 'https://build.studiofonkel.nl/send-mail',
         wait: function () {
             $('body').addClass('mandrill-waiting');
             $('#contact-form button').text('Verzenden')
