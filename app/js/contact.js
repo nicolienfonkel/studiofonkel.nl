@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 
 	$('#contact-form').jsClientMail({
-        api: 'https://build.studiofonkel.nl/send-mail',
+        api: 'http://localhost:3017/send-mail',
         wait: function () {
             $('body').addClass('mandrill-waiting');
             $('#contact-form button').text('Verzenden')
@@ -14,6 +14,9 @@ $(document).ready(function() {
             $('body').removeClass('mandrill-waiting');
             $('body').addClass('mandrill-success');
             $('#contact-form button').text('Verzonden')
+        },
+        error: function (error) {
+            $('#contact-form button').text('Oeps niet gelukt')
         }
     });
 
