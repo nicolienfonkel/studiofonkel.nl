@@ -1,7 +1,8 @@
 ---
-title:  "We zijn verhuisd!"
+title:  "Studio Fonkel is verhuisd!"
 subtitle: "Een nieuw kantoor dat bij ons past, aan de overkant van de straat"
 cta-text: "We zijn verhuisd - hoe awesome is dat!!"
+front: false
 categories:
   - Arnhemseweg 6, Amersfoort (3e etage)
 
