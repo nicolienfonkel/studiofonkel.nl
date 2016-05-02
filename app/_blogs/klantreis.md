@@ -7,7 +7,7 @@ header-img: "/img/klantreis.png"
 og-image: "/img/Je_merkverhaal_en_de_klantreis_Studio_Fonkel.jpg"
 date:   2016-02-18 10:27:01
 author: Floris van Woudenberg
-front: true
+front: false
 cta-text: "Wij helpen je graag om je merkverhaal te schrijven en je klantreis in kaart te brengen."
 teaser-text: "De klantreis is de weg die een klant aflegt: van het eerste contact met je merk tot en met de nazorg."
 ---
