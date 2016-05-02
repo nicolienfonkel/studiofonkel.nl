@@ -27,13 +27,13 @@ Met trots presenteren we: ons nieuwe kantoor!
 
 {% image “/img/Interieur1a.jpg" "De nieuwe ruimte is af" "Een fantastisch resultaat!" "Kantoor interieur" %}
 
-{% image “/img/keuken1a.jpg" "De nieuwe ruimte is af" "Een fantastisch resultaat!" "Kantoor interieur" %}
+{% image “/img/keuken1a.jpg" "De nieuwe ruimte is af" "" "Kantoor interieur" %}
 
-{% image “/img/west.jpg" "De nieuwe ruimte is af" "Een fantastisch resultaat!" "Kantoor interieur" %}
+{% image “/img/west.jpg" "De nieuwe ruimte is af" "" "Kantoor interieur" %}
 
-{% image “/img/vergaderruimte.jpg" "De nieuwe ruimte is af" "Een fantastisch resultaat!" "Kantoor interieur" %}
+{% image “/img/vergaderruimte.jpg" "De nieuwe ruimte is af" "" "Kantoor interieur" %}
 
-{% image “/img/devops.jpg" "De nieuwe ruimte is af" "Een fantastisch resultaat!" "Kantoor interieur" %}
+{% image “/img/devops.jpg" "De nieuwe ruimte is af" "" "Kantoor interieur" %}
 
 ### Parkeren
 Klanten die bij ons op bezoek komen, kunnen parkeren in de parkeergarage onder de Plus supermarkt. Het adres van de parkeergarage is Soeverein 36. Je krijgt van ons een uitrijkaart.
