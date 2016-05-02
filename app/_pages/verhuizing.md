@@ -1,7 +1,7 @@
 ---
 title:  "Studio Fonkel is verhuisd!"
 subtitle: "Een nieuw kantoor dat bij ons past, aan de overkant van de straat"
-cta-text: "We zijn verhuisd - hoe awesome is dat!!"
+cta-text: "We zijn verhuisd - komt gerust een bakkie doen"
 front: true
 categories:
   - Arnhemseweg 6, Amersfoort (3e etage)
@@ -25,9 +25,6 @@ Met trots presenteren we: ons nieuwe kantoor!
 
 {% image “/img/Klussen nieuw pand.jpg" "Klussen in het nieuwe pand" "De wanden worden geplaatst." "Klussen." %}
 
-### Openingsborrel
-Eind augustus zullen we een openingsborrel geven, gecombineerd met ons vijfjarig bestaan. In de tussentijd ben je natuurlijk van harte welkom om een keer langs te komen en een bakkie te doen.
-
 {% image “/img/Interieur1a.jpg" "De nieuwe ruimte is af" "Een fantastisch resultaat!" "Kantoor interieur" %}
 
 {% image “/img/keuken1a.jpg" "De nieuwe ruimte is af" "Een fantastisch resultaat!" "Kantoor interieur" %}
@@ -38,13 +35,11 @@ Eind augustus zullen we een openingsborrel geven, gecombineerd met ons vijfjarig
 
 {% image “/img/devops.jpg" "De nieuwe ruimte is af" "Een fantastisch resultaat!" "Kantoor interieur" %}
 
->>>>>>> d281fa021aa63884e3b6e91e69eb74adb97a8825
-
 ### Parkeren
 Klanten die bij ons op bezoek komen, kunnen parkeren in de parkeergarage onder de Plus supermarkt. Het adres van de parkeergarage is Soeverein 36. Je krijgt van ons een uitrijkaart.
 
 
 <div class="call-to-action">
   <h5 class="cta-text">{{ page.cta-text }}</h5>
-  <div class="number"><a href="/contact">Kom gerust een bakkie doen</a></span></div>
+  <div class="number"><a href="/contact">Bel ons voor een afspraak</a></span></div>
 </div>
