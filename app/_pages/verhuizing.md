@@ -25,6 +25,9 @@ Met trots presenteren we: ons nieuwe kantoor!
 
 {% image “/img/Klussen nieuw pand.jpg" "Klussen in het nieuwe pand" "De wanden worden geplaatst." "Klussen." %}
 
+### Openingsborrel
+Eind augustus zullen we een openingsborrel geven, gecombineerd met ons vijfjarig bestaan. In de tussentijd ben je natuurlijk van harte welkom om een keer langs te komen en een bakkie te doen.
+
 ### Parkeren
 Klanten die bij ons op bezoek komen, kunnen parkeren in de parkeergarage onder de Plus supermarkt. Het adres van de parkeergarage is Soeverein 36. Je krijgt van ons een uitrijkaart.
 
