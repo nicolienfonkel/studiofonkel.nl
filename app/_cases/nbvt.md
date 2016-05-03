@@ -17,6 +17,8 @@ De Nederlandse Branchevereniging voor de Timmerindustrie (NBVT) verdedigt het be
 
 Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
 
+Resultaat: <a href="http://nbvt.nl/" target="_blank">nbvt.nl</a>
+
 {% case_tags %}
 
 We ontwikkelden handige rekentools voor op de Drupal website. Er is een tool die uitrekent hoe groot je raam mag zijn voordat deze knapt en een tool om uit te rekenen hoeveel CO2 opgeslagen zit in een specifiek houtproduct. Hiermee tonen timmerfabrikanten duurzaamheid aan.
