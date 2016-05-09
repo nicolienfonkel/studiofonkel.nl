@@ -13,7 +13,7 @@ We hebben gemerkt dat het in veel gevallen prettig is om eerst een stap terug te
 
 ###Lenig
 
-Wanneer we aan de slag gaan met je vraag, dan doen we dat 'agile'. Agile is een term uit de software-ontwikkeling en betekent 'lenig' en 'behendig'. Het komt erop neer dat er in het proces ruimte is voor verandering (lees: spontane goede ideeën) zonder dat de deadline in gevaar komt. Een voorbeeld van een agile projectbenadering is 'scrum'.
+Wanneer we met je vraag aan de slag gaan, dan doen we dat 'agile'. Agile is een term uit de software-ontwikkeling en betekent 'lenig' en 'behendig'. Het komt erop neer dat er in het proces ruimte is voor verandering (lees: spontane goede ideeën) zonder dat de deadline in gevaar komt. Een voorbeeld van een agile projectbenadering is 'scrum'.
 
 ###Scrum
 
