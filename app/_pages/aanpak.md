@@ -17,7 +17,7 @@ Wanneer we aan de slag gaan met je vraag, dan doen we dat 'agile'. Agile is een 
 
 ###Scrum
 
-Een groot voordeel van de scrum methodiek is dat je als klant maximaal grip hebt op het budget en het resultaat. Bij scrum wordt een project in stukjes gesneden, in zogenaamde 'sprints'. De rijkwijdte wordt per sprint vastgesteld. Dat doen we gezamenlijk. Aan het begin van een nieuwe sprint kunnen eventuele nieuwe wensen worden toegevoegd. Als klant beoordeel je deze wensen op basis van de toegevoegde (business-)waarde.
+Een groot voordeel van de scrum methodiek is dat je als klant maximaal grip hebt op het budget en het resultaat. Bij scrum wordt een project in stukjes gesneden, in zogenaamde 'sprints'. De reikwijdte wordt per sprint vastgesteld. Dat doen we gezamenlijk. Aan het begin van een nieuwe sprint kunnen eventuele nieuwe wensen worden toegevoegd. Als klant beoordeel je deze wensen op basis van de toegevoegde (business-)waarde.
 
 {% image "/img/agile-board.png" "default" "Op het scrumbord zien we precies wat er nog moet gebeuren, wie waar mee bezig is en welke taken al zijn afgerond." "Studio Fonkel scrumboard" %}
 
