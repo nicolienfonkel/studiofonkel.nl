@@ -6,7 +6,12 @@ metadescription: "Het budget zo inzetten dat we maximaal waarde toevoegen aan je
 menu: 4
 
 ---
-In onze aanpak zie je voortdurend de lijn terug van prioriteiten stellen en waarde toevoegen. Dat begint met de vraag die je bij ons neerlegt. We gaan met je in gesprek en adviseren over waar wij geloven dat je het meest mee bent geholpen. Vervolgens werken we je vraag 'agile' uit.
+In onze aanpak zie je voortdurend de lijn terug van prioriteiten stellen en waarde toevoegen. Dat begint met de vraag die je bij ons neerlegt.
+
+###Een stap terug
+We hebben gemerkt dat het prettig is om eerst een stap terug te doen. Van de vraag verleggen we de focus naar de identiteit van je bedrijf. Wie ben je? Hoe is je merk opgebouwd? Wat is de kern van wat je wilt uitstralen? Naar welke doelgroep? Met deze kennis adviseren we je over waar wij geloven dat je het meest mee bent geholpen. 
+
+Krijgen we van jou een ‘go’? Dan gaan we aan de slag. We werken je vraag ‘agile’ uit.
 
 ###Lenig
 
