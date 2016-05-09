@@ -9,13 +9,11 @@ menu: 4
 In onze aanpak zie je voortdurend de lijn terug van prioriteiten stellen en waarde toevoegen. Dat begint met de vraag die je bij ons neerlegt.
 
 ###Een stap terug
-We hebben gemerkt dat het prettig is om eerst een stap terug te doen. Van de vraag verleggen we de focus naar de identiteit van je bedrijf. Wie ben je? Hoe is je merk opgebouwd? Wat is de kern van wat je wilt uitstralen? Naar welke doelgroep? Met deze kennis adviseren we je over waar wij geloven dat je het meest mee bent geholpen. 
-
-Krijgen we van jou een ‘go’? Dan gaan we aan de slag. We werken je vraag ‘agile’ uit.
+We hebben gemerkt dat het in veel gevallen prettig is om eerst een stap terug te doen. Van de vraag verleggen we de focus naar de identiteit van je bedrijf. Wie ben je? Hoe is je merk opgebouwd? Wat is de kern van wat je wilt uitstralen? Naar welke doelgroep? Met deze kennis adviseren we je over waar wij geloven dat je het meest mee bent geholpen. 
 
 ###Lenig
 
-Agile is een term uit de software-ontwikkeling en betekent 'lenig' en 'behendig'. Het komt erop neer dat er in het proces ruimte is voor verandering (lees: spontane goede ideeën) zonder dat de deadline in gevaar komt. Een voorbeeld van een agile projectbenadering is 'scrum'.
+Wanneer we aan de slag gaan met je vraag, dan doen we dat 'agile'. Agile is een term uit de software-ontwikkeling en betekent 'lenig' en 'behendig'. Het komt erop neer dat er in het proces ruimte is voor verandering (lees: spontane goede ideeën) zonder dat de deadline in gevaar komt. Een voorbeeld van een agile projectbenadering is 'scrum'.
 
 ###Scrum
 
