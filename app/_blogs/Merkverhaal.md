@@ -14,7 +14,7 @@ teaser-text: "In een aantal van onze blogs ben je het concept ‘merkverhaal’ 
 ###In het kort
 Een merkverhaal is een korte tekst van een paar alinea’s waarin duidelijk wordt hoe een merk voelt. Het beschrijft de ziel van een merk en neemt zaken als missie, klantbelofte en kernwaarden mee. Waarom een merkverhaal belangrijk is? Omdat het houvast en richting geeft. Omdat het je helpt consequent vanuit je kern te communiceren met je doelgroep. Dat waardeert je doelgroep en dat krijg je terug.
 
-Dat was het antwoord op de vraag voor de lezers met weinig tijd. Voor de anderen ga ik nog even door.  
+Dat was het korte antwoord op de vraag. Lees voor een uitgebreidere uitleg nog even door.
 
 ###Een bedrijf met een persoonlijkheid
 In je eentje is het nog wel te doen om dicht bij jezelf te blijven. Alhoewel, ook dat schijnt tegen te vallen. Mensen verliezen zichzelf weleens; ze worden geleefd door de buitenwereld. Des te meer geldt dat voor bedrijven. Veel organisaties kennen de verleiding om keuzes te baseren op kortetermijnwinst. Het resultaat is dat je met alle winden mee waait. Ondertussen bindt de consument zich aan merken met een duidelijke persoonlijkheid.
