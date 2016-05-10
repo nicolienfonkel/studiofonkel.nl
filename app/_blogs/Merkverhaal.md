@@ -17,7 +17,7 @@ Een merkverhaal is een korte tekst van een paar alinea’s waarin duidelijk word
 Dat was het antwoord op de vraag voor de lezers met weinig tijd. Voor de anderen ga ik nog even door.  
 
 ###Een bedrijf met een persoonlijkheid
-In je eentje is het nog wel te doen om dicht bij jezelf te blijven. Alhoewel, ook dat schijnt tegen te vallen. Mensen verliezen zichzelf weleens door de druk van de maatschappij. Des te meer geldt dat voor bedrijven. Menig organisatie kent de verleiding om keuzes te baseren op kortetermijnwinst. Het resultaat is dat je met alle winden mee waait. Ondertussen bindt de consument zich aan merken met een duidelijke persoonlijkheid.
+In je eentje is het nog wel te doen om dicht bij jezelf te blijven. Alhoewel, ook dat schijnt tegen te vallen. Mensen verliezen zichzelf weleens; ze worden geleefd door de buitenwereld. Des te meer geldt dat voor bedrijven. Veel organisaties kennen de verleiding om keuzes te baseren op kortetermijnwinst. Het resultaat is dat je met alle winden mee waait. Ondertussen bindt de consument zich aan merken met een duidelijke persoonlijkheid.
 
 Door je keuzes consequent te baseren op je kernwaarden, krijg je een gezicht. Word je herkenbaar. Geleidelijk zo herkenbaar dat je uit de massa concurrenten springt. Daarvoor moet de persoonlijkheid van het bedrijf wel op alle afdelingen leven, en niet alleen bij de directeur of het management.
 
