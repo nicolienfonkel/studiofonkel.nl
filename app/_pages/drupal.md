@@ -8,7 +8,7 @@ cta-text: "Wil je kennis maken met de Drupal specialisten uit ons team?"
 Je wilt een Drupal website? Dan ben je bij ons aan het goede adres! Binnen Studio Fonkel hebben we samen ruim 40.000 uur aan ervaring met werken in Drupal. Inmiddels hebben we ook al een heel aantal websites en applicaties gebouwd in de nieuwste versie van Drupal; Drupal 8.
 
 ### Meer dan een CMS
-Drupal is meer dan een CMS (Content Management System). Een CMS zorgt ervoor dat je als bedrijf eenvoudig zelf de inhoud van je website kunt aanpassen. Drupal is daarnaast een platform waar wij als webbureau complete websites en webapplicaties op kunnen ontwikkelen.
+Drupal is meer dan een CMS (Content Management System). Een CMS zorgt ervoor dat je zelf als bedrijf eenvoudig de inhoud van je website kunt aanpassen. Drupal is daarnaast een platform waar wij als webbureau complete websites en webapplicaties op kunnen ontwikkelen.
 
 ### Flexibiliteit van Drupal
 We werken graag met Drupal. Met name omdat het een heel flexibel systeem is. We gebruiken de kern van Drupal – Drupal Core, dat is het fundament – en daaromheen zetten we modules. Modules die de Drupal Community heeft geschreven of Custom Modules die we zelf schrijven voor specifieke klantvragen. Zo bouwen we stap voor stap een website op. Met alle bouwstenen die voor onze klant nuttig zijn.
