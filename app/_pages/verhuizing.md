@@ -19,15 +19,15 @@ Bijkomend voordeel van deze locatie is dat we de ruimte zelf mochten indelen. Di
 
 Met trots presenteren we: ons nieuwe kantoor!
 
-{% image “/img/Vloer.jpg" "Klussen in het nieuwe pand" "Eerst is er een laag over de betonnen vloer gespoten." "Klussen." %}
+{% image “/img/Vloer.jpg" "Klussen in het nieuwe pand" "Eerst is er een laag egaline op de betonnen vloer aangebracht." "Klussen." %}
 
-{% image “/img/leeg kantoor.jpg" "Klussen in het nieuwe pand" "" "Klussen." %}
+{% image “/img/leeg kantoor.jpg" "Klussen in het nieuwe pand" "De basis is een grote ruimte met veel licht" "Klussen." %}
 
-{% image “/img/Klussen nieuw pand.jpg" "Klussen in het nieuwe pand" "De wanden worden geplaatst." "Klussen." %}
+{% image “/img/Klussen nieuw pand.jpg" "Klussen in het nieuwe pand" "De grotendeels glazen wanden worden geplaatst." "Klussen." %}
 
-{% image “/img/Interieur1a.jpg" "De nieuwe ruimte is af" "Veel ruimte en licht" "Kantoor interieur" %}
+{% image “/img/Interieur1a.jpg" "De nieuwe ruimte is af" "Ruimte, licht en transparantie" "Kantoor interieur" %}
 
-{% image “/img/keuken1a.jpg" "De nieuwe ruimte is af" "" "Kantoor interieur" %}
+{% image “/img/keuken1a.jpg" "De nieuwe ruimte is af" "Een gehackte Ikea keuken als koffiemeubel" "Kantoor interieur" %}
 
 {% image “/img/west.jpg" "De nieuwe ruimte is af" "" "Kantoor interieur" %}
 
