@@ -3,4 +3,4 @@ title:  "Gamestorming"
 subtitle: "Gamestorming"
 
 ---
-Gamestorming
+Gamestorming is de bom
