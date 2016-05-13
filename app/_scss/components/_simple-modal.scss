@@ -1,0 +1,57 @@
+.simple-modal {
+  left: auto !important;
+  right: auto !important;
+  transform: scale(1) !important;
+  width: 100% !important;
+  background: #2b2c2d;
+  padding: 25px calc(100% /32);
+
+  iframe {
+    width: 90% !important;
+    height: 235px !important;
+  }
+  
+  .close {
+    width: 25px;
+    padding-bottom: 100%;
+    position: absolute !important;
+    height: 25px;
+    background: transparent !important;
+    right: calc(100% /32) !important;
+    top: 28px !important;
+    opacity: 1 !important;
+
+    &:before,
+    &:after {
+      content: "";
+      display: block;
+      width: 3px;
+      height: 100%;
+      position: absolute;
+      background: white;
+      top: 0;
+      left: 50%;
+      transform: rotate(45deg);
+    }
+
+    &:after {
+      transform: rotate(-45deg);
+    }
+
+    .close_image {
+      display: none;
+    }
+  }
+}
+
+@include breakpoint($tablet) {
+  .simple-modal {
+    right: 0 !important;
+    width: 550px !important;
+    padding: 25px;
+
+    iframe {
+      height: 165px !important;
+    }
+  }
+}
