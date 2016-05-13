@@ -1,0 +1,57 @@
+body {
+    background: transparent !important;
+    width: 100% !important;
+    margin: 0;
+    color: #ffffff;
+    font-family: "Aktiv Grotesk",sans-serif;
+    transform: scale(1) !important;
+    font-size: inherit;
+}
+
+h2.title {
+    margin: 0;
+    font-weight: bold;
+}
+
+p.description {
+    font-size: 14px;
+    line-height: 1.4em;
+    margin: 1em 0;
+}
+
+input.popup-text {
+    padding: 5px 10px;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 0 0 transparent;
+    font-family: "Aktiv Grotesk",sans-serif;
+    color: #54575a;
+    border: 0 none;
+    font-size: 16px;
+    font-weight: 300;
+    float: left;
+    width: 60%;
+    background: white;
+    margin-bottom: 1em;
+}
+
+input.popup-button {
+    padding: 5px 10px;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 0 0 transparent;
+    font-family: "Aktiv Grotesk",sans-serif;
+    color: #2b2c2d;
+    border: 0 none;
+    font-size: 16px;
+    font-weight: 300;
+    float: left;
+    width: calc(40% - 10px);
+    margin-left: 10px;
+    background-color: #f8bf00;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+p.info {
+    font-size: 12px;
+    line-height: 1.4em;
+}
