@@ -270,6 +270,7 @@ module.exports = function (grunt) {
             // Copy moves asset files and directories.
             'img/**/*',
             'fonts/**/*',
+            'modal/modal.css',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
             '!**/_*{,/**}'
             // Explicitly add any files your site needs for distribution here.
@@ -355,7 +356,7 @@ module.exports = function (grunt) {
 
     grunt.task.run([
       'clean:server',
-      'express:dev',  
+      'express:dev',
       'concurrent:server',
       'autoprefixer:dist',
       'browserSync:server',
