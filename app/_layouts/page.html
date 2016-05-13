@@ -8,7 +8,7 @@ layout: html
 
 		{% if page.path %}
 			{% assign extension_splitted = page.path | split: '.' %}
-			{% assign extension = extension_splitted[1] %}
+			{% assign extension = extension_splitted | last %}
 		{% endif %}
 
 		<div class="{{ extension }}-wrapper">{{ content }}</div>

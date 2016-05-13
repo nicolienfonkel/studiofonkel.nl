@@ -195,7 +195,13 @@ module.exports = function (grunt) {
     },
     usemin: {
       options: {
-        assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/img']
+        assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/img'],
+        blockReplacements: {
+          css: function (block){
+            console.log(block.dest);
+            return '<link rel="stylesheet" async href="' + block.dest + '"><\/link>';
+          }
+        }
       },
       html: ['<%= yeoman.dist %>/**/*.html'],
       css: ['<%= yeoman.dist %>/css/**/*.css']

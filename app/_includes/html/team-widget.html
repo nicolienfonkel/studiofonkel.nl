@@ -1,5 +1,5 @@
+<h3 class="team">Het Fonkel-team</h3>
 <div class="team-widget" markdown="0">
-	<h2 class="page-heading team">Het fonkel-team</h2>
 	<div class="employees-wrapper">
 		{% assign counter = 0 %}
 		{% for employee in site.data.team %}
@@ -9,7 +9,7 @@
 			<div class="employee">
 				<input type="radio" id="employee-{{ counter }}" name="employee-counter" class="employee-radio" />
 				<label for="employee-{{ counter }}">
-					<div class="image" style="background-image: url('../img/platform_pulsvissen.jpg')"></div>
+					<div class="image" style="background-image: url('../img/{{ employee.key }}.jpg')"></div>
 				</label>
 				
 				<div class="info">

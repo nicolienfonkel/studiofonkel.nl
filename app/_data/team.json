@@ -1,6 +1,6 @@
 [
     {
-        "name": "Michiel",
+        "name": "Michiel – Eigenaar & ontwerper",
         "key": "michiel",
         "preferences": {
             "Post-it vs. iPad": 1,
@@ -12,10 +12,10 @@
             "Mac vs. Windows": 6,
             "Terminal vs. Graphic interface": 86
         },
-        "bio": "Kunstacademicus en eigenzinnig vakman op zoek naar originele invalshoeken. Verdiept zich met plezier in de klant en doelgroep om vervolgens met een voorstel te komen waarmee hij de spijker op z'n kop slaat. Wil vooral toffe dingen maken die zowel mooi als duidelijk zijn."
+        "bio": "Kunstacademicus die zich met plezier verdiept in de klant en de doelgroep om vervolgens met een voorstel te komen waarmee hij de spijker op z'n kop slaat. Een eigenzinnig vakman op zoek naar originele invalshoeken (zowel op het werk als tijdens de lunch. Boekweitmuesli, really?). Wil vooral toffe dingen maken die zowel mooi als duidelijk zijn."
     },
     {
-        "name": "Floris",
+        "name": "Floris – Eigenaar",
         "key": "floris",
         "preferences": {
             "Post-it vs. iPad": 93,
@@ -27,10 +27,10 @@
             "Mac vs. Windows": 1,
             "Terminal vs. Graphic interface": 35
         },
-        "bio": "Ondernemend, out-of-the box, gedreven en een beetje vreemd. Heeft visie, geeft mensen graag een kans en denkt mee in concept-ontwikkeling. Houdt van een uitdaging en is nogal enthousiast over veel dingen. Op werkvlak is dat voornamelijk open source, Drupal en kennisdeling."
+        "bio": "Ondernemend, out-of-the box, gedreven en een beetje vreemd. Heeft visie, geeft mensen graag een kans en denkt strategisch mee in concept-ontwikkeling. Houdt van een uitdaging en is nogal enthousiast over veel dingen. Op werkvlak is dat voornamelijk opensource, Drupal en kennisdeling. Heeft tot frustratie van sommige medewerkers een lichte verslaving aan ‘nieuwe, nóg handigere programma’s en tooltjes’."
     },
     {
-        "name": "Daniël",
+        "name": "Daniël – Drupal-nerd",
         "key": "daniel",
         "preferences": {
             "Post-it vs. iPad": 30,
@@ -42,25 +42,10 @@
             "Mac vs. Windows": 50,
             "Terminal vs. Graphic interface": 15
         },
-        "bio": "Autodidact Drupal-nerd (en is daar trots op). Rolde na een jaar kunstacademie in de wereld die Drupal heet en heeft zich met passie gestort op het programmeren. Zit vol ideeën en is zeer betrokken. Deelt zowel zijn enthousiasme over open source en kennisdeling met Floris als zijn wantrouwen tegenover Facebook."
+        "bio": "Autodidact Drupal-nerd. Rolde na een jaar kunstacademie in de wereld die Drupal heet en heeft zich met passie gestort op het programmeren. Hij is super slim, zit vol ideeën en is zeer betrokken. Slingert tijdens de lunch graag gesprekken aan over ethiek en filosofie. Deelt zowel het enthousiasme over opensource en kennisdeling met Floris als zijn wantrouwen tegenover Facebook."
     },
     {
-        "name": "Tijmen",
-        "key": "tijmen",
-        "preferences": {
-            "Post-it vs. iPad": 45,
-            "Resort vs. Gaspitje": 85,
-            "538 vs. 3voor12": 50,
-            "Denker vs. Voeler": 58,
-            "Enthousiast vs. Accuraat": 25,
-            "Bellers vs. E-mailers": 96,
-            "Mac vs. Windows": 5,
-            "Terminal vs. Graphic interface": 42
-        },
-        "bio": "Studeerde Media-technologie aan de Hogeschool Rotterdam. Hij is leergierig, punctueel, maakt de hele dag door woordgrappen en heeft veel talent. Daarbij is hij ook nog eens heel leuk. (Al heeft dat niet per se iets met zijn woordgrappen te maken.) Draagt volop bij aan de sprankelende cultuur bij Studio Fonkel."
-    },
-    {
-        "name": "Lianne",
+        "name": "Lianne - Tekstschrijver",
         "key": "lianne",
         "preferences": {
             "Post-it vs. iPad": 5,
@@ -72,25 +57,10 @@
             "Mac vs. Windows": 25,
             "Terminal vs. Graphic interface": 100
         },
-        "bio": "Master in Communicatie- en Informatiewetenschappen, maar bij Studio Fonkel vooral tekstschrijver en koukleum (dus veel hete koppen thee). Ze formuleert heldere zinnen over ingewikkelde dingen en filtert de kern van de zaak uit wollige lappen tekst. Ze helpt organisaties graag een stap verder met haar inzicht in communicatie."
+        "bio": "Master in Communicatie- en Informatiewetenschappen, maar bij Studio Fonkel vooral tekstschrijver en degene die de verwarming hoger zet. Ze houdt van een kloppend verhaal en filtert de kern van de zaak uit wollige lappen tekst. Ze helpt organisaties graag een stap verder in hun communicatie door middel van strategische sessies en scherp geschreven merkverhalen."
     },
     {
-        "name": "Remco",
-        "key": "remco",
-        "preferences": {
-            "Post-it vs. iPad": 70,
-            "Resort vs. Gaspitje": 20,
-            "538 vs. 3voor12": 40,
-            "Denker vs. Voeler": 35,
-            "Enthousiast vs. Accuraat": 50,
-            "Bellers vs. E-mailers": 55,
-            "Mac vs. Windows": 1,
-            "Terminal vs. Graphic interface": 90
-        },
-        "bio": "Eigenaar van Graphius. Deelt het bureau met het team van Studio Fonkel met als doel wederzijdse inspiratie en samenwerking. Hij lacht het hardst (en soms als enige) om Tijmens grappen, sport alles wat we hier eten er ook weer af (altijd als enige) en pretendeert de beste te zijn in tafeltennis. Hij werkt voor zichzelf, maar eigenlijk is hij gewoon één van de jongens."
-    },
-    {
-        "name": "Nicolien",
+        "name": "Nicolien  – Office Manager",
         "key": "nicolien",
         "preferences": {
             "Post-it vs. iPad": 25,
@@ -102,10 +72,10 @@
             "Mac vs. Windows": 1,
             "Terminal vs. Graphic interface": 100
         },
-        "bio": "Studeerde Personeelszaken en deed zeven jaar aan Krav Maga (Israelische vechtsport). Ze is initiatiefrijk, analytisch en altijd bezig. Haar doel is het beste uit mensen halen, haar huidige missie is een significante stijging in het aantal geordende bureaus. Mocht ‘opruimen’ niet hoog op de agenda staan van sommige gewone jongens, dan komt haar bruine band wellicht nog van pas in het overtuigingsproces."
+        "bio": "Studeerde Personeelszaken en deed zeven jaar aan Krav Maga (Israelische vechtsport). Ze is initiatiefrijk, analytisch en altijd bezig. Haar doel is het beste uit mensen halen, haar constante missie is een significante stijging in het aantal geordende bureaus. Mocht ‘opruimen’ niet hoog op de agenda staan van sommige gewone jongens, dan komt haar bruine band wellicht nog van pas in het overtuigingsproces."
     },
     {
-        "name": "Gino",
+        "name": "Gino – Back-end developer",
         "key": "gino",
         "preferences": {
             "Post-it vs. iPad": 85,
@@ -117,10 +87,10 @@
             "Mac vs. Windows": 50,
             "Terminal vs. Graphic interface": 50
         },
-        "bio": "Richtte zich op development tijdens zijn studie Mediatechnologie omdat hij van complexe structuren houdt en van orde scheppen in de chaos (dat is puur werkgerelateerd, z’n moeder heeft er nooit iets van gemerkt). Hij hoopt zich bij Studio Fonkel te specialiseren en daarnaast door te breken met z’n metalband."
+        "bio": "Richtte zich op development tijdens zijn studie Mediatechnologie omdat hij van complexe structuren houdt en van orde scheppen in de chaos (dat is puur werkgerelateerd, z’n vriendin heeft er nooit iets van gemerkt). Hij heeft zich bij Studio Fonkel ontwikkeld tot een pro, daarnaast hoopt hij door te breken met z’n metalband."
     },
     {
-        "name": "Arie",
+        "name": "Arie - Ontwerper",
         "key": "arie",
         "preferences": {
             "Post-it vs. iPad": 25,
@@ -132,10 +102,10 @@
             "Mac vs. Windows": 1,
             "Terminal vs. Graphic interface": 100
         },
-        "bio": "Zit in het derde jaar van de opleiding Grafisch Ontwerp, heeft een zwak voor Zweedse boekenkasten en houdt ervan dingen te creëren. Als afgestudeerd bouwkundig ingenieur heeft hij een technische kijk op vormgeving en is hij altijd op zoek naar structuren en systemen. Hij heeft een groot maatschappelijk bewustzijn en stapt alleen op ronde getallen uit z’n bed."
+        "bio": "Rondde vorig jaar zijn tweede opleiding af (Grafisch Ontwerp), heeft een zwak voor Zweedse boekenkasten en houdt ervan dingen te creëren. Als afgestudeerd bouwkundig ingenieur heeft hij een technische kijk op vormgeving en is hij altijd op zoek naar structuren en systemen. Hij heeft een groot maatschappelijk bewustzijn en stapt alleen op ronde getallen uit z’n bed."
     },
     {
-        "name": "Ewout",
+        "name": "Ewout – Front-end developer",
         "key": "ewout",
         "preferences": {
             "Post-it vs. iPad": 60,
@@ -147,21 +117,21 @@
             "Mac vs. Windows": 1,
             "Terminal vs. Graphic interface": 50
         },
-        "bio": "Ewout houdt zich al lang in zijn nog jonge leven bezig met webdesign en development. Het liefst werkt hij met Drupal."
+        "bio": "Begon tijdens zijn middelbareschooltijd met programmeren en is daar nooit mee gestopt. Letterlijk. Na zijn werk bij Studio Fonkel gaat hij ’s avonds en in het weekend gewoon door. Hij pauzeert enkel om met zijn twee huskies te gaan wandelen op de hei. De eindeloze mogelijkheden van het programmeren, fascineren hem."
     },
     {
-        "name": "Peter",
-        "key": "peter",
+        "name": "Remco – Onmisbare bron van inspiratie",
+        "key": "remco",
         "preferences": {
-            "Post-it vs. iPad": 30,
-            "Resort vs. Gaspitje": 80,
-            "538 vs. 3voor12": 70,
-            "Denker vs. Voeler": 10,
-            "Enthousiast vs. Accuraat": 40,
-            "Bellers vs. E-mailers": 70,
-            "Mac vs. Windows": 70,
-            "Terminal vs. Graphic interface": 20
+            "Post-it vs. iPad": 70,
+            "Resort vs. Gaspitje": 20,
+            "538 vs. 3voor12": 40,
+            "Denker vs. Voeler": 35,
+            "Enthousiast vs. Accuraat": 50,
+            "Bellers vs. E-mailers": 55,
+            "Mac vs. Windows": 1,
+            "Terminal vs. Graphic interface": 90
         },
-        "bio": "Biochemicus die overstapte op automatisering toen pc’s nog een rariteit waren. Leerde in de loop der jaren programmeren en liep ondertussen de marathon van New York, London en Venetië. Hij heeft een groot analytisch vermogen en puzzelt graag met code."
-    }
+        "bio": "Eigenaar van Graphius. Deelt het bureau met het team van Studio Fonkel met als doel wederzijdse inspiratie en samenwerking. Hij sport als enige alles wat we hier eten er ook weer af en pretendeert de beste te zijn in kantoor-tafeltennis. Hij werkt voor zichzelf, maar eigenlijk is hij gewoon één van de jongens."
+    },
 ]

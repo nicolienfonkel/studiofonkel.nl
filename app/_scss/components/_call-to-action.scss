@@ -1,0 +1,59 @@
+.call-to-action {
+	@include grid-span(4, 1);
+	position: relative;
+	@include clearfix;
+	clear: both;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+	.cta-text {
+		width: 100% !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		margin-top: 0px;
+		padding-bottom: 45px !important;
+	}
+
+	.number {
+		background: #fff;
+		border: 1px solid $yellow;
+	    color: $yellow;
+		padding: 10px 20px;
+		white-space: nowrap;
+		clear: both;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: inline-block;
+
+		a {
+			color: $yellow;
+		}
+
+		span {
+		    font-weight: 100;
+		    text-align: right;
+
+			.phone {
+				display: inline-block;
+			    width: 30px;
+				path {
+					fill: $yellow;
+				}
+			}
+		}
+
+	}
+
+	@include breakpoint($tablet) {
+		margin: 80px 0px;
+		@include grid-span(6, 2);
+		clear: both;
+	}
+
+	@include breakpoint($desktop) {
+		@include grid-span(8, 3);
+		clear: both;
+	}
+}

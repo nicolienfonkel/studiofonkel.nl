@@ -1,0 +1,64 @@
+.arrow-long {
+	transition: 0.5s;
+	height: 20px;
+}
+
+.link {
+	color: $yellow;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+    bottom: 10%;
+
+    span {
+    	float: left; 
+    	padding-right: 7px;
+    	z-index: 44;
+		position: relative;
+    }
+
+    .arrow-long {
+    	float: left;
+	    margin-top: 2px;
+	    width: 32px;
+    }
+}
+
+.svg-arrow{
+	fill:none;
+	stroke: #F8BF01;
+	stroke-miterlimit: 10;
+} 
+
+.blogs {
+	&.item .svg-arrow {
+		stroke: $yellow;
+	}
+
+	.svg-arrow {
+		fill: none;
+		stroke: #000;
+		stroke-moterlimit: 10;
+	}
+}
+
+.footer .social .wrapper{
+	cursor: pointer;
+	&:hover {
+		.arrow-long {	
+			margin-left: 10px;
+		}
+	}
+
+	.arrow-long {
+		width: 32px;
+		float: left;
+	}
+
+	.svg-arrow {
+		fill: none;
+		stroke: #000;
+		stroke-moterlimit: 10;
+	}
+}

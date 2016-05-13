@@ -1,6 +1,4 @@
 $(document).ready(function() {
-	var mainLogoTop = 0;
-
 	$('.hamburger').on('click', function() {
 		$('body').toggleClass('has-active-menu');
 	});
@@ -21,31 +19,7 @@ $(document).ready(function() {
 		} else {
 			$('body').removeClass('has-hidden-header');
 		}
-
-		window.requestAnimationFrame(navLogo);
-
-		if (scrollTop > 0) {
-			$('.homepage .site-logo.head').css('display', 'block');
-		}
 	});
-
-	function navLogo() {
-		if ($('.site-logo.home').length) {
-			if (mainLogoTop == 0) { 
-				mainLogoTop = $('.site-logo.home').offset().top; 
-			}
-			
-			var logoTop = mainLogoTop - $(window).scrollTop();
-			if (logoTop < 10) { 
-				logoTop = 10 
-			}
-
-			$('.site-logo.head').css('top', logoTop);
-		}
-	}
-
-	$(window).scroll()
-	navLogo()
 });
 
 

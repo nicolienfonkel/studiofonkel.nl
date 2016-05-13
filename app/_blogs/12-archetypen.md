@@ -1,10 +1,13 @@
 ---
 title:  "12 Archetypen"
 header-img: "/img/12-Arechetypes.jpg"
-date:   2015-11-15 10:27:01
+date:   2015-09-15 10:27:01
+metatitle: "Blog: 12 Archetypen, welke zijn er en waar staan ze voor?"
+metadescription: "Welk archetype past bij jouw merk"
 author: Michiel Kokee
 teaser-text: "12 Archetypen, welke zijn er en waar staan ze voor?"
 ---
+
 ###Heerser
 
 Koning, aristocraat, rechter, politicus, manager
@@ -123,3 +126,9 @@ Mensen prioriteit maken. Deskundige mentoren en hartstochtelijke verdedigers, de
 Verzorger-culturen hebben een open houding, zijn consistent en betrouwbaar. Ze zijn het sterkst wanneer zij optreden als mentor voor medewerkers of klanten. Echter, zelfopoffering en slapeloze nachten door te veel zorgen zijn de schaduwkant van de Verzorger.
 
 Bekende merken: Kneipp, Oxfam Novib
+
+-
+
+Door: Michiel Kokee
+
+Bronnen: Mark Margaret & Margaret Mark | Joshua C. Chen , Margaret Hartwell & Joshua C. Chen

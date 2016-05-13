@@ -5,23 +5,24 @@
 
 name: studiofonkel-jekyll
 description: Studio Fonkel
+url: https://studiofonkel.nl
 
-slogan: Gewone jongens die mooie dingen maken.
+slogan: Gewone jongens die mooie dingen maken
 case_slogan: Geen standaars oplossingen. Streven naarhet beste rendement, voor de korte en lange termijn
 blog_slogan: Inspirerende blogs die jou helpen richting te geven aan je onderneming.
 
 phone_number: +31 33 737 0019
 footer_email: info@studiofonkel.nl
-footer_text: Als je op de stadsring de parkeergarage onder de Plusmarkt op de hoek van Stadsring / Arnhemseweg inrijdt (ga hiervoor net voor de stoplichten op de Stadsring links), dan ben je op 2 minuten lopen verwijderd van ons kantoor.
+footer_text: Als je op de stadsring de parkeergarage onder de Plusmarkt op de hoek van Stadsring / Arnhemseweg inrijdt (ga hiervoor net voor de stoplichten op de Stadsring links), neem dan de uitgang Arnhemseweg. Direct rechts zit de ingang van Arnhemseweg 6. Wij zitten op de derde etage. <br/>Je krijgt van ons een uitrijkaart voor de parkeergarage.
 
-company: Studio Fonkel BV
-address: Arnhemseweg 11
-zipcode: 3811 NN
+company: Studio Fonkel B.V.
+address: Arnhemseweg 6
+zipcode: 3817 CH
 city: Amersfoort
 
 kvk: 60546204
-btw: 8539.55.712.B01
-iban: NL09RABO0155510680
+btw: 853955712.B01
+iban: NL09RABO0155510681
 
 author:
   name: Studio Fonkel
@@ -61,7 +62,7 @@ collections:
     collection: page
   convince:
     sort_by: title
-    
+
 defaults:
   - scope:
       path: ""
@@ -69,6 +70,8 @@ defaults:
       published: true
       background-position: "center 40%"
       header-img-position: "center 40%"
+      cta-text: "Wij helpen graag met het positioneren van je merk. Bel ons voor meer informatie."
+      og-image: "/img/og-image.png"
   - scope:
       path: ""
       type: cases
@@ -93,3 +96,4 @@ sass:
 
 gems:
   - octopress-autoprefixer
+  - jekyll-sitemap

@@ -8,14 +8,17 @@
     {% if page.date %}
         <div class="page-date">{{ page.date | localize:"%d %B %Y" }}</div>
     {% endif %}
-    <div class="page-teaser">{{ page.teaser-text }}</div>
+    {% if page.teaser-text %}
+        <div class="page-teaser">{{ page.teaser-text }}</div>
+    {% endif %}
 {% endif %}
 
-
-{% if page.html_title %}
-    <h2 class="page-heading blog">{{ page.html_title }}</h2>
-{% else %}
-    <h2 class="page-heading blog">{{ page.title }}</h2>
+{% if page.url != '/index.html' %}
+  {% if page.html_title %}
+      <h1 class="page-heading blog">{{ page.html_title }}</h1>
+  {% else %}
+      <h1 class="page-heading blog">{{ page.title }}</h1>
+  {% endif %}
 {% endif %}
 
 {% if page.header-img %}
