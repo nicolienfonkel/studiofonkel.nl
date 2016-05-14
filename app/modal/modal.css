@@ -17,6 +17,7 @@ p.description {
     font-size: 14px;
     line-height: 1.4em;
     margin: 1em 0;
+    font-weight: normal;
 }
 
 input.popup-text {
@@ -54,4 +55,5 @@ input.popup-button {
 p.info {
     font-size: 12px;
     line-height: 1.4em;
+    font-weight: normal;
 }
