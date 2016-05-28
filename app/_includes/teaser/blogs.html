@@ -18,9 +18,9 @@
 			{% elsif blog == page.next or blog == page.previous or blogNull == blog %}
 				<span>{{ blog.date | localize:"%d %B %Y" }}</span>
 			{% else %}
-				<span>blog</span>
+				<span>Lees blog</span>
 			{% endif %}
-			
+
 			<div class="arrow-long">
 				{% include svg/arrow.svg %}
 			</div>
