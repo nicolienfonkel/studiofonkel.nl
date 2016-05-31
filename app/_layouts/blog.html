@@ -6,7 +6,13 @@ layout: html
 
     {% include regions/content-header.html %}
 
-    <div class="md-wrapper">{{ content }}</div>
+    <div class="md-wrapper">
+
+        {{ content }}
+
+        {% include teaser/author.html %}
+
+    </div>
 
     {% include regions/call-to-action.html %}
 

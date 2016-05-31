@@ -1,0 +1,20 @@
+{% assign author_key = page.author %}
+
+{% for employee in site.data.team %}
+    {% if employee.key == author_key %}
+        <div class="author teaser">
+
+            <div class="left">
+                <div class="image" style="background-image: url('/img/{{ employee.key }}.jpg')"></div>
+            </div>
+
+            <div class="right">
+                <h3 class="name">{{ employee.name }}</h3>
+                <div class="job">{{ employee.job }}</div>
+                <!--<div class="spamspan" data-attr-subject="subject e-mail" data-attr-body="body e-mail">{{ employee.email }}</div>-->
+                <div class="email spamspan">{{ employee.email }}</div>
+            </div>
+
+        </div>
+    {% endif %}
+{% endfor %}

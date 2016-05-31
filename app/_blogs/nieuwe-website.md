@@ -5,7 +5,7 @@ metatitle: "Nieuwe website? Vergeet je website."
 metadescription: "Je hebt een nieuwe website nodig. Hoe pak je dit traject aan? Stel jezelf deze vragen."
 header-img: "/img/nieuwe-website.jpg"
 date:   2016-04-14 10:27:01
-author: Michiel Kokee
+author: michiel
 front: true
 teaser-text: "Je hebt een nieuwe website nodig. Hoe pak je dit traject aan? Stel jezelf deze vragen."
 ---

@@ -1,7 +1,7 @@
 $(document).ready(function() {
-	$('body').keydown(function(e) {
-		if(e.keyCode == 186 || e.keyCode == 59) {
-			$('body').toggleClass('has-grid-overlay-enabled');
-		}
-	});
+    $(document).keydown(function(e) {
+        if (e.which == 59) {
+            $('body').toggleClass('has-grid-overlay-enabled')
+        }
+    });
 });

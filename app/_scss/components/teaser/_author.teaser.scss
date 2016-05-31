@@ -1,0 +1,94 @@
+.author.teaser {
+  @include grid-span(4, 1);
+  clear: both;
+  margin-top: 60px;
+  
+  .image {
+    display: none;
+  }
+
+  .name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: $grey;
+    font-size: 16px;
+  }
+
+  .job {
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: $grey;
+    font-size: 16px;
+  }
+
+  .email {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    font-size: 16px;
+
+    a {
+      color: $grey;
+    }
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 0;
+      height: 1px;
+      background-color: $light-grey;
+    }
+
+    &:before {
+      width: 100%;
+    }
+
+    &:after {
+      background-color: $grey;
+      transition: width $speed linear;
+    }
+
+    &:hover:after {
+      width: 100%;
+    }
+  }
+}
+
+@include breakpoint($tablet) {
+  .author.teaser {
+    @include grid-span(6, 2);
+    clear: both;
+    margin-top: 60px;
+
+    .left {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 15px;
+    }
+
+    .right {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .image {
+      display: block;
+      width: 100px;
+      height: 100px;
+      background-position: center center;
+      background-size: cover;
+    }
+  }
+}
+
+@include breakpoint($desktop) {
+  .author.teaser {
+    @include grid-span(8, 3);
+    clear: both;
+    margin-top: 60px;
+  }
+}

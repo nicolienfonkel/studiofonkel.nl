@@ -117,3 +117,15 @@ Instellingen:
 {% case_tags %} om de categorieën te laten zien. 
 Wel moet de Case categorieën hebben.
 
+##Spamspan
+Om spamspan kun je gebruiken op de volgende manier:
+<div class="spamspan">name [at] domain [dot] nl</div>.
+
+Deze notatie zal d.m.v. jQuery worden omgevormd tot het volgende:
+<a href="mailto:name@domain.nl">name@domain.nl</a>
+
+Je kan ook parameters meegeven aan de mailto link. Dit doe je door data-attributen toe te voegen:
+<div class="spamspan" data-attr-subject="Onderwerp van de e-mail">name [at] domain [dot] nl</div>.
+
+Deze notatie zal d.m.v. jQuery worden omgevormd tot het volgende:
+<a href="mailto:name@domain.nl?subject=Onderwerp van de e-mail">name@domain.nl</a>

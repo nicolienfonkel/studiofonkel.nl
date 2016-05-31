@@ -2,18 +2,20 @@
 	{% assign case = document %}
 {% endif %}
 
+{% if case.subtitle %}
+    {% assign title = case.subtitle %}
+{% else %}
+    {{ case.title }}
+{% endif %}
+
 <a class="cases teaser {{ extra_class }}" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url('{{ case.header-img }}'); background-position: {{ case.background-position }};">
 	<div class="inner-wrapper">
 		<h2 class="header-text">
-			{% if case.html_title %}
-				{{ case.html_title }}
-			{% else %}
-				{{ case.title }}
-			{% endif %}
+            {{ title }}
 		</h2>
 		<div class="link">
 
-			<span>Bekijk case</span>
+			<span>Case {{ case.title }}</span>
 
 			<div class="arrow-long">
 				{% include svg/arrow.svg %}
