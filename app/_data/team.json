@@ -5,14 +5,14 @@
       "job": "Eigenaar & ontwerper Studio Fonkel",
       "email": "michiel [at] studiofonkel [dot] nl",
       "preferences": {
-          "Post-it vs. iPad": 1,
-          "Resort vs. Gaspitje": 100,
-          "538 vs. 3voor12": 97,
-          "Denker vs. Voeler": 65,
-          "Enthousiast vs. Accuraat": 30,
-          "Bellers vs. E-mailers": 15,
-          "Mac vs. Windows": 6,
-          "Terminal vs. Graphic interface": 86
+        "Post-it vs. iPad": 1,
+        "Resort vs. Gaspitje": 100,
+        "538 vs. 3voor12": 97,
+        "Denker vs. Voeler": 65,
+        "Enthousiast vs. Accuraat": 30,
+        "Bellers vs. E-mailers": 15,
+        "Mac vs. Windows": 6,
+        "Terminal vs. Graphic interface": 86
       },
       "bio": "Kunstacademicus die zich met plezier verdiept in de klant en de doelgroep om vervolgens met een voorstel te komen waarmee hij de spijker op z'n kop slaat. Een eigenzinnig vakman op zoek naar originele invalshoeken (zowel op het werk als tijdens de lunch. Boekweitmuesli, really?). Wil vooral toffe dingen maken die zowel mooi als duidelijk zijn."
     },
@@ -138,7 +138,7 @@
     {
       "key": "remco",
       "name": "Remco",
-      "job": "Onmisbare bron van inspiratie"
+      "job": "Onmisbare bron van inspiratie",
       "email": "remco [at] studiofonkel [dot] nl",
       "preferences": {
         "Post-it vs. iPad": 70,
