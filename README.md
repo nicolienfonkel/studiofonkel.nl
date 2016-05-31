@@ -49,6 +49,13 @@ Om dit aan te passen ga naar **_config.yml** in de **root** van de website.
 - **author**: Theo
 - **menu**: **menu plaats | Als dit hetzelfde is als een andere pagina, dan wordt hij niet weergegeven.**
 
+##Showcase
+Om een extra item aan de showcase toe te voegen, zet de afbeelding in "/img/customer-showcase/".
+1. Voeg de customer toe aan /_data/showcase.json
+2. Geef de bestandsnaam (inclusief de extensie) op bij filename.
+3. Geef de titel van het project op bij title.
+4. Geef het type van tonen op bij type. "image" als je de afbeelding wilt tonen en "text" als je de titel wilt tonen.
+
 #Inhoud van **pagina** / **case** / **blog**
 
 ##Lijsten
