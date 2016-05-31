@@ -1,0 +1,84 @@
+.customer-showcase {
+  @include grid-span(4, 1);
+  clear: both;
+
+  .showcase-title {
+    color: $grey;
+    font-size: 38px;
+    clear: both;
+  }
+
+  .showcase-content {
+    clear: both;
+    width: calc(100% + 50px);
+    margin-left: -25px;
+
+    .item {
+      width: 100%;
+      padding: 25px 75px;
+      float: left;
+
+      .image {
+        width: 100%;
+        padding-bottom: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+
+      .text {
+        color: $yellow;
+        font-weight: 400;
+        font-size: 24px;
+        margin: 0;
+        text-align: center;
+      }
+
+      &.text {
+        padding: 25px 0;
+      }
+    }
+  }
+}
+
+@include breakpoint($tablet) {
+  .customer-showcase {
+    @include grid-span(8, 1);
+    clear: both;
+
+    .showcase-title {
+      font-size: 38px;
+    }
+
+    .showcase-content {
+      clear: both;
+
+      .item {
+        width: 25%;
+        padding: 25px;
+
+        &.item-1.text {
+          clear: left;
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint($desktop) {
+  .customer-showcase {
+    @include grid-span(12, 1);
+    clear: both;
+
+    .showcase-title {
+      font-size: 48px;
+      clear: both;
+    }
+
+    .showcase-content {
+      .item {
+        padding: 50px;
+      }
+    }
+  }
+}
