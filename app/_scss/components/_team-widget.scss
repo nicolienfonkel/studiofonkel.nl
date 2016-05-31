@@ -69,7 +69,7 @@
                 position: absolute;
                 width: 100%;
                 height: calc(50% + 20px);
-                background: rgba(0,0,0,0.5);
+                background: rgba(0,0,0,0.7);
                 color: $yellow;
                 text-align: center;
                 font-size: 18px;
@@ -112,6 +112,50 @@
 
 			&:checked ~ label .image {
 				border: 1px solid $yellow;
+
+              background-size: 200% 200%;
+              background-position: 50% 50%;
+
+                &.michiel {
+                    background-position: 10% 10%;
+                }
+
+                &.floris {
+                    background-position: 85% 10%;
+                }
+
+                &.daniel {
+                    background-position: 81% 0%;
+                }
+
+                &.lianne {
+                    background-position: 35% 7%;
+                }
+
+                &.nicolien {
+                    background-position: 75% 13%;
+                }
+
+                &.gino {
+                    background-position: 56% 15%;
+                }
+
+                &.arie {
+                    background-position: 50% 18%;
+                }
+
+                &.ewout {
+                    background-position: 59% 7%;
+                }
+
+                &.remco {
+                    background-position: 48% 18%;
+                }
+
+                &:before {
+                    opacity: 1;
+                    visibility: visible;
+                }
 			}
 
 			&:checked ~ .info {
