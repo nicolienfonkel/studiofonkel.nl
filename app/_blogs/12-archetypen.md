@@ -4,7 +4,7 @@ header-img: "/img/12-Arechetypes.jpg"
 date:   2015-09-15 10:27:01
 metatitle: "Blog: 12 Archetypen, welke zijn er en waar staan ze voor?"
 metadescription: "Welk archetype past bij jouw merk"
-author: Michiel Kokee
+author: michiel
 teaser-text: "12 Archetypen, welke zijn er en waar staan ze voor?"
 ---
 

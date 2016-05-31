@@ -16,14 +16,70 @@
 
 	    .image {
 	    	cursor: pointer;
-	    	background-size: cover;
+	    	background-size: 100% 100%;
 			background-position: center;
+            background-repeat: no-repeat;
 			display: block;
 			padding-bottom: 100%;
-			transition: $speed;
+			transition: border $speed linear, background-size $speed linear;
 			width: 100%;
 		    float: left;
 			border: 1px solid transparent;
+            position: relative;
+
+            &.michiel {
+                background-position: 10% 10%;
+            }
+
+            &.floris {
+                background-position: 85% 10%;
+            }
+
+            &.daniel {
+                background-position: 81% 0%;
+            }
+
+            &.lianne {
+                background-position: 35% 7%;
+            }
+
+            &.nicolien {
+                background-position: 75% 13%;
+            }
+
+            &.gino {
+                background-position: 56% 15%;
+            }
+
+            &.arie {
+                background-position: 50% 18%;
+            }
+
+            &.ewout {
+                background-position: 59% 7%;
+            }
+
+            &.remco {
+                background-position: 48% 18%;
+            }
+
+            &:before {
+                content: attr(data-name) " \2192";
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: calc(50% + 20px);
+                background: rgba(0,0,0,0.5);
+                color: $yellow;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 300;
+                text-transform: capitalize;
+                padding-top: calc(50% - 20px);
+                opacity: 0;
+                visibility: hidden;
+                transition: $speed linear;
+            }
 		}
 
 	    .info {
@@ -63,6 +119,54 @@
 				max-height: 600px;
 			}
 		}
+
+        &:hover {
+            .image {
+                background-size: 200% 200%;
+                background-position: 50% 50%;
+
+                &.michiel {
+                    background-position: 10% 10%;
+                }
+
+                &.floris {
+                    background-position: 85% 10%;
+                }
+
+                &.daniel {
+                    background-position: 81% 0%;
+                }
+
+                &.lianne {
+                    background-position: 35% 7%;
+                }
+
+                &.nicolien {
+                    background-position: 75% 13%;
+                }
+
+                &.gino {
+                    background-position: 56% 15%;
+                }
+
+                &.arie {
+                    background-position: 50% 18%;
+                }
+
+                &.ewout {
+                    background-position: 59% 7%;
+                }
+
+                &.remco {
+                    background-position: 48% 18%;
+                }
+
+                &:before {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
 	}
 }
 

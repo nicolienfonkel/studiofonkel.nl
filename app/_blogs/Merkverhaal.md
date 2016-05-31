@@ -6,7 +6,7 @@ metadescription: "Blog: Een merkverhaal geeft houvast en richting aan je organis
 header-img: "/img/een-merkverhaal.png"
 og-image: "/img/Een_merkverhaal_wat_en_waarom_Studio_Fonkel.jpg"
 date:   2016-02-29 10:27:01
-author: Lianne Barelds
+author: lianne
 front: true
 cta-text: "Wij helpen je graag met het formuleren van jouw merkverhaal."
 teaser-text: "In een aantal van onze blogs ben je het concept ‘merkverhaal’ tegengekomen. Even terug naar de basis: wat is een merkverhaal precies? "

@@ -4,7 +4,7 @@ metatitle: "Blog: Communicatie begint aan de binnenkant"
 metadescription: "Weersta de verleiding om iets te roepen of te ondernemen dat snel voordeel oplevert, maar niet past bij wie je bent. Je klanten, je medewerkers en jijzelf zullen je eigenheid gaan waarderen"
 header-img: "/img/cummunicatie-binnenkant.jpg"
 date:   2015-08-25 10:27:01
-author: Lianne Barelds
+author: lianne
 rank: 5
 front: true
 cta-text: "Wij helpen je graag door lijn te brengen in je communicatie en woorden te geven aan je identiteit."

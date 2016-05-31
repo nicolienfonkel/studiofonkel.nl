@@ -5,7 +5,7 @@ metatitle: "Archetypen: je merkpersoonlijkheid als strategie"
 metadescription: "Hoe zet je je merk sterker neer? Hoe vergroot je de betrokkenheid van zowel de markt als je medewerkers?"
 header-img: "/img/Archetypen-strategie.jpg"
 date:   2015-11-16 10:27:01
-author: Michiel Kokee
+author: michiel
 teaser-text: "Hoe zet je je merk sterker neer? Hoe vergroot je de betrokkenheid van zowel de markt als je medewerkers?"
 ---
 
