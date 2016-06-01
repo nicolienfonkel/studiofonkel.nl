@@ -2,6 +2,10 @@
 	background-color: $yellow;
 	@include clearfix;
 
+    .header-text {
+        line-height: 36px;
+    }
+
 	.blog-heading {
 		font-weight: 700;
 		font-size: 32px;

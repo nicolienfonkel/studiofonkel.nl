@@ -5,7 +5,13 @@
   float: left;
   margin-top: 10px;
   position: relative;
-  top: 93px;
+  top: 0;
+}
+
+.homepage {
+  .site-logo {
+    top: 93px;
+  }
 }
 
 .has-active-menu {

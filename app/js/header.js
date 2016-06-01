@@ -9,15 +9,17 @@ $(document).ready(function() {
 
 	$(window).scroll(function() {
 
-		var scrollTop = $(window).scrollTop();
+        if ($('body').hasClass('homepage')) {
+            var scrollTop = $(window).scrollTop();
 
-        if (scrollTop <= 93) {
-            logo.css({top: 93 - scrollTop + 'px'});
-            $('body').removeClass('has-fixed-menu');
-        }
-        else {
-            logo.css({top: 0});
-            $('body').addClass('has-fixed-menu');
+            if (scrollTop <= 93) {
+                logo.css({top: 93 - scrollTop + 'px'});
+                $('body').removeClass('has-fixed-menu');
+            }
+            else {
+                logo.css({top: 0});
+                $('body').addClass('has-fixed-menu');
+            }
         }
 
 

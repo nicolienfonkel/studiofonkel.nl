@@ -74,7 +74,7 @@ p {
   }
 }
 
-ul {
+ol, ul:not(.list-footer) {
   margin: 0;
   padding: 0;
   @include grid-span(4, 1);
@@ -91,59 +91,58 @@ ul {
   }
 
   li {
-    margin: 0;
+    margin: 15px 0;
+    clear: both;
     padding: 0;
     //color: $grey;
     font-size: 18px;
     line-height: 28px;
     font-weight: 100;
     list-style: none;
-    display: inline-block;
+    display: block;
     vertical-align: middle;
     width: 100%;
+    position: relative;
+    padding-left: 25px;
 
     &:before {
       content: "\2192";
       color: black;
-      display: inline-block;
+      display: inline;
       vertical-align: top;
-      margin-right: 5px;
+      left: 0;
+      top: -1px;
+      position: absolute;
+    }
+    
+    p {
+      display: block;
     }
   }
 }
 
-ol {
+ul.list-footer {
   margin: 0;
   padding: 0;
-  @include grid-span(4, 1);
   clear: both;
-  counter-increment: section;
-
-
-  @include breakpoint($tablet) {
-    @include grid-span(6, 2);
-    clear: both;
-  }
+  margin-bottom: 20px;
 
   @include breakpoint($desktop) {
-    @include grid-span(8, 3);
-    clear: both;
+    @include float-span(3, 1, 6);
+    margin-bottom: 0;
+
+    &:first-of-type {
+      clear: left;
+    }
+
+    &:last-of-type {
+      clear: right;
+    }
   }
 
   li {
     list-style: none;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-
-    &:before {
-      content: counter(section);
-      display: inline-block;
-      margin-right: 5px;
-    }
-    
-    > p {
-      display: inline;
-    }
+    margin: 0;
+    padding: 0;
   }
 }
