@@ -19,7 +19,7 @@ img {
 	box-sizing: border-box;
 }
 
-ul, ol, li, a {
+a {
 	margin: 0;
 	padding: 0;
 	color: black;
@@ -41,32 +41,109 @@ p {
 }
 
 p {
-	font-size: 18px;
-	line-height: 28px;
+  font-size: 18px;
+  line-height: 28px;
 
-	a {
-		color: $yellow;
-		transition: $speed;
-		position: relative;
+  a {
+    color: $grey;
+    position: relative;
 
-		&:before {
-			content: "";
-			display: block;
-			position: absolute;
-			left: 0;
-			bottom: 0;
-			height: 1px;
-			width: 0px;
-			background: black;
-			transition: $speed;
-		}
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 0;
+      height: 1px;
+      background-color: $light-grey;
+    }
 
-		&:hover {
-			color: black;
+    &:before {
+      width: 100%;
+    }
 
-			&:before {
-				width: 100%;
-			}
-		}
-	}
+    &:after {
+      background-color: $grey;
+      transition: width $speed linear;
+    }
+
+    &:hover:after {
+      width: 100%;
+    }
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  @include grid-span(4, 1);
+  clear: both;
+
+  @include breakpoint($tablet) {
+    @include grid-span(6, 2);
+    clear: both;
+  }
+
+  @include breakpoint($desktop) {
+    @include grid-span(8, 3);
+    clear: both;
+  }
+
+  li {
+    margin: 0;
+    padding: 0;
+    //color: $grey;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 100;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+
+    &:before {
+      content: "\2192";
+      color: black;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 5px;
+    }
+  }
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  @include grid-span(4, 1);
+  clear: both;
+  counter-increment: section;
+
+
+  @include breakpoint($tablet) {
+    @include grid-span(6, 2);
+    clear: both;
+  }
+
+  @include breakpoint($desktop) {
+    @include grid-span(8, 3);
+    clear: both;
+  }
+
+  li {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    &:before {
+      content: counter(section);
+      display: inline-block;
+      margin-right: 5px;
+    }
+    
+    > p {
+      display: inline;
+    }
+  }
 }

@@ -49,6 +49,3 @@ Maak één of meerdere persona’s; omschrijvingen van gemiddelde bezoekers van 
 Wanneer je nu een webbureau gaat briefen, resulteert dat – als het goed is – in een website die meer is dan ‘mooier dan de oude’ of ‘gebruiksvriendelijker dan vorige’. 
 
 Zo wordt je website een verlengstuk van je merkidentiteit, herkenbaar en aantrekkelijk voor je doelgroep.
-
-
-Door: Lianne Barelds & Michiel Kokee

@@ -42,5 +42,3 @@ Zorg dat je verhaal gaat leven binnen het bedrijf. Communiceer het en maak het p
 
 - Weersta de verleiding om iets te roepen of te ondernemen dat snel voordeel oplevert, maar niet past bij wie je bent.
 Je klanten, je medewerkers en jijzelf zullen je eigenheid gaan waarderen.
-
-Door: Lianne Barelds

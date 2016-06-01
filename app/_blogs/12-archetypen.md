@@ -129,6 +129,4 @@ Bekende merken: Kneipp, Oxfam Novib
 
 -
 
-Door: Michiel Kokee
-
 Bronnen: Mark Margaret & Margaret Mark | Joshua C. Chen , Margaret Hartwell & Joshua C. Chen

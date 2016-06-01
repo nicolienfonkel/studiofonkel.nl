@@ -41,5 +41,3 @@ De belofte van Coolblue is 'alles voor een glimlach'. Oftewel: Wij zien het als 
 Betrek dus je hele organisatie in je merkverhaal. Zorg ervoor dat je hele organisatie in elk aspect je merkverhaal 'uitademt'. Neem je merkverhaal als uitgangspunt voor je HRM-beleid, als criterium om personeel aan te nemen tot en met het selecteren van de juiste koffiebonen. Hang de kernpunten van het verhaal op in het kantoor, laat iedereen in de organisatie het uit z'n hoofd leren, zorg dat iedereen het zich eigen maakt.
 
 Je klant zal het merken en waarderen!
-
-Door: Floris van Woudenberg

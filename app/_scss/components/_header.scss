@@ -7,8 +7,9 @@
 	background-color: white;
 	box-shadow: 0 0 7px -2px transparent;
 	transition: all .3s;
-	overflow: hidden;
+	//overflow: hidden;
 	transform: translateY(0);
+  //border-bottom: 1px solid red;
 }
 
 .header-inner {

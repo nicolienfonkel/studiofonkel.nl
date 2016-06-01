@@ -3,7 +3,9 @@
   clear: left;
   font-size: 18px;
   color: #54575a;
-  font-weight: 100;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 40px;
 
   @include breakpoint($tablet) {
     @include grid-span(8, 1);

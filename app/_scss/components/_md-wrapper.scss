@@ -23,39 +23,6 @@
     }
   }
 
-  > ul > li {
-    list-style: inside none disc;
-  }
-
-  > ol > li {
-    list-style: inside none decimal;
-  }
-
-  > ol,
-  > ul {
-    @include grid-span(4, 1);
-
-    @include breakpoint($tablet) {
-      @include isolation-span(6, 2, 'both');
-    }
-
-    @include breakpoint($desktop) {
-      @include isolation-span(8, 3, 'both');
-    }
-
-    > li {
-      margin: 15px 0;
-      float: left;
-      width: 100%;
-    }
-
-    p {
-      margin-left: 50px;
-      margin-top: -22px;
-      width: 100%;
-    }
-  }
-
   > p {
     margin: 10px 0;
     @include grid-span(4, 1, 4);

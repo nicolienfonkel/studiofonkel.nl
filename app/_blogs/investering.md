@@ -36,7 +36,3 @@ Wij geloven in deze aanpak en hebben gezien dat het werkt. Een goede, doordachte
 Dus vraag het jezelf eens af. Zie ik die nieuwe website als investering of als kostenpost? Uiteindelijk zou je namelijk wel eens tot de conclusie kunnen komen dat goedkoop ook hier duurkoop is.
 
 We nodigen je van harte uit om hier eens met ons over in gesprek te gaan.
-
--
-
-Door: Floris van Woudenberg

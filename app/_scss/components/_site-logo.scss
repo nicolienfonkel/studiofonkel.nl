@@ -3,37 +3,13 @@
   width: 100%;
   display: block;
   float: left;
-  opacity: 1;
-
-  &.head {
-    position: absolute;
-    top: 10px;
-    height: 100%;
-
-    svg {
-      height: 44px;
-    }
-  }
-
-  &.home {
-    @include grid-span(4, 1);
-    margin-left: 3.125%;
-    float: left;
-
-    svg {
-      height: 44px;
-    }
-  }
-}
-
-@include responsive-repeat($mobile, $tablet, $desktop) {
-  .site-logo.home {
-    margin-left: gutter-span() / 2;
-  }
+  margin-top: 10px;
+  position: relative;
+  top: 70px;
 }
 
 .has-active-menu {
   .site-logo.head {
-    opacity: 0;
+    display: none;
   }
 }
