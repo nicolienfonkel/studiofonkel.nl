@@ -64,9 +64,9 @@ Bekende merken: Jeep, National Geographic, The North Face
 
 Visionair, catalyst, innovator, tovenaar, genezer
 
-“Hoe heb je dat gedaan?!” De Magiër-cultuur imponeert en betovert toeschouwers met grote ondernemingen en een magische vermogen om te bereiken waar ze hun zinnen op zetten. Bij een Magiër-organisatie bestaat het woord ‘onmogelijk’ niet . Zij kunnen je beeld, gevoelens of perspectief transformeren. De Magiër helpt klanten hun visie op het leven te veranderen. 
+“Hoe heb je dat gedaan?!” De Magiër-cultuur imponeert en betovert toeschouwers met grote ondernemingen en een magische vermogen om te bereiken waar ze hun zinnen op zetten. Bij een Magiër-organisatie bestaat het woord ‘onmogelijk’ niet . Zij kunnen je beeld, gevoelens of perspectief transformeren. De Magiër helpt klanten hun visie op het leven te veranderen.
 
- 
+
 Magiërs zijn ook meesters in ‘beleving’. Van de details in de verpakking tot aan de bewegwijzering en alles daar tussenin, elk element telt. Maar elke dag opnieuw proberen om een ​​konijn uit een hoed te toveren, kan vermoeiend zijn en medewerkers kunnen vastlopen door de grote verwachtingen om onmogelijke opdrachten te volbrengen. De zwakte van Magiër-organisaties is de neiging manipulatief te worden.
 
 Bekende merken: Apple, Disney, Axe
@@ -127,6 +127,5 @@ Verzorger-culturen hebben een open houding, zijn consistent en betrouwbaar. Ze z
 
 Bekende merken: Kneipp, Oxfam Novib
 
--
 
-Bronnen: Mark Margaret & Margaret Mark | Joshua C. Chen , Margaret Hartwell & Joshua C. Chen
+(Bronnen: Mark Margaret & Margaret Mark | Joshua C. Chen , Margaret Hartwell & Joshua C. Chen)
