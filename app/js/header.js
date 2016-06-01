@@ -11,8 +11,8 @@ $(document).ready(function() {
 
 		var scrollTop = $(window).scrollTop();
 
-        if (scrollTop <= 70) {
-            logo.css({top: 70 - scrollTop + 'px'});
+        if (scrollTop <= 93) {
+            logo.css({top: 93 - scrollTop + 'px'});
             $('body').removeClass('has-fixed-menu');
         }
         else {
