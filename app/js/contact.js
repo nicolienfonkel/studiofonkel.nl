@@ -15,7 +15,7 @@ $(document).ready(function() {
             $('body').addClass('mandrill-success');
             $('#contact-form button').text('Verzonden');
             setTimeout(function () {
-                window.location.replace("http://studiofonkel.nl/bedankt-voor-uw-bericht");
+                window.location.replace("http://studiofonkel.nl/bedankt-voor-je-bericht");
             }, 500);
         },
         emails: [
