@@ -1,7 +1,7 @@
 ---
 title:  "Contact"
 metadescription: "Je bent van harte welkom om vrijblijvend met ons van gedachten te wisselen"
-author: Theo
+author: floris
 menu: 6
 ---
 Vanuit ons kantoor in Amersfoort werken we al vijf jaar aan projecten voor overheid, MKB en non-profitorganisaties.
