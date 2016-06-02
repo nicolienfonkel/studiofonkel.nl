@@ -15,6 +15,11 @@
     "type": "image"
   },
   {
+    "filename": "belastingdienst.png",
+    "title": "Belastingdienst",
+    "type": "image"
+  },
+  {
     "filename": "novire.png",
     "title": "Novire",
     "type": "image"
@@ -47,6 +52,11 @@
   {
     "filename": "atechpro.png",
     "title": "Atech Pro",
+    "type": "image"
+  },
+  {
+    "filename": "min_VJ.png",
+    "title": "Ministerie van Veiligheid en Justitie",
     "type": "image"
   },
   {
