@@ -8,13 +8,15 @@ $(document).ready(function() {
         mandrillKey: 'kg4HpxglJL9JPtqhAh6O5g',
         wait: function () {
             $('body').addClass('mandrill-waiting');
-            $('#contact-form button').text('Verzenden')
+            $('#contact-form button').text('Verzenden');
         },
         success: function () {
             $('body').removeClass('mandrill-waiting');
             $('body').addClass('mandrill-success');
-            $('#contact-form button').text('Verzonden')
-
+            $('#contact-form button').text('Verzonden');
+            setTimeout(function () {
+                window.location.replace("http://studiofonkel.nl/bedankt-voor-uw-bericht");
+            }, 500);
         },
         emails: [
             {
