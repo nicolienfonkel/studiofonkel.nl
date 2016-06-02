@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 
     $('#contact-form').emailMandrill({
-        mandrillKey: 'n7FhK7Fj5IBbME_eZiA_BQ',
+        mandrillKey: 'kg4HpxglJL9JPtqhAh6O5g',
         wait: function () {
             $('body').addClass('mandrill-waiting');
             $('#contact-form button').text('Verzenden')
