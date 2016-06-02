@@ -31,5 +31,3 @@ Er is bewust gekozen om weg te blijven bij de vertrouwde, veelgebruikte en saaie
 {% image “/img/Fincent-mobiel.jpg" "Hallofincent responive uitgevoerd" "Hallofincent responsive uitgevoerd" "Hallofincent responsive uitgevoerd" %}
 
 Bekijk dit project live op <a href="http://hallofincent.nl/" target="_blank">hallofincent.nl</a>
-
-Illustratie: <a href="http://www.bamseontwerpt.nl/" target="_blank">Bamse Ontwerpt</a>
