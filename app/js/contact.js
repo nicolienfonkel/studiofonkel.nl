@@ -22,7 +22,7 @@ $(document).ready(function() {
             {
                 from: 'info@studiofonkel.nl',
                 subject: 'Bericht via studiofonkel.nl',
-                to: ['info@studiofonkel.nl'],
+                to: ['ewout@studiofonkel.nl'],
                 fromNameField: 'name',
                 phoneNumber: 'phone',
                 replyToField: 'email'
