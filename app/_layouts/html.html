@@ -2,7 +2,7 @@
 <html lang=”nl”>
     {% include regions/head.html %}
 
-    <body class="{% if page.url == '/index.html' %}homepage{% endif %}">
+    <body class="{% if page.url == '/index.html' %}homepage {% endif %} {{ page.url | remove: '/' }}">
 
         {% include regions/header.html %}
 
