@@ -1,12 +1,14 @@
+h2.showcase-title {
+  color: $grey;
+  font-size: 32px;
+  clear: both;
+  margin-top: 50px !important;
+}
+
 .customer-showcase {
   @include grid-span(4, 1);
   clear: both;
-
-  .showcase-title {
-    color: $grey;
-    font-size: 38px;
-    clear: both;
-  }
+  margin-bottom: 20px; 
 
   .showcase-content {
     clear: both;
@@ -43,14 +45,15 @@
   }
 }
 
+
 @include breakpoint($tablet) {
+  .showcase-title {
+    font-size: 32px;
+  }
+
   .customer-showcase {
     @include grid-span(8, 1);
     clear: both;
-
-    .showcase-title {
-      font-size: 38px;
-    }
 
     .showcase-content {
       clear: both;
@@ -68,14 +71,14 @@
 }
 
 @include breakpoint($desktop) {
+  .showcase-title {
+    font-size: 32px;
+    clear: both;
+  }
+
   .customer-showcase {
     @include grid-span(12, 1);
     clear: both;
-
-    .showcase-title {
-      font-size: 48px;
-      clear: both;
-    }
 
     .showcase-content {
       .item {
