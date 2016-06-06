@@ -9,7 +9,7 @@ menu: 4
 In onze aanpak zie je voortdurend de lijn terug van prioriteiten stellen en waarde toevoegen. Dat begint met de vraag die je bij ons neerlegt.
 
 ###Wie ben je?
-We hebben gemerkt dat het vaak prettig is om eerst een stap terug te doen. Van de vraag verleggen we de focus naar de identiteit van je bedrijf. Wie ben je? Hoe is je merk opgebouwd? Wat is de kern van wat je wilt uitstralen? Naar welke doelgroep? Met deze kennis adviseren we je over waarmee wij geloven dat je het meest bent geholpen. 
+We hebben gemerkt dat het vaak prettig is om eerst een stap terug te doen. Van de vraag die je hebt neergelegd verleggen we de focus naar de identiteit van je bedrijf. Wie ben je? Hoe is je merk opgebouwd? Wat is de kern van wat je wilt uitstralen? Naar welke doelgroep? Met deze kennis adviseren we je over waarmee wij geloven dat je het meest bent geholpen. 
 
 ###Lenig
 
