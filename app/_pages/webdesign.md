@@ -1,6 +1,6 @@
 ---
 title:  "Webdesign vanuit de kern"
-subtitle: "Een website die naadloos aansluit bij de identiteit van de organisatie"
+subtitle: "Een website die naadloos aansluit bij de identiteit van je organisatie"
 metadescription: "Creatief webdesign vanuit de identiteit van je bedrijf. Webdesign bureau te Amersfoort."
 cta-text: "Op zoek naar een webdesign bureau? Kom langs voor een vrijblijvend gesprek!"
 
