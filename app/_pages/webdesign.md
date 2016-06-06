@@ -2,7 +2,7 @@
 title:  "Webdesign vanuit de kern"
 subtitle: "Een website die naadloos aansluit bij de identiteit van je organisatie"
 metadescription: "Creatief webdesign vanuit de identiteit van je bedrijf. Webdesign bureau te Amersfoort."
-cta-text: "Op zoek naar een webdesign bureau? Kom langs voor een vrijblijvend gesprek!"
+cta-text: "Op zoek naar een webdesign bureau? Vraag een vrijblijvend gesprek aan!"
 
 ---
 Een mooie website, een gebruiksvriendelijke website of een spiksplinternieuwe website. Je hebt er weinig aan als de website niet ook aansluit bij de identiteit en merkpersoonlijkheid van je bedrijf. Daarom richten wij ons als webdesign bureau eerst op de kern. De identiteit van je bedrijf vormt het uitgangspunt. Vanuit de organisatie slaan we de brug naar de doelgroep. Het resultaat is een overtuigende website.
