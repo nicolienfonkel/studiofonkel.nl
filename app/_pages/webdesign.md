@@ -14,7 +14,7 @@ Als webdesign bureau pakken we de opdracht van A tot Z op. Onze kracht is dat we
 We hebben bewezen websites te leveren waar organisaties jaren tevreden mee zijn. Ook na verloop van tijd voelt de website nog als passend bij de doelstellingen en identiteit van de organisatie.
 
 ### Webdesign in Amersfoort
-Ons webdesign bureau is gevestigd in Amersfoort. Te ver weg? We komen graag naar je toe!
+Ons webdesign bureau is gevestigd in Amersfoort. Te ver weg? We komen graag naar je toe voor een vrijblijvend gesprek!
 
 <div class="call-to-action">
   <h5 class="cta-text">{{ page.cta-text }}</h5>
