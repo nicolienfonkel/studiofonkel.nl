@@ -1,0 +1,30 @@
+title: "KNAG"
+subtitle: "Een aardrijkskundige versie van NU.nl voor het KNAG"
+metadescription: "Uniek aardrijkskundig platform voor het KNAG"
+date: 2016-06-07 10:27:01 +00:00
+categories:
+  - Drupal
+  - Cartografie
+  - Webdesign
+  - Responsive
+front: true
+header-img: "/img/fincent.jpg"
+header-img-position: "100% 65%"
+background-position: "50% 65%"
+---
+
+Een digitaal platform om ideeën, kennis en nieuws over Aardrijkskunde en Geografie te delen. Dat was de wens van het Koninklijk Nederlands Aardrijkskundig Genootschap (KNAG). Voor de bouw van hun nieuwe website kozen ze voor een samenwerking met Studio Fonkel vanwege onze ervaring met – en enthousiasme over – cartografie.
+
+{% case_tags %}
+
+Vragen van het KNAG waren onder andere: de mogelijkheid om verschillende soorten artikelen te plaatsen – nieuws, kennis en opinie – en deze zelf dagelijks te kunnen aanpassen. Een archief dat websitebezoekers eenvoudig kunnen doorzoeken met behulp van trefwoorden.
+
+{% image “/img/Fincent-4.jpg" "Branding voor hallofincent" "Branding voor hallofincent" "Branding voor hallofincent" %}
+
+> “We zijn ontzettend blij met wat Studio Fonkel ontworpen heeft. We krijgen momenteel veel positieve feedback. Het traject verliep plezierig. Als wij tijdens de bouw van de website met een extra idee kwamen, buiten het oorspronkelijke plan, werd er meteen een kostenopgave gemaakt. Dan wisten wij direct of het wel of niet mogelijk was. Studio Fonkel dacht altijd met ons mee. We hadden prettig contact.” - Florien Willems, KNAG
+
+{% image “/img/Fincent-page.jpg" "Eenvoud zie je overal terugkomen" "Eenvoud zie je overal terugkomen" "Eenvoud zie je overal terugkomen" %}
+
+{% image “/img/Fincent-mobiel.jpg" "Hallofincent responive uitgevoerd" "Hallofincent responsive uitgevoerd" "Hallofincent responsive uitgevoerd" %}
+
+Bekijk dit project live op <a href="http://geografie.nl/" target="_blank">geografie.nl</a>
