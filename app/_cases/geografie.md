@@ -33,4 +33,4 @@ Een andere wens was het ‘geografisch’ ogen van de website. Daarom is onder a
 
 Bekijk dit project live op <a href="http://geografie.nl/" target="_blank">geografie.nl</a>
 
-{% image “/img/geografie_groot.jpg" "full" %}
+{% image “/img/Geografie_groot.jpg" "full" %}
