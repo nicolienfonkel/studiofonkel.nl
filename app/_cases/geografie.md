@@ -9,7 +9,7 @@ categories:
   - Webdesign
   - Responsive
 front: true
-cta-text: "Maak kennis met onze Drupal specialisten. Bel ons voor een kennismakingsafspraak"
+cta-text: "Maak kennis met onze Drupal specialisten. Bel ons voor een kennismakingsafspraak."
 header-img: "/img/geografie.jpg"
 header-img-position: "100% 32%"
 background-position: "50% 32%"
@@ -29,7 +29,7 @@ Een andere wens was het ‘geografisch’ ogen van de website. Daarom is onder a
 
 {% image “/img/geografie2.png" "Artikelen over een regio selecteren met behulp van een wereldkaart." "Zoek artikelen aan de hand van een locatie" "Zoek artikelen aan de hand van een locatie" %}
 
-{% image “/img/geografie3.png" "Een artikel op geografie.nl" "Een artikel op geografie.nl" "Een artikel op geografie.nl" %}
+{% image “/img/geografie3.png" "Eén van de vele artikelen op geografie.nl" "Eén van de vele artikelen op geografie.nl" "Eén van de vele artikelen op geografie.nl" %}
 
 Bekijk dit project live op <a href="http://geografie.nl/" target="_blank">geografie.nl</a>
 
