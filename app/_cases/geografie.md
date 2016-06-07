@@ -29,7 +29,7 @@ Een andere wens was het ‘geografisch’ ogen van de website. Daarom is onder a
 
 {% image “/img/geografie2.png" "Artikelen over een regio selecteren met behulp van een wereldkaart." "Artikelen over een regio selecteren met behulp van een wereldkaart." "Artikelen over een regio selecteren met behulp van een wereldkaart." %}
 
-{% image “/img/geografie3.png" "Eén van de vele artikelen op de website." "Eén van de vele artikelen op geografie.nl" "Eén van de vele artikelen op geografie.nl" %}
+{% image “/img/geografie3.png" "Eén van de vele artikelen op de website." "Eén van de vele artikelen op de website." "Eén van de vele artikelen op de website." %}
 
 Bekijk dit project live op <a href="http://geografie.nl/" target="_blank">geografie.nl</a>
 
