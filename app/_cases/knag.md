@@ -1,7 +1,7 @@
 ---
-title: "KNAG"
-subtitle: "Een aardrijkskundige versie van NU.nl voor het KNAG"
-metadescription: "Uniek aardrijkskundig platform voor het KNAG"
+title: "Geografie.nl"
+subtitle: "Uniek aardrijkskundig en geografisch platform"
+metadescription: "Uniek aardrijkskundig en geografisch platform"
 date: 2016-06-07 10:27:01 +00:00
 categories:
   - Drupal
@@ -11,7 +11,7 @@ categories:
 front: true
 header-img: "/img/geografie.jpg"
 header-img-position: "100% 32%"
-background-position: "50% 65%"
+background-position: "50% 32%"
 ---
 
 Een digitaal platform om ideeën, kennis en nieuws over Aardrijkskunde en Geografie te delen. Dat was de wens van het Koninklijk Nederlands Aardrijkskundig Genootschap (KNAG). Voor de bouw van hun nieuwe website kozen ze voor een samenwerking met Studio Fonkel vanwege onze ervaring met – en enthousiasme over – cartografie.
