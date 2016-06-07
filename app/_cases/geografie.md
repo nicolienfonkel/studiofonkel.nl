@@ -9,6 +9,7 @@ categories:
   - Webdesign
   - Responsive
 front: true
+cta-text: "Maak kennis met onze Drupal specialisten. Bel ons voor een kennismakingsafspraak"
 header-img: "/img/geografie.jpg"
 header-img-position: "100% 32%"
 background-position: "50% 32%"
