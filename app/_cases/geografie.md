@@ -27,10 +27,10 @@ Vragen van het KNAG waren onder andere: de mogelijkheid om verschillende soorten
 
 Een andere wens was het ‘geografisch’ ogen van de website. Daarom is onder andere in de zoekfunctie een wereldkaart gebouwd, waarmee je door te slepen en in te zoomen, artikelen selecteert die betrekking hebben op dat land of die regio.
 
-{% image “/img/geografie2.png" "Artikelen over een regio selecteren met behulp van een wereldkaart." "Zoek artikelen aan de hand van een locatie" "Zoek artikelen aan de hand van een locatie" %}
+{% image “/img/geografie2.png" "Artikelen over een regio selecteren met behulp van een wereldkaart." "Artikelen over een regio selecteren met behulp van een wereldkaart." "Artikelen over een regio selecteren met behulp van een wereldkaart." %}
 
-{% image “/img/geografie3.png" "Eén van de vele artikelen op geografie.nl" "Eén van de vele artikelen op geografie.nl" "Eén van de vele artikelen op geografie.nl" %}
+{% image “/img/geografie3.png" "Eén van de vele artikelen op de website." "Eén van de vele artikelen op geografie.nl" "Eén van de vele artikelen op geografie.nl" %}
 
 Bekijk dit project live op <a href="http://geografie.nl/" target="_blank">geografie.nl</a>
 
-{% image “/img/Geografie_groot.jpg" "full" %}
+{% image “/img/geografie_groot.jpg" "full" %}
