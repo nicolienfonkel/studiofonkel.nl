@@ -32,3 +32,5 @@ Een andere wens was het ‘geografisch’ ogen van de website. Daarom is onder a
 {% image “/img/geografie3.png" "Een artikel op geografie.nl" "Een artikel op geografie.nl" "Een artikel op geografie.nl" %}
 
 Bekijk dit project live op <a href="http://geografie.nl/" target="_blank">geografie.nl</a>
+
+{% image “/img/geografie_groot.jpg" "full" %}
