@@ -25,7 +25,9 @@ Vragen van het KNAG waren onder andere: de mogelijkheid om verschillende soorten
 
 > “We zijn ontzettend blij met wat Studio Fonkel ontworpen heeft. We krijgen momenteel veel positieve feedback. Het traject verliep plezierig. Als wij tijdens de bouw van de website met een extra idee kwamen, buiten het oorspronkelijke plan, werd er meteen een kostenopgave gemaakt. Dan wisten wij direct of het wel of niet mogelijk was. Studio Fonkel dacht altijd met ons mee. We hadden prettig contact.” - Florien Willems, KNAG
 
-{% image “/img/geografie2.png" "Zoek artikelen aan de hand van een locatie" "Zoek artikelen aan de hand van een locatie" "Zoek artikelen aan de hand van een locatie" %}
+Een andere wens was het ‘geografisch’ ogen van de website. Daarom is onder andere in de zoekfunctie een wereldkaart gebouwd, waarmee je door te slepen en in te zoomen, artikelen selecteert die betrekking hebben op dat land of die regio.
+
+{% image “/img/geografie2.png" "Artikelen over een regio selecteren met behulp van een wereldkaart." "Zoek artikelen aan de hand van een locatie" "Zoek artikelen aan de hand van een locatie" %}
 
 {% image “/img/geografie3.png" "Een artikel op geografie.nl" "Een artikel op geografie.nl" "Een artikel op geografie.nl" %}
 
