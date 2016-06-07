@@ -1,3 +1,4 @@
+---
 title: "KNAG"
 subtitle: "Een aardrijkskundige versie van NU.nl voor het KNAG"
 metadescription: "Uniek aardrijkskundig platform voor het KNAG"
@@ -8,8 +9,8 @@ categories:
   - Webdesign
   - Responsive
 front: true
-header-img: "/img/fincent.jpg"
-header-img-position: "100% 65%"
+header-img: "/img/geografie.jpg"
+header-img-position: "100% 32%"
 background-position: "50% 65%"
 ---
 
@@ -19,12 +20,12 @@ Een digitaal platform om ideeën, kennis en nieuws over Aardrijkskunde en Geogra
 
 Vragen van het KNAG waren onder andere: de mogelijkheid om verschillende soorten artikelen te plaatsen – nieuws, kennis en opinie – en deze zelf dagelijks te kunnen aanpassen. Een archief dat websitebezoekers eenvoudig kunnen doorzoeken met behulp van trefwoorden.
 
-{% image “/img/Fincent-4.jpg" "Branding voor hallofincent" "Branding voor hallofincent" "Branding voor hallofincent" %}
+{% image “/img/geografie1.png" "De homepagina van geografie.nl" "De homepagina van geografie.nl" "De homepagina van geografie.nl" %}
 
 > “We zijn ontzettend blij met wat Studio Fonkel ontworpen heeft. We krijgen momenteel veel positieve feedback. Het traject verliep plezierig. Als wij tijdens de bouw van de website met een extra idee kwamen, buiten het oorspronkelijke plan, werd er meteen een kostenopgave gemaakt. Dan wisten wij direct of het wel of niet mogelijk was. Studio Fonkel dacht altijd met ons mee. We hadden prettig contact.” - Florien Willems, KNAG
 
-{% image “/img/Fincent-page.jpg" "Eenvoud zie je overal terugkomen" "Eenvoud zie je overal terugkomen" "Eenvoud zie je overal terugkomen" %}
+{% image “/img/geografie2.png" "Zoek artikelen aan de hand van een locatie" "Zoek artikelen aan de hand van een locatie" "Zoek artikelen aan de hand van een locatie" %}
 
-{% image “/img/Fincent-mobiel.jpg" "Hallofincent responive uitgevoerd" "Hallofincent responsive uitgevoerd" "Hallofincent responsive uitgevoerd" %}
+{% image “/img/geografie3.png" "Een artikel op geografie.nl" "Een artikel op geografie.nl" "Een artikel op geografie.nl" %}
 
 Bekijk dit project live op <a href="http://geografie.nl/" target="_blank">geografie.nl</a>
