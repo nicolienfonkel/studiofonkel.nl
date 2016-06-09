@@ -131,6 +131,7 @@ Om spamspan kun je gebruiken op de volgende manier:
 Deze notatie zal d.m.v. jQuery worden omgevormd tot het volgende:
 <a href="mailto:name@domain.nl">name@domain.nl</a>
 
+
 Je kan ook parameters meegeven aan de mailto link. Dit doe je door data-attributen toe te voegen:
 <div class="spamspan" data-attr-subject="Onderwerp van de e-mail">name [at] domain [dot] nl</div>.
 
