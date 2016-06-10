@@ -1,9 +1,6 @@
 ---
 title:  "Algemene voorwaarden"
-subtitle: "De algemene voorwaarden van Studio Fonkel"
 ---
-
-##Algemene voorwaarden Studio Fonkel B.V.
 
 Studio Fonkel B.V. is ingeschreven in het Handelsregister onder nr. 60546204
 Deze algemene voorwaarden zijn gedeponeerd bij de Kamer van Koophandel Oost-Nederland op 01 mei 2016.
