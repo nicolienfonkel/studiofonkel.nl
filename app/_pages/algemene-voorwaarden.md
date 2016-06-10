@@ -2,6 +2,8 @@
 title:  "Algemene voorwaarden"
 ---
 
+<p><em><a target="_blank" href="https://studiofonkel.nl/img/pdf/AVW-SF-2016.pdf">(Download de PDF versie van deze voorwaarden)</a></em></p>
+
 Studio Fonkel B.V. is ingeschreven in het Handelsregister onder nr. 60546204
 Deze algemene voorwaarden zijn gedeponeerd bij de Kamer van Koophandel Oost-Nederland op 01 mei 2016.
 
