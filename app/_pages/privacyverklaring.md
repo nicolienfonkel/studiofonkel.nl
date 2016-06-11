@@ -37,7 +37,7 @@ Studio Fonkel BV gebruikt functionele, analytische en tracking cookies. Een cook
 
 Je kunt je afmelden voor cookies door je internetbrowser zo in te stellen dat deze geen cookies meer opslaat. Daarnaast kun je ook alle informatie die eerder is opgeslagen via de instellingen van je browser verwijderen.
 
-Zie voor een toelichting: https://veiliginternetten.nl/themes/situatie/cookies-wat-zijn-het-en-wat-doe-ik-ermee/
+Zie voor een toelichting: <a href="https://veiliginternetten.nl/themes/situatie/cookies-wat-zijn-het-en-wat-doe-ik-ermee/" target="_blank">veiliginternetten.nl</a>
 
 ### Gegevens inzien, aanpassen of verwijderen
 Je hebt het recht om je persoonsgegevens in te zien, te corrigeren of te verwijderen. Je kunt een verzoek tot inzage, correctie of verwijdering sturen naar info@studiofonkel.nl. Om er zeker van te zijn dat het verzoek tot inzage door jou is gedaan, vragen wij jou een kopie van je identiteitsbewijs bij het verzoek mee te sturen. Hierbij vragen we jou om in deze kopie je pasfoto, MRZ (machine readable zone, de strook met nummers onderaan het paspoort), paspoortnummer en burgerservicenummer (BSN) zwart te maken. Dit ter bescherming van je privacy. Studio Fonkel BV zal zo snel mogelijk, maar binnen vier weken, op jouw verzoek reageren.
