@@ -1,5 +1,6 @@
 ---
 title:  "Studio Fonkel is verhuisd!"
+metadescription: "Een nieuw kantoor dat bij ons past, aan de overkant van de straat: Arnhemseweg 6 in Amersfoort"
 subtitle: "Een nieuw kantoor dat bij ons past, aan de overkant van de straat"
 cta-text: "We zijn verhuisd - komt gerust een bakkie doen"
 front: true

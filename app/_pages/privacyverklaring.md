@@ -1,5 +1,7 @@
 ---
 title:  "Privacyverklaring"
+metadescription: "Hoe gaan we om met jouw gegevens? Lees het in onze Privacyverklaring"
+
 ---
 
 ### Persoonsgegevens die wij verwerken

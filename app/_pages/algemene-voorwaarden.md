@@ -1,5 +1,6 @@
 ---
 title:  "Algemene voorwaarden"
+metadescription: "Deze algemene voorwaarden zijn gedeponeerd bij de Kamer van Koophandel Oost-Nederland op 01 mei 2016."
 ---
 
 <p><em><a target="_blank" href="https://studiofonkel.nl/img/pdf/AVW-SF-2016.pdf">(Download de PDF versie van deze voorwaarden)</a></em></p>
