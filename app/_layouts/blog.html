@@ -2,17 +2,19 @@
 layout: html
 ---
 <div class="site">
-  <div class="site-inner">
+  <div class="site-inner" role="main">
 
-    {% include regions/content-header.html %}
 
-    <div class="md-wrapper">
+
+    <article class="md-wrapper" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <meta itemprop="description" content="{{ page.teaser-text }}" />
+        {% include regions/content-header.html %}
 
         {{ content }}
 
         {% include teaser/author.html %}
 
-    </div>
+    </article>
 
     {% include regions/call-to-action.html %}
 
