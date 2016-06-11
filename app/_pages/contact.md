@@ -4,6 +4,7 @@ metadescription: "Je bent van harte welkom om vrijblijvend met ons van gedachten
 author: floris
 menu: 6
 ---
+{% image “/img/Interieur1a.jpg" "" "" "" %}
 Vanuit ons kantoor in Amersfoort werken we al vijf jaar aan projecten voor overheid, MKB en non-profitorganisaties.
 Je bent van harte welkom om vrijblijvend met ons van gedachten te wisselen over je wensen. Of je nu wel of niet met ons in zee gaat, grote kans dat je ons bureau in ieder geval wijzer verlaat!
 <div class="call-to-action">
