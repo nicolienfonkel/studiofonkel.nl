@@ -21,15 +21,33 @@
 				{% endif %}
 
 				{% assign sorted_pages = site.collections.pages.docs | sort: 'menu' %}
-				
+
 				{% for page_item in sorted_pages %}
 					{% if page_item.menu %}
 						{% if page_item.url == page.url %}
-							<a class="active menu-link" href="{{ page_item.url }}">{{ page_item.title }}</a>
+							<a class="active menu-link" href="{{ page_item.url }}">
+								{% if page_item.menu-title %}
+									{{ page_item.menu-title }}
+								{% else %}
+									{{ page_item.title }}
+								{% endif %}
+							</a>
 						{% elsif page.collection and page_item.menu_collection == page.collection %}
-							<a class="active active-trail menu-link" href="{{ page_item.url }}">{{ page_item.title }}</a>
+							<a class="active active-trail menu-link" href="{{ page_item.url }}">
+								{% if page_item.menu-title %}
+									{{ page_item.menu-title }}
+								{% else %}
+									{{ page_item.title }}
+								{% endif %}
+							</a>
 						{% else %}
-							<a class="menu-link" href="{{ page_item.url }}">{{ page_item.title }}</a>
+							<a class="menu-link" href="{{ page_item.url }}">
+								{% if page_item.menu-title %}
+									{{ page_item.menu-title }}
+								{% else %}
+									{{ page_item.title }}
+								{% endif %}
+							</a>
 						{% endif %}
 					{% endif %}
 				{% endfor %}
