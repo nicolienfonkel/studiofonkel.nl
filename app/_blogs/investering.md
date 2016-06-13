@@ -3,6 +3,7 @@ title:  "Een website: kostenpost of investering?"
 metatitle: "Blog: Een website: kostenpost of investering?"
 metadescription: "Overweeg je een nieuwe website? Dan gaan er veel vragen spelen, waarvan er één vaak wordt vergeten"
 header-img: "/img/website-investering.jpg"
+og-img: "website-investering.jpg"
 date:   2015-06-22 10:27:01
 front: false
 author: floris

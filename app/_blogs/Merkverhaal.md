@@ -4,7 +4,7 @@ html_title:  "Merkverhaal: wat is het en waarom is het belangrijk?"
 metatitle: "Merkverhaal: wat is het en waarom is het belangrijk?"
 metadescription: "Blog: Een merkverhaal geeft houvast en richting aan je organisatie. "
 header-img: "/img/een-merkverhaal.png"
-og-image: "/img/Een_merkverhaal_wat_en_waarom_Studio_Fonkel.jpg"
+og-image: "Een_merkverhaal_wat_en_waarom_Studio_Fonkel.jpg"
 date:   2016-02-29 10:27:01
 author: lianne
 front: true

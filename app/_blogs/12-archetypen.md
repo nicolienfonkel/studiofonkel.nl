@@ -1,6 +1,7 @@
 ---
 title:  "12 Archetypen"
 header-img: "/img/12-Arechetypes.jpg"
+og-image: "12-Arechetypes.jpg"
 date:   2015-09-15 10:27:01
 metatitle: "Blog: 12 Archetypen, welke zijn er en waar staan ze voor?"
 metadescription: "Welk archetype past bij jouw merk"

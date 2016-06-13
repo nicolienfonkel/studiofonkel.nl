@@ -3,6 +3,7 @@ title:  "Communicatie begint aan de binnenkant"
 metatitle: "Blog: Communicatie begint aan de binnenkant"
 metadescription: "Weersta de verleiding om iets te roepen of te ondernemen dat snel voordeel oplevert, maar niet past bij wie je bent. Je klanten, je medewerkers en jijzelf zullen je eigenheid gaan waarderen"
 header-img: "/img/cummunicatie-binnenkant.jpg"
+og-img: "cummunicatie-binnenkant.jpg"
 date:   2015-08-25 10:27:01
 author: lianne
 rank: 5

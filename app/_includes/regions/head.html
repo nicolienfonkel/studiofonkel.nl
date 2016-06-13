@@ -12,10 +12,11 @@
     <title>Branding, strategie en webontwikkeling | Studio Fonkel</title>
     {% endif %}
     <meta name="description" content="{{ page.metadescription }}" />
-    <meta itemprop="url" content="https://studiofonkel.nl{{ page.url }}" />
-    <meta itemprop="name" content="{{ page.metatitle }}">
-    <meta itemprop="description" content="{{ page.metadescription }}">
-
+    {% if page.og-image %}
+    <meta property="og:image" content="https://studiofonkel.nl/images/{{ page.og-image }}" />
+    {% else %}
+     <meta property="og:image" content="https://studiofonkel.nl/images/og-image.png" />
+    {% endif %}
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://studiofonkel.nl{{ page.url }}" />
     {% if page.title %}
