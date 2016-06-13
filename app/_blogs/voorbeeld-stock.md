@@ -3,6 +3,7 @@ title:  "Stockfoto's kiezen: welke niet?"
 header-img: ""
 og-image: ""
 date:   2015-09-15 10:27:01
+header-img: "/img/Blog-beeld.png"
 metatitle: "Dit soort stockfoto's liever niet"
 metadescription: "Dit soort stockfoto's liever niet"
 author: lianne
@@ -36,4 +37,3 @@ Als het gaat om duurzaamheid zie je dit plaatje vaak terug: handen met daarin ee
 {% image “/img/shutterstock_254889043.jpg" "" "" "" %}
 
 Als je erop gaat letten, kom je dit model overal tegen. Het is bizar hoeveel bedrijven stockfoto's gebruiken met haar gezicht erop; je ziet haar op het strand, in de keuken, als verpleegster en op vakantie. Er bestaat inmiddels een Facebookpagina met zo'n 16.000 volgers: Ariane - The Overexposed Stock Image Model.
-
