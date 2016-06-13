@@ -9,16 +9,16 @@ metadescription: "Dit soort stockfoto's liever niet"
 author: lianne
 teaser-text: "De don'ts op een rijtje"
 ---
-Alle foto's op deze pagina zijn gedownload vanaf Shutterstock. Vrijwel allemaal stonden ze bij de meest gebruikte foto's als het gaat om termen als 'helpdesk', 'innovatie' en 'duurzaamheid'. Jij weet nu beter.
+Alle foto's op deze pagina zijn gedownload vanaf Shutterstock. Vrijwel allemaal stonden ze bij de meest gebruikte foto's als het gaat om termen als 'helpdesk', 'innovatie' en 'duurzaamheid'. Jij weet straks beter.
 
 ###Dit is een model, geen medewerker
-{% image “/img/shutterstock_143681125.jpg" "Ziet jouw helpdeskteam er zo uit?" "" "Ziet jouw helpdeskteam er zo uit?" %}
+{% image “/img/shutterstock_143681125.jpg" "Ziet jouw helpdeskteam er zo uit?" "Ziet jouw helpdeskteam er zo uit?" "Ziet jouw helpdeskteam er zo uit?" %}
 
 ###Alleen realistische situaties
-{% image “/img/shutterstock_67526728.jpg" "Get ready." "" "Get ready." %}
+{% image “/img/shutterstock_67526728.jpg" "Get ready." "Get ready." "Get ready." %}
 
 ###Vermijd clichés
-{% image “/img/shutterstock_297917066.jpg" "Te vaak gebruikt." "" "Te vaak gebruikt." %}
+{% image “/img/shutterstock_297917066.jpg" "Te vaak gebruikt." "Te vaak gebruikt." "Te vaak gebruikt." %}
 
 Als het gaat om duurzaamheid zie je dit plaatje vaak terug: handen met daarin een boom, plantje of wereldbol. Bij innovatie is dat een lamp. Probeer iets origineels - en minder kunstmatigs - te verzinnen.
 
