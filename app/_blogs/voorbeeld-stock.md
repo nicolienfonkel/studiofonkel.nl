@@ -16,10 +16,10 @@ Alle foto's op deze pagina zijn gedownload vanaf Shutterstock. Vrijwel allemaal 
 ###Alleen realistische situaties
 {% image “/img/shutterstock_67526728.jpg" "Get ready." "" "Get ready." %}
 
-###Vermijd cliche's
+###Vermijd clichés
 {% image “/img/shutterstock_297917066.jpg" "Te vaak gebruikt." "" "Te vaak gebruikt." %}
 
-Als het gaat om duurzaamheid zie je dit plaatje vaak terug: een boom, plantje of wereldbol in iemands handen. Bij innovatie is dat een lamp. Probeer iets origineels - en minder kunstmatigs - te verzinnen.
+Als het gaat om duurzaamheid zie je dit plaatje vaak terug: handen met daarin een boom, plantje of wereldbol. Bij innovatie is dat een lamp. Probeer iets origineels - en minder kunstmatigs - te verzinnen.
 
 {% image “/img/shutterstock_136197095.jpg" "Te vaak gebruikt." "" "Te vaak gebruikt." %}
 
