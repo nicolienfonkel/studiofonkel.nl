@@ -15,7 +15,7 @@ Alle foto's op deze pagina zijn gedownload vanaf Shutterstock. Vrijwel allemaal 
 {% image “/img/shutterstock_143681125.jpg" "Ziet jouw helpdeskteam er zo uit?" "Ziet jouw helpdeskteam er zo uit?" "Ziet jouw helpdeskteam er zo uit?" %}
 
 ###Alleen realistische situaties
-{% image “/img/shutterstock_67526728.jpg" "Get ready." "Get ready." "Get ready." %}
+{% image “/img/shutterstock_67526728.jpg" "Get ready." "" "Get ready." %}
 
 ###Vermijd clichés
 {% image “/img/shutterstock_297917066.jpg" "Te vaak gebruikt." "Te vaak gebruikt." "Te vaak gebruikt." %}
