@@ -32,6 +32,7 @@ Gebruik op het web maximaal 15 woorden per zin. Korte zinnen lezen lekker. In te
 Wil je pakkend schrijven? Laat de werkwoorden ‘kunnen’, ‘zullen’ en ‘willen’ waar mogelijk weg.
 
 Vergelijk:
+
 - ‘U kunt hier contact met ons opnemen’ en ‘Neem hier contact met ons op.’
 - ‘We zullen u deze informatie sturen via e-mail’ en ‘We sturen u deze informatie via e-mail’.
 - ‘We willen u graag voorstellen aan onze medewerkers’ en ‘We stellen u graag voor aan onze medewerkers’.
