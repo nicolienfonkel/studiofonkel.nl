@@ -23,7 +23,7 @@ Hetzelfde geldt voor de tekst. Je bedrijfsidentiteit bepaalt de toon en stijl. E
 
 De websitebezoeker staat centraal. Het gaat er niet om wat jíj allemaal kwijt wilt. De bezoeker heeft een vraag of wens en wil die zo snel mogelijk beantwoord hebben. Dat betekent dat informatie die belangrijk is voor de klant in de eerste zin of alinea staat.
 
-Bijvoorbeeld: De eerste versie van dit blog begon met twee uitgebreide, inleidende alinea’s. Over het vullen van websites en onze ervaringen op dit vlak als webbureau. Die heb ik verwijderd toen ik me realiseerde dat jij, de bezoeker, vooral komt voor de tips. De rest wilde ík vooral vertellen, maar het haalde de vaart uit de tekst en leidde af van de kern.  
+Bijvoorbeeld: De eerste versie van deze blog begon met twee uitgebreide, inleidende alinea’s. Over het vullen van websites en onze ervaringen op dit vlak als webbureau. Die heb ik verwijderd toen ik me realiseerde dat jij, de bezoeker, vooral komt voor de tips. De rest wilde ík vooral vertellen, maar het haalde de vaart uit de tekst en leidde af van de kern.  
 
 ###3.	Schrijf pakkende, korte zinnen
 
