@@ -51,6 +51,6 @@ Stockfoto’s. O zo handig, maar wees kritisch in je keuzes. Voorbeeld: Wil je e
 
 Wil je een originele afbeelding? Dan kun je beter wat verder bladeren. In de zoekresultaten staan de populairste foto’s vaak bovenaan. Dat betekent dat de eerst zichtbare foto’s al op honderden of duizenden websites staan.
 
-Bekijk hier een aantal voorbeelden van <a href="voorbeeld-stock/">stockfoto dont's op een rijtje</a>.
+Bekijk hier een aantal voorbeelden van <a href="voorbeeld-stock/">stockfoto don'ts op een rijtje</a>.
 
 Succes!
