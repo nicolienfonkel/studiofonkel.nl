@@ -15,7 +15,7 @@ Beeld en tekst. Allebei bepalen ze in hoge mate de sfeer en professionaliteit va
 
 ###1.	Neem je bedrijfsidentiteit als uitgangspunt
 
-Pak je merkverhaal of je kernwaarden erbij. Dat is de meetlat waarlangs je elke foto legt. Voorbeeld: Is ‘persoonlijk’ een belangrijke kernwaarde? Dan wil je foto’s van blije, benaderbare mensen die in de camera kijken. De beelden van abstracte zaken en afstandelijke mensen mag je direct verwijderen. Zeker als ze op opvallende plekken staan.
+Pak je <a href="/Merkverhaal">merkverhaal</a> of je kernwaarden erbij. Dat is de meetlat waarlangs je elke foto legt. Voorbeeld: Is ‘persoonlijk’ een belangrijke kernwaarde? Dan wil je foto’s van blije, benaderbare mensen die in de camera kijken. De beelden van abstracte zaken en afstandelijke mensen mag je direct verwijderen. Zeker als ze op opvallende plekken staan.
 
 Hetzelfde geldt voor de tekst. Je bedrijfsidentiteit bepaalt de toon en stijl. Een ‘persoonlijk’ bedrijf, heeft een informele stijl en zegt eerder ‘je’ dan ‘u’ tegen de lezer. Staat je organisatie voor ‘eenvoud en gemak’? Besteed dan extra aandacht aan heldere en toegankelijke zinnen. Voorkom lange lappen tekst. Identiteit en schrijfstijl moeten matchen.
 
@@ -32,9 +32,9 @@ Gebruik op het web maximaal 15 woorden per zin. Korte zinnen lezen lekker. In te
 Wil je pakkend schrijven? Laat de werkwoorden ‘kunnen’, ‘zullen’ en ‘willen’ waar mogelijk weg.
 
 Vergelijk:
-•	‘U kunt hier contact met ons opnemen’ en ‘Neem hier contact met ons op.’
-•	‘We zullen u deze informatie sturen via e-mail’ en ‘We sturen u deze informatie via e-mail’.
-•	‘We willen u graag voorstellen aan onze medewerkers’ en ‘We stellen u graag voor aan onze medewerkers’.
+- ‘U kunt hier contact met ons opnemen’ en ‘Neem hier contact met ons op.’
+- ‘We zullen u deze informatie sturen via e-mail’ en ‘We sturen u deze informatie via e-mail’.
+- ‘We willen u graag voorstellen aan onze medewerkers’ en ‘We stellen u graag voor aan onze medewerkers’.
 
 ###4.	Kies één stijl
 
