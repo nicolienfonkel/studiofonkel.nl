@@ -14,6 +14,8 @@ Alle foto's op deze pagina zijn gedownload vanaf Shutterstock. Vrijwel allemaal 
 ###Dit is een model, geen medewerker
 {% image “/img/shutterstock_143681125.jpg" "Ziet jouw helpdeskteam er zo uit?" "Ziet jouw helpdeskteam er zo uit?" "Ziet jouw helpdeskteam er zo uit?" %}
 
+Kies 'echte' mensen. Mensen die eruitzien alsof ze bij jouw bedrijf werken. Geen modellen die een headset op hun hoofd hebben gezet.
+
 ###Alleen realistische situaties
 {% image “/img/shutterstock_67526728.jpg" "Get ready." "" "Get ready." %}
 
