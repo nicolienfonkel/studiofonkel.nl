@@ -7,7 +7,7 @@ header-img: "/img/merkidentiteit.png"
 ---
 Wie ben je als merk? Welk gedrag hoort daarbij en welke communicatie? Een goede vraag om jezelf als bedrijf te stellen. Zonder heldere merkidentiteit is het lastig voor je doelgroep om zich aan je bedrijf te verbinden. Terwijl dat is wat je graag wilt; klanten die terugkomen omdat ze een ‘klik’ voelen met je organisatie.
 
-Als communicatie adviesbureau merken wij dat veel organisaties moeite hebben met het consequent communiceren van hun merkidentiteit. Dat komt vaak omdat ze een onscherp beeld hebben van wie ze als merk zijn en hoe ze zich onderscheiden.
+Als <a href="/communicatie-adviesbureau">communicatie adviesbureau</a> merken wij dat veel organisaties moeite hebben met het <a href="/blogs/communicatie">consequent communiceren</a> van hun merkidentiteit. Dat komt vaak omdat ze een onscherp beeld hebben van wie ze als merk zijn en hoe ze zich onderscheiden.
 
 ### Ieder zijn kracht
 Dat is niet zo raar. De meeste bedrijven zijn niet opgericht om verstand te hebben van zaken als marketing, communicatie en merkidentiteit. Wij wel! We helpen je stap voor stap richting een consistente merkbeleving voor je klanten en doelgroep.

@@ -5,12 +5,12 @@ metadescription: "Geef aandacht aan het positioneren van je merk; waarom wil een
 cta-text: "Wij helpen je graag je merk te positioneren. Kom langs voor een vrijblijvend gesprek."
 header-img: "/img/merkpositionering.png"
 ---
-Hoe onderscheid je je van concurrenten? Wat maakt jouw bedrijf uniek? Waarom wil een klant zich aan jouw organisatie binden in plaats van aan een van de andere spelers in de markt? Kortom; hoe positioneer je je merk? Als communicatie adviesbureau helpen wij je daar graag bij!
+Hoe onderscheid je je van concurrenten? Wat maakt jouw bedrijf uniek? Waarom wil een klant zich aan jouw organisatie binden in plaats van aan een van de andere spelers in de markt? Kortom; hoe positioneer je je merk? Als <a href="/communicatie-adviesbureau">communicatie adviesbureau</a> helpen wij je daar graag bij!
 
 ### Stap 1
 Je bent professioneel, klantvriendelijk en vindt kwaliteit belangrijk. Maar dat vertellen je concurrenten je doelgroep ook. Op welk vlak spring jij eruit?
 
-Tijdens één of meerdere sessies gaan we op zoek naar het antwoord op die vraag. Door middel van de juiste vragen en onze creatieve tools leggen we met elkaar de vinger op de ziel van jouw bedrijf. Wat is je merkpersoonlijkheid? Wie ben je en wat maakt je uniek? Dat is ‘Merkpositionering stap 1’.
+Tijdens één of meerdere sessies gaan we op zoek naar het antwoord op die vraag. Door middel van de juiste vragen en onze creatieve tools leggen we met elkaar de vinger op de ziel van jouw bedrijf. Wat is je <a href="/merkidentiteit">merkpersoonlijkheid?</a> Wie ben je en wat maakt je uniek? Dat is ‘Merkpositionering stap 1’.
 
 ### Stap 2
 ‘Merkpositionering stap 2’ is het ‘hoe?’. We weten nu wie je bent en op welke vlakken je je onderscheidt. Hoe buiten we deze eigenschappen vervolgens uit? Hoe communiceer je je identiteit en onderscheidende eigenschappen consequent richting je doelgroep? Het is belangrijk om hier kort na ‘Merkpositionering stap 1’ mee aan de slag te gaan binnen je bedrijf.
