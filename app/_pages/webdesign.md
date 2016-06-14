@@ -1,7 +1,7 @@
 ---
 title:  "Webdesign vanuit de kern"
 subtitle: "Een website die naadloos aansluit bij de identiteit van je organisatie"
-metadescription: "Creatief webdesign vanuit de identiteit van je bedrijf. Webdesign bureau te Amersfoort."
+metadescription: "Een mooie website. Je hebt er weinig aan als je website niet ook aansluit bij de merkpersoonlijkheid van je bedrijf. Jouw identiteit en de vraag van je doelgroep zijn bij ons het uitgangspunt."
 cta-text: "Op zoek naar een webdesign bureau? Vraag een vrijblijvend gesprek aan!"
 header-img: "/img/websitevanuitdekern.png"
 ---
