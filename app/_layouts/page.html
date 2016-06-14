@@ -11,7 +11,10 @@ layout: html
 			{% assign extension = extension_splitted | last %}
 		{% endif %}
 
-		<div class="{{ extension }}-wrapper">{{ content }}</div>
+		<div class="{{ extension }}-wrapper" itemscope="" itemtype="https://schema.org/WebPage">
+            <meta itemprop="mainContentOfPage" content="https://studiofonkel.nl{{ page.url }}" />
+            <div class="text">{{ content }}</div>
+        </div>
 
 		<!--include regions/content-footer.html-->
   	</div>

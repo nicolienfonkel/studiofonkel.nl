@@ -1,12 +1,21 @@
 {% if page.date and page.collection == 'blog' %}
-    <h3 class="page-date" itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}" > {{ page.date | localize:"%d %B %Y" }} </h3>
+    <h3 class="page-date" datetime="{{ page.date | date: '%Y-%m-%d' }}" > {{ page.date | localize:"%d %B %Y" }} </h3>
+    <meta itemprop="datePublished" content="{{ page.date }}" />
+    <meta itemprop="dateModified" content="{{ page.date }}" />
 {% endif %}
 
 {% if page.subtitle %}
-    <h3 class="page-sub-heading"> {{ page.subtitle }} </h3>
+    <h3 class="page-sub-heading" itemprop="alternativeHeadline"> {{ page.subtitle }} </h3>
+    {% if page.collection != 'pages' %}
+    <meta itemprop="datePublished" content="{{ page.date }}" />
+    <meta itemprop="dateModified" content="{{ page.date }}" />
+    {% endif %}
+
 {% else %}
     {% if page.date %}
-        <div class="page-date" itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | localize:"%d %B %Y" }}</div>
+        <div class="page-date" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | localize:"%d %B %Y" }}</div>
+        <meta itemprop="datePublished" content="{{ page.date }}" />
+        <meta itemprop="dateModified" content="{{ page.date }}" />
     {% endif %}
     {% if page.teaser-text %}
         <div class="page-teaser">{{ page.teaser-text }}</div>
@@ -15,16 +24,21 @@
 
 {% if page.url != '/index.html' %}
   {% if page.html_title %}
-      <h1 class="page-heading blog" itemprop="name">{{ page.html_title }}</h1>
+    <h1 class="page-heading blog" itemprop="headline">{{ page.html_title }}</h1>
   {% else %}
-      <h1 class="page-heading blog" itemprop="name">{{ page.title }}</h1>
+    <h1 class="page-heading blog" itemprop="headline">{{ page.title }}</h1>
   {% endif %}
 {% endif %}
 
 {% if page.header-img %}
     {% if page.header-img-position %}
-    	<div class="page-image" style="background-image: url('{{ page.header-img }}'); background-position: {{ page.header-img-position }};"></div>
+    	<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject" class="page-image" style="background-image: url('{{ page.header-img }}'); background-position: {{ page.header-img-position }};">
+            <meta itemprop="url" content="https://studiofonkel.nl{{ page.header-img }}" />
+            <meta itemprop="width" content="1060" />
+            <meta itemprop="height" content="265" />
+        </div>
     {% else %}
     	<div class="page-image" style="background-image: url('{{ page.header-img }}');"></div>
+        <meta itemprop="image" content="{{ page.header-img }}" />
     {% endif %}
 {% endif %}

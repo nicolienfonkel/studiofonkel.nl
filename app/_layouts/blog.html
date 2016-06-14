@@ -4,16 +4,22 @@ layout: html
 <div class="site">
   <div class="site-inner" role="main">
 
-
-
-    <article class="md-wrapper" itemscope="" itemtype="http://schema.org/BlogPosting">
-      <meta itemprop="description" content="{{ page.teaser-text }}" />
+    <article class="md-wrapper" itemscope="" itemtype="https://schema.org/BlogPosting">
+      <meta itemprop="mainEntityOfPage" content="https://studiofonkel.nl{{ page.url }}" />
+      <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+        <meta itemprop="name brand" content="Studio Fonkel" />
+        <div itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+          <meta itemprop="url" content="https://studiofonkel.nl/img/logo-fonkel.png" />
+          <meta itemprop="width" content="400" />
+          <meta itemprop="height" content="260" />
+        </div>
+      </div>
 
         {% include regions/content-header.html %}
 
-
-          {{ content }}
-
+          <div class="text" itemprop="articleBody">
+              {{ content }}
+          </div>
 
         {% include teaser/author.html %}
 

@@ -19,11 +19,13 @@
     {% endif %}
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://studiofonkel.nl{{ page.url }}" />
-    {% if page.title %}
-    <meta property="og:title" content="Studio Fonkel | {{ page.title }}" />
+
+    {% if page.collection == 'blogs' or page.collection == 'cases' %}
+    <meta property="og:title" content="{{ page.title }} | Studio Fonkel" />
     {% else %}
     <meta property="og:title" content="Studio Fonkel | Branding, strategie en webontwikkeling" />
     {% endif %}
+
     <meta property="og:description" content="{{ page.metadescription }}" />
     <meta property="og:site_name" content="Studio Fonkel" />
     <meta property="og:image" content="{{ page.og-image }}" />
