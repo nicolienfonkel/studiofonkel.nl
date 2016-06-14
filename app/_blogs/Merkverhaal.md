@@ -38,4 +38,4 @@ Dat zul je ook merken wanneer je het merkverhaal binnen je eigen organisatie gaa
 ###Voor wie wordt een merkverhaal geschreven?
 Een merkverhaal is dus vooral voor intern gebruik bedoeld. Als houvast voor marketeers en ontwerpers binnen de organisatie of voor een extern bureau dat je inhuurt. Zij moeten worden geïnspireerd door het verhaal en creatieve variaties kunnen maken op de hoofdtonen. Zodat alles wat de klant ziet en merkt van je bedrijf gebaseerd is op dezelfde kern.
 
-* Uit het boek ‘Identiteit en Imago, Recente inzichten in corporate communication’
+* Citaat Van Riel uit het boek ‘Identiteit en Imago, Recente inzichten in corporate communication’
