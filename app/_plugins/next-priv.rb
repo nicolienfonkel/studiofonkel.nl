@@ -71,6 +71,7 @@ module Jekyll
 
     def navigation_hash_for_document(d)
       {'title' => d.data['title'],
+       'subtitle' => d.data['subtitle'],
        'date' => d.data['date'],
        'url' => d.url,
        'collection' => d.data['collection'],
@@ -80,4 +81,4 @@ module Jekyll
      }
     end
   end
-end 
+end
