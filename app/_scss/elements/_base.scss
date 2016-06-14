@@ -74,49 +74,51 @@ p {
   }
 }
 
-ol, ul:not(.list-footer) {
-  margin: 0;
-  padding: 0;
-  @include grid-span(4, 1);
-  clear: both;
-
-  @include breakpoint($tablet) {
-    @include grid-span(6, 2);
-    clear: both;
-  }
-
-  @include breakpoint($desktop) {
-    @include grid-span(8, 3);
-    clear: both;
-  }
-
-  li {
-    margin: 15px 0;
-    clear: both;
+body:not(.widget) {
+  ol, ul:not(.list-footer) {
+    margin: 0;
     padding: 0;
-    //color: $grey;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 100;
-    list-style: none;
-    display: block;
-    vertical-align: middle;
-    width: 100%;
-    position: relative;
-    padding-left: 25px;
+    @include grid-span(4, 1);
+    clear: both;
 
-    &:before {
-      content: "\2192";
-      color: black;
-      display: inline;
-      vertical-align: top;
-      left: 0;
-      top: -1px;
-      position: absolute;
+    @include breakpoint($tablet) {
+      @include grid-span(6, 2);
+      clear: both;
     }
-    
-    p {
+
+    @include breakpoint($desktop) {
+      @include grid-span(8, 3);
+      clear: both;
+    }
+
+    li {
+      margin: 15px 0;
+      clear: both;
+      padding: 0;
+      //color: $grey;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 100;
+      list-style: none;
       display: block;
+      vertical-align: middle;
+      width: 100%;
+      position: relative;
+      padding-left: 25px;
+
+      &:before {
+        content: "\2192";
+        color: black;
+        display: inline;
+        vertical-align: top;
+        left: 0;
+        top: -1px;
+        position: absolute;
+      }
+
+      p {
+        display: block;
+      }
     }
   }
 }
