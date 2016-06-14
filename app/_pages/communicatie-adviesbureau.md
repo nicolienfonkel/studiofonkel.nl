@@ -3,7 +3,7 @@ title:  "Ik zoek een communicatie adviesbureau"
 subtitle: "Creatief communicatie adviesbureau; van strategie en merkverhaal tot huisstijl en website"
 metadescription: "Creatief communicatie adviesbureau; van strategie en merkverhaal tot huisstijl en website"
 cta-text: "Wil je meer weten over communicatie adviesbureau Studio Fonkel? Je bent van harte welkom voor een vrijblijvend gesprek"
-
+header-img: "/img/communicatie-bureau.png"
 ---
 Ben je op zoek naar een communicatie adviesbureau? Studio Fonkel helpt je graag!
 

@@ -3,7 +3,7 @@ title:  "Drupal Website"
 subtitle: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt"
 metadescription: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt"
 cta-text: "Wil je kennis maken met de Drupal specialisten uit ons team?"
-
+header-img: "/img/drupal.png"
 ---
 Je wilt een Drupal website? Dan ben je bij ons aan het goede adres! Binnen Studio Fonkel hebben we samen ruim 40.000 uur aan ervaring met werken in Drupal. Inmiddels hebben we ook al een heel aantal websites en applicaties gebouwd in de nieuwste versie van Drupal; Drupal 8.
 

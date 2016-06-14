@@ -3,7 +3,7 @@ title:  "Merkpositionering: hoe positioneer ik mijn merk?"
 subtitle: "Geef aandacht aan het positioneren van je merk; waarom wil een klant zich aan jóu binden?"
 metadescription: "Geef aandacht aan het positioneren van je merk; waarom wil een klant zich aan jóu binden?"
 cta-text: "Wij kunnen je helpen met een onderscheidende positionering in de markt. We vertellen je graag in een eerste gesprek hoe."
-
+header-img: "/img/merkpositionering.png"
 ---
 Hoe onderscheid je je van concurrenten? Wat maakt jouw bedrijf uniek? Waarom wil een klant zich aan jouw organisatie binden in plaats van aan een van de andere spelers in de markt? Kortom; hoe positioneer je je merk? Als communicatie adviesbureau helpen wij je daar graag bij!
 

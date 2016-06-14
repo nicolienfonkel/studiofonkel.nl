@@ -3,7 +3,7 @@ title:  "Merkidentiteit"
 subtitle: "Leer consequent vanuit je merkidentiteit te communiceren"
 metadescription: "Leer consequent vanuit je merkidentiteit te communiceren"
 cta-text: "Wil je vrijblijvend kennis met ons maken?"
-
+header-img: "/img/merkidentiteit.png"
 ---
 Wie ben je als merk? Welk gedrag hoort daarbij en welke communicatie? Een goede vraag om jezelf als bedrijf te stellen. Zonder heldere merkidentiteit is het lastig voor je doelgroep om zich aan je bedrijf te verbinden. Terwijl dat is wat je graag wilt; klanten die terugkomen omdat ze een ‘klik’ voelen met je organisatie.
 
