@@ -1,7 +1,7 @@
 ---
 title:  "Drupal Website"
 subtitle: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt"
-metadescription: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt"
+metadescription: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt. Binnen ons team hebben we samen ruim 40.000 uur aan ervaring met werken in Drupal."
 cta-text: "Wil je kennis maken met de Drupal specialisten uit ons team?"
 header-img: "/img/drupal.png"
 ---
