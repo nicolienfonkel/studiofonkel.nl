@@ -8,7 +8,7 @@ og-image: "Opengraph-beeldentekst.png"
 date:   2016-06-13 10:27:01
 author: lianne
 front: true
-cta-text: "Hulp nodig van een tekstschrijver, fotograaf van ontwerper? Bel ons gerust."
+cta-text: "Hulp nodig van een tekstschrijver, fotograaf of ontwerper? Bel ons gerust."
 teaser-text: "Beeld en tekst. Allebei bepalen ze in hoge mate de sfeer en professionaliteit van je website."
 ---
 Beeld en tekst. Allebei bepalen ze in hoge mate de sfeer en professionaliteit van je website. In deze blog een aantal basistips; hoe schrijf je goede webteksten en kies je de juiste foto’s?
