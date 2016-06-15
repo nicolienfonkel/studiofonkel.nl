@@ -8,6 +8,7 @@ metatitle: "Dit soort stockfoto's liever niet"
 metadescription: "Dit soort stockfoto's liever niet"
 author: lianne
 teaser-text: "De don'ts op een rijtje"
+cta-text: "Hulp nodig van een tekstschrijver, fotograaf of ontwerper? Bel ons gerust."
 ---
 Alle foto's op deze pagina zijn gedownload vanaf Shutterstock. Vrijwel allemaal stonden ze bij de meest gebruikte foto's als het gaat om termen als 'helpdesk', 'innovatie' en 'duurzaamheid'. Jij weet straks beter.
 
