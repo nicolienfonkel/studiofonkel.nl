@@ -1,0 +1,94 @@
+#cookie-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border-top: 1px solid #b9b9b9;
+  z-index: 100;
+  color: #7f7f7f;
+  font-weight: 300;
+  padding: 10px 0;
+  transform: translateY(100%);
+  transition: $speed * 2;
+
+  &.active {
+    transform: translateY(0%);
+  }
+
+  &.active.accepted {
+    transform: translateY(100%);
+  }
+
+  #cookie-message {
+    margin-left: 3.125%;
+    clear: both;
+    float: none;
+    font-size: 14px;
+    padding: 3.125% 0;
+  }
+
+  #cookie-accept {
+    @include grid-span(2, 1);
+    clear: left;
+    display: block;
+    color: $yellow;
+    border: 1px solid $yellow;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+
+  #cookie-information {
+    @include grid-span(2, 3);
+    clear: right;
+    display: block;
+    color: $yellow;
+    border: 1px solid $yellow;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+}
+
+@include breakpoint($tablet) {
+  #cookie-wrapper {
+    #cookie-message {
+      @include grid-span(5, 1);
+      padding: 8px 0;
+    }
+
+    #cookie-accept {
+      @include grid-span(1, 6);
+    }
+
+    #cookie-information {
+      @include grid-span(2, 7);
+    }
+  }
+}
+
+@include breakpoint($desktop) {
+  #cookie-wrapper {
+
+    .cookie-wrapper-inner {
+      max-width: $max-width;
+      margin: 0 auto;
+    }
+
+    #cookie-message {
+      @include grid-span(8, 1);
+      padding: 8px 0;
+    }
+
+    #cookie-accept {
+      @include grid-span(1, 10);
+    }
+
+    #cookie-information {
+      @include grid-span(2, 11);
+    }
+  }
+}

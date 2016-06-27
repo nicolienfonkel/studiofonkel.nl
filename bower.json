@@ -6,6 +6,7 @@
     "modernizr": "~2.8.3",
     "gridster": "~0.5.6",
     "jquery": "~2.1.4",
-    "js-client-mail": "studio-fonkel/js-client-mail"
+    "js-client-mail": "studio-fonkel/js-client-mail",
+    "cookies-eu-banner": "^1.2.7"
   }
 }
