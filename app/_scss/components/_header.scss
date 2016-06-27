@@ -10,6 +10,17 @@
 	//overflow: hidden;
 	transform: translateY(0);
   //border-bottom: 1px solid red;
+  
+  .site-logo.head {
+    svg {
+      margin: 0;
+      padding: 0;
+      display: block;
+      max-height: 100%;
+      margin-bottom: 10px;
+      height: 44px;
+    }
+  }
 }
 
 .header-inner {
