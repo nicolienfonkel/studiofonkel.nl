@@ -20,9 +20,9 @@ $(document).ready(function() {
         },
         emails: [
             {
-                from: 'info@studiofonkel.nl',
+                from: 'website@studiofonkel.nl',
                 subject: 'Bericht via studiofonkel.nl',
-                to: ['ewout@studiofonkel.nl'],
+                to: ['info@studiofonkel.nl'],
                 fromNameField: 'name',
                 phoneNumber: 'phone',
                 replyToField: 'email'
