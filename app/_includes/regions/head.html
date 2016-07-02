@@ -6,7 +6,19 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    {% if page.title %}
+    {% if page.metatitle %}
+    <meta name="title" content="{{ page.metatitle }} | Studio Fonkel" />
+    {% elsif page.htmltitle %}
+    <meta name="title" content="{{ page.htmltitle }} | Studio Fonkel" />
+    {% elsif page.title %}
+    <meta name="title" content="{{ page.title }} | Studio Fonkel" />
+    {% else %}
+    <meta name="title" content="Branding, strategie en webontwikkeling | Studio Fonkel" />
+    {% endif %}
+
+    {% if page.htmltitle %}
+    <title>{{ page.htmltitle }} | Studio Fonkel</title>
+    {% elsif page.title %}
     <title>{{ page.title }} | Studio Fonkel</title>
     {% else %}
     <title>Branding, strategie en webontwikkeling | Studio Fonkel</title>
@@ -21,7 +33,7 @@
     <meta property="og:url" content="https://studiofonkel.nl{{ page.url }}" />
 
     {% if page.collection == 'blogs' or page.collection == 'cases' %}
-    <meta property="og:title" content="{{ page.title }} | Studio Fonkel" />
+    <meta property="og:title" content="{{ page.meta-title }} | Studio Fonkel" />
     {% else %}
     <meta property="og:title" content="Studio Fonkel | Branding, strategie en webontwikkeling" />
     {% endif %}
