@@ -1,6 +1,6 @@
 ---
 title:  "Archetypen: je merkpersoonlijkheid als strategie"
-html_title:  "Archetypen: je merk<span class='break'>-<br></span>persoonlijkheid als strategie"
+htmltitle:  "Archetypen: je merkpersoonlijkheid als strategie"
 metatitle: "Archetypen: je merkpersoonlijkheid als strategie"
 metadescription: "Hoe zet je je merk sterker neer? Hoe vergroot je de betrokkenheid van zowel de markt als je medewerkers?"
 header-img: "/img/Archetypen-strategie.jpg"

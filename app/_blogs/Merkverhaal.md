@@ -1,6 +1,6 @@
 ---
 title:  "Een merkverhaal: wat is het en waarom is het belangrijk?"
-html_title:  "Merkverhaal: wat is het en waarom is het belangrijk?"
+htmltitle:  "Merkverhaal: wat is het en waarom is het belangrijk?"
 metatitle: "Merkverhaal: wat is het en waarom is het belangrijk?"
 metadescription: "Blog: Een merkverhaal geeft houvast en richting aan je organisatie. "
 header-img: "/img/een-merkverhaal.png"

@@ -1,7 +1,7 @@
 ---
 title:  "Je merkverhaal en de klantreis"
-html_title:  "Je merkverhaal en de klantreis"
-metatitle: "Je merkverhaal en de klantreis"
+htmltitle:  "Je merkverhaal en de klantreis"
+metatitle: "Blog: Je merkverhaal en de klantreis"
 metadescription: "De klantreis is de weg die een klant aflegt: van het eerste contact met je merk tot en met de nazorg."
 header-img: "/img/klantreis.png"
 og-image: "Je_merkverhaal_en_de_klantreis_Studio_Fonkel.jpg"

@@ -1,12 +1,12 @@
 ---
 title:  "12 Archetypen"
+metatitle: "Blog: 12 Archetypen, welke zijn er en waar staan ze voor?"
+metadescription: "Merkidentiteit: Welk archetype past bij jouw merk. Geef je merk karakter"
 header-img: "/img/12-Arechetypes.jpg"
 og-image: "12-Arechetypes.jpg"
 date:   2015-09-15 10:27:01
-metatitle: "Blog: 12 Archetypen, welke zijn er en waar staan ze voor?"
-metadescription: "Welk archetype past bij jouw merk"
 author: michiel
-teaser-text: "12 Archetypen, welke zijn er en waar staan ze voor?"
+teaser-text: "Archetypen, welke zijn er en waar staan ze voor?"
 ---
 
 ###Heerser

@@ -1,6 +1,6 @@
 ---
 title:  "Welke beelden en teksten kies je voor je website?"
-html_title:  "Welke beelden en teksten kies je voor je website?"
+htmltitle:  "Welke beelden en teksten kies je voor je website?"
 metatitle: "Welke beelden en teksten kies je voor je website?"
 metadescription: "Beeld en tekst. Allebei bepalen ze in hoge mate de sfeer en professionaliteit van je website. In deze blog een aantal basistips."
 header-img: "/img/Blog-beeld.png"

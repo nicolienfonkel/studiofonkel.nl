@@ -1,5 +1,5 @@
 ---
-title: "Hallo Fincent"
+title: "Hallo Fincent merkidentiteit en website"
 subtitle: "Een nieuw merk voor een accountant met een goed idee"
 metadescription: "Een nieuw merk voor een accountant met een goed idee"
 date: 2016-01-12 10:27:01 +00:00

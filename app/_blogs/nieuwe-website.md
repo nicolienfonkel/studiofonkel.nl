@@ -1,6 +1,6 @@
 ---
 title:  "Nieuwe website? Vergeet je website."
-html_title:  "Nieuwe website? <span class='break'><br></span>Vergeet je website."
+htmltitle:  "Nieuwe website? Vergeet je website."
 metatitle: "Nieuwe website? Vergeet je website."
 metadescription: "Je hebt een nieuwe website nodig. Hoe pak je dit traject aan? Stel jezelf deze vragen."
 header-img: "/img/nieuwe-website.jpg"

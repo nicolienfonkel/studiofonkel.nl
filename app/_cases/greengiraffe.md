@@ -1,13 +1,13 @@
 ---
-title:  "Green Giraffe"
-subtitle: "Drupal website met unieke landkaart die projectportfolio toont"
+title:  "Drupal website voor Green Giraffe"
+subtitle: "Drupal website voor met unieke landkaart die projectportfolio toont"
 metadescription: "Drupal website met op unieke geografische kaart"
 header-img: "/img/gg.jpg"
 header-img-alt: "Green Girafe ALT"
 date: 2015-01-01 10:27:01
-categories: 
-- Drupal 
-- Cartografie 
+categories:
+- Drupal
+- Cartografie
 - Webdesign
 front: true
 ---

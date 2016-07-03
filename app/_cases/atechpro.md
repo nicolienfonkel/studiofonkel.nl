@@ -1,6 +1,6 @@
 ---
-title:  "Atechpro"
-metatitle: "website atechpro"
+title:  "Merkidentiteit, website en magazine Atechpro"
+metatitle: "Merkidentiteit, website en magazine Atechpro"
 subtitle: "Maatpak voor een duurzame energie-onderneming"
 metadescription: "Maatpak voor een duurzame energie-onderneming"
 header-img: "/img/atechpro.jpg"

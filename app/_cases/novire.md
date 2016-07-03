@@ -12,7 +12,7 @@ categories:
 - Scrum
 - Copywriting
 ---
-Novire is één van onze oudste klanten. Als destijds jong adviesbureau voor zorgondernemers vroegen ze ons om een logo en een website. De volgende opdracht was het bouwen van een kennisportal waar zorgprofessionals informatie kunnen vinden over wetgeving en protocollen. Toen Novire een totaaloplossing ontwikkelde die het hele zorgproces vanuit de klant organiseert, ontwierpen wij de interface. 
+Novire is één van onze oudste klanten. Als destijds jong adviesbureau voor zorgondernemers vroegen ze ons om een logo en een website. De volgende opdracht was het bouwen van een kennisportal waar zorgprofessionals informatie kunnen vinden over wetgeving en protocollen. Toen Novire een totaaloplossing ontwikkelde die het hele zorgproces vanuit de klant organiseert, ontwierpen wij de interface.
 
 Tussendoor zijn er heel veel documenten vormgegeven, geredigeerd en geschreven. Hierbij was de vraag om moeilijk te begrijpen materie te vatten in heldere teksten.
 
