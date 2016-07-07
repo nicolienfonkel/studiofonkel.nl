@@ -5,7 +5,7 @@ author: floris
 menu: 6
 ---
 
-Vanuit ons kantoor in Amersfoort werken we al vijf jaar aan projecten voor overheid, MKB en non-profitorganisaties.
+Inmiddels werken we al vijf jaar aan projecten voor overheid, MKB en non-profitorganisaties. Sinds 1 mei vanuit ons nieuwe kantoor, Arnhemseweg 6 in Amersfoort.
 Je bent van harte welkom om vrijblijvend met ons van gedachten te wisselen over je wensen. Of je nu wel of niet met ons in zee gaat, grote kans dat je ons bureau in ieder geval wijzer verlaat!
 {% image “/img/Interieur1a.jpg" "" "" "" %}
 <div class="call-to-action">
