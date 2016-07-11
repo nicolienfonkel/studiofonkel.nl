@@ -15,7 +15,7 @@ header-img-position: "100% 32%"
 background-position: "50% 32%"
 ---
 
-De hoogste prioriteit van Snetselaar lag bij een nieuw logo en een nieuwe naam. Twintig jaar geleden startte het bedrijf als ‘Konstruktieburo Snetselaar’. Het was na al die tijd hoog tijd voor een update. We hebben de focus eerst gelegd op een merkverhaal. Dat mondde uit in de nieuwe naam ‘Snetselaar Constructieve Ingenieurs’. Daarna zijn we aan de slag gegaan met het logo en de website. Deze sluiten nu mooi aan bij wie Snetselaar vandaag de dag is.
+De hoogste prioriteit van Snetselaar lag bij een nieuw logo en een nieuwe naam. Twintig jaar geleden startte het bedrijf als ‘Konstruktieburo Snetselaar’. Hoog tijd voor een update. We hebben de focus eerst gelegd op een merkverhaal. Dat mondde uit in de nieuwe naam ‘Snetselaar Constructieve Ingenieurs’. Daarna zijn we aan de slag gegaan met het logo en de website. Deze sluiten nu mooi aan bij wie Snetselaar vandaag de dag is.
 
 {% case_tags %}
 
