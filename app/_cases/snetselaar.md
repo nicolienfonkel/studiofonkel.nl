@@ -1,5 +1,6 @@
 ---
 title: "Snetselaar"
+metatitle: "Case Snetselaar Contructieve Ingenieurs"
 subtitle: "Een nieuwe jas die past bij de groei van het bedrijf"
 metadescription: "Een nieuwe jas die past bij de groei van het bedrijf"
 date: 2016-06-07 10:27:01 +00:00
