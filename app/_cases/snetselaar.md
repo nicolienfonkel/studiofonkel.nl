@@ -11,7 +11,7 @@ categories:
 front: true
 cta-text: "Wij helpen graag met het positioneren van je merk. Bel ons voor meer informatie."
 header-img: "/img/snetselaar_4.png"
-header-img-position: "100% 32%"
+header-img-position: "100% 80%"
 background-position: "50% 32%"
 ---
 
