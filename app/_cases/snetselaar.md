@@ -23,7 +23,7 @@ De hoogste prioriteit van Snetselaar lag bij een nieuw logo en een nieuwe naam. 
 
 > “Het aanpassen van ons logo en onze bedrijfsnaam lag al een tijdje. Wij zijn vrij kritisch en vonden het lastig er een knoop over door te hakken. Via Studio Fonkel hadden we dat in mum van tijd helder. Daar heeft de strategische sessie goed mee geholpen. Het totale eindresultaat mag er zijn: de website is boven verwachting. In twintig jaar zijn we als bedrijf enorm in volwassenheid gegroeid, dat is nu zichtbaar geworden voor webbezoekers.”  - Henri Snetselaar
 
-{% image “/img/Snetselaar_1.png" "De homepagina van de nieuwe website." "De homepagina van de nieuwe website." "De homepagina van de nieuwe website." %}
+{% image “/img/snetselaar_1.png" "De homepagina van de nieuwe website." "De homepagina van de nieuwe website." "De homepagina van de nieuwe website." %}
 
 In de afgelopen twee decennia heeft Snetselaar een indrukwekkend – ook internationaal – portfolio opgebouwd. Op de nieuwe website hebben we dat zichtbaar gemaakt. We hebben gekozen voor groot beeld, bezoekers kunnen eenvoudig door het portfolio heen bladeren en er is een handige zoekfunctie.  
 
