@@ -3,7 +3,6 @@ title:  "Studio Fonkel is verhuisd!"
 metadescription: "Een nieuwe plek die bij ons past, aan de Arnhemseweg 6 in Amersfoort. Open, transparant en heel basic met een ongepolijst randje. Net als wijzelf."
 subtitle: "Een nieuw kantoor dat helemaal bij ons past, aan de overkant van de straat"
 cta-text: "We zijn verhuisd - komt gerust een bakkie doen"
-front: false
 categories:
   - Arnhemseweg 6, Amersfoort (3e etage)
 
