@@ -16,7 +16,7 @@ header-img-position: "100% 80%"
 background-position: "50% 32%"
 ---
 
-De hoogste prioriteit van Snetselaar lag bij een nieuw logo en een nieuwe naam. Twintig jaar geleden startte het bedrijf als ‘Konstruktieburo Snetselaar’. Hoog tijd voor een update. We hebben de focus eerst gelegd op een merkverhaal. Dat mondde uit in de nieuwe naam ‘Snetselaar Constructieve Ingenieurs’. Daarna zijn we aan de slag gegaan met het logo en de website. Deze sluiten nu mooi aan bij wie Snetselaar vandaag de dag is.
+De hoogste prioriteit van Snetselaar lag bij een nieuw logo en een nieuwe naam. Twintig jaar geleden startte het bedrijf als ‘Konstruktieburo Snetselaar’. Hoog tijd voor een update. We hebben de focus eerst gelegd op een merkverhaal. Dat mondde uit in de nieuwe naam ‘Snetselaar Constructieve Ingenieurs’. Op basis van het merkverhaal zijn we aan de slag gegaan met de visuele identiteit en de website. Zowel de losse onderdelen als het complete plaatje passen nu weer bij wie Snetselaar vandaag de dag is.
 
 {% case_tags %}
 
@@ -24,17 +24,17 @@ De hoogste prioriteit van Snetselaar lag bij een nieuw logo en een nieuwe naam. 
 
 > “Het aanpassen van ons logo en onze bedrijfsnaam lag al een tijdje. Wij zijn vrij kritisch en vonden het lastig er een knoop over door te hakken. Via Studio Fonkel hadden we dat in mum van tijd helder. Daar heeft de strategische sessie goed mee geholpen. Het totale eindresultaat mag er zijn: de website is boven verwachting. In twintig jaar zijn we als bedrijf enorm in volwassenheid gegroeid, dat is nu zichtbaar geworden voor webbezoekers.”  - Henri Snetselaar
 
-{% image “/img/snetselaar_1.png" "De homepagina van de nieuwe website." "De homepagina van de nieuwe website." "De homepagina van de nieuwe website." %}
+{% image “/img/snetselaar_1.png" "De homepagina van de nieuwe website" "De homepagina van de nieuwe website." "De homepagina van de nieuwe website." %}
 
 In de afgelopen twee decennia heeft Snetselaar een indrukwekkend – ook internationaal – portfolio opgebouwd. Op de nieuwe website hebben we dat zichtbaar gemaakt. We hebben gekozen voor groot beeld, bezoekers kunnen eenvoudig door het portfolio heen bladeren en er is een handige zoekfunctie.  
 
-{% image “/img/snetselaar_2.png" "Het projectportfolio......" "Het projectportfolio......" "Het projectportfolio......" %}
+{% image “/img/snetselaar_2.png" %}
 
-{% image “/img/snetselaar_3.png" "vervolg" "vervolg" "vervolg" %}
+{% image “/img/snetselaar_3.png" "Het projectportfolio" "Het projectportfolio" "Het projectportfolio" %}
 
 Verder hebben we Snetselaar geholpen hun propositie duidelijker neer te zetten. Dit hebben we onder andere gedaan door de rollen die het bedrijf vervult en de diensten die het levert helder van elkaar te onderscheiden en te verbeelden.
 
-{% image “/img/snetselaar_5.png" "Rollen en dienstenpagina..." "Rollen en dienstenpagina..." "Rollen en dienstenpagina..." %}
+{% image “/img/snetselaar_5.png" "Rollen en diensten uitgelegd" "Rollen en diensten uitgelegd" "Rollen en diensten uitgelegd" %}
 
 Bekijk dit project live op <a href="http://snetselaar.nl/" target="_blank">snetselaar.nl</a>
 
