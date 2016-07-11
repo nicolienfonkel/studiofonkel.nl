@@ -4,10 +4,9 @@ subtitle: "Uniek aardrijkskundig en geografisch platform"
 metadescription: "Uniek aardrijkskundig en geografisch platform"
 date: 2016-06-07 10:27:01 +00:00
 categories:
-  - Drupal
-  - Cartografie
-  - Webdesign
-  - Responsive
+  - drupal
+  - cartografie
+  - webdesign
 front: true
 cta-text: "Maak kennis met onze Drupal specialisten. Bel ons voor een kennismakingsafspraak."
 header-img: "/img/geografie.jpg"
@@ -17,7 +16,7 @@ background-position: "50% 32%"
 
 Een digitaal platform om ideeën, kennis en nieuws over Aardrijkskunde en Geografie te delen. Dat was de wens van het Koninklijk Nederlands Aardrijkskundig Genootschap (KNAG). Voor de bouw van hun nieuwe website kozen ze voor een samenwerking met Studio Fonkel vanwege onze ervaring met – en enthousiasme over – cartografie.
 
-{% case_tags %}
+{% include case-tags.html %}
 
 Vragen van het KNAG waren onder andere: de mogelijkheid om verschillende soorten artikelen te plaatsen – nieuws, kennis en opinie – en deze zelf dagelijks te kunnen aanpassen. Een archief dat websitebezoekers eenvoudig kunnen doorzoeken met behulp van trefwoorden.
 

@@ -1,0 +1,18 @@
+{% assign site_tags = site.data.tags %}
+
+<div class="categories">
+    <div class="tag"></div>
+    <div class="categories-inner">
+        {% for page_tag in page.categories %}
+
+            {% if site_tags[page_tag] %}
+            <div class="categories-item"><a href="{{ site_tags[page_tag].url }}">{{ site_tags[page_tag].title }}</a></div>
+            {% else %}
+            <div class="categories-item">{{ page_tag | capitalize }}</div>
+            {% endif %}
+
+        {% endfor %}
+
+
+    </div>
+</div>

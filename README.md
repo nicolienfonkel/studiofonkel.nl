@@ -121,8 +121,10 @@ Instellingen:
 - **number**: 1
 
 ##Case Tags
-{% case_tags %} om de categorieën te laten zien. 
-Wel moet de Case categorieën hebben.
+{% include case-tags.html %} om de categorieën te laten zien.
+Als de case categorieen heeft, worden die getoond. Als de categorieen
+ook in de /_data/tags.json staan, wordt het een linkje naar de opgegeven
+pagina.
 
 ##Spamspan
 Om spamspan kun je gebruiken op de volgende manier:
