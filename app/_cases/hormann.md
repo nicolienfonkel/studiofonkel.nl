@@ -9,12 +9,12 @@ categories:
 - Website
 - Conversietracking
 - Cartografie
-- Drupal
+- drupal
 ---
 
 Hörmann is de grootste aanbieder in Europa op het gebied van garagedeuren, huisdeuren, kozijnen en aandrijvingen voor woning en industrie. Ze wilden een conversiegerichte website. Eén die directe leads oplevert voor de verschillende Hörmann-partners in Nederland. In samenwerking met Graphius, die het ontwerp verzorgde, ontwikkelde Studio Fonkel een website op basis van het Drupal CMS met voor iedere Hörmann-partner een eigen subsite.
 
-{% case_tags %}
+{% include case-tags.html %}
 
 {% image “/img/hormann-1.jpg" "Drupal website Hormann" "Het ontwerp van de Drupal website" "Drupal website Hormann" %}
 

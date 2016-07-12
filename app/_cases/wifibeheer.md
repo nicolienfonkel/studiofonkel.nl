@@ -7,7 +7,7 @@ header-img: "/img/wifibeheer.jpg"
 header-img-alt: "Wifibeheer"
 cta-text: "Maak kennis met onze Drupal specialisten. Bel ons voor een kennismakingsafspraak"
 categories:
-- Drupal
+- drupal
 - Webapplicatie
 - Firewall integratie
 front: false

@@ -10,8 +10,8 @@ header-img-position: "100% 34%"
 categories:
 - Webrichtlijnen
 - Meertalig
-- Drupal
-- Ontwerp
+- drupal
+- webdesign
 
 ---
 
@@ -21,7 +21,7 @@ Over pulsvissen als vismethode bestaan veel spookverhalen. Het Ministerie van Ec
 
 {% image “/img/pv5.jpg" "Meertalige Drupal website" "" "Meertalige Drupal website" %}
 
-{% case_tags %}
+{% include case-tags.html %}
 
 {% image “/img/pv1.jpg" "Meertalige Drupal website" "" "Meertalige Drupal website" %}
 

@@ -9,13 +9,13 @@ header-img-alt: "Green Girafe ALT"
 categories:
 - Responsive 
 - Multi-site 
-- Drupal 
-- Ontwerp
+- drupal 
+- webdesign
 author: Theo
 ---
 Tandzorg Op Maat (TOM) is een tandartsketen met een heel eigen visie op de tandarts praktijk. Ze vroegen ons om een website te maken die de identiteit en sfeer van TOM goed weergeeft en nieuwe klanten aantrekt. We hebben daarom een website ontworpen en gebouwd - op basis van het Drupal CMS - die zich onderscheidt van veel andere tandartsenwebsites.
 
-{% case_tags %} 
+{% include case-tags.html %}
 
 {% image “/img/tom1.jpg" "Drupal website voor tandartsenketen" "Het ontwerp van de voorpagina" "Drupal website voor tandartsenketen" %}
 

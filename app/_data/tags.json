@@ -1,10 +1,18 @@
 {
   "drupal": {
     "title": "Drupal",
-    "url": "http://drupal.org"
+    "url": "/drupal"
   },
-  "cartografie": {
-    "title": "Cartografie",
-    "url": "http://google.com"
+  "drupal8": {
+    "title": "Drupal8",
+    "url": "/drupal"
+  },
+  "merkverhaal": {
+    "title": "Merkverhaal",
+    "url": "/blogs/Merkverhaal"
+  },
+  "webdesign": {
+    "title": "Webdesign",
+    "url": "/webdesign"
   }
 }

@@ -16,7 +16,7 @@ front: true
 
 Bunzlau Castle is vooral bekend van het sfeervolle Poolse servies dat ze wereldwijd verkoopt. Daar voegt ze steeds meer producten aan toe; deze zijn stuk voor stuk handgemaakt, van hoge kwaliteit en van Europese bodem. Eén van haar communicatiemiddelen is een lifestylemagazine. Bunzlau Castle zocht naar een partij die in staat was om het magazine te herstijlen en elk half jaar te maken.
 
-{% case_tags %}
+{% include case-tags.html %}
 
 {% image “/img/Bunzlau_Castle_1.jpg" "Bunzlau Castle fotografie" "" "Bunzlau Castle magazine ontwerp" %}
 

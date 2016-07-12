@@ -12,7 +12,7 @@ categories:
 - Branding
 - Ontwerp
 - Copywriting
-- Drupal
+- drupal
 ---
 Masugro verbetert processen van organisaties door het leveren van simpele en effectieve ICT-oplossingen. Ze vroegen ons om een complete visuele rebranding.
 
@@ -20,7 +20,7 @@ Masugro verbetert processen van organisaties door het leveren van simpele en eff
 
 De huisstijl van Masugro was donker. Zwart met rood en wit. Juist omdat het bedrijf staat voor eenvoud en gemak, hebben we gekozen voor een frisse stijl die toegankelijkheid uitstraalt.
 
-{% case_tags %}
+{% include case-tags.html %}
 
 {% image “/img/masugro-3.jpg" "Fris ontworpen Drupal website" "Het ontwerp van de Drupal website" "Fris ontworpen Drupal website" %}
 

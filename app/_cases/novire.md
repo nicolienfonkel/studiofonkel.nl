@@ -8,7 +8,7 @@ header-img: "/img/novire.jpg"
 header-img-alt: "Green Girafe ALT"
 categories:
 - Storytelling
-- Drupal & Symfony
+- drupal
 - Scrum
 - Copywriting
 ---
@@ -16,7 +16,7 @@ Novire is één van onze oudste klanten. Als destijds jong adviesbureau voor zor
 
 Tussendoor zijn er heel veel documenten vormgegeven, geredigeerd en geschreven. Hierbij was de vraag om moeilijk te begrijpen materie te vatten in heldere teksten.
 
-{% case_tags %}
+{% include case-tags.html %}
 
 {% image “/img/novire-web2.jpg" "Jekyll statische website" "" "Jekyll statische website" %}
 

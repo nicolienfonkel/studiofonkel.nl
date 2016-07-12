@@ -8,13 +8,13 @@ date: 2016-01-10 10:27:01
 front: true
 author: Theo
 categories:
-- Merkverhaal
-- Drupal 8
+- merkverhaal
+- drupal8
 - Contentstrategie
 ---
 Franchise+ kwam bij Studio Fonkel omdat hun oude portal niet meer voldeed. Om goed te beginnen en alle neuzen dezelfde kant op te krijgen, zijn we gestart met een strategisch traject. Op basis van het daaruit voortgekomen merkverhaal hebben we een nieuwe portal ontworpen en gebouwd.
 
-{% case_tags %}
+{% include case-tags.html %}
 
 Er is een platform op basis van het Open Source CMS Drupal gecreëerd dat relevant is voor iedereen die met franchising te maken heeft. Bovendien vormt de website een verbindende schakel tussen oriënterende franchisenemers en franchisegevers.
 

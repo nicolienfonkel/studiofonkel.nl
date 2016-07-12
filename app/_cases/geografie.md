@@ -5,7 +5,7 @@ metadescription: "Uniek aardrijkskundig en geografisch platform"
 date: 2016-06-07 10:27:01 +00:00
 categories:
   - drupal
-  - cartografie
+  - Cartografie
   - webdesign
 front: true
 cta-text: "Maak kennis met onze Drupal specialisten. Bel ons voor een kennismakingsafspraak."

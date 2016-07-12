@@ -6,7 +6,7 @@ date: 2014-12-12 10:27:01
 header-img: "/img/impectforce.jpg"
 header-img-alt: "Atechpro"
 categories:
-- Drupal website
+- drupal
 - Strategie
 - Copywriting
 - Animatie
@@ -15,7 +15,7 @@ background-position: "20% 30%"
 
 Impectforce heeft een nieuw concept ontwikkeld voor ondernemers. Hierdoor krijgen ondernemers, net als medewerkers, toegang tot het sociale vangnet. Impectforce vroeg ons om een website die dit concept helder en doeltreffend communiceert.
 
-{% case_tags %}
+{% include case-tags.html %}
 
 {% image “/img/impectforce-2.jpg" "Drupal website Impectforce" "Het ontwerp van de website" "Drupal website Impectforce" %}
 

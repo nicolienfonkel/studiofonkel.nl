@@ -10,7 +10,7 @@ categories:
 - Benchmarks
 - Rekentools
 - CRM-koppeling
-- Drupal
+- drupal
 author: Theo
 ---
 De Nederlandse Branchevereniging voor de Timmerindustrie (NBVT) verdedigt het belang van circa 180 timmerfabrieken. Hun vraag was een nieuwe website met een moderne uitstraling die informatie sneller toegankelijk maakt voor hun leden. De informatie moest bovendien simpeler. In samenwerking met Graphius, die het ontwerp verzorgde, bouwde Studio Fonkel de website. De website heeft een afgeschermd ledengedeelte en is later ook responsive uitgevoerd.
@@ -19,7 +19,7 @@ Ontwerp: <a href="http://graphius.nl/" target="_blank">graphius.nl</a>
 
 Resultaat: <a href="http://nbvt.nl/" target="_blank">nbvt.nl</a>
 
-{% case_tags %}
+{% include case-tags.html %}
 
 We ontwikkelden handige rekentools voor op de Drupal website. Er is een tool die uitrekent hoe groot je raam mag zijn voordat deze knapt en een tool om uit te rekenen hoeveel CO2 opgeslagen zit in een specifiek houtproduct. Hiermee tonen timmerfabrikanten duurzaamheid aan.
 

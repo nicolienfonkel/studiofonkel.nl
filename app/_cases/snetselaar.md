@@ -5,8 +5,8 @@ subtitle: "Een nieuwe jas die past bij de groei van het bedrijf"
 metadescription: "Een nieuwe jas die past bij de groei van het bedrijf"
 date: 2016-06-07 10:27:01 +00:00
 categories:
-  - Merkverhaal
-  - Drupal8
+  - merkverhaal
+  - drupal8
   - Webdesign
   - Responsive
 front: true
@@ -18,7 +18,7 @@ background-position: "50% 32%"
 
 De hoogste prioriteit van Snetselaar lag bij een nieuw logo en een nieuwe naam. Twintig jaar geleden startte het bedrijf als ‘Konstruktieburo Snetselaar’. Hoog tijd voor een update. We hebben de focus eerst gelegd op een merkverhaal. Dat mondde uit in de nieuwe naam ‘Snetselaar Constructieve Ingenieurs’. Op basis van het merkverhaal zijn we aan de slag gegaan met de visuele identiteit en de website. Zowel de losse onderdelen als het complete plaatje passen nu weer bij wie Snetselaar vandaag de dag is.
 
-{% case_tags %}
+{% include case-tags.html %}
 
 {% image “/img/snetselaar_0.png" "Het nieuwe logo van Snetselaar Constructieve Ingenieurs" "Het nieuwe logo van Snetselaar Constructieve Ingenieurs" "Het nieuwe logo van Snetselaar Constructieve Ingenieurs" %}
 

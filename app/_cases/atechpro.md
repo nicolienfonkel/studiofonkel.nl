@@ -7,7 +7,7 @@ header-img: "/img/atechpro.jpg"
 header-img-alt: "Atech Pro"
 date: 2015-12-18 10:27:01
 categories:
-- Drupal
+- drupal
 - Strategie
 - Ontwerp
 - Magazine
@@ -16,7 +16,7 @@ front: true
 
 Atechpro is de Nederlandse importeur van biomassaketels van het Oostenrijkse topmerk KWB. Ze vroegen ons een aantal jaar geleden om hun totale communicatie te verzorgen en dat doen we nu nog steeds. We zijn daardoor niet alleen leverancier van Atechpro, maar veel meer partner. De start van onze samenwerking begon met het nadenken over een strategie en het ontwerpen van een huisstijl en een website.
 
-{% case_tags %}
+{% include case-tags.html %}
 
 {% image “/img/atechpro-web1.jpg" "Website ontwerp Atechpro" "Alle biomassa-ketels in een overzicht" "Website ontwerp Atechpro" %}
 
