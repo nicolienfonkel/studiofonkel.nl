@@ -29,5 +29,11 @@
 
 	.link {
 		color: black;
+
+        .arrow-long {
+            svg * {
+                stroke: black;
+            }
+        }
 	}
 }

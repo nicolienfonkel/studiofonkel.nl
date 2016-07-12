@@ -118,9 +118,7 @@
 
 $(document).ready(function() {
 
-    if (!$.cookie('allowCookies') || $.cookie('allowCookies') == 0) {
-
-        $.cookie('allowCookies', 0);
+    if (!$.cookie('allowCookies')) {
 
         $('body').append('<div id="cookie-wrapper">' +
             '<div class="cookie-wrapper-inner">' +
@@ -137,7 +135,7 @@ $(document).ready(function() {
         $('#cookie-accept').on('click', function (e) {
             e.preventDefault();
             $('#cookie-wrapper').addClass('accepted');
-            $.cookie('allowCookies', 1);
+            $.cookie('allowCookies', 1, { expires: 7, path: '/' });
         });
     }
 });
