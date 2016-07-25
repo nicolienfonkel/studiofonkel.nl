@@ -1,6 +1,7 @@
 ---
 title:  "Merkpositionering: hoe positioneer ik mijn merk?"
 subtitle: "Geef aandacht aan het positioneren van je merk; waarom wil een klant zich aan jóu binden?"
+htmltitle: "Merkpositionering vanuit de kern"
 metadescription: "Geef aandacht aan het positioneren van je merk; waarom wil een klant zich aan jóu binden?"
 cta-text: "Wij helpen je graag je merk te positioneren. Kom langs voor een vrijblijvend gesprek."
 header-img: "/img/merkpositionering.png"
