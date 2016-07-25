@@ -1,6 +1,7 @@
 ---
 title:  "Merkidentiteit"
 subtitle: "Leer consequent vanuit je merkidentiteit te communiceren"
+htmltitle: "Communiceer vanuit je merkidentiteit"
 metadescription: "Leer consequent vanuit je merkidentiteit te communiceren. Wie ben je als merk? Welk gedrag hoort daarbij en welke communicatie? We gaan graag samen met je op weg richting een consistente merkbeleving voor je klanten en doelgroep."
 cta-text: "Wil je vrijblijvend kennis met ons maken?"
 header-img: "/img/merkidentiteit.png"
