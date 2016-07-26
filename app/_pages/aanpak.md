@@ -1,7 +1,7 @@
 ---
 title:  "Hoe we werken"
 menu-title: "Werkwijze"
-htmltitle: "Waarde toevoegen en scrum"
+htmltitle: "Werkwijze | Studio Fonkel"
 subtitle: "Het budget zo inzetten dat we maximaal waarde toevoegen aan je organiatie. Dat is onze doelstelling"
 author: Theo
 metadescription: "Het budget zo inzetten dat we maximaal waarde toevoegen aan je organiatie. Dat is onze doelstelling"
