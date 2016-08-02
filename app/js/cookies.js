@@ -135,7 +135,7 @@ $(document).ready(function() {
         $('#cookie-accept').on('click', function (e) {
             e.preventDefault();
             $('#cookie-wrapper').addClass('accepted');
-            $.cookie('allowCookies', 1, { expires: 7, path: '/' });
+            $.cookie('allowCookies', 1, { expires: 30, path: '/' });
         });
     }
 });
