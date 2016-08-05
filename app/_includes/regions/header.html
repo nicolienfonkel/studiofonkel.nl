@@ -20,7 +20,7 @@
 					<a class="menu-link" href="/">Home</a>
 				{% endif %}
 
-				{% assign sorted_pages = site.collections.pages.docs | sort: 'menu' %}
+				{% assign sorted_pages = site.pages | contains: 'menu', 0, '>' | sort: 'menu' %}
 
 				{% for page_item in sorted_pages %}
 					{% if page_item.menu %}
