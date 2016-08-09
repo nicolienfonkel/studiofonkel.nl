@@ -13,6 +13,8 @@ teaser-text: "Klant kan zelf websites maken vanuit door ons gemaakte hoofdsite. 
 ---
 Het afgelopen jaar stonden onze blogs in het teken van communicatie, identiteit en merkverhalen. Hoog tijd om de technische jongens van ons kantoor eens aan het woord te laten. Gaat het ontwikkelaarsjargon je de pet te boven? [Hier](/cases/nbvt/) vind je de beschrijving van de case in ‘normaal’ Nederlands.
 
+### Microsites
+
 Voor een van onze klanten hebben we een bijzonder systeem gebouwd. Hiermee kunnen ze zelf websites maken met de bestaande content van de door ons gemaakte Drupal 7 hoofdsite. Dit concept noemen we ‘microsites’. De manier waarop we dit hebben gebouwd is redelijk uniek en zijn we best trots op. Deze blog bestaat grofweg uit drie delen: [functionaliteiten](#functionaliteiten), [techniek](#techniek) en [presentatie](#presentatie).
 
 Wil je vast een microsite bekijken? [Kozijnen van hout](http://kozijnenvanhout.nl/voordelen/) is een microsite.
