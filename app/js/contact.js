@@ -4,7 +4,7 @@ $(document).ready(function() {
     });
 
 
-    $('#contact-form').emailMandrill({
+    $('#contact-form, #vacancy-form').emailMandrill({
         mandrillKey: 'kg4HpxglJL9JPtqhAh6O5g',
         wait: function () {
             $('body').addClass('mandrill-waiting');

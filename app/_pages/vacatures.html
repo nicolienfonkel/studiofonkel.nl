@@ -1,0 +1,14 @@
+---
+layout: page
+title: Vacatures
+subtitle: "Subtitel van pagina..."
+metadescription: "Metadescription"
+---
+
+<div class="cases-overview">
+	{% assign sorted_vacancies = site.vacancies | sort: 'date' %}
+
+	{% for vacancy in sorted_vacancies reversed %}
+		{% include teaser/vacancy.html %}
+	{% endfor %}
+</div>

@@ -54,6 +54,12 @@ collections:
     permalink: /blogs/:path/
     front: true
     collection: blog
+  vacancies:
+    output: true
+    sort_by: date
+    permalink: /vacatures/:path/
+    front: true
+    collection: vacancies
   pages:
     output: true
     sort_by: title
@@ -90,6 +96,12 @@ defaults:
     values:
       layout: page
       collection: pages
+  - scope:
+      path: ""
+      type: vacancies
+    values:
+      layout: vacancy
+      collection: vacancies
 
 sass:
  sass_dir: _sass

@@ -1,0 +1,20 @@
+{% if document %}
+	{% assign vacancy = document %}
+{% endif %}
+
+<a class="vacancy teaser {{ extra_class }}" href="{{ vacancy.url | prepend: site.baseurl }}" style="background-image: url('{{ vacancy.header-img }}'); background-position: {{ vacancy.background-position }};">
+	<div class="inner-wrapper">
+        {% if vacancy.subtitle %}
+		<h2 class="header-text">{{ vacancy.subtitle }}</h2>
+        {% else %}
+        <h2 class="header-text">{{ vacancy.title }}</h2>
+        {% endif %}
+
+		<div class="link">
+			<span>{{ vacancy.title }}</span>
+			<div class="arrow-long">
+				{% include svg/arrow.svg %}
+			</div>
+		</div>
+	</div>
+</a>

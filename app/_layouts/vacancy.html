@@ -1,0 +1,19 @@
+---
+layout: html
+---
+<div class="site">
+	<div class="site-inner">
+
+		{% include regions/content-header.html %}
+
+		{% if page.path %}
+			{% assign extension_splitted = page.path | split: '.' %}
+			{% assign extension = extension_splitted | last %}
+		{% endif %}
+
+		<div class="{{ extension }}-wrapper" itemscope="" itemtype="https://schema.org/WebPage">
+            <meta itemprop="mainContentOfPage" content="https://studiofonkel.nl{{ page.url }}" />
+            <div class="text">{{ content }}</div>
+        </div>
+  	</div>
+</div>
