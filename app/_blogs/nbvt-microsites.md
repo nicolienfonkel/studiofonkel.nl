@@ -24,7 +24,8 @@ Wil je vast een microsite bekijken? [Kozijnen van hout](http://kozijnenvanhout.n
 De Nederlandse branchevereniging voor de Timmerindustrie [(NbvT)](https://nbvt.nl) kwam bij ons met de vraag om een kleine thema website. In het gesprek werd duidelijk dat er in de toekomst meer van dit soort kleine thema websites gebouwd moesten worden. Vanuit de techniek gedacht kwamen we met de suggestie om websites te genereren met Drupal. De NbvT zag ons idee wel zitten, dus begonnen we met uitdenken.
 
 Iedere website zou bestaan uit optionele componenten. We voorzagen de volgende onderdelen: een nieuws sectie, downloads, een ledenzoeker, een inspiratie pagina en blogs. Verder nog wat kleine dingen zoals een twitterblokje en standaard pagina’s. Daarnaast leek het ons tof om de kleuren en de lettertypes instelbaar te maken.
-Beheer
+
+## Beheer
 
 De microsites zijn eenvoudig te beheren. Per artikel of nieuwsitem kun je aangeven op welke websites het gepubliceerd moet worden. Ook kun je op de microsite node van alles instellen met betrekking tot de weergave en functionaliteit. Denk aan een twitter-gebruikersnaam tot lettertypes en kleuren. Ook is het mogelijk om Google Analytics te koppelen of Disqus (een comment systeem).
 
