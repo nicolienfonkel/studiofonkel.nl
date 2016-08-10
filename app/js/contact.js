@@ -25,9 +25,6 @@ $(document).ready(function() {
                 fromNameField: 'name',
                 phoneNumber: 'phone',
                 replyToField: 'email'
-                // fromName: 'John Smith',
-                // toField: '',
-                // replyTo: 'mail@domain.com',
             }
         ]
     });
