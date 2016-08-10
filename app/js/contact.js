@@ -14,7 +14,7 @@ $(document).ready(function() {
             $('body').addClass('mandrill-success');
             $('#contact-form button').text('Verzonden');
             setTimeout(function () {
-                window.location.replace("http://studiofonkel.nl/bedankt-voor-je-bericht");
+                window.location.replace("/bedankt-voor-je-bericht");
             }, 500);
         },
         emails: [
@@ -43,20 +43,17 @@ $(document).ready(function() {
             $('body').addClass('mandrill-success');
             $('#contact-form button').text('Verzonden');
             setTimeout(function () {
-                window.location.replace("http://studiofonkel.nl/bedankt-voor-je-bericht");
+                window.location.replace("/bedankt-voor-je-bericht");
             }, 500);
         },
         emails: [
             {
                 from: 'website@studiofonkel.nl',
                 subject: 'Sollicitatie via studiofonkel.nl',
-                to: ['info@studiofonkel.nl'],
+                to: ['ewout@studiofonkel.nl'],
                 fromNameField: 'name',
                 phoneNumber: 'phone',
                 replyToField: 'email'
-                // fromName: 'John Smith',
-                // toField: '',
-                // replyTo: 'mail@domain.com',
             }
         ]
     });
