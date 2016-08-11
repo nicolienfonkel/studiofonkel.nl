@@ -35,7 +35,7 @@ __Wat verwachten wij van jou?__
 - Technische problemen zie je als kansen om iets moois te maken
 - Object georiënteerd coderen is een must
 
-- Wanneer je de MBTI-test hebt gedaan zijn wij in verband met onze teamsamenstelling opzoek naar iemand met een S en een J in zijn profiel. (Niet gedaan? <a href="https://www.16personalities.com/nl/persoonlijkheidstest">Test het hier.</a>)
+- Wanneer je de MBTI-test hebt gedaan zijn wij in verband met onze teamsamenstelling opzoek naar iemand met een S en een J in zijn profiel. (Niet gedaan? <a href="https://www.16personalities.com/nl/persoonlijkheidstest" target="_blank">Test het hier.</a>)
 
 
 __Voldoe jij aan bovenstaande beschrijving en pas je binnen ons team? We drinken graag en kop koffie met je!__
