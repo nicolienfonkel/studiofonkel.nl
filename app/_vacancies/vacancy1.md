@@ -35,12 +35,13 @@ __Wat verwachten wij van jou?__
 - Technische problemen zie je als kansen om iets moois te maken
 - Object georiënteerd coderen is een must
 
-- Wanneer je de MBTI-test hebt gedaan zijn wij in verband met onze teamsamenstelling opzoek naar iemand met een S en een J in zijn profiel. (Niet gedaan? <a href="https://www.16personalities.com/nl/persoonlijkheidstest" target="_blank">Test het hier.</a>)
+__Wanneer je de MBTI-test hebt gedaan:__
+Wij zijn in verband met de teamsamenstelling opzoek naar iemand met een S en een J in zijn profiel. (Niet gedaan? <a href="https://www.16personalities.com/nl/persoonlijkheidstest" target="_blank">Test het hier.</a>)
 
 
-__Voldoe jij aan bovenstaande beschrijving en pas je binnen ons team? We drinken graag en kop koffie met je!__
+__Voldoe jij aan bovenstaande beschrijving en pas je binnen ons team? We drinken graag een kop koffie met je!__
 
-Neem contact met ons op: floris@studiofonkel.nl / 033 – 737 0019 / studiofonkel.nl
+Neem contact met ons op: floris@studiofonkel.nl / 033 – 737 0019 / 06 - 4272 4140 
 
 Wij zijn Studio Fonkel. Noem ons een 'webdesignbureau plus'. 'Webdesign' omdat we websites ontwerpen en bouwen. 'Plus' omdat we meer doen dan dat. We helpen klanten bij hun positionering. Samen zoeken we naar het onderscheidende verhaal dat naadloos aansluit bij de identiteit van de organisatie. Om van hieruit, met de juiste middelen, een passende huisstijl en een heldere boodschap, de doelgroep van onze klant in beweging te brengen.
 
