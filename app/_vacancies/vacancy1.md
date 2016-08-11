@@ -2,6 +2,8 @@
 title:  "Developer"
 subtitle: "Medior / senior"
 metatitle: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
+htmltitle: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
+ogtitle: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
 metadescription: "Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken?"
 date: 2014-04-18 10:27:01
 teaser-text: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
