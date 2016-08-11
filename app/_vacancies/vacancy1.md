@@ -1,12 +1,45 @@
 ---
-title:  "Backend developer"
-subtitle: "Senior Backend Developer"
-metadescription: "Metadescription"
+title:  "Developer"
+subtitle: "Medior / senior"
+metatitle: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
+metadescription: "Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken?"
 date: 2014-04-18 10:27:01
-header-img: /img/_MG_2018.jpg
-background-position: 50% 50%
+teaser-text: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
+front: true
+header-img: /img/vacature.jpg
+og-image: "og-vacature.jpg"
+background-position: 30% 50%
 ---
+__Studio Fonkel zoekt:__
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id dolor eget nunc suscipit viverra ut at sem. Nunc sit amet interdum metus. Quisque et justo sit amet nulla dictum porttitor. Vestibulum a rutrum velit. Praesent quis tellus tincidunt, viverra lacus et, rhoncus velit. Donec tristique at turpis ac scelerisque. Praesent quam enim, suscipit eu ornare ut, porta vitae justo. Quisque imperdiet odio sed dolor consequat, non bibendum nunc feugiat. Duis tempus sem id turpis rhoncus, id placerat ex hendrerit. Aliquam erat volutpat. Praesent eleifend tempor urna, facilisis consectetur mauris. In hac habitasse platea dictumst. Sed non justo ac turpis efficitur aliquam.
+### Medior / senior ontwikkelaar
 
-Ut interdum odio vitae ipsum lacinia efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin non neque nisi. Praesent sit amet molestie sem, nec elementum est. In bibendum aliquam sollicitudin. Maecenas varius diam quam, vitae condimentum est viverra nec. Etiam lobortis, libero blandit egestas molestie, orci felis fringilla arcu, id molestie felis erat sit amet eros. Suspendisse scelerisque metus at consequat porta. Quisque et venenatis lorem, eget eleifend ex. Suspendisse vulputate nunc id purus feugiat accumsan. Vivamus sed dapibus ante. Vivamus efficitur metus convallis turpis suscipit volutpat. Proin semper est at pretium suscipit. Curabitur ac sem porta, commodo libero et, placerat ante.
+__Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken?__
+
+* Uitdagende projecten
+* Goede, open sfeer in het team
+* Goede samenwerking dankzij ontwikkelaars met gevoel van esthetiek en ontwerpers met gevoel voor techniek
+* Fijn kantoor om ’s avonds samen te klussen aan eigen projecten
+* Lekkere lunches (gratis)
+* Samen streven naar hoge kwaliteit
+
+Verder: Drupal, visie, goede koffie & gezelligheid, vakidioten, betrokken, flexibel
+
+__Wat verwachten wij van jou?__
+
+- Kennis van PHP, Drupal, Javascript, SASS/SCSS en HTML
+- Je bent communicatief vaardig en sociaal ingesteld
+- Je gaat een stevige technische discussie niet uit de weg
+- Technische problemen zie je als kansen om iets moois te maken
+- Object georiënteerd coderen is een must
+
+- Wanneer je de MBTI-test hebt gedaan zijn wij in verband met onze teamsamenstelling opzoek naar iemand met een S en een J in zijn profiel. (Niet gedaan? <a href="https://www.16personalities.com/nl/persoonlijkheidstest">Test het hier.</a>)
+
+
+__Voldoe jij aan bovenstaande beschrijving en pas je binnen ons team? We drinken graag en kop koffie met je!__
+
+Neem contact met ons op: floris@studiofonkel.nl / 033 – 737 0019 / studiofonkel.nl
+
+Wij zijn Studio Fonkel. Noem ons een 'webdesignbureau plus'. 'Webdesign' omdat we websites ontwerpen en bouwen. 'Plus' omdat we meer doen dan dat. We helpen klanten bij hun positionering. Samen zoeken we naar het onderscheidende verhaal dat naadloos aansluit bij de identiteit van de organisatie. Om van hieruit, met de juiste middelen, een passende huisstijl en een heldere boodschap, de doelgroep van onze klant in beweging te brengen.
+
+Recruiters verwijzen we graag door naar de volgende pagina: <a href="http://flikkertochop.nl">Klik hier</a>

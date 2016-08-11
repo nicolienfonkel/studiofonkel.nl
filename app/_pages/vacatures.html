@@ -9,6 +9,6 @@ metadescription: "Metadescription"
 	{% assign sorted_vacancies = site.vacancies | sort: 'date' %}
 
 	{% for vacancy in sorted_vacancies reversed %}
-		{% include teaser/vacancy.html %}
+		{% include teaser/vacancies.html %}
 	{% endfor %}
 </div>

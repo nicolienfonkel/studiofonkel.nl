@@ -28,31 +28,4 @@ $(document).ready(function() {
             }
         ]
     });
-
-    $('#vacancy-form').emailMandrill({
-        mandrillKey: 'kg4HpxglJL9JPtqhAh6O5g',
-        wait: function () {
-            $('body').addClass('mandrill-waiting');
-            $('#contact-form button').text('Verzenden');
-        },
-        success: function () {
-            $('body').removeClass('mandrill-waiting');
-            $('body').addClass('mandrill-success');
-            $('#contact-form button').text('Verzonden');
-            setTimeout(function () {
-                window.location.replace("/bedankt-voor-je-bericht");
-            }, 500);
-        },
-        emails: [
-            {
-                from: 'website@studiofonkel.nl',
-                subject: 'Sollicitatie via studiofonkel.nl',
-                to: ['ewout@studiofonkel.nl'],
-                fromNameField: 'name',
-                phoneNumber: 'phone',
-                replyToField: 'email'
-            }
-        ]
-    });
-
 });
