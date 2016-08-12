@@ -38,7 +38,7 @@ future: true
 show_drafts: true
 
 # Markdown library
-markdown: redcarpet
+markdown: kramdown
 #   extensions: ['fenced_code_blocks', 'smart']
 
 highlighter: false
