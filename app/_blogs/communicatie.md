@@ -22,7 +22,7 @@ Toch gaat het hier nog weleens mis.
 
 2. Bedrijven slagen er niet in hun identiteit te vertalen naar consequente acties en communicatie.
 
-###1) Wie ben je?
+### 1) Wie ben je?
 
 Je weet wat je verkoopt of welke dienst je levert, maar wie ben je eigenlijk? Sommige organisaties worden zo opgeslokt door hun kernactiviteit, de winst en de groei dat ze het ‘wie?’ en het ‘waarom?’ zijn vergeten. Want wie is het eigenlijk die de klant iets biedt? Ben je een onpersoonlijk, ondefinieerbaar bedrijf dat de klant alweer is vergeten zodra je uit beeld bent? Waarom zou die klant juist die relatie met jou willen? En niet met je concurrent?
 
@@ -30,7 +30,7 @@ Je weet wat je verkoopt of welke dienst je levert, maar wie ben je eigenlijk? So
 
 Is het erg als je het antwoord op die vragen niet hebt? Je mist in ieder geval de kans om je klant een herkenbaar gezicht te laten zien. Los van de klant heeft het effect op je interne organisatie. Uit een heldere identiteit vloeit een heldere strategie: ‘Waarom kiezen we voor X? Omdat we X zijn.’ Zelfs als dat op het moment niet de meest logische (lees: winstgevende) keuze lijkt, levert dat op termijn meer op. Ook medewerkers verbinden zich liever aan een organisatie met een duidelijk gezicht. Ze weten waar het bedrijf voor staat, daarom begrijpen ze waarom bepaalde keuzes worden gemaakt. Hoe sterker het verhaal en de eigenheid, hoe sterker medewerkers zich doorgaans met een bedrijf verbonden voelen. Hetzelfde geldt voor je klanten.
 
-###2) Dicht bij jezelf blijven
+### 2) Dicht bij jezelf blijven
 
 Stel, je hebt een duidelijke identiteit. Now what? Een paar tips. Hoe blijf je als bedrijf dicht bij jezelf?
 

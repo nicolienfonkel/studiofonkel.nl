@@ -11,6 +11,8 @@ front: true
 header-img: /img/vacature.jpg
 og-image: "og-vacature.jpg"
 background-position: 30% 50%
+redirect_from:
+  - /vacatures/vacancy1/
 ---
 __Studio Fonkel zoekt:__
 

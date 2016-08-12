@@ -25,7 +25,7 @@ Op de homepagina hebben we gekozen voor kleur in plaats van het standaard wit. D
 
 {% image “/img/tom2.jpg" "Drupal website met geografische kaart" "Geografische kaart afgestemd op de huisstijl" "Drupal website met geografische kaart" %}
 
-###Tandzorg Op Maat
+### Tandzorg Op Maat
 
 Iedere Tandzorg Op Maat-vestiging heeft een eigen URL die onder het hoofddomein valt. Binnen het Drupal CMS kan de beheerder zelf eenvoudig nieuwe websites aanmaken voor nieuwe vestigingen.
 

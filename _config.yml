@@ -109,3 +109,4 @@ sass:
 gems:
   - octopress-autoprefixer
   - jekyll-sitemap
+  - jekyll-redirect-from

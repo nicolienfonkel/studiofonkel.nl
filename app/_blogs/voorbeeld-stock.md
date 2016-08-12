@@ -12,30 +12,30 @@ cta-text: "Hulp nodig van een tekstschrijver, fotograaf of ontwerper? Bel ons ge
 ---
 Alle foto's op deze pagina zijn gedownload vanaf Shutterstock. Vrijwel allemaal stonden ze bij de meest gebruikte foto's als het gaat om termen als 'helpdesk', 'innovatie' en 'duurzaamheid'. Jij weet straks beter.
 
-###Dit is een model, geen medewerker
+### Dit is een model, geen medewerker
 {% image “/img/shutterstock_143681125.jpg" "Ziet jouw helpdeskteam er zo uit?" "Ziet jouw helpdeskteam er zo uit?" "Ziet jouw helpdeskteam er zo uit?" %}
 
 Kies 'echte' mensen. Mensen die eruitzien alsof ze bij jouw bedrijf werken. Geen modellen die een headset op hun hoofd hebben gezet.
 
-###Alleen realistische situaties
+### Alleen realistische situaties
 {% image “/img/shutterstock_67526728.jpg" "Get ready." "" "Get ready." %}
 
-###Vermijd clichés
+### Vermijd clichés
 {% image “/img/shutterstock_297917066.jpg" "Te vaak gebruikt." "Te vaak gebruikt." "Te vaak gebruikt." %}
 
 Als het gaat om duurzaamheid zie je dit plaatje vaak terug: handen met daarin een boom, plantje of wereldbol. Bij innovatie is dat een lamp. Probeer iets origineels - en minder kunstmatigs - te verzinnen.
 
 {% image “/img/shutterstock_136197095.jpg" "Te vaak gebruikt." "" "Te vaak gebruikt." %}
 
-###Liever authentiek dan politiek correct
+### Liever authentiek dan politiek correct
 
 {% image “/img/shutterstock_120183190.jpg" "" "" "" %}
 
-###Kies een echte foto, zonder tekst
+### Kies een echte foto, zonder tekst
 
 {% image “/img/shutterstock_126252029.jpg" "" "" "" %}
 
-###Dit is Ariane
+### Dit is Ariane
 
 {% image “/img/shutterstock_254889043.jpg" "" "" "" %}
 

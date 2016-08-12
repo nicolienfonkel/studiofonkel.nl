@@ -23,7 +23,7 @@ Het gaat er namelijk niet in eerste instantie om wat mooi, handig of ‘in’ is
 
 Stel jezelf liever deze vragen:
 
-###1: Wie zijn we?
+### 1: Wie zijn we?
 
 Wat maakt ons bedrijf aantrekkelijk anders dan de concurrentie? Welke plek willen we innemen in de markt? Hoe zouden we onze persoonlijkheid omschrijven als ons merk een mens was? Hoe communiceert onze merkpersoonlijkheid met onze doelgroep?
 
@@ -39,7 +39,7 @@ Het is nu niet meer zozeer de vraag wat mooi, leuk of logisch lijkt, maar wat he
 
 Vraag je nu het volgende af:
 
-###2: Waarvoor gebruikt je doelgroep je website?
+### 2: Waarvoor gebruikt je doelgroep je website?
 
 Komen ze er om je telefoonnummer op te zoeken of moet de website je bezoeker van je product overtuigen? Wil de bezoeker geïnspireerd raken of vooral geïnformeerd worden?
 

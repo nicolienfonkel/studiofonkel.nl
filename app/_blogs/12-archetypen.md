@@ -9,7 +9,7 @@ author: michiel
 teaser-text: "Archetypen, welke zijn er en waar staan ze voor?"
 ---
 
-###Heerser
+### Heerser
 
 Koning, aristocraat, rechter, politicus, manager
 
@@ -19,7 +19,7 @@ Heersers zijn experts in het balanceren van meerdere stakeholders en het tonen v
 
 Bekende merken: Mercedes, KLM, Nyenrode
 
-###Schepper
+### Schepper
 
 Artiest, uitvinder, vernieuwer, ontwerper, dromer
 
@@ -27,7 +27,7 @@ Schrijvers, ontwerpers, architecten, muzikanten, en zelfs werktuigbouwkundigen -
 
 Bekende merken: Adobe, LEGO, Pinterest
 
-###Onschuldige
+### Onschuldige
 
 Idealist, heilige, optimist, mysticus, traditionalist
 
@@ -37,7 +37,7 @@ Onschuldigen zijn een voorbeeld in hun optimisme. Door vriendelijkheid te prakti
 
 Bekende merken: Coca Cola, Zwitsal, Dove
 
-###Wijze
+### Wijze
 
 Expert, filosoof, onderzoeker, mentor, analyst
 
@@ -49,7 +49,7 @@ Boeken en conferenties zijn de hoogtepunten van een Wijze-cultuur. Ze zullen alt
 
 Bekende merken: IBM, Wikipedia, Harvard
 
-###Ontdekker
+### Ontdekker
 
 Avonturier, pionier, zwerver, Non-conformist, pelgrim
 
@@ -61,7 +61,7 @@ Maar net als een eenzame reiziger, kan de Ontdekker er een gewoonte van maken zi
 
 Bekende merken: Jeep, National Geographic, The North Face
 
-###Magiër
+### Magiër
 
 Visionair, catalyst, innovator, tovenaar, genezer
 
@@ -72,7 +72,7 @@ Magiërs zijn ook meesters in ‘beleving’. Van de details in de verpakking to
 
 Bekende merken: Apple, Disney, Axe
 
-###Rebel
+### Rebel
 
 Revolutionair, wilde man, beeldenstormer, tegenstander, schurk
 
@@ -82,7 +82,7 @@ Maar de Revolutionaire houding schokkend zijn. Hun passie voor het breken van di
 
 Bekende merken: Greenpeace, Harley Davidson, BNN
 
-###Held
+### Held
 
 Krijger, redder, winnaar, team speler
 
@@ -90,7 +90,7 @@ Helden inspireren ons om groter, moediger en sterker zijn. Met discipline en foc
 
 Bekende merken: Nike, BMW, Artsen Zonder Grenzen
 
-###Nar
+### Nar
 
 Entertainer, waarheidspreker, provocateur, gedaantewerwisselaar
 
@@ -100,7 +100,7 @@ Soms echter, zijn grappen niet grappig. Lachen is niet altijd passend en de ‘g
 
 Bekende merken: Walibi, MailChimp, Ben & Jerry's
 
-###Bondgenoot – de Gewone Man
+### Bondgenoot – de Gewone Man
 
 Jan met de pet, de realist, de goeie buur, de meerderheid, de democraat
 
@@ -108,7 +108,7 @@ De gewone man is echt, eerlijk en werkt hard. Allen voor één en één voor all
 
 Bekende merken: Ikea, Opel, Hema
 
-###Minnaar
+### Minnaar
 
 Levensgenieter, vertrouweling, verbinder, estheet
 
@@ -118,7 +118,7 @@ Verleiders staan niet per se gelijk aan romantiek, noch zijn ze uitsluitend vrou
 
 Bekende merken: Dior, Côte d’Or, Calvin Klein
 
-###Zorggever
+### Zorggever
 
 Beschermer, heilige, moeder, onbaatzuchtige, helper
 

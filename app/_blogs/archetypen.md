@@ -16,7 +16,7 @@ Eén van de manieren om dat te doen, is het gebruikmaken van de archetypen van J
 
 Succesvolle merken staan ergens voor. Er zit een symboliek achter, een wereld die groter is dan het product. Het verhelderen van een archetype geeft je bedrijf een extra laag, een psychologische toevoeging waardoor het merk sterker wordt.
 
-###Archetypen, wat zijn het?
+### Archetypen, wat zijn het?
 Archetypen zijn ontwikkeld door Carl Gustav Jung. Het zijn een soort psychologische oermodellen; patronen en symbolen die voorkomen in ons onderbewuste. Ze komen tot uitdrukking in onder andere culturen, verhalen en films. De archetypen de Moeder, de Held of de Ontdekkingsreiziger zijn hiervan enkele voorbeelden. De Held zien we bijvoorbeeld in films zoals The Gladiator en Braveheart. In de Star Wars serie is Yoda het archetype van de Wijze.
 
 Er zijn meerdere modellen in omloop, maar de meest bruikbare voor het bepalen van je merkpersoonlijkheid is het model van 12 archetypen.
@@ -42,8 +42,8 @@ Door te kiezen voor één specifiek archetype creëert het bedrijf een cultuur, 
 
 Het archetype dat de persoonlijkheid van je bedrijf beschrijft, ademt overal doorheen. Het trekt bepaalde mensen, het beïnvloedt de toon van je communicatie, de manier waarop promotie wordt gedaan, de keuze voor nieuwe diensten of producten, etc.
 
-###Aan de slag
+### Aan de slag
 Hoe bepaal je welk archetype de kern beschrijft van jouw bedrijf? Hiervoor moet je naar de essentie. Wat vind je als bedrijf belangrijk? Welke waarden representeren je product of dienst? Wat geef je je klanten? Ga bij het beantwoorden van die vraag verder dan het product of de dienst. Bedenk welk gevoel het product of de dienst de gebruikers geeft; bijvoorbeeld dat ze alles goed voor elkaar hebben, dat ze succesvol of sterk zijn, dat er voor hen gezorgd wordt, dat ze erbij horen, dat ze aantrekkelijk zijn, of dat alles goed komt. Anders gezegd, waar help je ze mee? Boven zichzelf uit te stijgen, dingen te begrijpen, de wereld en zichtzelf te ontdekken, tegen de stroom in te zwemmen? Vul maar in.
 
-###Ten slotte
+### Ten slotte
 Nu je beter zicht hebt op je identiteit en welke behoefte je aanspreekt in je klanten; richt je daar op in je communicatie. Focus en wees consequent. De heldere merkpersoonlijkheid die je neerzet, merken mensen niet in één dag op. Je bouwt je imago over een langere tijd op. Bouw zorgvuldig.
