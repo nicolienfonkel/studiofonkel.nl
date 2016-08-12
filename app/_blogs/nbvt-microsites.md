@@ -4,7 +4,7 @@ htmltitle:  "Microsites met Jekyll en Drupal als content hub"
 metatitle: "Microsites met Jekyll en Drupal als content hub"
 metadescription: "Klant kan zelf websites maken vanuit door ons gemaakte hoofdsite."
 header-img: "/images/microsites.jpg"
-og-image: "microsites.jpg"
+og-image: "microsites-og.jpg"
 date:   2016-06-13 10:27:01
 author: daniel
 front: true
@@ -46,14 +46,14 @@ Vanuit dit hoofdidee vloeien een aantal hoofdcomponenten: [Het beheer in Drupal]
 Een aantal dingen waren belangrijk: menubeheer, SEO waarde behouden door middel van het zetten van de canonical en flexibiliteit.
 Om te beginnen hebben we een content type ‘microsite’ aangemaakt met een hele reeks velden. Ieder component kan een veld bevatten. Die hebben we met [fieldgroup](https://www.drupal.org/project/field_group) netjes in tabjes gezet.
 
-Voor het kiezen van lettertypes gebruiken we de google fonts API die we gekoppeld hebben aan een veld via het aanpassen van de allowed_values_function callback in de base definitie van het veld. 
+Voor het kiezen van lettertypes gebruiken we de google fonts API die we gekoppeld hebben aan een veld via het aanpassen van de allowed_values_function callback in de base definitie van het veld.
 
 Zie een [artikel van Phase2](https://www.phase2technology.com/blog/setting-the-allowed-values-function-property-on-text-fields/).
 We hebben hook_html_head_alter gebruikt om de canonical aan de hand van de geselecteerde site (waaronder de hoofdsite) te zetten.
 
 ### De API laag
 
-Voor de API laag hebben we [JSE](https://www.drupal.org/sandbox/danielbeeke/2713857) geschreven. Deze module is instelbaar via een view mode (JSE) in de fields ui (manage display). Voor het gebruik van deze module is [Display Suite](https://www.drupal.org/project/ds) vereist. Je kunt dus er dus simpelweg een aantal velden inslepen en die zullen dan via het label gerenderd worden in de JSON output van de API. 
+Voor de API laag hebben we [JSE](https://www.drupal.org/sandbox/danielbeeke/2713857) geschreven. Deze module is instelbaar via een view mode (JSE) in de fields ui (manage display). Voor het gebruik van deze module is [Display Suite](https://www.drupal.org/project/ds) vereist. Je kunt dus er dus simpelweg een aantal velden inslepen en die zullen dan via het label gerenderd worden in de JSON output van de API.
 
 Het selecteren van de data gebeurt via een hook en een function callback. Het resultaat is een endpoint met een of meerdere verschillende entiteiten, netjes gerendered als JSON.
 
