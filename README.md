@@ -139,3 +139,4 @@ Je kan ook parameters meegeven aan de mailto link. Dit doe je door data-attribut
 
 Deze notatie zal d.m.v. jQuery worden omgevormd tot het volgende:
 <a href="mailto:name@domain.nl?subject=Onderwerp van de e-mail">name@domain.nl</a>
+
