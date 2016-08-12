@@ -46,5 +46,3 @@ __Voldoe jij aan bovenstaande beschrijving en pas je binnen ons team? We drinken
 Neem contact met ons op: floris@studiofonkel.nl / 033 – 737 0019 / 06 - 4272 4140
 
 Wij zijn Studio Fonkel. Noem ons een 'webdesignbureau plus'. 'Webdesign' omdat we websites ontwerpen en bouwen. 'Plus' omdat we meer doen dan dat. We helpen klanten bij hun positionering. Samen zoeken we naar het onderscheidende verhaal dat naadloos aansluit bij de identiteit van de organisatie. Om van hieruit, met de juiste middelen, een passende huisstijl en een heldere boodschap, de doelgroep van onze klant in beweging te brengen.
-
-Recruiters verwijzen we graag door naar de volgende pagina: <a href="http://flikkertochop.nl">Klik hier</a>
