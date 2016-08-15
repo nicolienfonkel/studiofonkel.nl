@@ -11,35 +11,30 @@
 <div class="gridster">
     <ul>
 
-        {% for item in site.data.front.items %}
+        {% for document in site.documents %}
+            {% if document.front %}
 
-            {% for document in site.documents %}
-                {% if document.url == item.url and document.published and document.front %}
-                <li data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
-                    {% include teaser/{{ document.collection }}.html %}
-                </li>
-                {% endif %}
-            {% endfor %}
-        {% endfor %}
-
-        {% for document in site.documents  %}
-            {% if site.collections[document.collection].front %}
-                {% assign current_document_is_already_on_front = false %}
+                {% assign document_already_on_front = 'false' %}
 
                 {% for item in site.data.front.items %}
-                    {% if document.url == item.url %}
-                        {% assign current_document_is_already_on_front = true %}
-                    {% endif %}
-                {% endfor %}
+                    {% if item.url == document.url %}
 
-                {% unless current_document_is_already_on_front %}
-                    {% if document.published and document.front %}
-                        <li data-row="1" data-col="1" data-sizex="1" data-sizey="1" data-url="{{ document.url }}">
+                        {% assign document_already_on_front = 'true' %}
+
+                        <li data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
                             {% include teaser/{{ document.collection }}.html %}
                         </li>
                     {% endif %}
-                {% endunless %}
+                {% endfor %}
+
+                {% if document_already_on_front == 'false' %}
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1" data-url="{{ document.url }}">
+                        {% include teaser/{{ document.collection }}.html %}
+                    </li>
+                {% endif %}
+
             {% endif %}
         {% endfor %}
+
     </ul>
 </div>
