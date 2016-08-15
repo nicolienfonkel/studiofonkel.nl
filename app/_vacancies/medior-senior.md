@@ -1,5 +1,5 @@
 ---
-title:  "Developer"
+title:  "Drupal Developer"
 subtitle: "Medior / senior"
 metatitle: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
 htmltitle: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
@@ -16,16 +16,17 @@ redirect_from:
 ---
 __Studio Fonkel zoekt:__
 
-### Medior / senior ontwikkelaar
+### Medior / senior Drupal ontwikkelaar
 
 __Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken?__
 
-* Uitdagende projecten
+* Uitdagende projecten met veel eigen verantwoordelijkheid
 * Goede, open sfeer in het team
 * Goede samenwerking dankzij ontwikkelaars met gevoel van esthetiek en ontwerpers met gevoel voor techniek
 * Fijn kantoor om ’s avonds samen te klussen aan eigen projecten
 * Lekkere lunches (gratis)
 * Samen streven naar hoge kwaliteit
+* Altijd ruimte voor vernieuwende ideeën
 
 Verder: Drupal, visie, goede koffie & gezelligheid, vakidioten, betrokken, flexibel
 
@@ -36,12 +37,10 @@ __Wat verwachten wij van jou?__
 - Je gaat een stevige technische discussie niet uit de weg
 - Technische problemen zie je als kansen om iets moois te maken
 - Object georiënteerd coderen is een must
-
-__Wanneer je de MBTI-test hebt gedaan:__
-Wij zijn in verband met de teamsamenstelling bij voorkeur opzoek naar iemand met een S en een J in zijn profiel. (Niet gedaan? <a href="https://www.16personalities.com/nl/persoonlijkheidstest" target="_blank">Test het hier.</a>)
+* Je weet wat mooi is, zowel qua code als visueel
 
 
-__Voldoe jij aan bovenstaande beschrijving en pas je binnen ons team? We drinken graag een kop koffie met je!__
+__Voldoe jij aan bovenstaande beschrijving? We drinken graag een kop koffie met je!__
 
 Neem contact met ons op: floris@studiofonkel.nl / 033 – 737 0019 / 06 - 4272 4140
 
