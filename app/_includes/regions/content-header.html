@@ -13,7 +13,7 @@
 
 {% else %}
     {% if page.date %}
-        <div class="page-date" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | localize:"%d %B %Y" }}</div>
+        <!--<div class="page-date" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | localize:"%d %B %Y" }}</div>-->
         <meta itemprop="datePublished" content="{{ page.date }}" />
         <meta itemprop="dateModified" content="{{ page.date }}" />
     {% endif %}
