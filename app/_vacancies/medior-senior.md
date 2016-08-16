@@ -1,6 +1,6 @@
 ---
 title:  "Drupal Developer"
-subtitle: "Medior / senior"
+subtitle: "Vacature Medior / senior"
 metatitle: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
 htmltitle: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
 ogtitle: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
@@ -16,7 +16,7 @@ redirect_from:
 ---
 __Studio Fonkel zoekt:__
 
-### Medior / senior Drupal ontwikkelaar
+### Medior / senior Drupal - PHP ontwikkelaar
 
 __Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken?__
 
