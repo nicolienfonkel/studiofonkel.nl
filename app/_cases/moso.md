@@ -1,10 +1,10 @@
 ---
 title:  "Moso Bamboo"
-subtitle: "8-talige website voor MOSO; Europese marktleider in bamboe"
+subtitle: "8-talige Drupal website voor MOSO; Marktleider in bamboe"
 metadescription: "8-talige Drupal website voor MOSO; Europese marktleider in bamboe"
 date: 2015-10-10 10:27:01
 header-img: "/img/moso.jpg"
-header-img-alt: "Green Girafe ALT"
+header-img-alt: "Moso Drupal 8 website"
 front: true
 
 categories:
@@ -14,7 +14,7 @@ categories:
 
 ---
 
-MOSO wilde graag een nieuwe website die beter past bij hun nieuwe marktpositie. We zijn begonnen met een strategisch traject in samenwerking met [Narritivity] (http://www.narrativity-group.com/). Deze voorbereiding leverde een helder beeld op van de identiteit en het merk MOSO. Een prettig uitgangspunt voor het vervolgtraject. 
+MOSO International wilde graag een nieuwe website die beter past bij hun nieuwe marktpositie. We zijn begonnen met een strategisch traject in samenwerking met [Narritivity] (http://www.narrativity-group.com/). Deze voorbereiding leverde een helder beeld op van de identiteit en het merk MOSO. Een prettig uitgangspunt voor het vervolgtraject.
 
 {% include case-tags.html %}
 
