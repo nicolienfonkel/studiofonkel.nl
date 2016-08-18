@@ -28,6 +28,7 @@ __Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken?__
 * Lekkere lunches (gratis)
 * Samen streven naar hoge kwaliteit
 * Altijd ruimte voor vernieuwende ideeën
+* Mogelijkheden om door te groeien
 
 Verder: Drupal, visie, goede koffie & gezelligheid, vakidioten, betrokken, flexibel
 

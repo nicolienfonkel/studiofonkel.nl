@@ -4,7 +4,7 @@ subtitle: "Vacature"
 metatitle: "Studio Fonkel zoekt Junior developer met gevoel voor esthetiek"
 htmltitle: "Studio Fonkel zoekt Junior developer met gevoel voor esthetiek"
 ogtitle: "Studio Fonkel zoekt Junior Drupal developer met gevoel voor esthetiek"
-metadescription: "Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken? En waarom zou jij bij ons moeten solliciteren?"
+metadescription: "Als Junior Drupal developer krijg je bij ons de mogelijkheden om door te groeien tot een keigoeie programmeur"
 date: 2014-04-18 10:27:01
 teaser-text: "Studio Fonkel zoekt Junior developer met gevoel voor esthetiek"
 header-img: /img/vacature.jpg
@@ -25,6 +25,7 @@ __Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken?__
 * Lekkere lunches (gratis)
 * Samen streven naar hoge kwaliteit
 * Altijd ruimte voor vernieuwende ideeën
+* Mogelijkheden om door te groeien
 
 Verder: Drupal, visie, goede koffie & gezelligheid, vakidioten, betrokken, flexibel
 
@@ -37,6 +38,7 @@ __Wat verwachten wij van jou?__
 * Object georiënteerd coderen is een pré
 * Je wilt graag mooi werk opleveren, zowel qua code als visueel
 
+__Als Junior Drupal developer krijg je bij ons de mogelijkheden om door te groeien tot een keigoeie programmeur__
 
 <div class="call-to-action">
   <h5 class="cta-text">{{ page.cta-text }}</h5>

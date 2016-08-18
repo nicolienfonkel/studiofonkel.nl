@@ -3,8 +3,8 @@ title:  "Medior Drupal Developer"
 subtitle: "Vacature"
 metatitle: "Studio Fonkel zoekt Medior developer met gevoel voor esthetiek"
 htmltitle: "Studio Fonkel zoekt Medior developer met gevoel voor esthetiek"
-ogtitle: "Studio Fonkel zoekt Mediordeveloper met gevoel voor esthetiek"
-metadescription: "Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken? En waarom zou jij bij ons moeten solliciteren?"
+ogtitle: "Studio Fonkel zoekt Medior developer met gevoel voor esthetiek"
+metadescription: "Je wilt graag mooi werk opleveren, zowel qua code als visueel? Dan zoeken we jou!"
 date: 2014-04-18 10:27:01
 teaser-text: "Studio Fonkel zoekt Medior developer met gevoel voor esthetiek"
 header-img: /img/vacature.jpg
@@ -25,6 +25,7 @@ __Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken?__
 * Lekkere lunches (gratis)
 * Samen streven naar hoge kwaliteit
 * Altijd ruimte voor vernieuwende ideeën
+* Mogelijkheden om door te groeien
 
 Verder: Drupal, visie, goede koffie & gezelligheid, vakidioten, betrokken, flexibel
 
