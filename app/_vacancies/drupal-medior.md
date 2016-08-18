@@ -1,22 +1,20 @@
 ---
 title:  "Drupal Developer"
-subtitle: "Vacature Medior / senior"
-metatitle: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
-htmltitle: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
-ogtitle: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
-metadescription: "Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken?"
+subtitle: "Vacature Medior"
+metatitle: "Studio Fonkel zoekt Medior developer met gevoel voor esthetiek"
+htmltitle: "Studio Fonkel zoekt Medior developer met gevoel voor esthetiek"
+ogtitle: "Studio Fonkel zoekt Mediordeveloper met gevoel voor esthetiek"
+metadescription: "Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken? En waarom zou jij bij ons moeten solliciteren?"
 date: 2014-04-18 10:27:01
-teaser-text: "Studio Fonkel zoekt developer met gevoel voor esthetiek"
+teaser-text: "Studio Fonkel zoekt Medior developer met gevoel voor esthetiek"
 front: true
 header-img: /img/vacature.jpg
 og-image: "og-vacature.jpg"
 background-position: 30% 50%
-redirect_from:
-  - /vacatures/vacancy1/
 ---
 __Studio Fonkel zoekt:__
 
-### Medior / senior Drupal - PHP ontwikkelaar
+### Medior Drupal - PHP ontwikkelaar
 
 __Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken?__
 
@@ -32,12 +30,12 @@ Verder: Drupal, visie, goede koffie & gezelligheid, vakidioten, betrokken, flexi
 
 __Wat verwachten wij van jou?__
 
-- Kennis van PHP, Drupal, Javascript, SASS/SCSS en HTML
+- Kennis van PHP, Drupal, Javascript, SASS/SCSS en HTML (3+ jaar ervaring)
 - Je bent communicatief vaardig en sociaal ingesteld
 - Je gaat een stevige technische discussie niet uit de weg
 - Technische problemen zie je als kansen om iets moois te maken
-- Object georiënteerd coderen is een must
-* Je weet wat mooi is, zowel qua code als visueel
+- Object georiënteerd coderen is een pré
+* Je wilt graag mooi werk opleveren, zowel qua code als visueel
 
 
 __Voldoe jij aan bovenstaande beschrijving? We drinken graag een kop koffie met je!__

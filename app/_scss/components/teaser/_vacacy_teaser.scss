@@ -1,0 +1,9 @@
+.vacancy.teaser {
+
+  .header-text {
+    color: $grey;
+  }
+  @include breakpoint($tablet) {
+    margin-bottom: 25px !important;
+  }
+}
