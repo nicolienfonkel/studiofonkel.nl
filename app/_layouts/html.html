@@ -2,7 +2,7 @@
 <html lang=”nl” itemscope itemtype="https://schema.org/CreativeWork">
     {% include regions/head.html %}
 
-    <body class="{% if page.url == '/' %}homepage {% endif %} {{ page.url | remove: '/' }}">
+    <body class="{% if page.url == '/' %}homepage {% endif %} {{ page.url | replace: '/', ' ' | strip }}">
 
         {% include regions/header.html %}
 
