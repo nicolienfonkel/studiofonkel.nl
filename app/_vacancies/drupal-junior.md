@@ -13,7 +13,7 @@ background-position: 30% 50%
 ---
 __Studio Fonkel zoekt:__
 
-### Medior Drupal - PHP ontwikkelaar
+### Junior Drupal - PHP ontwikkelaar
 
 __Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken?__
 
