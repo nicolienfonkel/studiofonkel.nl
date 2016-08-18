@@ -34,6 +34,9 @@
     line-height: 30px;
     font-style: normal;
   }
+  .text a {
+    border-bottom: 1px dashed $grey;
+  }
 
   > p,
   .text > p {

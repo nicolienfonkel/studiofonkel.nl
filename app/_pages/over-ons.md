@@ -6,7 +6,6 @@ metadescription: "Wij zijn Studio Fonkel, gewone jongens (en stiekem een paar me
 htmltitle: "Over ons | Studio Fonkel"
 author: Theo
 menu: 5
-front: true
 ---
 
 Wij zijn Studio Fonkel. Noem ons een 'webdesignbureau plus'. 'Webdesign' omdat we websites ontwerpen en bouwen. 'Plus' omdat we meer doen dan dat. We helpen jou bij je positionering. Samen zoeken we naar het onderscheidende verhaal dat naadloos aansluit bij de identiteit van je organisatie. Om van hieruit, met de juiste middelen, een passende huisstijl en een heldere boodschap, je doelgroep te inspireren en in beweging te brengen.

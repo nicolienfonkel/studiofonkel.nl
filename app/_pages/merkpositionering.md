@@ -25,7 +25,7 @@ Op die manier ontwikkelt en communiceert je bedrijf een sterke persoonlijkheid. 
 
 <div class="call-to-action">
   <h5 class="cta-text">{{ page.cta-text }}</h5>
-  <div class="number"><a href="/contact">Neem contact op</a></span></div>
+  <div class="number"><a href="/contact">Neem contact op</a></div>
 </div>
 
 <br/>

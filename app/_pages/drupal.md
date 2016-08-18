@@ -27,7 +27,7 @@ We helpen je graag! Wie zijn ‘wij’? Wij zijn Studio Fonkel. Noem ons een 'we
 
 <div class="call-to-action">
   <h5 class="cta-text">{{ page.cta-text }}</h5>
-  <div class="number"><a href="/contact">Neem contact op</a></span></div>
+  <div class="number"><a href="/contact">Neem contact op</a></div>
 </div>
 ### Drupal projecten:
 <div class="cases-overview">
