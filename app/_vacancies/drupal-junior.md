@@ -1,9 +1,9 @@
 ---
 title:  "Junior Drupal Developer"
 subtitle: "Vacature"
-metatitle: "Studio Fonkel zoekt Junior developer met gevoel voor esthetiek"
-htmltitle: "Studio Fonkel zoekt Junior developer met gevoel voor esthetiek"
-ogtitle: "Studio Fonkel zoekt Junior Drupal developer met gevoel voor esthetiek"
+metatitle: "Studio Fonkel zoekt Junior Drupal developer"
+htmltitle: "Studio Fonkel zoekt Junior Drupal developer"
+ogtitle: "Studio Fonkel zoekt Junior Drupal developer"
 metadescription: "Als Junior Drupal developer krijg je bij ons de mogelijkheden om door te groeien tot een keigoeie programmeur"
 date: 2014-04-18 10:27:01
 teaser-text: "Studio Fonkel zoekt Junior developer met gevoel voor esthetiek"

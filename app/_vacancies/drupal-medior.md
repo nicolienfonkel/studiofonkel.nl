@@ -1,9 +1,9 @@
 ---
 title:  "Medior Drupal Developer"
 subtitle: "Vacature"
-metatitle: "Studio Fonkel zoekt Medior developer met gevoel voor esthetiek"
-htmltitle: "Studio Fonkel zoekt Medior developer met gevoel voor esthetiek"
-ogtitle: "Studio Fonkel zoekt Medior developer met gevoel voor esthetiek"
+metatitle: "Studio Fonkel zoekt Medior Drupal developer"
+htmltitle: "Studio Fonkel zoekt Medior Drupal developer"
+ogtitle: "Studio Fonkel zoekt Medior Drupal developer"
 metadescription: "Je wilt graag mooi werk opleveren, zowel qua code als visueel? Dan zoeken we jou!"
 date: 2014-04-18 10:27:01
 teaser-text: "Studio Fonkel zoekt Medior developer met gevoel voor esthetiek"
