@@ -4,7 +4,6 @@ subtitle: "Kom je met ons meewerken aan mooie projecten?"
 htmltitle: "Wij zoeken betrokken professionals"
 metatile: "Wij zoeken betrokken professionals"
 metadescription: "Kom je met ons meewerken aan mooie projecten?"
-header-img: /img/vacature.jpg
 og-image: "og-vacature.jpg"
 background-position: 30% 50%
 menu: 5
