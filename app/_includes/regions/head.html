@@ -7,41 +7,35 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     {% if page.metatitle %}
-    <meta name="title" content="{{ page.metatitle }} | Studio Fonkel" />
+      {% assign page_title = page.metatitle | append: ' | Studio Fonkel'  %}
     {% elsif page.htmltitle %}
-    <meta name="title" content="{{ page.htmltitle }} | Studio Fonkel" />
+      {% assign page_title = page.htmltitle | append: ' | Studio Fonkel'  %}
     {% elsif page.title %}
-    <meta name="title" content="{{ page.title }} | Studio Fonkel" />
+      {% assign page_title = page.title | append: ' | Studio Fonkel'  %}
     {% else %}
-    <meta name="title" content="Branding, strategie en Drupal webontwikkeling | Studio Fonkel" />
+      {% assign page_title = 'Branding, strategie en Drupal webontwikkeling | Studio Fonkel'  %}
     {% endif %}
 
-    {% if page.htmltitle %}
-    <title>{{ page.htmltitle }} | Studio Fonkel</title>
-    {% elsif page.title %}
-    <title>{{ page.title }} | Studio Fonkel</title>
-    {% else %}
-    <title>Branding, strategie en Drupal webontwikkeling | Studio Fonkel</title>
-    {% endif %}
+    <title>{{ page_title }}</title>
+    <meta name="title" content="{{ page_title }}" />
+    <meta property="og:title" content="{{ page_title }}" />
+
     <meta name="description" content="{{ page.metadescription }}" />
+
     {% if page.og-image %}
     <meta property="og:image" content="https://studiofonkel.nl/images/{{ page.og-image }}" />
     {% else %}
      <meta property="og:image" content="https://studiofonkel.nl/images/og-image.png" />
     {% endif %}
+
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://studiofonkel.nl{{ page.url }}" />
-
-    {% if page.collection == 'blogs' or page.collection == 'cases' or page.collection == 'vacancies' %}
-    <meta property="og:title" content="{{ page.metatitle }} | Studio Fonkel" />
-    {% else %}
-    <meta property="og:title" content="Studio Fonkel | Branding, strategie en Drupal webontwikkeling" />
-    {% endif %}
 
     <meta property="og:description" content="{{ page.metadescription }}" />
     <meta property="og:site_name" content="Studio Fonkel" />
     <meta property="og:image" content="{{ page.og-image }}" />
-    {% if page.url != '/index.html' %}
+
+    {% if page.url != '/' %}
     <link rel="canonical" href="https://studiofonkel.nl{{ page.url }}">
     {% endif %}
 
@@ -66,7 +60,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="alternate" hreflang="nl" href="https://studiofonkel.nl{{ page.url }}" />
     <meta name="msvalidate.01" content="3285F7831764799190593C41C9EA4C61" />
-
 
     {% include html/font-loader.html %}
 
