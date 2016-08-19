@@ -22,7 +22,9 @@ Vanzelfsprekend bekijken we ook hoe we maximaal aansluiten bij de eigenschappen 
 </div>
 
 <br/>
-### Inspirerende blogs en cases:
+
+## Inspirerende blogs en cases:
+
 <div class="cases-overview">
 	{% assign document = site.blogs | where: 'relative_path': '_blogs/communicatie.md' | first %}
   {% include teaser/blogs.html %}
@@ -37,6 +39,7 @@ Vanzelfsprekend bekijken we ook hoe we maximaal aansluiten bij de eigenschappen 
   {% include teaser/blogs.html %}
 
 </div>
-### Hier zijn we goed in:
+
+## Hier zijn we goed in:
 
 {% convince aanpak %}

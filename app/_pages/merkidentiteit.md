@@ -29,7 +29,8 @@ Zoals gezegd; wij helpen je graag! Wie zijn ‘wij’? Studio Fonkel is een comm
   <div class="number"><a href="/contact">Neem contact op</a></span></div>
 </div>
 
-### Inspirerende blogs en cases:
+## Inspirerende blogs en cases:
+
 <div class="cases-overview">
 	{% assign document = site.blogs | where: 'relative_path': '_blogs/archetypen.md' | first %}
   {% include teaser/blogs.html %}
@@ -44,6 +45,7 @@ Zoals gezegd; wij helpen je graag! Wie zijn ‘wij’? Studio Fonkel is een comm
   {% include teaser/blogs.html %}
 
 </div>
-### Hier zijn we goed in:
+
+## Hier zijn we goed in:
 
 {% convince aanpak %}

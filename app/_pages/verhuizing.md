@@ -13,6 +13,7 @@ Ons nieuwe kantoor bevindt zich tegenover ons vorige pand:
 {% case_tags %}
 
 ### Waarom deze verhuizing?
+
 Drie jaar geleden kwamen we vanuit Barneveld in Amersfoort. Daar huurden we de eerste verdieping van het pand aan de Arnhemseweg 11. Toen we groeiden, verhuisden de technische jongens naar de tweede verdieping. Sinds die tijd is het onze wens om een kantoor te vinden waar er ruimte is voor ons hele team op dezelfde etage. Waarom? We werken multidisciplinair. Dat is een kracht die versterkt wordt wanneer de lijntjes kort zijn. En je letterlijk niet om elkaar heen kunt omdat je in elkaars gezichtsveld zit.
 
 Bijkomend voordeel van deze locatie is dat we de ruimte zelf mochten indelen. Dit kantoor past dan ook veel beter bij ons dan ons oude. Open, transparant en heel basic met een ongepolijst randje.
@@ -36,6 +37,7 @@ Met trots presenteren we: ons nieuwe kantoor!
 {% image “/img/devops.jpg" "De nieuwe ruimte is af" "" "Kantoor interieur" %}
 
 ### Parkeren
+
 Klanten die bij ons op bezoek komen, kunnen parkeren in de parkeergarage onder de Plus supermarkt. Het adres van de parkeergarage is Soeverein 36. Je krijgt van ons een uitrijkaart.
 
 

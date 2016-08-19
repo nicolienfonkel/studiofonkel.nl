@@ -29,7 +29,9 @@ Op die manier ontwikkelt en communiceert je bedrijf een sterke persoonlijkheid. 
 </div>
 
 <br/>
-### Inspirerende blogs en cases:
+
+## Inspirerende blogs en cases:
+
 <div class="cases-overview">
 	{% assign document = site.blogs | where: 'relative_path': '_blogs/communicatie.md' | first %}
   {% include teaser/blogs.html %}
@@ -45,6 +47,6 @@ Op die manier ontwikkelt en communiceert je bedrijf een sterke persoonlijkheid. 
 
 </div>
 
-### Hier zijn we goed in:
+## Hier zijn we goed in:
 
 {% convince aanpak %}

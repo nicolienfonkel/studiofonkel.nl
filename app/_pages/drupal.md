@@ -29,7 +29,9 @@ We helpen je graag! Wie zijn ‘wij’? Wij zijn Studio Fonkel. Noem ons een 'we
   <h5 class="cta-text">{{ page.cta-text }}</h5>
   <div class="number"><a href="/contact">Neem contact op</a></div>
 </div>
-### Drupal projecten:
+
+## Drupal projecten:
+
 <div class="cases-overview">
 	{% assign document = site.cases | where: 'relative_path': '_cases/greengiraffe.md' | first %}
   {% include teaser/cases.html %}
@@ -42,8 +44,9 @@ We helpen je graag! Wie zijn ‘wij’? Wij zijn Studio Fonkel. Noem ons een 'we
 
   {% assign document = site.cases | where: 'relative_path': '_cases/nbvt.md' | first %}
   {% include teaser/cases.html %}
-
 </div>
 <br/>
-### Hier zijn we goed in:
+
+## Hier zijn we goed in:
+
 {% convince aanpak %}
