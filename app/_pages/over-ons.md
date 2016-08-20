@@ -3,7 +3,7 @@ title:  "Waarom Studio Fonkel"
 menu-title: "Over ons"
 subtitle: "Wij zijn Studio Fonkel, gewone jongens (en stiekem een paar meiden) die mooie dingen maken"
 metadescription: "Wij zijn Studio Fonkel, gewone jongens (en stiekem een paar meiden) die mooie dingen maken"
-htmltitle: "Over ons | Studio Fonkel"
+htmltitle: "Over ons"
 author: Theo
 menu: 5
 ---
