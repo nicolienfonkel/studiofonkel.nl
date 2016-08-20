@@ -1,17 +1,17 @@
 ---
-title:  "Drupal Website"
+title:  "Drupal Website laten bouwen"
 htmltitle: "Drupal specialisten uit Amersfoort"
 metatitle: "Drupal specialisten uit Amersfoort."
 ogtitle: "Drupal specialisten uit Amersfoort."
 subtitle: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt"
-metadescription: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt. Binnen ons team hebben we samen ruim 40.000 uur aan ervaring met werken in Drupal."
+metadescription: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt. Binnen ons team hebben we samen ruim 40.000 uur aan ervaring."
 cta-text: "Wil je kennis maken met de Drupal specialisten uit ons team?"
 header-img: "/img/drupal.png"
 ---
-Je wilt een Drupal website? Dan ben je bij ons aan het goede adres! Binnen Studio Fonkel hebben we samen ruim 40.000 uur aan ervaring met werken in Drupal. Inmiddels hebben we ook al een heel aantal websites en applicaties gebouwd in de nieuwste versie van Drupal; Drupal 8.
+__Je wilt een Drupal website? Dan ben je bij ons aan het goede adres! Binnen Studio Fonkel hebben we samen ruim 40.000 uur aan ervaring met werken in Drupal. Inmiddels hebben we ook al een heel aantal websites en applicaties gebouwd in de nieuwste versie Drupal 8.__
 
 ### Meer dan een CMS
-Drupal is meer dan een CMS (Content Management System). Een CMS zorgt ervoor dat je zelf als bedrijf eenvoudig de inhoud van je website kunt aanpassen. Drupal is daarnaast een platform waar wij als webbureau complete websites en webapplicaties op kunnen ontwikkelen.
+<a href="https://drupal.org" target="_blank">Drupal</a> is meer dan een CMS (Content Management System). Een CMS zorgt ervoor dat je zelf als bedrijf eenvoudig de inhoud van je website kunt aanpassen. Drupal is daarnaast een platform waar wij als webbureau complete websites en webapplicaties op kunnen ontwikkelen.
 
 ### Flexibiliteit van Drupal
 We werken graag met Drupal. Met name omdat het een heel flexibel systeem is. We gebruiken de kern van Drupal – Drupal Core, dat is het fundament – en daaromheen zetten we modules. Modules die de Drupal Community heeft geschreven of Custom Modules die we zelf schrijven voor specifieke klantvragen. Zo bouwen we stap voor stap een website op. Met alle bouwstenen die voor onze klant nuttig zijn.
