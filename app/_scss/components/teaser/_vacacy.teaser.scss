@@ -1,8 +1,18 @@
 .vacancy.teaser {
+  .link {
+    color: $grey;
+  }
+
+  .arrow-long {
+    line, polyline {
+      stroke: $grey;
+    }
+  }
 
   .header-text {
     color: $grey;
   }
+
   @include breakpoint($tablet) {
     margin-bottom: 25px !important;
   }

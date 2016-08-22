@@ -23,7 +23,7 @@ __Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken?__
 
 * <a href="/cases">Uitdagende projecten</a> met veel eigen verantwoordelijkheid
 * Goede, open sfeer in <a href="/over-ons">het team</a>
-* Goede samenwerking dankzij ontwikkelaars met gevoel van esthetiek en ontwerpers met gevoel voor techniek
+* Goede samenwerking dankzij ontwikkelaars met gevoel voor esthetiek en ontwerpers met gevoel voor techniek
 * <a href="/verhuizing">Fijn kantoor</a> om ’s avonds samen te klussen aan eigen projecten
 * Lekkere lunches (gratis)
 * Samen streven naar hoge kwaliteit
