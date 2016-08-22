@@ -60,8 +60,24 @@
     "type": "image"
   },
   {
+    "filename": "hormann.png",
     "title": "Hormann Nederland",
-    "type": "text"
+    "type": "image"
+  },
+  {
+    "filename": "snetselaar.png",
+    "title": "Snetselaar BV",
+    "type": "image"
+  },
+  {
+    "filename": "amref.png",
+    "title": "Amref Flying Doctors",
+    "type": "image"
+  },
+  {
+    "filename": "servicehouse.png",
+    "title": "Servicehouse BV",
+    "type": "image"
   },
   {
     "title": "Fincent",
@@ -76,19 +92,7 @@
     "type": "text"
   },
   {
-    "title": "Snetselaar BV",
-    "type": "text"
-  },
-  {
     "title": "Tandzorg op maat",
-    "type": "text"
-  },
-  {
-    "title": "Servicehouse BV",
-    "type": "text"
-  },
-  {
-    "title": "Amref Flying Doctors",
     "type": "text"
   },
   {
