@@ -2,16 +2,17 @@
   border-bottom: 1px solid #cccccc;
 
   .menu-link {
-    &:hover:after,
-    &.active:after {
-      border-radius: 50%;
-      bottom: 12px;
-      content: "";
-      height: 4px;
-      left: 50%;
-      transform: translateX(-50%);
-      position: absolute;
-      width: 4px;
+    &.active {
+      &:after {
+        border-radius: 50%;
+        bottom: 12px;
+        content: "";
+        height: 4px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        width: 4px;
+      }
     }
   }
 }
@@ -30,7 +31,6 @@
       padding: 0 10px;
       width: 100%;
 
-      &:hover:after,
       &.active:after {
         background-color: black;
       }
