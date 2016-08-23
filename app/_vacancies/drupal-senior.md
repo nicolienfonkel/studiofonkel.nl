@@ -1,8 +1,8 @@
 ---
 title:  "Senior Drupal Developer"
 subtitle: "Vacature"
-metatitle: "Studio Fonkel zoekt Senior Drupal developer met gevoel voor esthetiek"
-htmltitle: "Studio Fonkel zoekt Senior Drupal developer met gevoel voor esthetiek"
+metatitle: "Studio Fonkel zoekt Senior Drupal developer"
+htmltitle: "Studio Fonkel zoekt Senior Drupal developer"
 ogtitle: "Studio Fonkel zoekt Senior Drupal developer"
 metadescription: "Waarom blijven onze huidige ontwikkelaars bij Studio Fonkel werken? En waarom zou jij bij ons moeten solliciteren?"
 date: 2014-04-18 10:27:01
