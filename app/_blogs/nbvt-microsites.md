@@ -15,13 +15,13 @@ Het afgelopen jaar stonden onze blogs in het teken van communicatie, identiteit 
 
 ### Microsites
 
-Voor een van onze klanten hebben we een bijzonder systeem gebouwd. Hiermee kunnen ze zelf websites maken met de bestaande content van de door ons gemaakte Drupal 7 hoofdsite. Dit concept noemen we ‘microsites’. De manier waarop we dit hebben gebouwd is redelijk uniek en zijn we best trots op. Deze blog bestaat grofweg uit drie delen: [functionaliteiten](#functionaliteiten), [techniek](#techniek) en [presentatie](#presentatie).
+Voor een van onze klanten hebben we een bijzonder systeem gebouwd. Hiermee kunnen ze zelf websites maken met de bestaande content van de <a href="/cases/nbvt">door ons gemaakte</a> Drupal 7 hoofdsite. Dit concept noemen we ‘microsites’. De manier waarop we dit hebben gebouwd is redelijk uniek en zijn we best trots op. Deze blog bestaat grofweg uit drie delen: [functionaliteiten](#functionaliteiten), [techniek](#techniek) en [presentatie](#presentatie).
 
 Wil je vast een microsite bekijken? [Kozijnen van hout](http://kozijnenvanhout.nl/voordelen/) is een microsite.
 
 ## Functionaliteiten
 
-De Nederlandse branchevereniging voor de Timmerindustrie [(NbvT)](https://nbvt.nl) kwam bij ons met de vraag om een kleine thema website. In het gesprek werd duidelijk dat er in de toekomst meer van dit soort kleine thema websites gebouwd moesten worden. Vanuit de techniek gedacht kwamen we met de suggestie om websites te genereren met Drupal. De NbvT zag ons idee wel zitten, dus begonnen we met uitdenken.
+De Nederlandse branchevereniging voor de Timmerindustrie [(NbvT)](https://nbvt.nl) kwam bij ons met de vraag om een kleine thema website. In het gesprek werd duidelijk dat er in de toekomst meer van dit soort kleine thema websites gebouwd moesten worden. Vanuit de techniek gedacht kwamen we met de suggestie om websites te genereren met <a href="/drupal">Drupal</a>. De NbvT zag ons idee wel zitten, dus begonnen we met uitdenken.
 
 Iedere website zou bestaan uit optionele componenten. We voorzagen de volgende onderdelen: een nieuws sectie, downloads, een ledenzoeker, een inspiratie pagina en blogs. Verder nog wat kleine dingen zoals een twitterblokje en standaard pagina’s. Daarnaast leek het ons tof om de kleuren en de lettertypes instelbaar te maken.
 
