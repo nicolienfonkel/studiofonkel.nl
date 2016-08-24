@@ -23,7 +23,7 @@ server {
    ssl_prefer_server_ciphers on;
    # ssl_ciphers "EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH";
    ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
-   ssl_session_cache shared:SSL:5m;
+   ssl_session_cache shared:SSL:10m;
    ssl_dhparam /etc/nginx/ssl/dhparam.pem;
 
    # OCSP Stapling ---
@@ -70,7 +70,7 @@ server {
    ssl_prefer_server_ciphers on;
    # ssl_ciphers "EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH";
    ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
-   ssl_session_cache shared:SSL:5m;
+   ssl_session_cache shared:SSL:10m;
    ssl_dhparam /etc/nginx/ssl/dhparam.pem;
 
    # OCSP Stapling ---
