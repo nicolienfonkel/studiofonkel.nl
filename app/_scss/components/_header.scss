@@ -68,7 +68,7 @@
 	.nav-inner {
 		max-height: 0;
 		width: 100%;
-		overflow: hidden;
+		overflow: scroll;
 	}
 
 	.has-active-menu {
@@ -88,4 +88,10 @@
 			overflow-y: auto;
 		}
 	}
+}
+
+@include breakpoint($tablet) {
+  .nav-inner {
+    overflow: hidden;
+  }
 }

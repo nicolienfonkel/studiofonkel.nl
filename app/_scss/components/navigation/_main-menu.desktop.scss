@@ -10,7 +10,6 @@
       transition: 0.3s;
       padding: 0 10px;
 
-      &:hover:after,
       &.active:after {
         background-color: $yellow;
       }
