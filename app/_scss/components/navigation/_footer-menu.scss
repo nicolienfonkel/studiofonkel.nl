@@ -1,0 +1,33 @@
+
+
+.footer-menu {
+	clear: both;
+	margin-top: 40px;
+  line-height: 25px !important;
+  font-size: 15px !important;
+  font-weight: 300 !important;
+
+	.menu-link {
+		clear: both;
+	    float: left;
+	    width: 100%;
+	    margin: 10px 0px 00px;
+      text-align: center;
+	}
+
+	@include breakpoint($tablet) {
+	    .menu-link {
+		    float: left;
+		    width: 25%;
+		    clear: right;
+			margin: 10px 0px 20px;
+		}
+	}
+
+	@include breakpoint($desktop) {
+		.menu-link {
+			@include float-span(2, $grid: 8);
+
+		}
+	}
+}
