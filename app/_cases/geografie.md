@@ -15,6 +15,7 @@ background-position: "50% 32%"
 ---
 
 Een digitaal platform om ideeën, kennis en nieuws over Aardrijkskunde en Geografie te delen. Dat was de wens van het Koninklijk Nederlands Aardrijkskundig Genootschap (KNAG). Voor de bouw van hun nieuwe website kozen ze voor een samenwerking met Studio Fonkel vanwege onze ervaring met – en enthousiasme over – cartografie.
+Het platform is gebouwd met het Open Source CMS <a href="/drupal">Drupal</a>
 
 {% include case-tags.html %}
 

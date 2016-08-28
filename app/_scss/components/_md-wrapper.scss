@@ -21,7 +21,13 @@
       clear: both;
     }
   }
+  .text strong {
+    font-weight: 400;
 
+    a {
+      font-weight: 400;
+      }
+  }
   > h2,
   .text > h2 {
     font-size: 32px;

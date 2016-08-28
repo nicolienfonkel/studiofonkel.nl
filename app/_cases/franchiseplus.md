@@ -16,7 +16,7 @@ Franchise+ kwam bij Studio Fonkel omdat hun oude portal niet meer voldeed. Om go
 
 {% include case-tags.html %}
 
-Er is een platform op basis van het Open Source CMS Drupal gecreëerd dat relevant is voor iedereen die met franchising te maken heeft. Bovendien vormt de website een verbindende schakel tussen oriënterende franchisenemers en franchisegevers.
+Er is een platform op basis van het Open Source CMS <a href="/drupal">Drupal</a> gecreëerd dat relevant is voor iedereen die met franchising te maken heeft. Bovendien vormt de website een verbindende schakel tussen oriënterende franchisenemers en franchisegevers.
 
 {% image “/img/franchiseplus-site5.jpg" "Drupal portal voor Franchising" "Portal voor Franchising op basis van het Drupal CMS" "Drupal portal voor Franchising" %}
 

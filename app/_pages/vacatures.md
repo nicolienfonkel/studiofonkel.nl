@@ -9,7 +9,7 @@ background-position: 30% 50%
 menu: 5
 front: true
 ---
-Studio Fonkel maakt een gestage groei door. Daarom willen we ons team uitbreiden met betrokken professionals. Momenteel hebben we de volgende vacatures:
+Studio Fonkel maakt een gestage groei door. Daarom willen we ons team uitbreiden met betrokken professionals die samen met ons <a href="/cases">mooie dingen</a> willen maken. Momenteel hebben we de volgende vacatures:
 <br/><br/>
 <div class="cases-overview">
 	{% assign sorted_vacancies = site.vacancies | sort: 'date' %}
