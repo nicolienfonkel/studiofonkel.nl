@@ -22,7 +22,7 @@ Ons webdesign bureau is gevestigd in Amersfoort. Te ver weg? We komen graag naar
 
 <div class="call-to-action">
   <h5 class="cta-text">{{ page.cta-text }}</h5>
-  <div class="number"><a href="/contact">Neem contact op</a></span></div>
+  <div class="number"><a href="/contact">Neem contact op</a></div>
 </div>
 {% include regions/customer-showcase.html %}
 <br/>
