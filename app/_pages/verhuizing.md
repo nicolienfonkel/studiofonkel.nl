@@ -43,5 +43,5 @@ Klanten die bij ons op bezoek komen, kunnen parkeren in de parkeergarage onder d
 
 <div class="call-to-action">
   <h5 class="cta-text">{{ page.cta-text }}</h5>
-  <div class="number"><a href="/contact">Bel ons voor een afspraak</a></span></div>
+  <div class="number"><a href="/contact">Bel ons voor een afspraak</a></div>
 </div>
