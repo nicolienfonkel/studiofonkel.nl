@@ -19,7 +19,9 @@
     <title>{{ page_title }}</title>
 
     {% if page.url == '/bedankt-voor-je-bericht/' %}
-    <meta name="robots" content="noindex, follow" />
+    <meta name="robots" content="noindex, nofollow" />
+    {% elsif page.url == '/404/' %}
+    <meta name="robots" content="noindex, nofollow" />
     {% else %}
     <meta name="robots" content="index, follow" />
     {% endif %}
