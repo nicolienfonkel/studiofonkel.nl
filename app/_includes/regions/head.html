@@ -17,6 +17,14 @@
     {% endif %}
 
     <title>{{ page_title }}</title>
+
+    {% if page.url == '/bedankt-voor-je-bericht/' %}
+    <meta name="robots" content="noindex, follow" />
+    {% else %}
+    <meta name="robots" content="index, follow" />
+    {% endif %}
+
+
     <meta name="title" content="{{ page_title }}" />
     <meta property="og:title" content="{{ page_title }}" />
 
@@ -33,7 +41,6 @@
 
     <meta property="og:description" content="{{ page.metadescription }}" />
     <meta property="og:site_name" content="Studio Fonkel" />
-    <meta property="og:image" content="{{ page.og-image }}" />
 
     {% if page.url != '/' %}
     <link rel="canonical" href="https://studiofonkel.nl{{ page.url }}">
