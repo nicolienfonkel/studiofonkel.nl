@@ -58,7 +58,16 @@ server {
   location ~ /\.ht {
     deny  all;
   }
-
+  if (!-f "${request_filename}index.html") {
+    rewrite ^/(.*)/$ /$1 permanent;
+  }
+  if ($request_uri ~* "/index.html") {
+    rewrite (?i)^(.*)index\.html$ $1 permanent;
+  }
+  if ($request_uri ~* ".html") {
+    rewrite (?i)^(.*)/(.*)\.html $1/$2 permanent;
+  }
+  
    add_header Strict-Transport-Security "max-age=15768000" always;
    add_header Public-Key-Pins 'pin-sha256="klO23nT2ehFDXCfx3eHTDRESMz3asj1muO+4aIdjiuY="; pin-sha256="633lt352PKRXbOwf4xSEa1M517scpD3l5f79xMD9r9Q="; max-age=0;';
    ssl on;

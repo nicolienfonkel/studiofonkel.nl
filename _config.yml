@@ -24,6 +24,8 @@ kvk: 60546204
 btw: 853955712.B01
 iban: NL09RABO0155510681
 
+permalink: /:path/
+
 author:
   name: Studio Fonkel
 
