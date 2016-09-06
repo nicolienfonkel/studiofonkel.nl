@@ -5,7 +5,7 @@ metatitle: "Microsites met Jekyll en Drupal als content hub"
 metadescription: "Klant kan zelf websites maken vanuit door ons gemaakte hoofdsite."
 header-img: "/images/microsites.jpg"
 og-image: "microsites-og.jpg"
-date:   2016-06-13 10:27:01
+date:   2016-08-12 10:27:01
 author: daniel
 front: true
 cta-text: "Heb je een complex project? Wij helpen je graag!"
