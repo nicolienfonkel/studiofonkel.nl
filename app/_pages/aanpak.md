@@ -5,7 +5,7 @@ htmltitle: "Werkwijze"
 subtitle: "Het budget zo inzetten dat we maximaal waarde toevoegen aan je organiatie. Dat is onze doelstelling"
 author: Theo
 metadescription: "Het budget zo inzetten dat we maximaal waarde toevoegen aan je organiatie. Dat is onze doelstelling"
-menu: 4
+menu: 3
 
 ---
 In onze aanpak zie je voortdurend de lijn terug van prioriteiten stellen en waarde toevoegen. Dat begint met de vraag die je bij ons neerlegt.
