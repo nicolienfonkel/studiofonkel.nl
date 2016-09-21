@@ -29,7 +29,7 @@ We ontwikkelden handige rekentools voor op de Drupal website. Er is een tool die
 
 {% image “/img/nbvt-mobile.jpg" "Responsive Drupal website" "De website is responsive uitgevoerd" "Responsive Drupal website" %}
 
-Ook hebben we benchmarks uitgevoerd en geïntegreerd. Leden kunnen nu zien wat de trend in de markt is qua houtprijs, werkvoorraad etc. Ook kunnen ze hun gegevens ieder kwartaal afwegen tegen die van andere MBVT-leden zodat ze kunnen zien hoe ze het doen in de markt.
+Ook hebben we benchmarks uitgevoerd en geïntegreerd. Leden kunnen nu zien wat de trend in de markt is qua houtprijs, werkvoorraad etc. Ook kunnen ze hun gegevens ieder kwartaal afwegen tegen die van andere MBVT-leden zodat ze kunnen zien hoe ze het doen in de markt. 
 
 {% image “/img/statistieken-beheerder.jpg" "Datavisualisatie" "Datavisualisaties voor leden van de NBvT" "Datavisualisaties" %}
 
