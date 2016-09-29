@@ -136,6 +136,40 @@
       "bio": "Begon tijdens zijn middelbareschooltijd met programmeren en is daar nooit mee gestopt. Letterlijk. Na zijn werk bij Studio Fonkel gaat hij ’s avonds en in het weekend gewoon door. Hij pauzeert enkel om met zijn twee huskies te gaan wandelen op de hei. De eindeloze mogelijkheden van het programmeren, fascineren hem."
     },
     {
+      "key": "laurens",
+      "name": "Laurens",
+      "job": "Front-end developer",
+      "email": "laurens [at] studiofonkel [dot] nl",
+      "preferences": {
+        "Post-it vs. iPad": 60,
+        "Resort vs. Gaspitje": 40,
+        "538 vs. 3voor12": 1,
+        "Denker vs. Voeler": 50,
+        "Enthousiast vs. Accuraat": 80,
+        "Bellers vs. E-mailers": 50,
+        "Mac vs. Windows": 1,
+        "Terminal vs. Graphic interface": 50
+      },
+      "bio": "Hij leerde zichzelf html en css toen hij in groep 8 zat. Hij wilde namelijk net als z’n vriend een coole website, maar vond de gratis templates te beperkt. Mooie dingen maken vindt hij nog steeds leuk en daarom werkt hij naast zijn studie Communication en Multimedia Design bij Studio Fonkel. Hij is sociaal, perfectionistisch en verandert zijn werk(wijze) alleen als hij goede argumenten heeft gehoord. Hij maakt graag elektronische muziek en doet aan zenmeditatie."
+    },
+    {
+      "key": "sven",
+      "name": "Sven Daniel",
+      "job": "Front-end developer",
+      "email": "sven [at] studiofonkel [dot] nl",
+      "preferences": {
+        "Post-it vs. iPad": 60,
+        "Resort vs. Gaspitje": 40,
+        "538 vs. 3voor12": 1,
+        "Denker vs. Voeler": 50,
+        "Enthousiast vs. Accuraat": 80,
+        "Bellers vs. E-mailers": 50,
+        "Mac vs. Windows": 1,
+        "Terminal vs. Graphic interface": 50
+      },
+      "bio": "Studeert net als Laurens Communication en Multimedia Design. Hij houdt van problemen waar geen kant en klare oplossingen voor zijn. Met een flinke dosis doorzettingsvermogen schrijft hij het liefst zo efficiënt mogelijke stukjes code. Hij duikt niet alleen graag in ingewikkelde berekeningen, maar ook in de Vinkeveense plassen of nog beter: in azuurblauwe zeeën. Buiten Studio Fonkel gaat Sven door het leven als Daniel."
+    },
+    {
       "key": "remco",
       "name": "Remco",
       "job": "Onmisbare bron van inspiratie",
