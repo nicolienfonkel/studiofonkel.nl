@@ -8,11 +8,11 @@
             {% for item in sorted_row | sort: 'col', 'first' %}
                 {% for document in site.documents %}
                     {% if document.url == item.url and document.published %}
-                        <div class="grid-block" data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
+                        <article class="grid-block" data-row="{{ item.row }}" data-col="{{ item.col }}" data-sizex="{{ item.size_x }}" data-sizey="{{ item.size_y }}" data-url="{{ item.url }}">
                             <div class="grid-block-inner">
                                 {% include teaser/{{ document.collection }}.html %}
                             </div>
-                        </div>
+                        </article>
                     {% endif %}
                 {% endfor %}
             {% endfor %}

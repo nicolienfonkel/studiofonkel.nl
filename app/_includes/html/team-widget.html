@@ -1,5 +1,5 @@
 <h3 class="team">Het Fonkel-team</h3>
-<div class="team-widget" markdown="0">
+<section class="team-widget" markdown="0">
 	<div class="employees-wrapper">
 		{% assign counter = 0 %}
 		{% for employee in site.data.team %}
@@ -13,11 +13,11 @@
 				</label>
 				
 				<div class="info">
-					<h2>{{ employee.name }} - {{ employee.job }}</h2>
+					<h3>{{ employee.name }} - {{ employee.job }}</h3>
 					<p>{{ employee.bio }}</p>
 				</div>
 			</div>
 
 		{% endfor %}
 	</div>
-</div>
+</section>

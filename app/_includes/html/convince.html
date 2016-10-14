@@ -1,24 +1,24 @@
 <!-- <h3 class="convince-header">4 redenen om met ons te werken</h3> -->
-<div class="convince" markdown="0">
+<section class="convince" markdown="0">
 
 	{% assign items = items | sort: 'number' %}
 	{% for item in items %}
 		<div class="convince-wrapper">
 
 			<div class="image-wrapper">
-				<div class="image" style="background-image: url({{ item.image }});"></div>
+				<div class="image" alt="" role="presentation" style="background-image: url({{ item.image }});"></div>
 			</div>
 
-			<div class="wrapper-inner">
+			<article class="wrapper-inner">
 				<div class="wrapper">
 					<div class="text">
 						<span>#{{ item.number }}</span>
-						<h2>{{ item.title }}</h2>
+						<h3>{{ item.title }}</h3>
 						<p>{{ item.content }}</p>
 					</div>
 				</div>
-			</div>
+			</article>
 
 		</div>
 	{% endfor %}
-</div>
+</section>

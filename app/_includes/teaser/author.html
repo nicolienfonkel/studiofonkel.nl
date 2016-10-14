@@ -10,12 +10,12 @@
                 <div class="image" style="background-image: url('/img/{{ employee.key }}.jpg')"></div>
             </div>
 
-            <div class="right">
+            <address class="right">
                 <h3 class="name" itemprop="name givenName">{{ employee.name }}</h3>
                 <div class="job" itemprop="jobTitle">{{ employee.job }}</div>
                 <!--<div class="spamspan" data-attr-subject="subject e-mail" data-attr-body="body e-mail">{{ employee.email }}</div>-->
                 <div class="email spamspan">{{ employee.email }}</div>
-            </div>
+            </address>
 
         </div>
     {% endif %}

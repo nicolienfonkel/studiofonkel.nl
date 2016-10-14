@@ -1,9 +1,10 @@
 {% if page.previous.url or page.next.url %}
-    <div class="content-footer">
 
-        <h3 class="content-footer-header">Meer {{ page.collection }}</h3>
+<div class="content-footer">
 
-        <div class="previous">
+    <h3 class="content-footer-header">Meer {{ page.collection }}</h3>
+
+        <article class="previous">
         {% if page.previous.url and page.previous.collection %}
             {% assign document = page.previous %}
                 {% include teaser/{{ page.previous.collection }}.html %}
@@ -13,9 +14,9 @@
                 {% include teaser/{{ page.collection }}.html %}
             {% endfor %}
         {% endif %}
-        </div>
+        </article>
 
-        <div class="next">
+        <article class="next">
         {% if page.next.url and page.next.collection %}
             {% assign document = page.next %}
                 {% include teaser/{{ page.next.collection }}.html %}
@@ -25,7 +26,7 @@
                 {% include teaser/{{ page.collection }}.html %}
             {% endfor %}
         {% endif %}
-        </div>
+        </article>
 
     </div>
 {% endif %}

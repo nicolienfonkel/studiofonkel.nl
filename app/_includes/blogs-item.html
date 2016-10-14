@@ -1,6 +1,6 @@
 <div class="blogs item">
 	<a href="{{ blog.url | prepend: site.baseurl }}" class="link">
-		<div class="blog-date">{{ blog.date | localize:"%d %B %Y" }}</div>
+		<time datetime="{{ blog.date }}" class="blog-date">{{ blog.date | localize:"%d %B %Y" }}</time>
 		<h3 class="blog-heading">{{ blog.title }}</h3>
 		{% if blog.header-img %}
 		<div class="blog-image">

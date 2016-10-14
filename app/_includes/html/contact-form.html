@@ -1,9 +1,9 @@
-<h2 class="header-text">Kunnen wij je ergens mee helpen?</h2>
+<h3 class="header-text">Kunnen wij je ergens mee helpen?</h3>
 <form id="contact-form" method="post">
 	<input type="text" name="name" placeholder="Je naam" required>
 	<textarea id="contactTextArea" name="message" placeholder="Bericht" required></textarea>
 	<input type="email" name="email" placeholder="Je e-mailadres" required>
-	<input type="text" name="phone" placeholder="Je telefoonnummer" required>
+	<input type="text" pattern="\d*"/ name="phone" placeholder="Je telefoonnummer" required>
 	<button type="submit">
 		<span>Verzend</span>{% include svg/arrow.svg %}</button>
 </form>

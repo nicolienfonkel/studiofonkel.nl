@@ -18,7 +18,7 @@
 			{% elsif blog == page.next or blog == page.previous or blogNull == blog %}
 				<span>{{ blog.date | localize:"%d %B %Y" }}</span>
 			{% else %}
-				<span>Lees blog</span>
+				<span aria-hidden="true">Lees blog</span>
 			{% endif %}
 
 			<div class="arrow-long">

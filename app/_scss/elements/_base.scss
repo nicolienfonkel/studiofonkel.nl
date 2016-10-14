@@ -1,7 +1,9 @@
 html {
 	height: 100%;
 }
-
+* {
+  outline: 1px solid lime;
+}
 body {
 	overflow-x: hidden;
 	height: 100%;
@@ -10,7 +12,10 @@ body {
 	font-family: "Aktiv Grotesk", sans-serif;
 	letter-spacing: 1px;
 }
-
+main {
+  height: 100%;
+  display: block;
+}
 img {
 	width: 200px;
 }
@@ -39,8 +44,15 @@ p {
 *::-moz-focus-inner {
 	border: none;
 }
+small {
+  font-weight: 100;
+}
 
-p {
+address {
+  font-style: normal;
+}
+
+p, small {
   font-size: 18px;
   line-height: 28px;
 

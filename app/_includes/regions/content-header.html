@@ -5,7 +5,7 @@
 {% endif %}
 
 {% if page.subtitle %}
-    <h3 class="page-sub-heading" itemprop="alternativeHeadline"> {{ page.subtitle }} </h3>
+    <blockquote class="page-sub-heading" itemprop="alternativeHeadline"> {{ page.subtitle }} </blockquote>
     {% if page.collection != 'pages' %}
     <meta itemprop="datePublished" content="{{ page.date }}" />
     <meta itemprop="dateModified" content="{{ page.date }}" />
@@ -18,7 +18,7 @@
         <meta itemprop="dateModified" content="{{ page.date }}" />
     {% endif %}
     {% if page.teaser-text %}
-        <div class="page-teaser">{{ page.teaser-text }}</div>
+        <blockquote class="page-teaser">{{ page.teaser-text }}</blockquote>
     {% endif %}
 {% endif %}
 
