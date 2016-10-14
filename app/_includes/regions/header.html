@@ -2,8 +2,8 @@
 
 	<div class="header-inner">
 
-		<nav class="nav main-menu" role="navigation">
-			<div class="hamburger">
+		<div class="nav main-menu">
+			<div role="navigation" class="hamburger">
 				<div class="bar"></div>
 				<div class="bar"></div>
 				<div class="bar"></div>
@@ -13,7 +13,7 @@
 				{% include svg/logo.svg %}
 			</a>
 
-			<div class="nav-inner">
+			<nav class="nav-inner">
 				{% if page.url == '/' %}
 				    <a class="active menu-link" href="/">Home</a>
 				{% else %}
@@ -52,8 +52,8 @@
 					{% endif %}
 				{% endfor %}
 
-			</div>
-		 </nav>
+			</nav>
+		 </div>
 
 	</div>
 

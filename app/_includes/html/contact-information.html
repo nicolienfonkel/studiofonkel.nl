@@ -1,20 +1,21 @@
-<address class="left">
+<div class="left">
 	<h2 class="footer-block-header">Gegevens</h2>
-	<ul class="list-footer">
-		<li>{{ site.company }}</li>
-		<li>{{ site.address }}</li>
-		<li>{{ site.zipcode }} {{ site.city }}</li>
-	</ul>
-	<ul class="list-footer">
-		<li>KVK: {{ site.kvk }}</li>
-		<li>BTW: {{ site.btw }}</li>
-		<li>IBAN: {{ site.iban }}</li>
-    <li><a target="_blank" href="/algemene-voorwaarden/">Algemene voorwaarden</a> </li>
-		<li><a target="_blank" href="/privacyverklaring/">Privacyverklaring</a> </li>
-	</ul>
-</address>
+	<address class="address list-footer">
+		{{ site.company }}<br />
+		{{ site.address }}<br />
+		{{ site.zipcode }} {{ site.city }}<br />
+	</address>
+
+	<address class="address list-footer">
+		KVK: {{ site.kvk }}<br />
+		BTW: {{ site.btw }}<br />
+		IBAN: {{ site.iban }}<br />
+		<a target="_blank" href="/algemene-voorwaarden/">Algemene voorwaarden</a><br />
+		<a target="_blank" href="/privacyverklaring/">Privacyverklaring</a><br />
+	</address>
+</div>
 
 <div class="right">
 	<h2 class="footer-block-header">Parkeren</h2>
-	<p class="text">{{ site.footer_text }}</p>
+	<address class="text">{{ site.footer_text }}</address>
 </div>

@@ -10,10 +10,14 @@
 		max-width: $desktop;
 		margin: 0 auto;
 	}
+	.address {
+		//clear: left;
+	}
 
 	.svg-icon.mail {
 		margin-left: -1px;
 	}
+
 }
 
 .footer-block-header {
@@ -55,7 +59,7 @@
 	a {
 		line-height: 25px !important;
 		font-size: 15px !important;
-		font-weight: 300 !important;
+		font-weight: 300;
 	}
 
 	a {

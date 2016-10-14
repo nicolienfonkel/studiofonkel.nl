@@ -50,6 +50,11 @@ small {
 
 address {
   font-style: normal;
+  font-weight: 100;
+  line-height: 28px;
+  & a {
+    font-weight: 100 !important;
+  }
 }
 
 p, small {
@@ -135,7 +140,7 @@ body:not(.widget) {
   }
 }
 
-ul.list-footer {
+.list-footer {
   margin: 0;
   padding: 0;
   clear: both;

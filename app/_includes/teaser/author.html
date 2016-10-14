@@ -7,15 +7,15 @@
             <div class="label">Door:</div>
 
             <div class="left">
-                <div class="image" style="background-image: url('/img/{{ employee.key }}.jpg')"></div>
+                <div class="image" title="{{ employee.key }}" style="background-image: url('/img/{{ employee.key }}.jpg')"></div>
             </div>
 
-            <address class="right">
+            <div class="right">
                 <h3 class="name" itemprop="name givenName">{{ employee.name }}</h3>
                 <div class="job" itemprop="jobTitle">{{ employee.job }}</div>
                 <!--<div class="spamspan" data-attr-subject="subject e-mail" data-attr-body="body e-mail">{{ employee.email }}</div>-->
                 <div class="email spamspan">{{ employee.email }}</div>
-            </address>
+            </div>
 
         </div>
     {% endif %}

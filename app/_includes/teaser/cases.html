@@ -3,7 +3,7 @@
 {% endif %}
 
 <a class="cases teaser {{ extra_class }}" href="{{ case.url | prepend: site.baseurl }}" style="background-image: url('{{ case.header-img }}'); background-position: {{ case.background-position }};">
-	<div class="inner-wrapper">
+	<article class="inner-wrapper">
         {% if case.subtitle %}
 		<h2 class="header-text">{{ case.subtitle }}</h2>
         {% else %}
@@ -16,5 +16,5 @@
 				{% include svg/arrow.svg %}
 			</div>
 		</div>
-	</div>
+	</article>
 </a>
