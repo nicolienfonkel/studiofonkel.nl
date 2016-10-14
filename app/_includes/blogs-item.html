@@ -1,4 +1,4 @@
-<div class="blogs item">
+<article class="blogs item">
 	<a href="{{ blog.url | prepend: site.baseurl }}" class="link">
 		<time datetime="{{ blog.date  | localize:"%Y-%m-%d " }}" class="blog-date">{{ blog.date | localize:"%d %B %Y" }}</time>
 		<h3 class="blog-heading">{{ blog.title }}</h3>
@@ -15,4 +15,4 @@
 				{% include svg/arrow.svg %}
 		</div>
 	</a>
-</div>
+</article>
