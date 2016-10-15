@@ -17,9 +17,10 @@ __Je wilt een Drupal website? Dan ben je bij ons aan het goede adres! Binnen Stu
 
 We werken graag met Drupal. Met name omdat het een heel flexibel systeem is. We gebruiken de kern – de Core, dat is het fundament – en daaromheen zetten we modules. Modules die de Community heeft geschreven of maatwerk modules die we zelf schrijven voor specifieke klantvragen. Zo bouwen we stap voor stap een website op. Met alle bouwstenen die voor onze klant nuttig zijn.
 
-### Externe systemen koppelen
+### Echte specialisten
 
 We kennen Drupal van de kern tot de voorkant. Daardoor zijn we in staat hoge kwaliteit op te leveren. Wanneer dat nodig is, koppelen we externe systemen aan de website. Denk aan een CRM, een productcatalogus (PIM) of een financieel systeem.
+Iedere ontwikkelaar binnen het team is een Drupal specialist. Studio Fonkel bouwt alleen websites op basis van Drupal. We hoeven dus niet op de hoogte te blijven van de ontwikkelingen van meerdere systemen. Je kunt niet immers niet meerdere systemen beheersen en jezelf toch specialist noemen.
 
 ### Drupal is veilig.
 
