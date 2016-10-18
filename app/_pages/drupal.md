@@ -20,7 +20,7 @@ We werken graag met Drupal. Met name omdat het een heel flexibel systeem is. We 
 ### Echte specialisten
 
 We kennen Drupal van de kern tot de voorkant. Daardoor zijn we in staat hoge kwaliteit op te leveren. Wanneer dat nodig is, koppelen we externe systemen aan de website. Denk aan een CRM, een productcatalogus (PIM) of een financieel systeem.
-Iedere ontwikkelaar binnen het team is een Drupal specialist. Studio Fonkel bouwt alleen websites op basis van Drupal. We hoeven dus niet op de hoogte te blijven van de ontwikkelingen van meerdere systemen. Je kunt niet immers niet meerdere systemen beheersen en jezelf toch specialist noemen.
+Iedere ontwikkelaar binnen het team is een Drupal specialist. Studio Fonkel bouwt alleen websites op basis van Drupal. We hoeven dus niet op de hoogte te blijven van de ontwikkelingen van meerdere systemen. Je kunt immers niet meerdere systemen beheersen en jezelf toch specialist noemen.
 
 ### Drupal is veilig.
 
