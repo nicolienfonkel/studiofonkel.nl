@@ -1,8 +1,8 @@
 ---
-title:  "Drupal Website laten bouwen"
-htmltitle: "Drupal Website laten bouwen"
-metatitle: "Drupal Website laten bouwen."
-ogtitle: "Drupal Website laten bouwen."
+title:  "Drupal website laten bouwen"
+htmltitle: "Drupal website laten bouwen"
+metatitle: "Drupal website laten bouwen."
+ogtitle: "Drupal website laten bouwen."
 subtitle: "Met Drupal bouwen we veilig en flexibel de website die jij voor ogen hebt"
 metadescription: "Wil je een Drupal website laten bouwen? Dan helpt Studio Fonkel je graag! Onze medewerkers hebben samen ruim 40.00 uur Drupal-ervaring."
 cta-text: "Wil je kennis maken met de Drupal specialisten uit ons team?"
