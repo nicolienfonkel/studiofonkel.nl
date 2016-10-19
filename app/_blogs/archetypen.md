@@ -10,7 +10,7 @@ author: michiel
 teaser-text: "Hoe zet je je merk sterker neer? Hoe vergroot je de betrokkenheid van zowel de markt als je medewerkers?"
 ---
 
-Hoe zet je je merk sterker neer? Hoe kun je je bedrijf <a href="/merkpositionering/" title=Merkpositionering">beter positioneren</a>, en daarmee de betrokkenheid van zowel de markt als je medewerkers vergroten?
+Hoe zet je je merk sterker neer? Hoe kun je je bedrijf <a href="/merkpositionering/" title="Merkpositionering">beter positioneren</a>, en daarmee de betrokkenheid van zowel de markt als je medewerkers vergroten?
 
 Eén van de manieren om dat te doen, is het gebruikmaken van de archetypen van Jung. Hiermee krijg je vat op de persoonlijkheid van je bedrijf en geef je woorden aan de ziel van je merk. Je bedrijf is meer dan alleen het product of de dienst. Net zoals mensen liever niet alleen werken voor een salaris – ze willen graag meewerken aan een hoger doel – kopen mensen vaak ook niet alleen een product omdat ze het nu eenmaal nodig hebben voor een taak. Mensen doen iets of kopen iets omdat het iets groters representeert waarvan ze (onbewust) deel uit willen maken.
 
