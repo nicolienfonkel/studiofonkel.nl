@@ -170,10 +170,10 @@
       "bio": "Studeert net als Laurens Communication en Multimedia Design. Hij houdt van problemen waar geen kant en klare oplossingen voor zijn. Met een flinke dosis doorzettingsvermogen schrijft hij het liefst zo efficiënt mogelijke stukjes code. Hij duikt niet alleen graag in ingewikkelde berekeningen, maar ook in de Vinkeveense plassen of nog beter: in azuurblauwe zeeën. Buiten Studio Fonkel gaat Sven door het leven als Daniel."
     },
     {
-      "key": "remco",
-      "name": "Remco",
-      "job": "Onmisbare bron van inspiratie",
-      "email": "remco [at] studiofonkel [dot] nl",
+      "key": "wim",
+      "name": "Wim",
+      "job": "Ontwerper",
+      "email": "wim [at] studiofonkel [dot] nl",
       "preferences": {
         "Post-it vs. iPad": 70,
         "Resort vs. Gaspitje": 20,
@@ -184,6 +184,23 @@
         "Mac vs. Windows": 1,
         "Terminal vs. Graphic interface": 90
       },
-      "bio": "Eigenaar van Graphius. Deelt het bureau met het team van Studio Fonkel met als doel wederzijdse inspiratie en samenwerking. Hij sport als enige alles wat we hier eten er ook weer af en pretendeert de beste te zijn in kantoor-tafeltennis. Hij werkt voor zichzelf, maar eigenlijk is hij gewoon één van de jongens."
+      "bio": "Volgens deze kunstacademicus is ontwerpen zoiets als knutselen voor grote mensen. Hij houdt ervan dingen te maken en is volop creatief. Hij heeft hele eigen ideeën en maakt verrassende ontwerpen. In zijn vrije tijd schildert hij mensen en danst hij de salsa. Naar eigen zeggen is hij stronteigenwijs, maar kan hij dat tegenwoordig goed onderdrukken – behalve als hij dronken is. (Gelukkig voor ons zit hij altijd nuchter op kantoor.)"
     },
+  {
+    "key": "remco",
+    "name": "Remco",
+    "job": "Onmisbare bron van inspiratie",
+    "email": "remco [at] studiofonkel [dot] nl",
+    "preferences": {
+      "Post-it vs. iPad": 70,
+      "Resort vs. Gaspitje": 20,
+      "538 vs. 3voor12": 40,
+      "Denker vs. Voeler": 35,
+      "Enthousiast vs. Accuraat": 50,
+      "Bellers vs. E-mailers": 55,
+      "Mac vs. Windows": 1,
+      "Terminal vs. Graphic interface": 90
+    },
+    "bio": "Eigenaar van Graphius. Deelt het bureau met het team van Studio Fonkel met als doel wederzijdse inspiratie en samenwerking. Hij sport als enige alles wat we hier eten er ook weer af en pretendeert de beste te zijn in kantoor-tafeltennis. Hij werkt voor zichzelf, maar eigenlijk is hij gewoon één van de jongens."
+  }
 ]
