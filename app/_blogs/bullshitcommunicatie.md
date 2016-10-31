@@ -18,7 +18,7 @@ Natuurlijk is het bullshit.
 
 De bedrijven die dit over zichzelf zeggen, staan meestal helemaal niet op nummer één. Of zelfs maar in de landelijke top vijf van zonwering of softwareontwikkeling. Hetzelfde geldt voor bedrijven met slogans als ‘Toonaangevend in beveiliging’. Zet dit bedrijf echt de toon in de wereld van beveiliging? Vaak niet.
 
-Zijn deze bedrijven dan beroerd in hun vak? Nee, meestal ook niet. Als Studio Fonkel bouwen we mooie Drupal-websites van hoge kwaliteit, maar onszelf ‘toonaangevend’ noemen zou onzin zijn.
+Zijn deze bedrijven dan beroerd in hun vak? Ook daarvoor geldt; vaak niet. Als Studio Fonkel bouwen we mooie Drupal-websites van hoge kwaliteit, maar onszelf ‘toonaangevend’ noemen zou onzin zijn.
 
 Nu weet ik ook; in reclame wordt de waarheid als sinds jaar en dag mooier gemaakt dan ze is. Dat is – in dit blog in ieder geval – niet het punt. Het is met name de vraag of dit soort uitspraken een bedrijf verder helpen. Of het een handige manier is om jezelf aan te prijzen. Als het waar is; je bedrijf is daadwerkelijk toonaangevend en je doelgroep weet het – go for it. In alle andere gevallen; denk er nog eens goed over na. 
 
