@@ -24,7 +24,7 @@ Nu weet ik ook; in reclame wordt de waarheid als sinds jaar en dag mooier gemaak
 
 Ik geloof namelijk dat er een betere manier is om jezelf aan te bevelen. Een zinsconstructie als ‘dé specialist’ is zoveel gebruikt, dat het leeg is geworden. Je vertelt je doelgroep dus in wezen helemaal niets over jezelf. Want ook al ben je goed in je vak, als je niet werkelijk aan de aan de top staat, dan is je uitspraak inhoudsloos. 
 
-Vertel je doelgroep dus iets waarin jij je wél onderscheid. Pak je kans en vertel ze iets zinnigs. Wat heb jij je hen te bieden? Welke unieke eigenschappen of kenmerken heeft jouw bedrijf of organisatiecultuur? Waarom komen klanten bij je terug? Durf inhoudelijk te zijn en blijf weg bij gemeenplaatsen.
+Vertel je doelgroep dus iets waarin jij je wél onderscheid. Pak je kans en vertel ze iets echts over jezelf. Wat heb jij je hen te bieden? Welke unieke eigenschappen of kenmerken heeft jouw bedrijf of organisatiecultuur? Waarom komen klanten bij je terug? Durf inhoudelijk te zijn en blijf weg bij gemeenplaatsen.
 
 Harley Davidson had over hun motors kunnen zeggen dat ze van de hoogste kwaliteit zijn. In plaats daarvan zeggen ze ‘Deze machine vreet asfalt als ontbijt’. Ze durfden te focussen op de merkpersoonlijkheid van ‘rebel’ en dat consequent door te voeren. Dat maakt hen een sterk en inhoudelijk merk. Coolblue had kunnen zeggen dat ze flexibel en klantvriendelijk zijn, in plaats beschrijven ze hun identiteit met ‘Alles voor een glimlach’. Ook zij voeren dat in alles door; van een goede service tot gevatte slogans en grappige teksten op hun verpakkingsmateriaal.
 
