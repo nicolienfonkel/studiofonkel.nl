@@ -9,7 +9,7 @@ date:   2016-10-31 10:27:01
 author: lianne
 front: true
 cta-text: "Wij helpen je graag met het formuleren van jouw merkverhaal."
-teaser-text: "'Wij zijn dé specialist' en dat soort kreten."
+teaser-text: "'Wij zijn dé specialist.' Hoe beveel je jezelf wél aan?"
 ---
 
 ‘Wij zijn dé specialist in zonwering’. Veel bedrijven gebruiken deze zin om zichzelf aan te prijzen, of het nu om zonwering, ooglidcorrecties of softwareontwikkeling gaat. Dé specialist. Niet een specialist, nee; van alle specialisten die er zijn, zijn wij de beste. Zo specialistisch als ons is er geen ander. 
