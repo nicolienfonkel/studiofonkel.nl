@@ -31,7 +31,7 @@ Harley Davidson had over hun motors kunnen zeggen dat ze van de hoogste kwalitei
 
 Maar let op: het is verleidelijk om aantrekkelijke merken in aangepaste vorm te kopiëren. Ook dat leidt tot bullshit communicatie als het niet is wie je werkelijk bent. Als je mensen niet kunt laten lachen, probeer dan geen ‘grappig’ merk te zijn. Als je bedrijf bestaat uit medewerkers die graag binnen de lijntjes kleuren, probeer dan geen 'rebel' te communiceren.
 
-### Dicht bij jezelf blijven
+### Schep verwachtingen die je waar kunt maken
 Iets wat dicht bij jezelf ligt, communiceer je heel natuurlijk in woord en daad. Zo geef je je klanten een consequente merkbeleving. Je schept een verwachting die je waar kunt maken. Daarmee werk je toe naar herkenning en positieve klantbeoordelingen.
 
 In onze blogs hebben we veel geschreven over zaken als bedrijfsidentiteit en merkpersoonlijkheid. Vind je het lastig de kern te pakken van wie je bent als organisatie? Weet je niet hoe je dat vervolgens handen en voeten geeft? Investeer de tijd dan eens om daarmee aan de slag te gaan. Zicht op je identiteit, je positionering en je doelgroep is volgens ons een voorwaarde voor effectieve communicatie. 
