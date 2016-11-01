@@ -4,7 +4,7 @@ htmltitle:  "Bullshit communicatie"
 metatitle: "Bullshit communicatie"
 metadescription: "Bullshit communicatie"
 header-img: "/img/bullshit.png"
-og-image: "/img/bullshit_facebook.pngg"
+og-image: "/img/bullshit_facebook.png"
 date:   2016-10-31 10:27:01
 author: lianne
 front: true
