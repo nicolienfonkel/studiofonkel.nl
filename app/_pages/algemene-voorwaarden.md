@@ -63,6 +63,8 @@ te keuren.
 schriftelijk (per e-mail). Als dat niet gebeurt gaat Studio Fonkel er van uit dat het resultaat van de opdracht is
 aanvaard.
 
+2.9. Bugs die tijdens het testen door Studio Fonkel en de klant niet naar voren zijn gekomen en meer dan 30 dagen na oplevering worden gemeld, worden voor 50% voor rekening van Studio Fonkel en 50% voor rekening van de klant uitgevoerd. Hierover zal voor uitvoering van de werkzaamheden met de klant overlegt worden.
+
 3. Inschakelen van derden
 
 3.1. Wanneer Studio Fonkel, bij uitvoering van de opdracht, zoals afgesproken voor eigen rekening en risico
