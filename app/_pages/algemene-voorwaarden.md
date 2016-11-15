@@ -117,7 +117,7 @@ gegevens/materialen of door een gewijzigde of onjuiste opdracht of briefing geno
 werkzaamheden te verrichten, kunnen deze werkzaamheden apart worden gefactureerd, op basis van de
 gebruikelijk door Studio Fonkel gehanteerde tarieven.
 
-6.2. Betalingen moeten plaats vinden binnen 25 werkdagen na factuurdatum. Wanneer na het verstrijken van deze termijn door Studio Fonkel nog geen (volledige) betaling is ontvangen, is de klant in verzuim en is vanaf de 25 werkdagen termijn rente verschuldigd, gelijk aan de wettelijke rente.
+6.2. Betalingen moeten plaats vinden binnen 10 werkdagen na factuurdatum. Wanneer na het verstrijken van deze termijn door Studio Fonkel nog geen (volledige) betaling is ontvangen, is de klant in verzuim en is vanaf de 10 werkdagen termijn rente verschuldigd, gelijk aan de wettelijke rente.
 
 6.3. Alle door Studio Fonkel gemaakte kosten, zoals proceskosten en buitengerechte-lijke en gerechtelijke kosten, zoals de kosten voor juridische bijstand, deurwaar-ders en incassobureaus, gemaakt vanwege de te late betalingen, komen ten laste van de klant. De buitengerechtelijke kosten worden gesteld op ten minste 10% van het factuurbedrag met een minimum van € 150,- excl. BTW.
 
