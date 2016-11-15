@@ -162,23 +162,31 @@ door de klant verstrekte materialen of gegevens, die bij de uitvoering van de op
 9.1. Studio Fonkel is niet aansprakelijk voor:
 
 a. fouten of gebreken in het materiaal dat door de klant is beschikbaar gesteld
+
 b. misverstanden, fouten of tekortkomingen in de uitvoering van de overeenkomst wanneer deze aanleiding
 of oorzaak vinden bij de klant, zoals het niet op tijd of niet aanleveren van volledige, juiste en duidelijke
 gegevens/materialen
+
 c. fouten of gebreken van door of namens de klant ingeschakelde derden
+
 d. gebreken in offertes van toeleveranciers of voor overschrijdingen van prijsopgaven van  toeleveranciers.
+
 e. fouten of tekortkomingen in het ontwerp of de tekst/gegevens, wanneer de klant, zoals bepaald in art. 2.5,
 goedkeuring heeft gegeven of in de  gelegenheid is gesteld een controle uit te voeren en daar geen gebruik
 van heeft gemaakt.
 
 9.2. Studio Fonkel is alleen aansprakelijk voor aan hem toerekenbare, directe schade. Onder directe schade wordt
 alleen verstaan:
+
 a. redelijke kosten om de oorzaak en de omvang van de schade vast te stellen, voor zover dit betrekking heeft
 op schade in de zin van deze voorwaarden;
+
 b. de eventuele redelijke kosten nodig om de gebrekkige prestatie van Studio Fonkel aan de overeenkomst te
 laten voldoen;
+
 c. redelijke kosten, gemaakt om schade te voorkomen of beperken, voor zover de klant aantoont dat deze
 kosten hebben geleid tot beperking van de directe schade als bedoeld in deze voorwaarden.
+
 Aansprakelijkheid van Studio Fonkel voor alle overige dan hierboven genoemde schade, zoals indirecte
 schade, daaronder begrepen gevolgschade, gederfde winst, verminkte of vergane gegevens of materialen, of
 schade door bedrijfsstagnatie, is uitgesloten.
