@@ -195,7 +195,7 @@ schade door bedrijfsstagnatie, is uitgesloten.
 Fonkel -ondergeschikten uitgezonderd-, is de aansprakelijkheid van Studio Fonkel voor schade binnen de
 overeenkomst of van tegen de klant gepleegde onrechtmatige daad, beperkt tot het factuurbedrag dat op
 het uitgevoerde gedeelte van de opdracht betrekking heeft. Dit bedrag wordt verminderd met de door Studio
-Fonkel gemaakte kosten voor het inschakelen van derden en zal niet hoger zijn dan € 45.000,= en te allen
+Fonkel gemaakte kosten voor het inschakelen van derden en zal niet hoger zijn dan € 45.000,- en te allen
 tijde beperkt tot maximaal het bedrag dat de verzekeraar in het voorkomend geval aan Studio Fonkel uitkeert.
 
 9.4. Elke aansprakelijkheid vervalt door het verloop van één jaar vanaf het moment dat de opdracht is voltooid.
