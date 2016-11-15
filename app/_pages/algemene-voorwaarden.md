@@ -125,59 +125,41 @@ gebruikelijk door Studio Fonkel gehanteerde tarieven.
 
 6.5. Van de klant wordt verwacht dat de aan Studio Fonkel verschuldigde betalingen worden gedaan zonder korting of verrekening. De klant heeft niet het recht om betaling van facturen van al verrichte werkzaamheden op te schorten.
 
-7. Betaling
+7. Opzegging en ontbinding van de overeenkomst
 
-7.1. Betalingen moeten plaats vinden binnen 25 werkdagen na factuurdatum. Wanneer na het verstrijken van
-deze termijn door Studio Fonkel nog geen (volledige) betaling is ontvangen, is de klant in verzuim en is vanaf
-de 25 werkdagen termijn rente verschuldigd, gelijk aan de wettelijke rente.
-
-7.2. Alle door Studio Fonkel gemaakte kosten, zoals proceskosten en buitengerechte-lijke en gerechtelijke
-kosten, zoals de kosten voor juridische bijstand, deurwaar-ders en incassobureaus, gemaakt vanwege de te
-late betalingen, komen ten laste van de klant. De buitengerechtelijke kosten worden gesteld op ten minste
-10% van het factuurbedrag met een minimum van € 150,- excl. BTW.
-
-7.3. Studio Fonkel heeft het recht om de verrichte werkzaamheden en gemaakte kosten voor de uitvoering van de
-opdracht maandelijks in rekening te brengen.
-
-7.4. Van de klant wordt verwacht dat de aan Studio Fonkel verschuldigde betalingen worden gedaan
-zonder korting of verrekening. De klant heeft niet het recht om betaling van facturen van al verrichte
-werkzaamheden op te schorten.
-
-8. Opzegging en ontbinding van de overeenkomst
-
-8.1. Wanneer de klant een overeenkomst opzegt, moet hij alle tot dan toe gemaakte uren en (on)kosten voor alle
+7.1. Wanneer de klant een overeenkomst opzegt, moet hij alle tot dan toe gemaakte uren en (on)kosten voor alle
 afgesproken verrichte werkzaamheden betalen.
 
-8.2. Wanneer de overeenkomst door Studio Fonkel wordt ontbonden om een toerekenbare tekortkoming in het
+7.2. Wanneer de overeenkomst door Studio Fonkel wordt ontbonden om een toerekenbare tekortkoming in het
 nakomen van de overeenkomst door de klant, moet de klant alle tot dan toe gemaakte uren en (on)kosten
 betalen. Gedrag van de klant waardoor van Studio Fonkel redelijkerwijs niet verwacht kan worden dat de
 opdracht wordt afgerond wordt ook beschouwd als toerekenbare tekortkoming
 
-8.3. Zowel Studio Fonkel als de klant hebben het recht de overeenkomst direct geheel of gedeeltelijk te
+7.3. Zowel Studio Fonkel als de klant hebben het recht de overeenkomst direct geheel of gedeeltelijk te
 ontbinden in geval van faillissement of (voorlopige) surseance van de andere partij. Ingeval van faillissement
 van de klant heeft Studio Fonkel het recht het verstrekte gebruiksrecht te beëindigen.
 
-8.4. In geval van ontbinding door de klant vanwege toerekenbare tekortkoming door Studio Fonkel zullen de al
+7.4. In geval van ontbinding door de klant vanwege toerekenbare tekortkoming door Studio Fonkel zullen de al
 geleverde prestaties en de daarmee samenhangende betalingsverplichting niet vervallen, tenzij de klant
 bewijst dat Studio Fonkel in gebreke is gebleven. Bedragen die Studio Fonkel vóór de ontbinding heeft
 gefactureerd voor dat wat in de uitvoering van de overeenkomst al naar behoren is verricht of geleverd, blijft
 verschuldigd, tenzij de klant bewijst dat Studio Fonkel in gebreke is gebleven.
 
-9. Garanties en vrijwaringen
+8. Garanties en vrijwaringen
 
-9.5. Studio Fonkel garandeert dat het geleverde, wat is ontworpen door Studio Fonkel, wanneer er auteursrecht
+8.1. Studio Fonkel garandeert dat het geleverde, wat is ontworpen door Studio Fonkel, wanneer er auteursrecht
 op het ontwerp rust, hij geldt als maker in de zin van de Auteurswet en als auteursrechthebbende over het
 werk kan beschikken.
 
-9.6. De klant vrijwaart Studio Fonkel of door Studio Fonkel bij de opdracht ingeschakelde personen voor alle
+8.2. De klant vrijwaart Studio Fonkel of door Studio Fonkel bij de opdracht ingeschakelde personen voor alle
 aanspraken van derden voortvloeiend uit de toepassingen of het gebruik van het resultaat van de opdracht.
 
-9.7. De klant vrijwaart Studio Fonkel voor aanspraken met betrekking tot rechten van intellectuele eigendom op
+8.3. De klant vrijwaart Studio Fonkel voor aanspraken met betrekking tot rechten van intellectuele eigendom op
 door de klant verstrekte materialen of gegevens, die bij de uitvoering van de opdracht worden gebruikt.
 
-10. Aansprakelijkheid
+9. Aansprakelijkheid
 
-10.1. Studio Fonkel is niet aansprakelijk voor:
+9.1. Studio Fonkel is niet aansprakelijk voor:
 
 a. fouten of gebreken in het materiaal dat door de klant is beschikbaar gesteld
 b. misverstanden, fouten of tekortkomingen in de uitvoering van de overeenkomst wanneer deze aanleiding
@@ -189,7 +171,7 @@ e. fouten of tekortkomingen in het ontwerp of de tekst/gegevens, wanneer de klan
 goedkeuring heeft gegeven of in de  gelegenheid is gesteld een controle uit te voeren en daar geen gebruik
 van heeft gemaakt.
 
-10.2. Studio Fonkel is alleen aansprakelijk voor aan hem toerekenbare, directe schade. Onder directe schade wordt
+9.2. Studio Fonkel is alleen aansprakelijk voor aan hem toerekenbare, directe schade. Onder directe schade wordt
 alleen verstaan:
 a. redelijke kosten om de oorzaak en de omvang van de schade vast te stellen, voor zover dit betrekking heeft
 op schade in de zin van deze voorwaarden;
@@ -201,25 +183,25 @@ Aansprakelijkheid van Studio Fonkel voor alle overige dan hierboven genoemde sch
 schade, daaronder begrepen gevolgschade, gederfde winst, verminkte of vergane gegevens of materialen, of
 schade door bedrijfsstagnatie, is uitgesloten.
 
-10.3. Behalve in geval van opzet of bewuste roekeloosheid van de Studio Fonkel/de bedrijfsleiding van Studio
+9.3. Behalve in geval van opzet of bewuste roekeloosheid van de Studio Fonkel/de bedrijfsleiding van Studio
 Fonkel -ondergeschikten uitgezonderd-, is de aanspra-kelijkheid van Studio Fonkel voor schade binnen de
 overeenkomst of van tegen de klant gepleegde onrechtmatige daad, beperkt tot het factuurbedrag dat op
 het uitgevoerde gedeelte van de opdracht betrekking heeft. Dit bedrag wordt vermin-derd met de door Studio
 Fonkel gemaakte kosten voor het inschakelen van derden en zal niet hoger zijn dan € 45.000,= en te allen
 tijde beperkt tot maximaal het bedrag dat de verzekeraar in het voorkomend geval aan Studio Fonkel uitkeert.
 
-10.4. Elke aansprakelijkheid vervalt door het verloop van één jaar vanaf het moment dat de opdracht is voltooid.
+9.4. Elke aansprakelijkheid vervalt door het verloop van één jaar vanaf het moment dat de opdracht is voltooid.
 
-11. Overige bepalingen
+10. Overige bepalingen
 
-11.1. Het is de klant niet toegestaan om rechten uit een met Studio Fonkel gesloten overeenkomst aan   anderen
+10.1. Het is de klant niet toegestaan om rechten uit een met Studio Fonkel gesloten overeenkomst aan   anderen
 over te dragen.
 
-11.2. Studio Fonkel en de klant moeten feiten en omstandigheden, die bij het uitvoeren van de opdracht gebruikt
+10.2. Studio Fonkel en de klant moeten feiten en omstandigheden, die bij het uitvoeren van de opdracht gebruikt
 of bekend worden vertrouwelijk behandelen. Dit geldt ook voor derden die bij de uitvoering van de opdracht
 worden betrokken.
 
-11.3. Op de overeenkomst tussen de opdrachtnemer en opdrachtgever is het Nederlands recht van toepassing.
+10.3. Op de overeenkomst tussen de opdrachtnemer en opdrachtgever is het Nederlands recht van toepassing.
 De rechter die geschillen tussen Studio Fonkel en de klant behandeld is de bevoegde rechter in het
 arrondissement waar Studio Fonkel is gevestigd, of de volgens de wet bevoegde rechter, uitgekozen door
 Studio Fonkel.
