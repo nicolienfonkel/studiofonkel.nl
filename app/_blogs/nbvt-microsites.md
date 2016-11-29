@@ -3,7 +3,7 @@ title:  "Microsites met Jekyll en Drupal als content hub"
 htmltitle:  "Microsites met Jekyll en Drupal als content hub"
 metatitle: "Microsites met Jekyll en Drupal als content hub"
 metadescription: "Klant kan zelf websites maken vanuit door ons gemaakte hoofdsite."
-header-img: "/images/microsites.jpg"
+header-img: "/img/drupal-jekyll.png"  
 og-image: "microsites-og.jpg"
 date:   2016-08-12 10:27:01
 author: daniel
