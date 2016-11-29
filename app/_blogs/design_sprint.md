@@ -6,7 +6,7 @@ metadescription: "De kracht van een Design Sprint"
 header-img: "/img/een-merkverhaal.png"
 og-image: "Een_merkverhaal_wat_en_waarom_Studio_Fonkel.jpg"
 date:   2016-02-29 10:27:01
-author: lianne
+author: michiel, lianne
 front: true
 cta-text: "Ben je benieuwd of een Design Sprint jouw product of organisatie verder kan helpen? Neem contact met ons op."
 teaser-text: "Het uitvoeren van een Design Sprint is een gestructureerde, snelle manier om creatieve oplossingen te bedenken en direct te testen"
