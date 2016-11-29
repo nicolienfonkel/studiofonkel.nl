@@ -8,7 +8,7 @@ og-image: "Een_merkverhaal_wat_en_waarom_Studio_Fonkel.jpg"
 date:   2016-11-29 10:27:01
 author: michiel, lianne
 front: true
-cta-text: "Ben je benieuwd of een Design Sprint jouw product of organisatie verder kan helpen? Neem contact met ons op."
+cta-text: "Ben je benieuwd of een Design Sprint jouw product of organisatie verder kan helpen?"
 teaser-text: "Het uitvoeren van een Design Sprint is een gestructureerde, snelle manier om creatieve oplossingen te bedenken en direct te testen"
 ---
 Stel, je wilt iets laten maken of verbeteren. Denk aan een mobiele app, een desktopapplicatie of een business concept. Het project is te kostbaar om er na de oplevering achter te komen dat het anders had gemoeten. Je wilt daarom van tevoren enige zekerheid over de haalbaarheid van het project. Bovendien wil je weten of de bedachte oplossing daadwerkelijk het probleem van je eindgebruikers oplost.
@@ -18,7 +18,7 @@ Het uitvoeren van een Design Sprint is een creatieve, snelle manier om die kenni
 ### Het alternatief 
 Meestal is het verbeteren of ontwikkelen van een product een lang en duur proces. Eerst wordt er gebroed op een idee, daarna volgt een marktonderzoek. Vervolgens wordt er geschetst en ontworpen. Nadat iedereen het eens is over de budgetten volgt de productiefase. Als het product eindelijk af is, blijkt het werkelijke succes, of het uitblijven daarvan. Al met al is dit een kostbaar proces waarbij het resultaat pas laat zichtbaar wordt. Door te beginnen met een Design Sprint bespaar je tijd en geld. Binnen een week heb je zicht op de haalbaarheid van je product of dienst. 
 
-Starten met een beter plan
+### Starten met een beter plan
 Als bedrijf hebben wij de afgelopen tijd Design Sprints uitgevoerd voor een aantal organisaties. In alle gevallen concludeerden we met elkaar dat de Design Sprint in een betere oplossing had geresulteerd dan dat er in eerste instantie lag. 
 
 ### Hoe ziet een Design Sprint eruit? 
