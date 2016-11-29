@@ -5,7 +5,7 @@ metatitle: "De kracht van een Design Sprint"
 metadescription: "De kracht van een Design Sprint"
 header-img: "/img/een-merkverhaal.png"
 og-image: "Een_merkverhaal_wat_en_waarom_Studio_Fonkel.jpg"
-date:   2016-02-29 10:27:01
+date:   2016-11-29 10:27:01
 author: michiel, lianne
 front: true
 cta-text: "Ben je benieuwd of een Design Sprint jouw product of organisatie verder kan helpen? Neem contact met ons op."
