@@ -13,7 +13,7 @@ teaser-text: "Archetypen, welke zijn er en waar staan ze voor?"
 
 Koning, aristocraat, rechter, politicus, manager
 
-De Heerser is een centraal figuur. Hij schept orde, en bepaald de standaard. Organisaties met dit archetype weten hoe ze in de schijnwerpers moeten stappen en de controle moeten nemen. Door middel van beleid, procedures en een gezaghebbende persoonlijkheid, pushen deze organisaties totdat alles correct wordt gedaan.
+De Heerser is een centraal figuur. Hij schept orde, en bepaald de standaard. Organisaties met dit archetype weten hoe ze in de schijnwerpers moeten stappen en de controle moeten nemen. Door middel van beleid, procedures en een gezaghebbende persoonlijkheid, pushen deze organisaties totdat alles correct wordt gedaan. 
 
 Heersers zijn experts in het balanceren van meerdere stakeholders en het tonen van uitzonderlijke leiderschapskwaliteiten. Maar de sterkste mening is niet altijd de populairste. Heersers hebben meestal gelijk, maar dat betekent niet altijd dat iedereen blij is als ze binnen komen lopen.
 
