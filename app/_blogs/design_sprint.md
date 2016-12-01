@@ -4,7 +4,7 @@ htmltitle:  "De kracht van een Design Sprint"
 metatitle: "De kracht van een Design Sprint"
 metadescription: "De kracht van een Design Sprint"
 header-img: "/img/designsprint.png"
-og-image: "designsprint_facebook.png"
+og-image: "/img/designsprint_facebook.png"
 date:   2016-11-29 10:27:01
 author:
 front: true
