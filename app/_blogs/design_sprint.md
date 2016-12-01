@@ -4,7 +4,7 @@ htmltitle:  "De kracht van een Design Sprint"
 metatitle: "De kracht van een Design Sprint"
 metadescription: "De kracht van een Design Sprint"
 header-img: "/img/designsprint.png"
-og-image: "Een_merkverhaal_wat_en_waarom_Studio_Fonkel.jpg"
+og-image: "/img/designsprint_facebook.png"
 date:   2016-11-29 10:27:01
 author: michiel, lianne
 front: true
