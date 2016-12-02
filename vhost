@@ -49,6 +49,10 @@ server {
     rewrite ^ /index.html last;
   }
 
+  location = /design_sprint/ {
+    return 301 /design-sprint/
+  }
+
   location ~* \.(?:css|gif|htc|ico|js|jpe?g|png|swf)$ {
     expires max;
     log_not_found off;
@@ -67,7 +71,7 @@ server {
   if ($request_uri ~* ".html") {
     rewrite (?i)^(.*)/(.*)\.html $1/$2 permanent;
   }
-  
+
    add_header Strict-Transport-Security "max-age=15768000" always;
    add_header Public-Key-Pins 'pin-sha256="klO23nT2ehFDXCfx3eHTDRESMz3asj1muO+4aIdjiuY="; pin-sha256="633lt352PKRXbOwf4xSEa1M517scpD3l5f79xMD9r9Q="; max-age=0;';
    ssl on;
