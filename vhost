@@ -50,7 +50,7 @@ server {
   }
 
   location = /design_sprint/ {
-    return 301 /design-sprint/
+    return 301 /design-sprint/;
   }
 
   location ~* \.(?:css|gif|htc|ico|js|jpe?g|png|swf)$ {
