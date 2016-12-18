@@ -9,7 +9,7 @@ date:   2016-11-29 10:27:01
 author:
 front: true
 redirect_from: 
-  - /design_sprint/ -
+  - /blogs/design_sprint/ -
 cta-text: "Ben je benieuwd of een Design Sprint jouw product of organisatie verder kan helpen?"
 teaser-text: "Het uitvoeren van een Design Sprint is een gestructureerde, snelle manier om creatieve oplossingen te bedenken en direct te testen"
 ---
