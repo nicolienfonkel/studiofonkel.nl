@@ -48,6 +48,7 @@ Om dit aan te passen ga naar **_config.yml** in de **root** van de website.
 - **subtitle**: "subtitle"
 - **author**: Theo
 - **menu**: **menu plaats | Als dit hetzelfde is als een andere pagina, dan wordt hij niet weergegeven.**
+- **menu-parent**: **sub-menu plaatsen | Als menu_parent gelijk is aan menu-title van zijn parent dan wordt het in de submenu zichtbaar.**
 
 ##Showcase
 Om een extra item aan de showcase toe te voegen, zet de afbeelding in "/img/customer-showcase/".

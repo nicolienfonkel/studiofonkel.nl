@@ -20,72 +20,53 @@
 					<a class="menu-link" href="/">Home</a>
 				{% endif %}
 
-				{% assign sorted_pages = site.pages | contains: 'menu', 0, '>' | sort: 'menu' %}
+				{% assign sorted_pages = site.pages | sort: 'menu' %}
 
 				{% for page_item in sorted_pages %}
 					{% if page_item.menu %}
-						{% if page_item.url == page.url %}
-							<a class="active menu-link" href="{{ page_item.url }}">
-								{% if page_item.menu-title %}
-									{{ page_item.menu-title }}
-								{% else %}
-									{{ page_item.title }}
-								{% endif %}
-							</a>
-						{% elsif page.collection and page_item.menu_collection == page.collection %}
-							<a class="active active-trail menu-link" href="{{ page_item.url }}">
-								{% if page_item.menu-title %}
-									{{ page_item.menu-title }}
-								{% else %}
-									{{ page_item.title }}
-								{% endif %}
-							</a>
-						{% else %}
-							<a class="menu-link" href="{{ page_item.url }}">
-								{% if page_item.menu-title %}
-									{{ page_item.menu-title }}
-								{% else %}
-									{{ page_item.title }}
-								{% endif %}
-							</a>
-						{% endif %}
+						{% unless page_item.menu_parent %}
+
+							{% if page_item.url == page.url %}
+								<a class="active menu-link" href="{{ page_item.url }}">
+									{% if page_item.menu-title %}
+										{{ page_item.menu-title }}
+									{% else %}
+										{{ page_item.title }}
+									{% endif %}
+								</a>
+
+								{% capture submenu %}{% for submenu_item in sorted_pages %}{% if submenu_item.menu_parent == page_item.menu-title %}<a class="menu-link" href="{{ submenu_item.url }}">{{ submenu_item.menu-title }}</a>{% endif %}{% endfor %}{% endcapture %}
+
+							{% elsif page.collection and page_item.menu_collection == page.collection %}
+								<a class="active active-trail menu-link" href="{{ page_item.url }}">
+									{% if page_item.menu-title %}
+										{{ page_item.menu-title }}
+									{% else %}
+										{{ page_item.title }}
+									{% endif %}
+								</a>
+							{% else %}
+								<a class="menu-link" href="{{ page_item.url }}">
+									{% if page_item.menu-title %}
+										{{ page_item.menu-title }}
+									{% else %}
+										{{ page_item.title }}
+									{% endif %}
+								</a>
+							{% endif %}
+
+						{% endunless %}
 					{% endif %}
 				{% endfor %}
 			</nav>
 
-			{% if page.url == '/aanpak/' %}
-			<nav class="nav-inner submenu">
-
-				{% if page_item.url == 'aanpak/'page.url %}
-				<a class="active menu-link" href="{{ page_item.url }}">
-					{% if page_item.menu-title %}
-					{{ page_item.menu-title }}
-					{% else %}
-					{{ page_item.title }}
-					{% endif %}
-				</a>
-
-				{% elsif page.collection and page_item.menu_collection == page.collection %}
-				<a class="active active-trail menu-link" href="{{ page_item.url }}">
-					{% if page_item.menu-title %}
-						{{ page_item.menu-title }}
-
-					{% else %}
-						{{ page_item.title }}
-
-					{% endif %}
-				</a>
-
-				{% else %}
-				<a class="menu-link" href="{{ page_item.url }}">
-					{% if page_item.menu-title %}
-					{{ page_item.menu-title }}
-					{% else %}
-					{{ page_item.title }}
-					{% endif %}
-				</a>
-			</nav>
+			{% assign submenu = submenu %}
+			{% if submenu.size != 0 %}
+				<nav class="submenu">
+					{{ submenu }}
+				</nav>
 			{% endif %}
+
 		 </div>
 
 	</div>
