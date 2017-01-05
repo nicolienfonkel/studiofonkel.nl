@@ -1,0 +1,57 @@
+body.contact {
+  .md-wrapper {
+    #contact-form {
+      @include grid-span(4, 1, 4);
+      clear: both;
+    }
+  }
+  .latest-blog-teaser {
+    margin-bottom: 50px;
+
+    .content-footer-header {
+      font-size: 28px;
+    }
+  }
+}
+
+@include breakpoint($tablet) {
+  body.contact {
+    .md-wrapper {
+      figure.image {
+        @include grid-span(7, 1, 7);
+        clear: both;
+        height: 250px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      img {
+        position: absolute;
+        top: 46%;
+        transform: translateY(-50%);
+      }
+      #contact-form {
+        @include grid-span(6, 2, 8);
+        clear: both;
+      }
+    }
+  }
+}
+
+@include breakpoint($desktop) {
+  body.contact {
+    .md-wrapper {
+      figure.image {
+        @include grid-span(12, 1, 12);
+        clear: both;
+
+
+      }
+
+      #contact-form {
+        @include grid-span(8, 3, 12);
+        clear: both;
+      }
+    }
+  }
+}

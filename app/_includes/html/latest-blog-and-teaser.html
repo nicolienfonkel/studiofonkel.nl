@@ -1,0 +1,15 @@
+<div class="content-footer latest-blog-teaser">
+
+    <h3 class="content-footer-header">Bekijk ons werk</h3>
+
+    <article class="previous">
+    {% assign document = site.blogs | last %}
+    {% include teaser/blogs.html %}
+    </article>
+
+    <article class="next">
+    {% assign document = site.cases | last %}
+    {% include teaser/cases.html %}
+    </article>
+
+</div>

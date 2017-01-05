@@ -1,11 +1,12 @@
 <footer class="footer">
 
+	{% if page.url != '/contact/' %}
 	<div class="footer-inner">
 		<div class="contact-form footer-block">
 			{% include html/contact-form.html %}
 		</div>
 	</div>
-
+	{% endif %}
 
 	<div class="dark-region">
 
