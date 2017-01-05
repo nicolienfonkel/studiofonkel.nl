@@ -51,8 +51,41 @@
 						{% endif %}
 					{% endif %}
 				{% endfor %}
-
 			</nav>
+
+			{% if page.url == '/aanpak/' %}
+			<nav class="nav-inner submenu">
+
+				{% if page_item.url == 'aanpak/'page.url %}
+				<a class="active menu-link" href="{{ page_item.url }}">
+					{% if page_item.menu-title %}
+					{{ page_item.menu-title }}
+					{% else %}
+					{{ page_item.title }}
+					{% endif %}
+				</a>
+
+				{% elsif page.collection and page_item.menu_collection == page.collection %}
+				<a class="active active-trail menu-link" href="{{ page_item.url }}">
+					{% if page_item.menu-title %}
+						{{ page_item.menu-title }}
+
+					{% else %}
+						{{ page_item.title }}
+
+					{% endif %}
+				</a>
+
+				{% else %}
+				<a class="menu-link" href="{{ page_item.url }}">
+					{% if page_item.menu-title %}
+					{{ page_item.menu-title }}
+					{% else %}
+					{{ page_item.title }}
+					{% endif %}
+				</a>
+			</nav>
+			{% endif %}
 		 </div>
 
 	</div>

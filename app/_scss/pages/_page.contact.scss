@@ -3,13 +3,19 @@ body.contact {
     #contact-form {
       @include grid-span(4, 1, 4);
       clear: both;
-    }
-  }
-  .latest-blog-teaser {
-    margin-bottom: 50px;
 
-    .content-footer-header {
-      font-size: 28px;
+      *::-webkit-input-placeholder {
+        color: $light-grey;
+      }
+      *:-moz-placeholder {
+        color: $light-grey;
+      }
+      *::-moz-placeholder {
+        color: $light-grey;
+      }
+      *:-ms-input-placeholder {
+          color: $light-grey;
+      }
     }
   }
 }
