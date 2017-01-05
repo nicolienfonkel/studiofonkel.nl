@@ -33,7 +33,7 @@ Probeer dit vervolgens zo helder mogelijk te verwoorden. Schrijf een <a href="/b
 
 Nu mag je weer gaan nadenken over je website. Neem je merkverhaal als uitgangspunt wanneer je dat doet:
 
-Wat zijn de consequenties van je merkverhaal? Wat betekent je <a href="/blogs/archetypen/"merkpersoonlijkheid</a> voor de manier waarop je jezelf laat zien? Voor de toon van je teksten? Voor de beelden je gebruikt? Voor de kleuren je gebruikt? Voor wat je wel zegt en wat je niet zegt? Voor waar je de focus op legt? Voor wat er wel en wat niet op de homepagina komt?
+Wat zijn de consequenties van je merkverhaal? Wat betekent je merkpersoonlijkheid voor de manier waarop je jezelf laat zien? Voor de toon van je teksten? Voor de beelden die je gebruikt? Voor de kleuren je gebruikt? Voor wat je wel zegt en wat je niet zegt? Voor waar je de focus op legt? Voor wat er wel en wat niet op de homepagina komt?
 
 Het is nu niet meer zozeer de vraag wat mooi, leuk of logisch lijkt, maar wat het meest bij je <a href="/merkpositionering/">merk</a> past.
 
