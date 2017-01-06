@@ -4,8 +4,7 @@ menu-title: "UX design"
 htmltitle: "UX design"
 author: Floris
 metadescription: ""
-menu: 5
-menu_parent: "Werkwijze"
+permalink: /aanpak/ux-design/
 ---
 
 UX design.

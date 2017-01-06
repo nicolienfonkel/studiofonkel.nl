@@ -1,7 +1,5 @@
 <header class="header">
-
 	<div class="header-inner">
-
 		<div class="nav main-menu">
 			<div role="navigation" class="hamburger">
 				<div class="bar"></div>
@@ -9,66 +7,45 @@
 				<div class="bar"></div>
 			</div>
 
-			<a href="/" class="site-logo head">
-				{% include svg/logo.svg %}
-			</a>
+			<a href="/" class="site-logo head">{% include svg/logo.svg %}</a>
 
 			<nav class="nav-inner">
-				{% if page.url == '/' %}
-				    <a class="active menu-link" href="/">Home</a>
-				{% else %}
-					<a class="menu-link" href="/">Home</a>
-				{% endif %}
+				<ul class="main-menu">
+				{% assign menu_items = site.data.menu %}
+				{% assign current_url_components = page.url | split: "/" %}
 
-				{% assign sorted_pages = site.pages | sort: 'menu' %}
+				{% for menu_item in menu_items %}
+					{% capture url_component_with_slash %}{{ current_url_components[1] | prepend: "/" }}{% endcapture %}
 
-				{% for page_item in sorted_pages %}
-					{% if page_item.menu %}
-						{% unless page_item.menu_parent %}
-
-							{% if page_item.url == page.url %}
-								<a class="active menu-link" href="{{ page_item.url }}">
-									{% if page_item.menu-title %}
-										{{ page_item.menu-title }}
-									{% else %}
-										{{ page_item.title }}
-									{% endif %}
-								</a>
-
-								{% capture submenu %}{% for submenu_item in sorted_pages %}{% if submenu_item.menu_parent == page_item.menu-title %}<a class="menu-link" href="{{ submenu_item.url }}">{{ submenu_item.menu-title }}</a>{% endif %}{% endfor %}{% endcapture %}
-
-							{% elsif page.collection and page_item.menu_collection == page.collection %}
-								<a class="active active-trail menu-link" href="{{ page_item.url }}">
-									{% if page_item.menu-title %}
-										{{ page_item.menu-title }}
-									{% else %}
-										{{ page_item.title }}
-									{% endif %}
-								</a>
-							{% else %}
-								<a class="menu-link" href="{{ page_item.url }}">
-									{% if page_item.menu-title %}
-										{{ page_item.menu-title }}
-									{% else %}
-										{{ page_item.title }}
-									{% endif %}
-								</a>
-							{% endif %}
-
-						{% endunless %}
+					{% if url_component_with_slash == menu_item.url %}
+						{% assign classes = " active" %}
+					{% else %}
+						{% assign classes = "" %}
 					{% endif %}
+
+					<li class="menu-item">
+						<a class="menu-link{{ classes }}" href="{{ menu_item.url }}">{{ menu_item.title }}</a>
+						{% if menu_item.submenu %}
+						<ul class="submenu">
+							{% for submenu_item in menu_item.submenu %}
+								{% capture submenu_url_with_ending_slash %}{{ submenu_item.url | append: "/" }}{% endcapture %}
+
+								{% if submenu_url_with_ending_slash == page.url %}
+									{% assign classes = " active" %}
+								{% else %}
+									{% assign classes = "" %}
+								{% endif %}
+
+								<li class="menu-item">
+									<a class="menu-link{{ classes }}" href="{{ submenu_item.url }}">{{ submenu_item.title }}</a>
+								</li>
+							{% endfor %}
+							</ul>
+						{% endif %}
+					</li>
 				{% endfor %}
+				</ul>
 			</nav>
-
-			{% assign submenu = submenu %}
-			{% if submenu.size != 0 %}
-				<nav class="submenu">
-					{{ submenu }}
-				</nav>
-			{% endif %}
-
 		 </div>
-
 	</div>
-
 </header>

@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Home",
+    "url": "/"
+  },
+  {
+    "title": "Over ons",
+    "url": "/over-ons"
+  },
+  {
+    "title": "Werkwijze",
+    "url": "/aanpak",
+    "submenu": [
+      {
+        "title": "Strategie",
+        "url": "/aanpak/strategie"
+      },
+      {
+        "title": "Ontwerp",
+        "url": "/aanpak/ontwerp"
+      },
+      {
+        "title": "Development",
+        "url": "/aanpak/development"
+      },
+      {
+        "title": "Content",
+        "url": "/aanpak/content"
+      },
+      {
+        "title": "UX design",
+        "url": "/aanpak/ux-design"
+      }                
+    ]
+  },
+  {
+    "title": "Cases",
+    "url": "/cases"
+  }
+]
