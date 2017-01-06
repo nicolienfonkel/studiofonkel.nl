@@ -3,6 +3,10 @@
     "title": "Home",
     "url": "/"
   },
+    {
+    "title": "Widget",
+    "url": "/widget"
+  },
   {
     "title": "Over ons",
     "url": "/over-ons"

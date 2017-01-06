@@ -1,4 +1,4 @@
-.header {
+header.header {
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -7,9 +7,7 @@
 	background-color: white;
 	box-shadow: 0 0 7px -2px transparent;
 	transition: all .3s;
-	//overflow: hidden;
 	transform: translateY(0);
-  //border-bottom: 1px solid red;
   
   .site-logo.head {
     svg {
@@ -21,10 +19,24 @@
       height: 44px;
     }
   }
-  
+  ul {
+  	width: 100% !important;
+  }
+
+  .menu-item {
+  	display: inline-block !important;
+  	width: auto !important;
+  	margin: 0;
+
+
+  	&:before {
+  		content: none !important;
+  	}
+  }
+
   .submenu {
-	float: right;
-	clear: right;
+		display: block;
+    position: fixed;
 
 		.menu-link {
 			color: $yellow !important;
@@ -54,11 +66,15 @@
 
 	.nav-inner {
 		float: right;
+
+		.main-menu {
+
+		}
 	}
 }
 
 .has-fixed-menu {
-	.header {
+	header.header {
 		box-shadow: 0 0 13px -4px rgba(0, 0, 0, 0.4);
 	}
 
@@ -81,6 +97,12 @@
 	}
 
 	.has-active-menu {
+		header.header {
+			background-color: $yellow;
+			height: 100vh;
+			overflow-y: auto;
+		}
+
 		.nav-inner {
 			max-height: 100vh;
 			padding-top: 70px;
@@ -89,12 +111,6 @@
 				font-size: 30px;
 				height: 80px;
 			}
-		}
-
-		.header {
-			background-color: $yellow;
-			height: 100vh;
-			overflow-y: auto;
 		}
 	}
 }
