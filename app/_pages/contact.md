@@ -1,13 +1,12 @@
 ---
 title:  "Contact"
-menu-title: "Contact"
 htmltitle: "Contact"
 author: Floris
 metadescription: "Je bent van harte welkom om vrijblijvend met ons van gedachten te wisselen"
 htmltitle: "Welkom op ons kantoor in Amersfoort"
 author: floris
-menu: 6
 layout: page
+permalink: /contact/
 ---
 
 {% image “/img/Interieur1a.jpg" "" "" "" %}

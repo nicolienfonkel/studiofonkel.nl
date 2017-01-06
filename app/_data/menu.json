@@ -40,5 +40,13 @@
   {
     "title": "Cases",
     "url": "/cases"
-  }
+  },
+  {
+    "title": "Blogs",
+    "url": "/blogs"
+  },
+  {
+    "title": "Contact",
+    "url": "/contact"
+  }  
 ]

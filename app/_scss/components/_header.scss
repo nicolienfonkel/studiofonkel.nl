@@ -1,3 +1,12 @@
+.has-submenu {
+	.site {
+		margin: 175px auto 0;
+	}
+	.nav.main-menu {
+		min-height: 130px !important;
+	}
+}
+
 header.header {
 	width: 100%;
 	position: fixed;
@@ -9,6 +18,16 @@ header.header {
 	transition: all .3s;
 	transform: translateY(0);
   
+  .menu-item{
+  	font-size: 16px !important;
+ 			padding: 0 !important;
+ 		
+ 		.menu-link.active + .submenu {
+ 			display: block !important;
+ 			margin: 0 !important;
+ 			left: -160px !important;
+ 		}
+  }
   .site-logo.head {
     svg {
       margin: 0;
@@ -19,6 +38,7 @@ header.header {
       height: 44px;
     }
   }
+
   ul {
   	width: 100% !important;
   }
@@ -26,7 +46,7 @@ header.header {
   .menu-item {
   	display: inline-block !important;
   	width: auto !important;
-  	margin: 0;
+  	margin: 0 !important;
 
 
   	&:before {
@@ -35,8 +55,9 @@ header.header {
   }
 
   .submenu {
-		display: block;
-    position: fixed;
+			position: absolute !important;
+	    width: 660px !important;
+	    display: none !important;
 
 		.menu-link {
 			color: $yellow !important;
@@ -66,9 +87,11 @@ header.header {
 
 	.nav-inner {
 		float: right;
+		overflow: inherit !important;
 
 		.main-menu {
-
+			margin: 0 !important;
+			border-bottom: 0 !important;
 		}
 	}
 }

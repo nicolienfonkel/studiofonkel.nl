@@ -7,6 +7,10 @@ $(document).ready(function() {
 		$('body').toggleClass('has-active-menu');
 	});
 
+    if ($('header .nav-inner > .main-menu > .active > .submenu').length != 0 ) {
+        $('body').addClass('has-submenu');
+    };
+
 	$(window).scroll(function() {
 
         if ($('body').hasClass('homepage')) {
