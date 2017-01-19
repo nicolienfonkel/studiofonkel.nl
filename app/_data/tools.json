@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Merkstrategie",
+    "url": "/merkstrategie",
+    "img": "/img/gevels.jpg"
+  },
+  {
+    "title": "Corperate storytelling",
+    "url": "/corperate-storytelling",
+    "img": "/img/gevels.jpg"
+  },
+  {
+    "title": "Content marketing",
+    "url": "/content-marketing",
+    "img": "/img/gevels.jpg"
+  },
+  {
+    "title": "Design sprint",
+    "url": "/design-sprint",
+    "img": "/img/gevels.jpg"
+  },
+  {
+    "title": "Website",
+    "url": "/website",
+    "img": "/img/gevels.jpg"
+  },
+  {
+    "title": "Prototyping",
+    "url": "/prototyping",
+    "img": "/img/gevels.jpg"
+  },
+  {
+    "title": "Webaplicaties",
+    "url": "/webaplicaties",
+    "img": "/img/gevels.jpg"
+  },
+  {
+    "title": "Magazines",
+    "url": "/magazines",
+    "img": "/img/gevels.jpg"
+  }
+]

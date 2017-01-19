@@ -30,26 +30,5 @@ Heb je geen – of te vage – antwoorden op de openingsvragen? Of beschrijf je 
   <h5 class="cta-text">{{ page.cta-text }}</h5>
   <div class="number"><a href="/contact">Neem contact op</a></div>
 </div>
-{% include regions/customer-showcase.html %}
-<br/>
 
-## Inspirerende blogs en cases:
-
-<div class="cases-overview">
-	{% assign document = site.blogs | where: 'relative_path': '_blogs/communicatie.md' | first %}
-  {% include teaser/blogs.html %}
-
-  {% assign document = site.cases | where: 'relative_path': '_cases/fincent.md' | first %}
-  {% include teaser/cases.html %}
-
-  {% assign document = site.cases | where: 'relative_path': '_cases/moso.md' | first %}
-  {% include teaser/cases.html %}
-
-  {% assign document = site.blogs | where: 'relative_path': '_blogs/investering.md' | first %}
-  {% include teaser/blogs.html %}
-
-</div>
-
-## Hier zijn we goed in:
-
-{% convince aanpak %}
+{% include regions/tools.html %}

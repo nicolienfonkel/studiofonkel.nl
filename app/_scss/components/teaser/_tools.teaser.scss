@@ -1,0 +1,80 @@
+  .tools-wrapper {
+    @include clearfix;
+    @include grid-span(4, 1);
+    position: relative;
+    clear: both;
+    margin-bottom: 10px;
+
+    .tools {
+      background-color: $yellow;
+      @include grid-span(4, 1);
+      float: left;
+      min-height: 220px;
+      padding: 10px 10px 0 10px;
+
+      img {
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      svg {
+        width: 23px;
+
+        .svg-arrow {
+          stroke: black;
+        }
+      }
+    }
+  }
+@include breakpoint($mobile) {  
+  .tools-wrapper {
+    @include grid-span(4, 1);
+    @include clearfix;
+    position: relative;
+    clear: both;
+
+    .tools {
+      @include grid-span(4, 1);
+      @include clearfix;
+    }
+  }
+}
+
+@include breakpoint($tablet) {
+  .tools-wrapper {
+    @include grid-span(6, 2);
+    @include clearfix;
+    position: relative;
+    clear: both;
+
+    .tools {
+      @include grid-span(4, 1);
+      padding: 20px 20px 0 20px;
+      min-height: 240px;
+    }
+  }
+}
+
+@include breakpoint($desktop) {
+  .tools-wrapper {
+    @include clearfix;
+    width: 100%;
+    margin: 0;
+    background-color:red;
+
+    .tools {
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      transition: $speed;
+      @include float-span(3, 1);
+      // @include float-span(4, 1);
+      // @include clearfix;
+
+      // border:1px solid green;
+      // margin: 0;
+      // min-height: 240px;
+      // padding: 30px 30px 0 30px;
+    }
+  }
+}

@@ -9,66 +9,66 @@
 	}
 
 	.employee {
-	    margin-top: 20px;
-		margin-bottom: 20px;
-	    transition: $speed;
+    margin-top: 20px;
+	  margin-bottom: 20px;
+    transition: $speed;
 		@include isolation-span(4, 1, 'both');
 
-	    .image {
-	    	cursor: pointer;
-	    	background-size: 100% 100%;
-			background-position: center;
-            background-repeat: no-repeat;
-			display: block;
-			padding-bottom: 100%;
-			transition: border $speed linear, background-size $speed linear;
-			width: 100%;
-		    float: left;
-            position: relative;
+    .image {
+      cursor: pointer;
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+      padding-bottom: 100%;
+      transition: border $speed linear, background-size $speed linear;
+      width: 100%;
+      float: left;
+      position: relative;
 
-            &.michiel {
-                background-position: 10% 10%;
-            }
+          &.michiel {
+              background-position: 10% 10%;
+          }
 
-            &.floris {
-                background-position: 85% 10%;
-            }
+          &.floris {
+              background-position: 85% 10%;
+          }
 
-            &.daniel {
-                background-position: 81% 0%;
-            }
+          &.daniel {
+              background-position: 81% 0%;
+          }
 
-            &.lianne {
-                background-position: 35% 7%;
-            }
+          &.lianne {
+              background-position: 35% 7%;
+          }
 
-            &.nicolien {
-                background-position: 75% 13%;
-            }
+          &.nicolien {
+              background-position: 75% 13%;
+          }
 
-            &.gino {
-                background-position: 56% 15%;
-            }
+          &.gino {
+              background-position: 56% 15%;
+          }
 
-            &.arie {
-                background-position: 50% 18%;
-            }
+          &.arie {
+              background-position: 50% 18%;
+          }
 
-            &.ewout {
-                background-position: 59% 7%;
-            }
+          &.ewout {
+              background-position: 59% 7%;
+          }
 
-            &.remco {
-                background-position: 48% 18%;
-            }
+          &.remco {
+              background-position: 48% 18%;
+          }
 
-			&.laurens {
-				background-position: 48% -1%;
-			}
+    			&.laurens {
+    				background-position: 48% -1%;
+    			}
 
-			&.sven {
-				background-position: 48% 8%;
-			}
+    			&.sven {
+    				background-position: 48% 8%;
+    			}
 
             &:before {
                 content: attr(data-name) " \2192";

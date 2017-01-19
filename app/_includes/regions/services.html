@@ -1,0 +1,17 @@
+<div class="services-wrapper" markdown="0">
+{% for menu_item in site.data.menu %}
+  {% if menu_item.submenu %}
+    {% for submenu_item in menu_item.submenu %}
+    <a class="service-item" href="{{ submenu_item.url }}">
+      {% if submenu_item.img %}
+      <img src="{{ submenu_item.img }}">
+      {% endif %}
+      <article>
+        <h2>{{ submenu_item.description }}</h2>
+        <p>{{ submenu_item.title }} {% include svg/arrow.svg %}</p>
+      </article>
+    </a>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+</div>

@@ -21,6 +21,8 @@ Een groot voordeel van de scrum methodiek is dat je als klant maximaal grip hebt
 
 {% image "/img/agile-board.png" "default" "Op het scrumbord zien we precies wat er nog moet gebeuren, wie waar mee bezig is en welke taken al zijn afgerond." "Studio Fonkel scrumboard" %}
 
-## We zijn goed in:
+## Diensten waar we goed in zijn:
+{% include regions/services.html %}
 
-{% convince aanpak %}
+## Middelen die we inzetten:
+{% include regions/tools.html %}
