@@ -1,34 +1,96 @@
 .services-wrapper {
   @include clearfix;
-  @include grid-span(4,1);
   position: relative;
-  clear:both;
-  background-color: red;
+  clear: both;
+  margin-bottom: 10px;
 
   .service-item {
+    @include clearfix;
+    @include float-span(4,1);
+    position: relative;
+    clear: both;
+    transition: $speed;
     background-color: $yellow;
-    border: 5px solid white;
-    float: left;
-    width: 100%;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+    background-position: 50% 50%;
+    
+    .article {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+    }
 
-    svg {
-      width: 23px;
+    p {
+      color: $yellow;
+      svg {
+        width: 23px;
 
-      .svg-arrow {
-        stroke: black;
+        .svg-arrow {
+          stroke: $yellow;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      color: white;
+
+      p {
+        color: black;
+        svg {
+        .svg-arrow {
+          stroke: black;
+          }
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      background-color: $lighter-grey;
+      color: black;
+      
+      p {
+        color: $yellow;
+      }
+    }
+
+    &.with-backgroundimage {
+      box-shadow: inset 0 -200px 200px -130px  rgba(0, 0, 0, 0.6);
+      color: white;
+    }
+
+    &:last-child {
+      background-size: 160% auto;
+      background-position: 50% 33%;
+    }
+  }
+}
+
+@include breakpoint($tablet) {
+  .services-wrapper {
+    .service-item {
+      @include float-span(4,1);
+      min-height: 250px;
+      
+      &:last-child {
+        @include float-span(8,1);
       }
     }
   }
 }
 
-@include breakpoint($mobile) {
-  //
-}
-
-@include breakpoint($tablet) {
-  //
-}
-
 @include breakpoint($desktop) {
-  //
+  .services-wrapper {
+    .service-item {
+      @include float-span(6,1);
+      min-height: 320px;
+      padding: 180px 20px 0 20px;
+      
+      &:last-child {
+        @include float-span(12,1);
+      }
+    }
+  }
 }

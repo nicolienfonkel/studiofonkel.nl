@@ -1,157 +1,120 @@
-@include breakpoint($mobile) {
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0 0 7px -2px transparent;
+  transition: all .3s;
+  transform: translateY(0);
+  
+  .site-logo.head {
+    svg {
+      margin: 0;
+      padding: 0;
+      display: block;
+      max-height: 100%;
+      margin-bottom: 10px;
+      height: 44px;
+    }
+  }
+}
+
+.dropdown-toggle {
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  cursor: pointer;
+  margin-top: 9px;
+  transition: $speed;
+  
+  svg {
+    height: 30px;
+    margin: 0 auto;
+    left: 20%;
+    top: 20%;
+    position: absolute;
+    display: block;
+    width: 30px;    
+  }
+
+  &.rotated {
+    transform: rotate(90deg);
+  }
+}
+
+
+.header-inner {
+  position: relative;
+  max-width: $desktop;
+  margin: 0 auto;
+  @include clearfix;
+  min-height: 65px;
+  transition: all .3s;
+
+  .nav {
+    @include grid-span(4, 1);
+    
+    @include breakpoint($tablet) {
+      @include grid-span(8, 1);
+    }
+
+    @include breakpoint($desktop) {
+      @include grid-span(12, 1);
+    }
+  }
+
   .nav-inner {
-    overflow: hidden;
+    float: right;
+  }
+}
+
+.has-fixed-menu {
+  .header {
+    box-shadow: 0 0 13px -4px rgba(0, 0, 0, 0.4);
+  }
+
+  .main-menu {
+    border-bottom: 0;
+  }
+}
+
+.has-hidden-header {
+  .header {
+    transform: translateY(-100%);
+  }
+}
+
+@include breakpoint(max-width $tablet - 1) {
+  .nav-inner {
+    max-height: 0;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .has-active-menu {
+    .nav-inner {
+      max-height: 100vh;
+      padding-top: 70px;
+
+      .menu-link {
+        font-size: 30px;
+        height: 80px;
+      }
+    }
+
+    .header {
+      background-color: $yellow;
+      height: 100vh;
+      overflow-y: auto;
+    }
   }
 }
 
 @include breakpoint($tablet) {
   .nav-inner {
     overflow: hidden;
-  }
-}
-
-@include breakpoint($desktop) {
-  .has-submenu {
-  	.site {
-  		margin: 175px auto 0;
-  	}
-  	.nav.main-menu {
-  		min-height: 120px !important;
-  	}
-  }
-
-  header.header {
-  	width: 100%;
-  	position: fixed;
-  	top: 0;
-  	left: 0;
-  	z-index: 100;
-  	background-color: white;
-  	box-shadow: 0 0 7px -2px transparent;
-  	transition: all .3s;
-  	transform: translateY(0);
-    
-    .menu-item{
-    	font-size: 16px !important;
-   		padding: 0 !important;
-   		
-   		.menu-link.active + .submenu {
-   			display: block !important;
-   			margin: 0 !important;
-   			left: -160px !important;
-   		}
-    }
-    .site-logo.head {
-      svg {
-        margin: 0;
-        padding: 0;
-        display: block;
-        max-height: 100%;
-        margin-bottom: 10px;
-        height: 44px;
-      }
-    }
-
-    ul {
-    	width: 100% !important;
-    }
-
-    .menu-item {
-    	display: inline-block !important;
-    	width: auto !important;
-    	margin: 0 !important;
-
-      &:before {
-        content: none !important;
-      }
-    }
-
-    .submenu {
-  			position: absolute !important;
-  	    width: 660px !important;
-  	    display: none !important;
-
-  		.menu-link {
-  			color: $yellow !important;
-        line-height: 10px !important;
-
-        &.active:after {
-          bottom: -18px;
-        }
-  		}
-  	}
-  }
-
-  .header-inner {
-  	position: relative;
-  	max-width: $desktop;
-  	margin: 0 auto;
-  	@include clearfix;
-  	min-height: 65px;
-  	transition: all .3s;
-
-  	.nav {
-  		@include grid-span(4, 1);
-
-  		@include breakpoint($tablet) {
-  			@include grid-span(8, 1);
-  		}
-
-  		@include breakpoint($desktop) {
-  			@include grid-span(12, 1);
-  		}
-  	}
-
-  	.nav-inner {
-  		float: right;
-  		overflow: inherit !important;
-
-  		.main-menu {
-  			margin: 0 !important;
-  			border-bottom: 0 !important;
-  		}
-  	}
-  }
-
-  .has-fixed-menu {
-  	header.header {
-  		box-shadow: 0 0 13px -4px rgba(0, 0, 0, 0.4);
-  	}
-
-  	.main-menu {
-  		border-bottom: 0;
-  	}
-  }
-
-  .has-hidden-header {
-  	.header {
-  		transform: translateY(-100%);
-  	}
-  }
-
-  @include breakpoint(max-width $tablet - 1) {
-  	.nav-inner {
-  		max-height: 0;
-  		width: 100%;
-  		overflow: scroll;
-  	}
-
-  	.has-active-menu {
-  		header.header {
-  			background-color: $yellow !important;
-  			height: 100vh;
-  			overflow-y: auto;
-  		}
-
-  		.nav-inner {
-  			max-height: 100vh;
-  			padding-top: 70px;
-
-  			.menu-link {
-  				font-size: 30px;
-  				height: 80px;
-  			}
-  		}
-  	}
   }
 }

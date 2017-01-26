@@ -1,14 +1,19 @@
 @include breakpoint($tablet) {
   .main-menu {
-    .menu-link {
-      display: inline-block;
+    .menu-item {
+      display: inline-block !important;
       color: #7f7f7f;
-      line-height: 65px;
+      line-height: 65px !important;
       text-align: center;
       position: relative;
       text-decoration: none;
       transition: 0.3s;
-      padding: 0 10px;
+      padding: 0 10px !important;
+      width: 100px !important;
+
+      .dropdown-toggle {
+        display: none;
+      }
 
       &.active:after {
         background-color: $yellow;

@@ -11,6 +11,12 @@ $(document).ready(function() {
         $('body').addClass('has-submenu');
     };
 
+    $('.dropdown-toggle').on('click', function() {
+        $(this).toggleClass('rotated');
+        $('.submenu').toggleClass('active-submenu');
+    });
+    
+
 	$(window).scroll(function() {
 
         if ($('body').hasClass('homepage')) {
