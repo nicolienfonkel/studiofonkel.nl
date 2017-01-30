@@ -29,7 +29,7 @@ Wat maakt ons bedrijf aantrekkelijk anders dan de concurrentie? Welke plek wille
 
 Denk hier goed over na.
 
-Probeer dit vervolgens zo helder mogelijk te verwoorden. Schrijf een <a href="/blogs/Merkverhaal/">merkverhaal?</a> waarin duidelijk wordt: wie je merk precies is, wat je merk belangrijk vindt en hoe je merk aanvoelt. Hoogstens een half A4’tje.
+Probeer dit vervolgens zo helder mogelijk te verwoorden. Schrijf een <a href="/blogs/Merkverhaal/">merkverhaal</a> waarin duidelijk wordt: wie je merk precies is, wat je merk belangrijk vindt en hoe je merk aanvoelt. Hoogstens een half A4’tje.
 
 Nu mag je weer gaan nadenken over je website. Neem je merkverhaal als uitgangspunt wanneer je dat doet:
 
