@@ -19,4 +19,4 @@ Een merkverhaal is korte en krachtige tekst waarin duidelijk wordt hoe een merk 
 Lees hier meer over in onze blog <a href="/blogs/Merkverhaal/">‘Een merkverhaal: wat is het en waarom is het belangrijk?’</a>.
 
 ### Stevige basis
-Hoewel we dit traject ook los aanbieden, vormt het meestal de basis voor een communicatieplan, een website en/of een huisstijl. Producten worden er namelijk altijd beter wanneer je begint met aandacht voor het fundament. Het resultaat is dan een oplossing die niet alleen mooi is, maar met name heel goed past bij het bedrijf en zijn doelgroep. Bovendien leidt een sterke start tot een soepel proces.
+Hoewel we dit traject ook los aanbieden, vormt het meestal de basis voor bijvoorbeeld een communicatieplan en/of website. Producten worden er namelijk altijd beter wanneer je begint met aandacht voor het fundament. Het resultaat is dan een oplossing die niet alleen mooi is, maar met name heel goed past bij het bedrijf en zijn doelgroep. Bovendien leidt een sterke start tot een soepel proces.
