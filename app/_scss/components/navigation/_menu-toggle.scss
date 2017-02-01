@@ -34,6 +34,9 @@
 }
 
 .has-active-menu {
+	.header {
+		background-color: $yellow;	
+	
 	.bar {
 		&:nth-child(1) {
 			transform: rotate(45deg);
@@ -49,6 +52,7 @@
 			bottom: 10px;
 			transition: bottom $speed linear 0s, transform $speed linear $speed;
 		}
+	}
 	}
 }
 

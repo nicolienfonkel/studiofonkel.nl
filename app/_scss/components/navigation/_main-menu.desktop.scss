@@ -1,27 +1,109 @@
 @include breakpoint($tablet) {
+  .nav.main-menu {
+    height: 65px !important;
+
+    .nav-inner {
+      display: block;
+    }
+  }
+  
+  .site {
+    margin: 120px auto 0 !important;
+  }
+
   .main-menu {
+    margin-left: 0 !important;
+    padding: 0;
+    width: 100% !important;
+    margin-top: 0 !important;
+
     .menu-item {
       display: inline-block !important;
-      color: #7f7f7f;
       line-height: 65px !important;
       text-align: center;
       position: relative;
       text-decoration: none;
-      transition: 0.3s;
-      padding: 0 10px !important;
-      width: 100px !important;
+      transition: $speed;
+      height: 120px !important;
+      font-size: 16px !important;
+      padding-right: 15px !important;
+      width: auto !important;
+      margin: 0 !important;
+
+      .active:after {
+        top: 50px !important;
+      }
+
+      .submenu {
+        position: absolute !important;
+        width: 660px !important;
+        background-color: transparent !important;
+        display: none !important;
+
+        .menu-item {
+          height: 10px;
+          width: auto !important;
+          margin: -30px 16px 0px 0px !important;
+          padding: 0 !important;
+          clear: none !important;
+          display: block;
+          float: left;
+        }
+
+        .menu-link {
+          color: $yellow !important;
+
+          &.active:after {
+            bottom: -18px;
+          }
+        }
+      }
+      .menu-link.active + .submenu {
+        display: block !important;
+        margin: 0 !important;
+        left: -160px !important;
+        position: absolute !important; 
+        height: 300px !important;
+        top: 80px !important;
+        
+        & * {
+          z-index: 999;
+        }
+
+        .menu-item {
+          display: block !important;
+        }
+      }
+      
+      .menu-link {
+        color: #7f7f7f !important;
+      
+        &.active:after {
+          background-color: $yellow;
+        }
+      }
 
       .dropdown-toggle {
         display: none;
       }
 
-      &.active:after {
-        background-color: $yellow;
-      }
-
       &:last-child {
         padding-right: 0;
       }
+    }
+
+    &.nav {
+      border-bottom: 1px solid #cccccc !important;
+    }
+  }
+
+  .has-submenu {
+    .nav.main-menu {
+      min-height: 120px !important;
+    }
+
+    .site {
+      margin: 175px auto 0 !important;
     }
   }
 }

@@ -1,5 +1,9 @@
 .main-menu {
   border-bottom: 1px solid #cccccc;
+
+  .nav-inner {
+    display: none;
+  }
   
   .menu-item {
     padding-left: 0 !important;
@@ -18,6 +22,7 @@
         }
       }
     }
+
 
     .submenu {
       background-color: #d0a000;
@@ -59,5 +64,11 @@
 }
 
 .main-menu {
-  border-bottom: 0 solid #cccccc !important;
+  border-bottom: 0 solid #cccccc;
+}
+
+.has-active-menu {
+  .nav-inner {
+    display: block;
+  }
 }

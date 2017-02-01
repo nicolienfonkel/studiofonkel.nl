@@ -76,9 +76,7 @@
     box-shadow: 0 0 13px -4px rgba(0, 0, 0, 0.4);
   }
 
-  .main-menu {
-    border-bottom: 0;
-  }
+  
 }
 
 .has-hidden-header {
@@ -91,7 +89,6 @@
   .nav-inner {
     max-height: 0;
     width: 100%;
-    overflow: scroll;
   }
 
   .has-active-menu {
