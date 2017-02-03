@@ -3,15 +3,16 @@
   {% if menu_item.submenu %}
     {% for submenu_item in menu_item.submenu %}
       {% if submenu_item.img %}
-        <a class="service-item with-backgroundimage" href="{{ submenu_item.url }}" style="background-image:url({{ submenu_item.img }})">
-      {% else %}
-        <a class="service-item" href="{{ submenu_item.url }}">
-      {% endif %}
-      <article class="article">
-        <h2>{{ submenu_item.description }}</h2>
-        <p>{{ submenu_item.title }} {% include svg/arrow.svg %}</p>
-      </article>
-    </a>
+        <a class="service-item with-backgroundimage" href="{{ submenu_item.url }}" style="background-image:url({{ submenu_item.img }});">
+          <div class="gradientbox"></div>
+        {% else %}
+          <a class="service-item" href="{{ submenu_item.url }}">
+        {% endif %}
+        <article class="article">
+          <h2>{{ submenu_item.description }}</h2>
+          <p>{{ submenu_item.title }} {% include svg/arrow.svg %}</p>
+        </article>
+      </a>
     {% endfor %}
   {% endif %}
 {% endfor %}

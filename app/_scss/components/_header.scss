@@ -22,7 +22,7 @@
 }
 
 .dropdown-toggle {
-  right: 40px;
+  right: 30px;
   width: 50px;
   height: 50px;
   position: absolute;
@@ -56,7 +56,9 @@
 
   .nav {
     @include grid-span(4, 1);
-    
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 12px;
     @include breakpoint($tablet) {
       @include grid-span(8, 1);
     }
@@ -75,8 +77,17 @@
   .header {
     box-shadow: 0 0 13px -4px rgba(0, 0, 0, 0.4);
   }
+}
+.homepage {
+  .header {
+    .site-logo {
+      top: 93px;
+    }
+  }
 
-  
+  .main-menu.nav {
+    border-bottom: 0 !important;
+  }
 }
 
 .has-hidden-header {
@@ -104,7 +115,7 @@
 
     .header {
       background-color: $yellow;
-      height: 100vh;
+      height: 100%;
       overflow-y: auto;
     }
   }

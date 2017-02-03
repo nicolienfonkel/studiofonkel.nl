@@ -20,12 +20,6 @@
     }
 }
 
-.homepage {
-    .logo.head {
-        top: 95px;
-    }
-}
-
 @include breakpoint($tablet) {
     .homepage .logo {
         &.home {

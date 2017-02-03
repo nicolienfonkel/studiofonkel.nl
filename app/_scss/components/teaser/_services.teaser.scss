@@ -4,6 +4,15 @@
   clear: both;
   margin-bottom: 10px;
 
+  .gradientbox {
+    background: transparent linear-gradient(transparent 0px, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
   .service-item {
     @include clearfix;
     @include float-span(4,1);
@@ -57,7 +66,6 @@
     }
 
     &.with-backgroundimage {
-      box-shadow: inset 0 -200px 200px -130px  rgba(0, 0, 0, 0.6);
       color: white;
     }
 
@@ -70,6 +78,7 @@
 
 @include breakpoint($tablet) {
   .services-wrapper {
+
     .service-item {
       @include float-span(4,1);
       min-height: 250px;
