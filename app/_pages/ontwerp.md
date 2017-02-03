@@ -1,6 +1,5 @@
 ---
 title:  "Ontwerp"
-subtitle: ""
 htmltitle: "Ontwerp"
 author: Floris
 metadescription: ""

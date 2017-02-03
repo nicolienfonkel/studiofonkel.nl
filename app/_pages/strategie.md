@@ -1,6 +1,5 @@
 ---
 title:  "Merkstrategie"
-subtitle: ""
 htmltitle: "Merkstrategie"
 author: Floris
 metadescription: ""
