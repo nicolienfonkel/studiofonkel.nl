@@ -4,6 +4,8 @@
       "name": "Michiel",
       "job": "Eigenaar & ontwerper Studio Fonkel",
       "email": "michiel [at] studiofonkel [dot] nl",
+      "left": 15,
+      "top": 10,
       "preferences": {
         "Post-it vs. iPad": 1,
         "Resort vs. Gaspitje": 100,
@@ -20,6 +22,8 @@
       "key": "floris",
       "name": "Floris",
       "job": "Eigenaar",
+      "left": 75,
+      "top": 10,
       "email": "floris [at] studiofonkel [dot] nl",
       "preferences": {
         "Post-it vs. iPad": 93,
@@ -36,6 +40,8 @@
     {
       "key": "daniel",
       "name": "Daniël",
+      "left": 76,
+      "top": 3,
       "job": "Drupal-nerd",
       "email": "daniel [at] studiofonkel [dot] nl",
       "preferences": {
@@ -55,6 +61,8 @@
       "name": "Lianne",
       "job": "Tekstschrijver",
       "email": "lianne [at] studiofonkel [dot] nl",
+      "left": 38,
+      "top": 7,
       "preferences": {
         "Post-it vs. iPad": 5,
         "Resort vs. Gaspitje": 90,
@@ -70,6 +78,8 @@
     {
       "key": "nicolien",
       "name": "Nicolien",
+      "left": 72,
+      "top": 13,
       "job": "Office Manager",
       "email": "nicolien [at] studiofonkel [dot] nl",
       "preferences": {
@@ -87,6 +97,8 @@
     {
       "key": "gino",
       "name": "Gino",
+      "left": 56,
+      "top": 15,
       "job": "Back-end developer",
       "email": "gino [at] studiofonkel [dot] nl",
       "preferences": {
@@ -104,6 +116,8 @@
     {
       "key": "arie",
       "name": "Arie",
+      "left": 50,
+      "top": 18,
       "job": "Ontwerper",
       "email": "arie [at] studiofonkel [dot] nl",
       "preferences": {
@@ -121,6 +135,8 @@
     {
       "key": "ewout",
       "name": "Ewout",
+      "left": 59,
+      "top": 7,
       "job": "Front-end developer",
       "email": "ewout [at] studiofonkel [dot] nl",
       "preferences": {
@@ -138,6 +154,8 @@
     {
       "key": "laurens",
       "name": "Laurens",
+      "left": 48,
+      "top": 0,
       "job": "Front-end developer",
       "email": "laurens [at] studiofonkel [dot] nl",
       "preferences": {
@@ -154,6 +172,8 @@
     },
     {
       "key": "sven",
+      "left": 48,
+      "top": 8,
       "name": "Sven Daniel",
       "job": "Front-end developer",
       "email": "sven [at] studiofonkel [dot] nl",
@@ -172,6 +192,8 @@
     {
       "key": "wim",
       "name": "Wim",
+      "left": 45,
+      "top": 10,
       "job": "Ontwerper",
       "email": "wim [at] studiofonkel [dot] nl",
       "preferences": {
@@ -189,6 +211,8 @@
   {
     "key": "remco",
     "name": "Remco",
+    "left": 48,
+    "top": 18,
     "job": "Onmisbare bron van inspiratie",
     "email": "remco [at] studiofonkel [dot] nl",
     "preferences": {
