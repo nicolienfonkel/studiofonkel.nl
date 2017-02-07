@@ -5,6 +5,8 @@ $(function() {
         selects: [],
         wrapper: false,
         outerWrapper: false,
+        textWrapper1: false,
+        textWrapper2: false,
         variant: false,
         labels: [[false, false], [false, false]],
         nodes: [],
@@ -37,8 +39,10 @@ $(function() {
             teamWidget.wrapper = $('<div class="team-widget-graph"></div>');
             teamWidget.outerWrapper.append(teamWidget.wrapper);
 
-            teamWidget.textWrapper = $('<div class="team-widget-text"></div>');
-            teamWidget.outerWrapper.append(teamWidget.textWrapper);
+            teamWidget.textWrapper1 = $('<div class="team-widget-text text-1"></div>');
+            teamWidget.textWrapper2 = $('<div class="team-widget-text text-2"></div>');
+
+            teamWidget.outerWrapper.append(teamWidget.textWrapper1, teamWidget.textWrapper2);
 
 
             $('.team-widget').append(teamWidget.outerWrapper);
@@ -47,6 +51,7 @@ $(function() {
             this.createNodes();
             this.createLabels();
             this.createSelects();
+            this.createDescriptionText();
         },
 
         destroy: function () {
@@ -59,6 +64,11 @@ $(function() {
             teamWidget.wrapper = false;
             teamWidget.labels = [[false, false], [false, false]];
             teamWidget.nodes = [];
+        },
+
+        createDescriptionText: function () {
+            var text = 'Ontdek hier wie we zijn. Bekijk tegenstellingen of juist de overeenkomsten in het Fonkel team. Klik op een persoon om meer te lezen. ';
+            teamWidget.outerWrapper.append('<div class="team-widget-description">' + text + '</div>');
         },
 
         createNodes: function () {
@@ -118,7 +128,10 @@ $(function() {
 
         selectChange: function () {
             var select = this;
-            $('body').addClass('team-widget-is-changing');
+            var delta = parseInt($(select).attr('data-delta'));
+            $('body')
+            .addClass('team-widget-is-changing')
+            .attr('data-delta', delta);
 
             setTimeout(function () {
                 // Disable the selected value in the other select.
@@ -127,17 +140,23 @@ $(function() {
                 otherSelect.find('option[value="' + $(select).val() + '"]').attr('disabled', 'disabled');
                 teamWidget.setLabelsForSelect(select);
                 teamWidget.positionNodes();
-                teamWidget.setInfoText($(select).val());
-
+                teamWidget.setInfoText(select, $(select).val());
 
                 setTimeout(function () {
-                    $('body').removeClass('team-widget-is-changing');
+                    $('body')
+                    .removeClass('team-widget-is-changing')
+
+                    setTimeout(function () {
+                        $('body').removeAttr('data-delta');
+                    }, 1500)
                 }, 400);
             }, 400);
         },
 
-        setInfoText: function (value) {
-            teamWidget.textWrapper.html(window.preferences[value]);
+        setInfoText: function (select, value) {
+            var delta = parseInt($(select).attr('data-delta'));
+            var textWrapper = teamWidget['textWrapper' + (delta + 1)];
+            textWrapper.html(window.preferences[value]);
         },
 
         createSelect: function (selected) {

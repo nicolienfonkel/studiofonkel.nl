@@ -1,14 +1,33 @@
+$widget-height: 55vh;
+
 .team-widget-text {
-  margin-top: calc(45vh);
-  transform: translate(0, -50%);
-  @include grid-span(3, 10, 12);
   z-index: 1;
+
+  &.text-1 {
+    transform: translate(0, 0);
+    @include grid-span(3, 9, 12);
+    margin-top: calc(#{$widget-height / 2} + 15px);
+
+  }
+
+  &.text-2 {
+    transform: translate(0, 0);
+    margin-top: calc(#{$widget-height} + 30px);
+    @include grid-span(3, 2, 12);
+    text-align: right;
+  }
 }
 
+.team-widget-description {
+  @include grid-span(4, 9, 12);
+  font-weight: 100;
+}
+
+
 .desktop-team-widget {
-  height: 60vh;
+  height: $widget-height;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   position: relative;
   width: 100%;
   z-index: 2;
@@ -17,7 +36,7 @@
     z-index: 3;
     padding: 30px;
     background-color: white;
-    @include grid-span(9, 1, 12);
+    @include grid-span(8, 1, 12);
     position: relative;
     height: 100%;
     border: 1px dashed $light-grey;
@@ -61,47 +80,50 @@
     pointer-events: none;
     white-space: nowrap;
     text-align: center;
+    background-color: $yellow-light;
   }
 
   #select1-label1 {
-    top: 50%;
+    top: calc(50% - 35px);
     right: calc(100% + 23px);
     transform: translate(0, -50%);
+    background-color: $yellow;
+  }
+
+  #select1-label2 {
+    background-color: $yellow;
   }
 
   #select1,
   #select1-label2 {
-    top: 50%;
-    cursor: pointer;
+    top: calc(50% - 35px);
     left: calc(100% + 23px);
+    cursor: pointer;
     transform: translate(0, -50%);
   }
 
   #select2-label1 {
-    left: 50%;
-    top: -50px;
-    transform: translate(-50%, -50%);
+    left: calc(50% + 12px);
+    top: -68px;
+    transform: translate(0, 0);
   }
 
   #select2,
   #select2-label2 {
-    left: 50%;
-    top: calc(100% + 50px);
+    left: calc(50% + 12px);
+    top: calc(100% + 33px);
     cursor: pointer;
-    transform: translate(-50%, -50%);
   }
 
   #select1-label1,
   #select2-label1 {
     border: 1px solid $grey;
-    background-color: lighten($yellow, 30);
   }
 
   #select1-label2,
   #select2-label2 {
     padding-right: 50px;
     border: 1px solid black;
-    background-color: $yellow;
 
     &:before {
       content: '';
@@ -133,7 +155,7 @@
     height: 60px;
     border-radius: 50%;
     z-index: 4;
-    transition: transform $speed, border $speed;
+    transition: transform ($speed * 1.5), border $speed;
     border: 2px solid rgba($yellow, .01);
     position: absolute;
     box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
@@ -165,18 +187,56 @@
   }
 }
 
-.team-widget-is-changing {
+.team-widget-is-changing[data-delta="0"] {
   #select1, #select2 {
     transition: opacity 0s 0s;
     opacity: 0;
   }
 
-  .team-widget-text {
+  .team-widget-text.text-1 {
     opacity: 0;
-    transform: translate(-110%, -50%);
+    transform: translate(-110%, 0);
   }
 
-  .select-label {
+  #select1-label1, #select1-label2 {
     opacity: 0;
+  }
+}
+[data-delta="0"] {
+  .team-widget-graph:after {
+    animation: highlight .7s .9s;
+  }
+}
+
+.team-widget-is-changing[data-delta="1"] {
+  #select1, #select2 {
+    transition: opacity 0s 0s;
+    opacity: 0;
+  }
+
+  .team-widget-text.text-2 {
+    opacity: 0;
+    transform: translate(0, -110%);
+  }
+
+  #select2-label1, #select2-label2 {
+    opacity: 0;
+  }
+}
+[data-delta="1"] {
+  .team-widget-graph:before {
+    animation: highlight .7s .9s;
+  }
+}
+
+@keyframes highlight {
+  0% {
+    border-color: $light-grey;
+  }
+  50% {
+    border-color: black;
+  }
+  100% {
+    border-color: $light-grey;
   }
 }
