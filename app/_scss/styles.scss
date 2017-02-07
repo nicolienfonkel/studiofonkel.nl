@@ -1,4 +1,12 @@
 @charset "utf-8";
+
+*:focus {
+  outline: none;
+}
+*::-moz-focus-inner {
+  border: none;
+}
+
 @import "singularitygs";
 @import "breakpoint";
 @import 'variables/**/*';

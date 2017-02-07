@@ -4,6 +4,7 @@ $(function() {
         preferences: [],
         selects: [],
         wrapper: false,
+        outerWrapper: false,
         variant: false,
         labels: [[false, false], [false, false]],
         nodes: [],
@@ -32,8 +33,15 @@ $(function() {
             // Hide mobile variant.
             $('.team-widget .employees-wrapper').hide();
 
-            teamWidget.wrapper = $('<div class="desktop-team-widget team-widget-graph"></div>');
-            $('.team-widget').append(teamWidget.wrapper);
+            teamWidget.outerWrapper = $('<div class="desktop-team-widget"></div>');
+            teamWidget.wrapper = $('<div class="team-widget-graph"></div>');
+            teamWidget.outerWrapper.append(teamWidget.wrapper);
+
+            teamWidget.textWrapper = $('<div class="team-widget-text"></div>');
+            teamWidget.outerWrapper.append(teamWidget.textWrapper);
+
+
+            $('.team-widget').append(teamWidget.outerWrapper);
 
             this.parsePreferences();
             this.createNodes();
@@ -102,19 +110,34 @@ $(function() {
         createLabels: function () {
             teamWidget.labels.forEach(function (labelGroup, labelGroupDelta) {
                 labelGroup.forEach(function (label, labelDelta) {
-                    teamWidget.labels[labelGroupDelta][labelDelta] = $('<label id="select' + (labelGroupDelta + 1) + '-label' + (labelDelta + 1) + '">Label</label>');
+                    teamWidget.labels[labelGroupDelta][labelDelta] = $('<label class="select-label" id="select' + (labelGroupDelta + 1) + '-label' + (labelDelta + 1) + '">Label</label>');
                     teamWidget.wrapper.append(teamWidget.labels[labelGroupDelta][labelDelta]);
                 });
             });
         },
 
         selectChange: function () {
-            // Disable the selected value in the other select.
-            var otherSelect = this == teamWidget.selects[0][0] ? teamWidget.selects[1] : teamWidget.selects[0];
-            otherSelect.find('option[disabled]').removeAttr('disabled');
-            otherSelect.find('option[value="' + $(this).val() + '"]').attr('disabled', 'disabled');
-            teamWidget.setLabelsForSelect(this);
-            teamWidget.positionNodes();
+            var select = this;
+            $('body').addClass('team-widget-is-changing');
+
+            setTimeout(function () {
+                // Disable the selected value in the other select.
+                var otherSelect = select == teamWidget.selects[0][0] ? teamWidget.selects[1] : teamWidget.selects[0];
+                otherSelect.find('option[disabled]').removeAttr('disabled');
+                otherSelect.find('option[value="' + $(select).val() + '"]').attr('disabled', 'disabled');
+                teamWidget.setLabelsForSelect(select);
+                teamWidget.positionNodes();
+                teamWidget.setInfoText($(select).val());
+
+
+                setTimeout(function () {
+                    $('body').removeClass('team-widget-is-changing');
+                }, 400);
+            }, 400);
+        },
+
+        setInfoText: function (value) {
+            teamWidget.textWrapper.html(window.preferences[value]);
         },
 
         createSelect: function (selected) {
