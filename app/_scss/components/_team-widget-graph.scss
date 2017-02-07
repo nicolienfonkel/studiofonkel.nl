@@ -150,27 +150,6 @@ $widget-height: 55vh;
     }
   }
 
-  .node {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    z-index: 4;
-    transition: transform ($speed * 1.5), border $speed;
-    border: 2px solid rgba($yellow, .01);
-    position: absolute;
-    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%) translate(0, 0);
-    background-size: 180px;
-    cursor: pointer;
-
-    &:hover {
-      border: 2px solid $yellow;
-      z-index: 5;
-    }
-  }
-
   #select1, #select2 {
     opacity: 1;
     transition: opacity 0s $speed;
@@ -184,6 +163,50 @@ $widget-height: 55vh;
   .select-label {
     transition: opacity $speed;
     opacity: 1;
+  }
+}
+
+.team-member-node {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: 4;
+  transition: transform ($speed * 1.5), border $speed;
+  border: 2px solid rgba($yellow, .01);
+  position: absolute;
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%) translate(0, 0);
+  background-size: 180px;
+  cursor: pointer;
+
+  &:not(.cloned):hover {
+    border: 2px solid $yellow;
+    z-index: 5;
+  }
+
+  &.clicked {
+    opacity: 0;
+  }
+
+  $xAxis: cubic-bezier(.23,.76,.54,.73);
+  $yAxis: cubic-bezier(.23,.76,.64,.73);
+
+  &.cloned {
+    box-shadow: none;
+    position: fixed;
+    z-index: 300;
+    transition: transform ($speed * 1.5) $xAxis, border $speed, width $speed $xAxis, height $speed $xAxis;
+
+    .image {
+      box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
+      width: 100%;
+      transition: transform ($speed * 1.5) $yAxis, width $yAxis, height $speed $yAxis;
+      height: 100%;
+      background-size: 280px;
+      border-radius: 50%;
+    }
   }
 }
 
@@ -234,9 +257,69 @@ $widget-height: 55vh;
     border-color: $light-grey;
   }
   50% {
-    border-color: black;
+    border-color: $yellow;
   }
   100% {
     border-color: $light-grey;
+  }
+}
+
+body {
+  float: left;
+  width: 100%;
+}
+
+.has-active-team-widget-popup {
+  .header {
+    overflow-y: scroll;
+  }
+
+  .extra-wrapper {
+    overflow-y: scroll;
+  }
+
+  body {
+    overflow: hidden;
+  }
+}
+
+.team-widget-popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: $yellow;
+  z-index: 170;
+  opacity: 0;
+  transition: opacity $speed;
+
+  .inner {
+    width: 600px;
+    max-height: 70vh;
+    overflow-y: auto;
+    position: absolute;
+    left: 50%;
+    transition: opacity $speed .3s, transform $speed .2s;
+    top: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%) translate(0, -40px);
+  }
+
+  .team-member-image {
+    width: 280px;
+    height: 280px;
+    background-size: 280px;
+    border-radius: 50%;
+    opacity: 0;
+  }
+
+  &.visible {
+    opacity: 1;
+
+    .inner {
+      transform: translate(-50%, -50%) translate(0, 0);
+      opacity: 1;
+    }
   }
 }

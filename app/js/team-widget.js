@@ -5,6 +5,7 @@ $(function() {
         selects: [],
         wrapper: false,
         outerWrapper: false,
+        hasActivePopup: false,
         textWrapper1: false,
         textWrapper2: false,
         variant: false,
@@ -62,6 +63,7 @@ $(function() {
             teamWidget.preferences = [];
             teamWidget.selects = [];
             teamWidget.wrapper = false;
+            teamWidget.hasActivePopup = false;
             teamWidget.labels = [[false, false], [false, false]];
             teamWidget.nodes = [];
         },
@@ -73,7 +75,7 @@ $(function() {
 
         createNodes: function () {
             window.teamData.forEach(function (teamMember) {
-                var nodeDiv = $('<div class="node" data-key="' + teamMember.key + '" style="background-image: url(\'/img/' + teamMember.key + '.jpg\');  background-position: ' + teamMember.left + '% ' + teamMember.top + '%;"></div>');
+                var nodeDiv = $('<div class="node team-member-node" data-key="' + teamMember.key + '" style="background-image: url(\'/img/' + teamMember.key + '.jpg\');  background-position: ' + teamMember.left + '% ' + teamMember.top + '%;"></div>');
                 teamWidget.wrapper.append(nodeDiv);
                 teamWidget.nodes.push(nodeDiv);
                 nodeDiv[0].info = teamMember;
@@ -127,6 +129,8 @@ $(function() {
         },
 
         selectChange: function () {
+            if (teamWidget.hasActivePopup) { return; }
+
             var select = this;
             var delta = parseInt($(select).attr('data-delta'));
             $('body')
@@ -198,13 +202,69 @@ $(function() {
         },
 
         nodeClick: function () {
+            if (teamWidget.hasActivePopup) { return; }
+            $('html').addClass('has-active-team-widget-popup');
             teamWidget.createTweenPhoto(this);
+            teamWidget.createPopup(this);
+            teamWidget.tweenToPopup();
+        },
+
+        tweenToPopup: function () {
+            var targetOffset = teamWidget.popupImage.offset();
+
+            teamWidget.tweenPhotoInner.css({
+                transform: 'translate(0, ' + (targetOffset.top - $(window).scrollTop()) + 'px)',
+                transition: '',
+            });
+
+            teamWidget.tweenPhoto.css({
+                transform: 'translate(' + targetOffset.left + 'px, 0)',
+                width: teamWidget.popupImage.width(),
+                height: teamWidget.popupImage.height(),
+                transition: '',
+            });
+
+            setTimeout(function () {
+                teamWidget.popup.addClass('visible');
+            }, 150);
+        },
+
+        createPopup: function (node) {
+            teamWidget.hasActivePopup = true;
+
+            var output = '<div class="team-member-image" style="background-image: url(\'/img/' + node.info.key + '.jpg\');  background-position: ' + node.info.left + '% ' + node.info.top + '%;"></div>';
+            output += '<h3 class="team-member-title">' + node.info.name + '</h3>';
+            output += '<h4 class="team-member-job">' + node.info.job + '</h4>';
+            output += '<div class="team-member-bio">' + node.info.bio + '</div>';
+            output += '<div class="team-member-mail">' + node.info.email + '</div>';
+
+            teamWidget.popup = $('<div class="team-widget-popup"><div class="inner">' + output + '</div></div>');
+            teamWidget.popupImage = teamWidget.popup.find('.team-member-image');
+            $('body').append(teamWidget.popup);
         },
 
         createTweenPhoto: function (node) {
             var clonedNode = $(node).clone();
-            clonedNode.addClass('cloned');
-            $('body').append(clonedNode);
+            $(node).addClass('clicked');
+            clonedNode.removeClass().addClass('image').css('transform', '');
+
+            var outerWrapper = $('<div class="node-wrapper cloned node team-member-node"></div>');
+            outerWrapper.append(clonedNode);
+
+            $('body').append(outerWrapper);
+            var offset = $(node).offset();
+            teamWidget.tweenPhoto = outerWrapper;
+            teamWidget.tweenPhotoInner = clonedNode;
+
+            clonedNode.css({
+                transition: 'none',
+                transform: 'translate(0, ' + (offset.top - $(window).scrollTop()) + 'px)'
+            });
+
+            outerWrapper.css({
+                transition: 'none',
+                transform: 'translate(' + offset.left + 'px, 0px)'
+            });
         }
 
     };

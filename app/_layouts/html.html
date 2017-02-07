@@ -3,6 +3,7 @@
     {% include regions/head.html %}
 
     <body class="{% if page.url == '/' %}homepage {% endif %} {{ page.url | replace: '/', ' ' | strip }}">
+    <div class="extra-wrapper">
         <div class="grid"></div>
         {% include regions/header.html %}
 
@@ -11,6 +12,6 @@
         {% include regions/footer.html %}
 
         {% include html/footer-scripts.html %}
-
+    </div>
     </body>
 </html>
