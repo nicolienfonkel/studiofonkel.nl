@@ -99,8 +99,12 @@
   }
 
   .has-submenu {
-    .nav.main-menu {
-      min-height: 120px !important;
+    .header{
+      height: 120px;
+
+      .nav.main-menu {
+        min-height: 120px !important;
+      }
     }
 
     .site {

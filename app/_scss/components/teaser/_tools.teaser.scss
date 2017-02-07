@@ -14,22 +14,25 @@
       min-height: 220px;
       margin-bottom: 20px;
 
-      .paragraph {
+      .tool-article {
+        height: 90%;
+        overflow: hidden;
+        width: 90%;
+        display: block;
         position: absolute;
-        bottom: 10px;
-        left: 10px;
-      }
-      img {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-      }
+        transform: translate(5%,5%);
+  
+        img {
+          max-height: 70%;
+          width: auto;
+        }
 
-      svg {
-        width: 23px;
+        svg {
+          width: 23px;
 
-        .svg-arrow {
-          stroke: black;
+          .svg-arrow {
+            stroke: black;
+          }
         }
       }
     }
@@ -41,6 +44,11 @@
       @include float-span(2, 1);
       min-height: 190px;
 
+      .tool-article {
+        img {
+          max-height: 57%;
+        }
+      }
     }
   }
 }
@@ -49,7 +57,13 @@
   .tools-wrapper {
     .tools {
       @include float-span(3, 1);
-      min-height: 230px;
+        min-height: 230px;
+
+       .tool-article {
+        img {
+          max-height: 78%;
+        }
+      }
     }
   }
 }
