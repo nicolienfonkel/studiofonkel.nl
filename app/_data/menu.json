@@ -5,56 +5,56 @@
   },
     {
     "title": "Widget",
-    "url": "/widget"
+    "url": "/widget/"
   },
   {
     "title": "Over ons",
-    "url": "/over-ons"
+    "url": "/over-ons/"
   },
   {
     "title": "Werkwijze",
-    "url": "/aanpak",
+    "url": "/aanpak/",
     "submenu": [
       {
         "title": "Strategie",
         "description":"Van binnen naar buiten communiceren",
-        "url": "/aanpak/strategie",
+        "url": "/aanpak/strategie/",
         "img": "/img/identity-game.jpg"
       },
       {
         "title": "Ontwerp",
         "description":"Inhoudelijke, sterke ontwerpen",
-        "url": "/aanpak/ontwerp"
+        "url": "/aanpak/ontwerp/"
       },
       {
         "title": "Development",
         "description":"De ontwikkeling van toegankelijke tools en slimme applicaties",
-        "url": "/aanpak/development"
+        "url": "/aanpak/development/"
       },
       {
         "title": "Content",
         "description":"Sterke content vanuit de kern van je identiteit",
-        "url": "/aanpak/content",
+        "url": "/aanpak/content/",
         "img": "/img/_MG_2128.jpg"
       },
       {
         "title": "UX design",
         "description":"De gebruiker begeleiden naar de juiste plaats",
-        "url": "/aanpak/ux-design",
+        "url": "/aanpak/ux-design/",
         "img": "/img/ipadmro.jpg"
-      }                
+      }        
     ]
   },
   {
     "title": "Cases",
-    "url": "/cases"
+    "url": "/cases/"
   },
   {
     "title": "Blogs",
-    "url": "/blogs"
+    "url": "/blogs/"
   },
   {
     "title": "Contact",
-    "url": "/contact"
+    "url": "/contact/"
   }  
 ]

@@ -2,7 +2,12 @@
 <html lang="nl" itemscope itemtype="https://schema.org/CreativeWork">
     {% include regions/head.html %}
 
-    <body class="{% if page.url == '/' %}homepage {% endif %} {{ page.url | replace: '/', ' ' | strip }}">
+    {% assign current_url_components = page.url | split: "/" %}
+    {% capture url_component_with_slash %}{{ current_url_components[1] | prepend: "/"  | append: "/" }}{% endcapture %}
+    {% assign currentMenuItem = site.data.menu | where: "url", url_component_with_slash | first %}
+
+    <body class="{% if page.url == '/' %}homepage {% endif %} {{ page.url | replace: '/', ' ' | strip }} {% if currentMenuItem.submenu %} has-submenu {% endif %}">
+
     <div class="grid"></div>
 
         {% include regions/header.html %}

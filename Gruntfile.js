@@ -56,6 +56,8 @@ module.exports = function (grunt) {
       }
     },
     browserSync: {
+                  ghostMode: false,
+
       server: {
         bsFiles: {
           src: [
@@ -67,7 +69,9 @@ module.exports = function (grunt) {
           ]
         },
         options: {
+            ghostMode: false,
           server: {
+            ghostMode: false,
             baseDir: [
               ".jekyll",
               ".tmp",

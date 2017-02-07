@@ -15,7 +15,7 @@
 				{% assign current_url_components = page.url | split: "/" %}
 
 				{% for menu_item in menu_items %}
-					{% capture url_component_with_slash %}{{ current_url_components[1] | prepend: "/" }}{% endcapture %}
+					{% capture url_component_with_slash %}{{ current_url_components[1] | prepend: "/"  | append: "/" | replace: "//", "/" }}{% endcapture %}
 
 					{% if url_component_with_slash == menu_item.url %}
 						{% assign classes = " active" %}
@@ -29,9 +29,7 @@
 
 						<ul class="submenu">
 							{% for submenu_item in menu_item.submenu %}
-								{% capture submenu_url_with_ending_slash %}{{ submenu_item.url | append: "/" }}{% endcapture %}
-
-								{% if submenu_url_with_ending_slash == page.url %}
+								{% if submenu_item.url == page.url %}
 									{% assign classes = " active" %}
 								{% else %}
 									{% assign classes = "" %}

@@ -69,7 +69,7 @@
       color: white;
     }
 
-    &:last-child {
+    &:last-child:nth-child(odd) {
       background-size: 160% auto;
       background-position: 50% 33%;
     }
@@ -83,7 +83,7 @@
       @include float-span(4,1);
       min-height: 250px;
       
-      &:last-child {
+      &:last-child:nth-child(odd) {
         @include float-span(8,1);
       }
     }
@@ -97,7 +97,7 @@
       min-height: 320px;
       padding: 180px 20px 0 20px;
       
-      &:last-child {
+      &:last-child:nth-child(odd) {
         @include float-span(12,1);
       }
     }

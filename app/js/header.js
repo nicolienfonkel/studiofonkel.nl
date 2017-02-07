@@ -7,10 +7,6 @@ $(document).ready(function() {
 		$('body').toggleClass('has-active-menu');
 	});
 
-    if ($('header .nav-inner > .main-menu > .active > .submenu').length != 0 ) {
-        $('body').addClass('has-submenu');
-    };
-
     $('.dropdown-toggle').on('click', function() {
         $(this).toggleClass('rotated');
         $('.submenu').toggleClass('active-submenu');
