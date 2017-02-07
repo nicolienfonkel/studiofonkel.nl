@@ -1,5 +1,10 @@
 .main-menu {
   border-bottom: 1px solid #cccccc;
+  
+  &.nav {
+    float: none;
+    padding-left: 0;
+  }
 
   .nav-inner {
     display: none;
@@ -44,6 +49,7 @@
 
 @include breakpoint(max-width $tablet - 1) {
   .main-menu {
+
     .menu-link {
       color: black;
       float: left;
