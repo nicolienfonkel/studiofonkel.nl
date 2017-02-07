@@ -55,9 +55,12 @@ $(function() {
 
         createNodes: function () {
             window.teamData.forEach(function (teamMember) {
-                var node = $('<div class="node" data-key="' + teamMember.key + '" style="background-image: url(\'/img/' + teamMember.key + '.jpg\');  background-position: ' + teamMember.left + '% ' + teamMember.top + '%;"></div>');
-                teamWidget.wrapper.append(node);
-                teamWidget.nodes.push(node);
+                var nodeDiv = $('<div class="node" data-key="' + teamMember.key + '" style="background-image: url(\'/img/' + teamMember.key + '.jpg\');  background-position: ' + teamMember.left + '% ' + teamMember.top + '%;"></div>');
+                teamWidget.wrapper.append(nodeDiv);
+                teamWidget.nodes.push(nodeDiv);
+                nodeDiv[0].info = teamMember;
+
+                nodeDiv.on('click', teamWidget.nodeClick);
             });
         },
 
@@ -150,6 +153,16 @@ $(function() {
                     key: preference
                 });
             });
+        },
+
+        nodeClick: function () {
+            teamWidget.createTweenPhoto(this);
+        },
+
+        createTweenPhoto: function (node) {
+            var clonedNode = $(node).clone();
+            clonedNode.addClass('cloned');
+            $('body').append(clonedNode);
         }
 
     };
