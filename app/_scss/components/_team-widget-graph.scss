@@ -321,5 +321,20 @@ body {
       transform: translate(-50%, -50%) translate(0, 0);
       opacity: 1;
     }
+
+    .team-member-image {
+      opacity: 1;
+    }
   }
+}
+
+.team-member-close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  right: 0;
+  top: 0;
+  z-index: 320;
+  cursor: pointer;
 }

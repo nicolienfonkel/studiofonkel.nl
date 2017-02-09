@@ -238,9 +238,17 @@ $(function() {
             output += '<div class="team-member-bio">' + node.info.bio + '</div>';
             output += '<div class="team-member-mail">' + node.info.email + '</div>';
 
-            teamWidget.popup = $('<div class="team-widget-popup"><div class="inner">' + output + '</div></div>');
+            teamWidget.popup = $('<div class="team-widget-popup"><div class="inner">' + output + '<div class="team-member-close"></div></div></div>');
             teamWidget.popupImage = teamWidget.popup.find('.team-member-image');
             $('body').append(teamWidget.popup);
+
+            $('.team-member-close').on('click', function () {
+               teamWidget.closePopup();
+            });
+        },
+
+        closePopup: function () {
+
         },
 
         createTweenPhoto: function (node) {
