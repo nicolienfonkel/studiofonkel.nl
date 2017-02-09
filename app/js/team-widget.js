@@ -3,6 +3,7 @@ $(function() {
 
         preferences: [],
         selects: [],
+        selectWrappers: [],
         wrapper: false,
         outerWrapper: false,
         hasActivePopup: false,
@@ -43,16 +44,15 @@ $(function() {
             teamWidget.textWrapper1 = $('<div class="team-widget-text text-1"></div>');
             teamWidget.textWrapper2 = $('<div class="team-widget-text text-2"></div>');
 
-            teamWidget.outerWrapper.append(teamWidget.textWrapper1, teamWidget.textWrapper2);
-
-
             $('.team-widget').append(teamWidget.outerWrapper);
 
+            this.createDescriptionText();
             this.parsePreferences();
             this.createNodes();
             this.createLabels();
             this.createSelects();
-            this.createDescriptionText();
+
+            teamWidget.outerWrapper.append(teamWidget.selectWrappers[0], teamWidget.textWrapper1, teamWidget.selectWrappers[1], teamWidget.textWrapper2);
         },
 
         destroy: function () {
@@ -116,7 +116,7 @@ $(function() {
             teamWidget.labels[delta][0].html(preferenceInfo.preference1);
             teamWidget.labels[delta][1].html(preferenceInfo.preference2);
 
-            $(select).width(teamWidget.labels[delta][1].innerWidth());
+            // $(select).width(teamWidget.labels[delta][1].innerWidth());
         },
 
         createLabels: function () {
@@ -160,12 +160,25 @@ $(function() {
         setInfoText: function (select, value) {
             var delta = parseInt($(select).attr('data-delta'));
             var textWrapper = teamWidget['textWrapper' + (delta + 1)];
+            var oldHeight = textWrapper.height();
+
             textWrapper.html(window.preferences[value]);
+
+            var newHeight = textWrapper.height();
+
+            textWrapper.css({
+                height: oldHeight
+            }).animate({
+                height: newHeight
+            }, 300, function () {
+                textWrapper.css('height', '')
+            });
         },
 
         createSelect: function (selected) {
             var delta = teamWidget.selects.length;
-            var select = $('<select data-delta="' + delta + '" id="select' + (delta + 1) + '"></select>');
+            var selectWrapper = $('<div data-delta="' + delta + '" id="select' + (delta + 1) + '" class="select-wrapper"><select data-delta="' + delta + '" id="select' + (delta + 1) + '"></select></div>');
+            var select = selectWrapper.find('select');
 
             teamWidget.preferences.forEach(function (preference) {
                 if (preference.key == teamWidget.preferences[delta].key) {
@@ -178,16 +191,16 @@ $(function() {
 
             select.on('change', teamWidget.selectChange);
             teamWidget.selects.push(select);
-            teamWidget.wrapper.append(select);
-            return select;
+            teamWidget.selectWrappers.push(selectWrapper);
+            return selectWrapper;
         },
 
         createSelects: function () {
             var select1 = teamWidget.createSelect();
             var select2 = teamWidget.createSelect();
 
-            select1.change();
-            select2.change();
+            teamWidget.selects[0].change();
+            teamWidget.selects[1].change();
         },
 
         parsePreferences: function () {
@@ -203,6 +216,7 @@ $(function() {
 
         nodeClick: function () {
             if (teamWidget.hasActivePopup) { return; }
+            teamWidget.clickedNode = $(this);
             $('html').addClass('has-active-team-widget-popup');
             teamWidget.createTweenPhoto(this);
             teamWidget.createPopup(this);
@@ -215,6 +229,7 @@ $(function() {
             teamWidget.tweenPhotoInner.css({
                 transform: 'translate(0, ' + (targetOffset.top - $(window).scrollTop()) + 'px)',
                 transition: '',
+                backgroundSize: '280px'
             });
 
             teamWidget.tweenPhoto.css({
@@ -222,11 +237,12 @@ $(function() {
                 width: teamWidget.popupImage.width(),
                 height: teamWidget.popupImage.height(),
                 transition: '',
+                backgroundSize: '280px'
             });
 
             setTimeout(function () {
                 teamWidget.popup.addClass('visible');
-            }, 150);
+            }, 10);
         },
 
         createPopup: function (node) {
@@ -248,7 +264,38 @@ $(function() {
         },
 
         closePopup: function () {
+            if (!teamWidget.hasActivePopup) { return; }
+            teamWidget.tweenToNode();
+        },
 
+        tweenToNode : function () {
+            teamWidget.popup.removeClass('visible');
+            var targetOffset = teamWidget.clickedNode.offset();
+
+            teamWidget.tweenPhotoInner.css({
+                transform: 'translate(0, ' + (targetOffset.top - $(window).scrollTop()) + 'px)',
+                transition: '',
+                backgroundSize: '180px'
+            });
+
+            teamWidget.tweenPhoto.css({
+                transform: 'translate(' + targetOffset.left + 'px, 0)',
+                width: teamWidget.clickedNode.width(),
+                height: teamWidget.clickedNode.height(),
+                transition: '',
+                backgroundSize: '180px'
+            });
+
+            setTimeout(function () {
+                teamWidget.clickedNode.removeClass('clicked');
+
+                setTimeout(function () {
+                    teamWidget.tweenPhoto.remove();
+                    teamWidget.popup.remove();
+                    $('html').removeClass('has-active-team-widget-popup');
+                    teamWidget.hasActivePopup = false;
+                }, 500);
+            }, 700);
         },
 
         createTweenPhoto: function (node) {

@@ -1,42 +1,83 @@
-$widget-height: 55vh;
+$widget-height: 550px;
 
 .team-widget-text {
   z-index: 1;
+  @include isolation-span(3, 10, 'right', 12);
+  margin-bottom: 30px;
+  overflow: hidden;
+  transition: opacity $speed;
 
   &.text-1 {
-    transform: translate(0, 0);
-    @include grid-span(3, 9, 12);
-    margin-top: calc(#{$widget-height / 2} + 15px);
-
+    margin-bottom: 50px;
   }
 
   &.text-2 {
-    transform: translate(0, 0);
-    margin-top: calc(#{$widget-height} + 30px);
-    @include grid-span(3, 2, 12);
-    text-align: right;
   }
 }
 
 .team-widget-description {
-  @include grid-span(4, 9, 12);
+  @include isolation-span(3, 10, 'right', 12);
   font-weight: 100;
+  margin-bottom: 50px;
 }
 
 
 .desktop-team-widget {
   height: $widget-height;
-  margin-top: 100px;
-  margin-bottom: 200px;
+  margin-top: 80px;
+  margin-bottom: 100px;
   position: relative;
   width: 100%;
   z-index: 2;
+
+  .select-wrapper {
+    overflow: hidden;
+    @include isolation-span(3, 10, 'right', 12);
+    margin-bottom: 15px;
+    position: relative;
+
+    &:before, &:after {
+      content: '';
+      width: 10px;
+      height: 2px;
+      background-color: black;
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+    }
+
+    &:after {
+      transform: translate(-3px, -45%) rotate(45deg);
+    }
+
+    &:before {
+      transform: translate(3px, -45%) rotate(-45deg);
+    }
+
+    select {
+      width: calc(100% + 30px);
+      padding: 10px;
+      padding-right: 60px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      height: 40px;
+      outline: none !important;
+      border: 0;
+      cursor: pointer;
+
+      option {
+        border: 0;
+      }
+    }
+  }
 
   .team-widget-graph {
     z-index: 3;
     padding: 30px;
     background-color: white;
-    @include grid-span(8, 1, 12);
+    @include grid-span(7, 1, 12);
     position: relative;
     height: 100%;
     border: 1px dashed $light-grey;
@@ -45,11 +86,14 @@ $widget-height: 55vh;
       content: '';
       display: block;
       position: absolute;
+      opacity: 1;
+      transition: opacity $speed;
       top: 0;
       left: 50%;
       height: 100%;
-      width: 1px;
-      border-left: 1px dashed $light-grey;
+      width: 0;
+      border-left: 1px dashed $yellow-light;
+      border-right: 1px dashed $yellow-light;
     }
 
     &:after {
@@ -57,26 +101,30 @@ $widget-height: 55vh;
       display: block;
       position: absolute;
       top: 50%;
+      opacity: 1;
+      transition: opacity $speed;
       left: 0;
       width: 100%;
-      height: 1px;
-      border-top: 1px dashed $light-grey;
+      height: 0;
+      border-top: 1px dashed $yellow;
+      border-bottom: 1px dashed $yellow;
     }
   }
 
-  #select1, #select2 {
-    position: absolute;
-    display: block;
-    border: 0;
-    height: 40px;
-    box-sizing: border-box;
-    z-index: 1;
+  #select1 {
+    background-color: $yellow;
+  }
+
+  #select2 {
+    background-color: $yellow-light;
   }
 
   #select1-label1, #select1-label2, #select2-label1, #select2-label2 {
     position: absolute;
     padding: 10px;
     z-index: 2;
+    font-size: 11px;
+    text-transform: uppercase;
     pointer-events: none;
     white-space: nowrap;
     text-align: center;
@@ -84,8 +132,8 @@ $widget-height: 55vh;
   }
 
   #select1-label1 {
-    top: calc(50% - 35px);
-    right: calc(100% + 23px);
+    top: 50%;
+    right: 100%;
     transform: translate(0, -50%);
     background-color: $yellow;
   }
@@ -94,70 +142,24 @@ $widget-height: 55vh;
     background-color: $yellow;
   }
 
-  #select1,
   #select1-label2 {
-    top: calc(50% - 35px);
-    left: calc(100% + 23px);
+    top: calc(50%);
+    left: calc(100%);
     cursor: pointer;
     transform: translate(0, -50%);
   }
 
   #select2-label1 {
-    left: calc(50% + 12px);
-    top: -68px;
-    transform: translate(0, 0);
+    left: calc(50%);
+    bottom: 100%;
+    transform: translate(-50%, 0);
   }
 
-  #select2,
   #select2-label2 {
-    left: calc(50% + 12px);
-    top: calc(100% + 33px);
+    left: calc(50%);
+    top: calc(100%);
     cursor: pointer;
-  }
-
-  #select1-label1,
-  #select2-label1 {
-    border: 1px solid $grey;
-  }
-
-  #select1-label2,
-  #select2-label2 {
-    padding-right: 50px;
-    border: 1px solid black;
-
-    &:before {
-      content: '';
-      width: 2px;
-      height: 12px;
-      background-color: black;
-      position: absolute;
-      top: 50%;
-      right: 30px;
-      transform: translateY(-50%) rotate(-45deg);
-      display: block;
-    }
-
-    &:after {
-      content: '';
-      width: 2px;
-      height: 12px;
-      background-color: black;
-      position: absolute;
-      top: 50%;
-      right: 23px;
-      transform: translateY(-50%) rotate(45deg);
-      display: block;
-    }
-  }
-
-  #select1, #select2 {
-    opacity: 1;
-    transition: opacity 0s $speed;
-  }
-
-  .team-widget-text {
-    transition: all $speed;
-    opacity: 1;
+    transform: translate(-50%, 0);
   }
 
   .select-label {
@@ -166,13 +168,16 @@ $widget-height: 55vh;
   }
 }
 
+$yAxis: cubic-bezier(.63,.06,.65,.98);
+$xAxis: cubic-bezier(.13,.06,.75,.98);
+
+
 .team-member-node {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   z-index: 4;
-  transition: transform ($speed * 1.5), border $speed;
-  border: 2px solid rgba($yellow, .01);
+  transition: transform ($speed * 2) $xAxis, width ($speed * 2) $xAxis, height ($speed * 2) $xAxis, background ($speed * 2) $yAxis, box-shadow $speed $yAxis;
   position: absolute;
   box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
   top: 0;
@@ -182,85 +187,56 @@ $widget-height: 55vh;
   cursor: pointer;
 
   &:not(.cloned):hover {
-    border: 2px solid $yellow;
-    z-index: 5;
+    z-index: 6;
+    box-shadow: 0 3px 10px -1px rgba(0, 0, 0, 0.6);
   }
 
   &.clicked {
     opacity: 0;
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0);
   }
 
-  $xAxis: cubic-bezier(.23,.76,.54,.73);
-  $yAxis: cubic-bezier(.23,.76,.64,.73);
+  .image {
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0);
+    width: 100%;
+    transition: transform ($speed * 2) $yAxis, width ($speed * 2) $yAxis, height ($speed * 2) $yAxis, background ($speed * 2) $yAxis;
+    height: 100%;
+    background-size: 180px;
+    border-radius: 50%;
+  }
 
   &.cloned {
-    box-shadow: none;
+    box-shadow: 0 3px 10px -1px rgba(0, 0, 0, 0);
     position: fixed;
     z-index: 300;
-    transition: transform ($speed * 1.5) $xAxis, border $speed, width $speed $xAxis, height $speed $xAxis;
-
-    .image {
-      box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
-      width: 100%;
-      transition: transform ($speed * 1.5) $yAxis, width $yAxis, height $speed $yAxis;
-      height: 100%;
-      background-size: 280px;
-      border-radius: 50%;
-    }
   }
 }
 
 .team-widget-is-changing[data-delta="0"] {
-  #select1, #select2 {
-    transition: opacity 0s 0s;
-    opacity: 0;
-  }
-
   .team-widget-text.text-1 {
     opacity: 0;
-    transform: translate(-110%, 0);
   }
 
   #select1-label1, #select1-label2 {
     opacity: 0;
   }
-}
-[data-delta="0"] {
+
   .team-widget-graph:after {
-    animation: highlight .7s .9s;
+    opacity: 0;
   }
 }
 
 .team-widget-is-changing[data-delta="1"] {
-  #select1, #select2 {
-    transition: opacity 0s 0s;
-    opacity: 0;
-  }
-
   .team-widget-text.text-2 {
     opacity: 0;
-    transform: translate(0, -110%);
   }
 
   #select2-label1, #select2-label2 {
     opacity: 0;
   }
-}
-[data-delta="1"] {
-  .team-widget-graph:before {
-    animation: highlight .7s .9s;
-  }
-}
 
-@keyframes highlight {
-  0% {
-    border-color: $light-grey;
-  }
-  50% {
-    border-color: $yellow;
-  }
-  100% {
-    border-color: $light-grey;
+  .team-widget-graph:before {
+    opacity: 0;
   }
 }
 
@@ -296,14 +272,14 @@ body {
 
   .inner {
     width: 600px;
-    max-height: 70vh;
     overflow-y: auto;
     position: absolute;
     left: 50%;
-    transition: opacity $speed .3s, transform $speed .2s;
-    top: 50%;
     opacity: 0;
-    transform: translate(-50%, -50%) translate(0, -40px);
+    transition: opacity $speed .7s;
+    top: 100px;
+    height: calc(100% - 200px);
+    margin-left: -300px;
   }
 
   .team-member-image {
@@ -312,18 +288,57 @@ body {
     background-size: 280px;
     border-radius: 50%;
     opacity: 0;
+    transition: opacity 0s .3s;
+  }
+
+  .team-member-title {
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    transform: translateY(-50px);
+  }
+
+  .team-member-job {
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+
+  .team-member-title,
+  .team-member-bio,
+  .team-member-job {
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: opacity .8s .2s, transform .8s .3s;
+  }
+
+
+  .team-member-mail {
+    display: none;
   }
 
   &.visible {
     opacity: 1;
 
     .inner {
-      transform: translate(-50%, -50%) translate(0, 0);
       opacity: 1;
+      overflow-x: hidden;
     }
 
     .team-member-image {
+      //opacity: 1;
+    }
+
+    .team-member-close {
+      transform: rotate(0deg) translateY(0);
       opacity: 1;
+    }
+    .team-member-title,
+    .team-member-bio,
+    .team-member-job {
+      opacity: 1;
+      transform: translateY(0px);
     }
   }
 }
@@ -332,9 +347,30 @@ body {
   position: absolute;
   width: 40px;
   height: 40px;
-  background-color: red;
+  opacity: 0;
+  transition: opacity .6s .8s, transform .6s .8s;
   right: 0;
-  top: 0;
+  top: 40px;
   z-index: 320;
   cursor: pointer;
+  transform: rotate(10deg) translateY(-40px);
+
+  &:before, &:after {
+    display: block;
+    content: '';
+    height: 40px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  &:before {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+  &:after {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
 }
