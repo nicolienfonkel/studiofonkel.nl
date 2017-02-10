@@ -46,6 +46,7 @@ $(function() {
 
             $('.team-widget').append(teamWidget.outerWrapper);
 
+            this.updateTeamInfoWithFileRevvedUrls();
             this.createDescriptionText();
             this.parsePreferences();
             this.createNodes();
@@ -68,6 +69,14 @@ $(function() {
             teamWidget.nodes = [];
         },
 
+        updateTeamInfoWithFileRevvedUrls: function () {
+            window.teamData.forEach(function (teamMember) {
+                var otherWidgetImage = $('.image[data-name="' + teamMember.key + '"]');
+                var url = otherWidgetImage.css('background-image').substr(5).slice(0, -2);
+                teamMember.imageUrl = url;
+            });
+        },
+
         createDescriptionText: function () {
             var text = 'Ontdek hier wie we zijn. Bekijk tegenstellingen of juist de overeenkomsten in het Fonkel team. Klik op een persoon om meer te lezen. ';
             teamWidget.outerWrapper.append('<div class="team-widget-description">' + text + '</div>');
@@ -75,7 +84,7 @@ $(function() {
 
         createNodes: function () {
             window.teamData.forEach(function (teamMember) {
-                var nodeDiv = $('<div class="node team-member-node" data-key="' + teamMember.key + '" style="background-image: url(\'/img/' + teamMember.key + '.jpg\');  background-position: ' + teamMember.left + '% ' + teamMember.top + '%;"></div>');
+                var nodeDiv = $('<div class="node team-member-node" data-key="' + teamMember.key + '" style="background-image: url(' + teamMember.imageUrl + ');  background-position: ' + teamMember.left + '% ' + teamMember.top + '%;"></div>');
                 teamWidget.wrapper.append(nodeDiv);
                 teamWidget.nodes.push(nodeDiv);
                 nodeDiv[0].info = teamMember;
@@ -248,7 +257,7 @@ $(function() {
         createPopup: function (node) {
             teamWidget.hasActivePopup = true;
 
-            var output = '<div class="team-member-image" style="background-image: url(\'/img/' + node.info.key + '.jpg\');  background-position: ' + node.info.left + '% ' + node.info.top + '%;"></div>';
+            var output = '<div class="team-member-image" style="background-image: url(' + node.info.imageUrl + ');  background-position: ' + node.info.left + '% ' + node.info.top + '%;"></div>';
             output += '<h3 class="team-member-title">' + node.info.name + '</h3>';
             output += '<h4 class="team-member-job">' + node.info.job + '</h4>';
             output += '<div class="team-member-bio">' + node.info.bio + '</div>';
